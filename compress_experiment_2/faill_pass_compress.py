@@ -894,7 +894,7 @@ def main():
 
     repo = clone_repo()
 
-    for pr in pr_data_list[9:11]:
+    for pr in pr_data_list:
         pr_number = pr.get("pr_number")
         if not pr_number:
             continue
