@@ -1,0 +1,58 @@
+{
+  "pr_number": 47,
+  "title": "CSV-247: CSVParser to check an empty header before checking duplicates.",
+  "state": "closed",
+  "created_at": "2019-07-03T08:49:48Z",
+  "merge_commit_sha": "059649167c5045dfd40ebf0f97def33a9235c3d1",
+  "base_sha": "dcc44cdcd1419c65cc0b51a7368f3a63a06e9872",
+  "head_sha": "c4633eada5bc97cd8e4245954891738364428da3",
+  "user_login": "aherbert",
+  "extracted_count": 1,
+  "skipped_count": 3,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/csv/CSVParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_47/src/test/java/org/apache/commons/csv/CSVParserLLM_Test.java",
+      "package": "org.apache.commons.csv",
+      "original_class_name": "CSVParserTest2",
+      "final_class_name": "CSVParserLLM_Test"
+    },
+    {
+      "source_filename": "src/main/resources/checkstyle/checkstyle-suppressions.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/csv/CSVParserTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/csv/issues/JiraCsv247Test.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

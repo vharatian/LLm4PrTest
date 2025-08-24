@@ -1,0 +1,25 @@
+{
+  "pr_number": 163,
+  "title": "CSV-279: Optimize Lexer Delimiter Check for One Character Delimiter",
+  "state": "closed",
+  "created_at": "2021-07-13T02:26:08Z",
+  "merge_commit_sha": "f7c067d9b27f76849838d26f7c5b5dff7901f271",
+  "base_sha": "3b959626f4c1ad31a4f8fbdcba513e12fc6f7f3d",
+  "head_sha": "7d2bb6a0f152254b04ddd6e975b29bbc6d638068",
+  "user_login": "belugabehr",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/csv/Lexer.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_163/src/test/java/org/apache/commons/csv/LexerLLM_Test.java",
+      "package": "org.apache.commons.csv",
+      "original_class_name": "LexerTest2",
+      "final_class_name": "LexerLLM_Test"
+    }
+  ]
+}

@@ -1,0 +1,1451 @@
+[
+  {
+    "pr_number": 352,
+    "title": "[CSV-310] Misleading error message when QuoteMode set to None",
+    "state": "closed",
+    "created_at": "2023-09-06T13:16:24Z",
+    "merge_commit_sha": "c2cf3057d37a8645234d083be4d5c4c5ab97ccc2",
+    "base_sha": "5af4338d6e42d2efd8d91ba26d14025c93200a38",
+    "head_sha": "eb95e6dff7a2eab9f0b52f9f5cac8850f596f8c3",
+    "user_login": "gbidsilva",
+    "extracted_count": 1,
+    "skipped_count": 1,
+    "files": [
+      {
+        "source_filename": "src/main/java/org/apache/commons/csv/CSVFormat.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_352/src/test/java/org/apache/commons/csv/CSVFormatLLM_Test.java",
+        "package": "org.apache.commons.csv",
+        "original_class_name": "CSVFormatTest2",
+        "final_class_name": "CSVFormatLLM_Test"
+      },
+      {
+        "source_filename": "src/test/java/org/apache/commons/csv/CSVFormatTest.java",
+        "status_in_pr": "modified",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      }
+    ]
+  },
+  {
+    "pr_number": 348,
+    "title": "Update exception message in CSVRecord#getNextRecord()",
+    "state": "closed",
+    "created_at": "2023-08-30T11:47:16Z",
+    "merge_commit_sha": "008269a7ea44dda0d743d5a10f175ad3628270a6",
+    "base_sha": "87529dea16bd7f20f6b7e8d3597689ad6043156e",
+    "head_sha": "dbc418b9e79369d4a4b440340322b45192d10aed",
+    "user_login": "gbidsilva",
+    "extracted_count": 1,
+    "skipped_count": 0,
+    "files": [
+      {
+        "source_filename": "src/main/java/org/apache/commons/csv/CSVParser.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_348/src/test/java/org/apache/commons/csv/CSVParserLLM_Test.java",
+        "package": "org.apache.commons.csv",
+        "original_class_name": "CSVParserTest2",
+        "final_class_name": "CSVParserLLM_Test"
+      }
+    ]
+  },
+  {
+    "pr_number": 347,
+    "title": "[CSV-147] Better error message during faulty CSV record read",
+    "state": "closed",
+    "created_at": "2023-08-30T08:12:27Z",
+    "merge_commit_sha": "a33b24c26c2303af61cc7bcdf0fb94d62d3b19e1",
+    "base_sha": "710459843cbe3cf4f1ca3aaac5a6eb22d049e643",
+    "head_sha": "c0759cd95c997bfbbbab5d0d3f5270960f40e033",
+    "user_login": "gbidsilva",
+    "extracted_count": 1,
+    "skipped_count": 1,
+    "files": [
+      {
+        "source_filename": "src/main/java/org/apache/commons/csv/Lexer.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_347/src/test/java/org/apache/commons/csv/LexerLLM_Test.java",
+        "package": "org.apache.commons.csv",
+        "original_class_name": "LexerTest2",
+        "final_class_name": "LexerLLM_Test"
+      },
+      {
+        "source_filename": "src/test/java/org/apache/commons/csv/CSVParserTest.java",
+        "status_in_pr": "modified",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      }
+    ]
+  },
+  {
+    "pr_number": 344,
+    "title": "[Javadoc] CSVFormat#setHeaderComments() ",
+    "state": "closed",
+    "created_at": "2023-08-24T11:59:00Z",
+    "merge_commit_sha": "082827ceef359ab4554721477bed8fe77fb655ff",
+    "base_sha": "9668d4628eecb44f57d1107adece8f954054cbc4",
+    "head_sha": "f1294a7a65b2a6472dfcac86de0e61483ef8735d",
+    "user_login": "gbidsilva",
+    "extracted_count": 1,
+    "skipped_count": 0,
+    "files": [
+      {
+        "source_filename": "src/main/java/org/apache/commons/csv/CSVFormat.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_344/src/test/java/org/apache/commons/csv/CSVFormatLLM_Test.java",
+        "package": "org.apache.commons.csv",
+        "original_class_name": "CSVFormatTest2",
+        "final_class_name": "CSVFormatLLM_Test"
+      }
+    ]
+  },
+  {
+    "pr_number": 328,
+    "title": "Add missing docs",
+    "state": "closed",
+    "created_at": "2023-06-24T13:06:25Z",
+    "merge_commit_sha": "57232617ce2f094ac6a9b8add905d7d8287c2d61",
+    "base_sha": "8f07f102a37356922e7493723769dd49f93f3511",
+    "head_sha": "d3ef84e248755e944cb7ef245cc2bf88be7a05e3",
+    "user_login": "jkbkupczyk",
+    "extracted_count": 2,
+    "skipped_count": 0,
+    "files": [
+      {
+        "source_filename": "src/main/java/org/apache/commons/csv/CSVFormat.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_328/src/test/java/org/apache/commons/csv/CSVFormatLLM_Test.java",
+        "package": "org.apache.commons.csv",
+        "original_class_name": "CSVFormatTest2",
+        "final_class_name": "CSVFormatLLM_Test"
+      },
+      {
+        "source_filename": "src/main/java/org/apache/commons/csv/CSVRecord.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_328/src/test/java/org/apache/commons/csv/CSVRecordLLM_Test.java",
+        "package": "org.apache.commons.csv",
+        "original_class_name": "CSVRecordTest2",
+        "final_class_name": "CSVRecordLLM_Test"
+      }
+    ]
+  },
+  {
+    "pr_number": 309,
+    "title": "Document duplicate header behavior",
+    "state": "closed",
+    "created_at": "2023-02-23T00:02:23Z",
+    "merge_commit_sha": "bc61b750d85e9ac1b4a45e210fad81498b7b8959",
+    "base_sha": "420cd15cac9be508930570cb48eee63e25ad5d78",
+    "head_sha": "7f335011ba5392ddd09a878320010017c26a47ca",
+    "user_login": "SethFalco",
+    "extracted_count": 1,
+    "skipped_count": 1,
+    "files": [
+      {
+        "source_filename": "src/main/java/org/apache/commons/csv/CSVRecord.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_309/src/test/java/org/apache/commons/csv/CSVRecordLLM_Test.java",
+        "package": "org.apache.commons.csv",
+        "original_class_name": "CSVRecordTest2",
+        "final_class_name": "CSVRecordLLM_Test"
+      },
+      {
+        "source_filename": "src/test/java/org/apache/commons/csv/CSVRecordTest.java",
+        "status_in_pr": "modified",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      }
+    ]
+  },
+  {
+    "pr_number": 295,
+    "title": "[CSV-141] Add support for trailing text after the closing quote, and EOF without a final closing quote, for Excel compatibility",
+    "state": "closed",
+    "created_at": "2022-12-27T03:17:09Z",
+    "merge_commit_sha": "b1bdb99c427716381eee074eba0450e5f9189cca",
+    "base_sha": "534916e25e9f4a519833ca7ecdfcf57d73ca3abc",
+    "head_sha": "d0ea9e3a000aa358a4960df6cfc8abd735a3d165",
+    "user_login": "DamjanJovanovic",
+    "extracted_count": 2,
+    "skipped_count": 1,
+    "files": [
+      {
+        "source_filename": "src/main/java/org/apache/commons/csv/CSVFormat.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_295/src/test/java/org/apache/commons/csv/CSVFormatLLM_Test.java",
+        "package": "org.apache.commons.csv",
+        "original_class_name": "CSVFormatTest2",
+        "final_class_name": "CSVFormatLLM_Test"
+      },
+      {
+        "source_filename": "src/main/java/org/apache/commons/csv/Lexer.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_295/src/test/java/org/apache/commons/csv/LexerLLM_Test.java",
+        "package": "org.apache.commons.csv",
+        "original_class_name": "LexerTest2",
+        "final_class_name": "LexerLLM_Test"
+      },
+      {
+        "source_filename": "src/test/java/org/apache/commons/csv/LexerTest.java",
+        "status_in_pr": "modified",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      }
+    ]
+  },
+  {
+    "pr_number": 279,
+    "title": "CSVParser: Identify duplicates in null, empty and blank header names",
+    "state": "closed",
+    "created_at": "2022-10-25T16:20:02Z",
+    "merge_commit_sha": "5a7b030537ac799c0a16e23336731d0fd49ae1f9",
+    "base_sha": "8ad07df0d453a8066c708a0ff0edce1fdcd474cc",
+    "head_sha": "69aa686187379af315bec1ca067f1b558f06ccf6",
+    "user_login": "aherbert",
+    "extracted_count": 2,
+    "skipped_count": 1,
+    "files": [
+      {
+        "source_filename": "src/main/java/org/apache/commons/csv/CSVFormat.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_279/src/test/java/org/apache/commons/csv/CSVFormatLLM_Test.java",
+        "package": "org.apache.commons.csv",
+        "original_class_name": "CSVFormatTest2",
+        "final_class_name": "CSVFormatLLM_Test"
+      },
+      {
+        "source_filename": "src/main/java/org/apache/commons/csv/CSVParser.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_279/src/test/java/org/apache/commons/csv/CSVParserLLM_Test.java",
+        "package": "org.apache.commons.csv",
+        "original_class_name": "CSVParserTest2",
+        "final_class_name": "CSVParserLLM_Test"
+      },
+      {
+        "source_filename": "src/test/java/org/apache/commons/csv/CSVDuplicateHeaderTest.java",
+        "status_in_pr": "modified",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      }
+    ]
+  },
+  {
+    "pr_number": 270,
+    "title": "[CSV-274] Add comments to iterator() and stream()",
+    "state": "closed",
+    "created_at": "2022-10-05T19:57:22Z",
+    "merge_commit_sha": "d46919da2651a797662a937c9870cb04ac4037c2",
+    "base_sha": "f36e0f590b3882a810eefac04c092f83011526a4",
+    "head_sha": "5fbd3538566a0629f3d02dd8458d9b54a6013975",
+    "user_login": "pedro-w",
+    "extracted_count": 1,
+    "skipped_count": 0,
+    "files": [
+      {
+        "source_filename": "src/main/java/org/apache/commons/csv/CSVParser.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_270/src/test/java/org/apache/commons/csv/CSVParserLLM_Test.java",
+        "package": "org.apache.commons.csv",
+        "original_class_name": "CSVParserTest2",
+        "final_class_name": "CSVParserLLM_Test"
+      }
+    ]
+  },
+  {
+    "pr_number": 266,
+    "title": "Validate input to setDelimiter(String) for empty string",
+    "state": "closed",
+    "created_at": "2022-09-27T10:33:00Z",
+    "merge_commit_sha": "23c39b158e13ee835ae77ed3e39de0d54a0600cd",
+    "base_sha": "048d507de95b3aaabac5ecc29878390601b47ff3",
+    "head_sha": "1da75703a46305dbdf45b29e6d886533769c2a3c",
+    "user_login": "mykolaf",
+    "extracted_count": 1,
+    "skipped_count": 1,
+    "files": [
+      {
+        "source_filename": "src/main/java/org/apache/commons/csv/CSVFormat.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_266/src/test/java/org/apache/commons/csv/CSVFormatLLM_Test.java",
+        "package": "org.apache.commons.csv",
+        "original_class_name": "CSVFormatTest2",
+        "final_class_name": "CSVFormatLLM_Test"
+      },
+      {
+        "source_filename": "src/test/java/org/apache/commons/csv/CSVFormatTest.java",
+        "status_in_pr": "modified",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      }
+    ]
+  },
+  {
+    "pr_number": 265,
+    "title": "CSV-290 - Fix the wrong assumptions in PostgreSQL formats",
+    "state": "closed",
+    "created_at": "2022-09-25T21:54:02Z",
+    "merge_commit_sha": "41a063d2cfd992d526db228e6a237fb7a57b4581",
+    "base_sha": "048d507de95b3aaabac5ecc29878390601b47ff3",
+    "head_sha": "1ad309fade40c60beafee8eb1a855005e8e6aa7e",
+    "user_login": "angusdev",
+    "extracted_count": 1,
+    "skipped_count": 5,
+    "files": [
+      {
+        "source_filename": "pom.xml",
+        "status_in_pr": "modified",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      },
+      {
+        "source_filename": "src/main/java/org/apache/commons/csv/CSVFormat.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_265/src/test/java/org/apache/commons/csv/CSVFormatLLM_Test.java",
+        "package": "org.apache.commons.csv",
+        "original_class_name": "CSVFormatTest2",
+        "final_class_name": "CSVFormatLLM_Test"
+      },
+      {
+        "source_filename": "src/test/java/org/apache/commons/csv/CSVFormatTest.java",
+        "status_in_pr": "modified",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      },
+      {
+        "source_filename": "src/test/java/org/apache/commons/csv/issues/JiraCsv290Test.java",
+        "status_in_pr": "added",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      },
+      {
+        "source_filename": "src/test/resources/org/apache/commons/csv/CSV-290/psql.csv",
+        "status_in_pr": "added",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      },
+      {
+        "source_filename": "src/test/resources/org/apache/commons/csv/CSV-290/psql.tsv",
+        "status_in_pr": "added",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      }
+    ]
+  },
+  {
+    "pr_number": 257,
+    "title": "[CSV-304] Accessors for header/trailer comments",
+    "state": "closed",
+    "created_at": "2022-09-06T14:31:29Z",
+    "merge_commit_sha": "2e851bc96029b60c2f7cbdb10ae1b99207fcda3d",
+    "base_sha": "c51b595e345954a286d59ed4e37d5d6d319cc78a",
+    "head_sha": "ee7b3a7d34955fecbe829de472d39ec9d3a9b70a",
+    "user_login": "pedro-w",
+    "extracted_count": 1,
+    "skipped_count": 1,
+    "files": [
+      {
+        "source_filename": "src/main/java/org/apache/commons/csv/CSVParser.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_257/src/test/java/org/apache/commons/csv/CSVParserLLM_Test.java",
+        "package": "org.apache.commons.csv",
+        "original_class_name": "CSVParserTest2",
+        "final_class_name": "CSVParserLLM_Test"
+      },
+      {
+        "source_filename": "src/test/java/org/apache/commons/csv/CSVParserTest.java",
+        "status_in_pr": "modified",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      }
+    ]
+  },
+  {
+    "pr_number": 218,
+    "title": "CSV-288 Fix for multi-char delimiter not working as expected",
+    "state": "closed",
+    "created_at": "2022-02-19T09:06:45Z",
+    "merge_commit_sha": "c15a06eee95e227fbe5c61849dd12b7bf126016a",
+    "base_sha": "94711ebf25d79bd95df8a5e70885325660f94ddc",
+    "head_sha": "3a99e2eb3dca28175885b9fb1e4ca6dfefdb4337",
+    "user_login": "angusdev",
+    "extracted_count": 1,
+    "skipped_count": 1,
+    "files": [
+      {
+        "source_filename": "src/main/java/org/apache/commons/csv/Lexer.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_218/src/test/java/org/apache/commons/csv/LexerLLM_Test.java",
+        "package": "org.apache.commons.csv",
+        "original_class_name": "LexerTest2",
+        "final_class_name": "LexerLLM_Test"
+      },
+      {
+        "source_filename": "src/test/java/org/apache/commons/csv/issues/JiraCsv288Test.java",
+        "status_in_pr": "added",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      }
+    ]
+  },
+  {
+    "pr_number": 172,
+    "title": "Minor changes",
+    "state": "closed",
+    "created_at": "2021-07-31T07:26:28Z",
+    "merge_commit_sha": "4e90cdfdafa3ad4fa1946cd72c7cb968dad39279",
+    "base_sha": "9482924309bdc585d4f49c740626f292640c9500",
+    "head_sha": "df7bc5243a934dbbded1cff9cdabba36300844c6",
+    "user_login": "arturobernalg",
+    "extracted_count": 2,
+    "skipped_count": 1,
+    "files": [
+      {
+        "source_filename": "src/main/java/org/apache/commons/csv/CSVRecord.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_172/src/test/java/org/apache/commons/csv/CSVRecordLLM_Test.java",
+        "package": "org.apache.commons.csv",
+        "original_class_name": "CSVRecordTest2",
+        "final_class_name": "CSVRecordLLM_Test"
+      },
+      {
+        "source_filename": "src/main/java/org/apache/commons/csv/Lexer.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_172/src/test/java/org/apache/commons/csv/LexerLLM_Test.java",
+        "package": "org.apache.commons.csv",
+        "original_class_name": "LexerTest2",
+        "final_class_name": "LexerLLM_Test"
+      },
+      {
+        "source_filename": "src/test/java/org/apache/commons/csv/CSVRecordTest.java",
+        "status_in_pr": "modified",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      }
+    ]
+  },
+  {
+    "pr_number": 167,
+    "title": "CSV-283: Remove Whitespace Check Determines Delimiter Twice",
+    "state": "closed",
+    "created_at": "2021-07-13T21:07:05Z",
+    "merge_commit_sha": "d617b6720a67bef3c1324f3e4a7d2c14716550f8",
+    "base_sha": "3627c5ae83226dbe383ed8abb32c1e9c3f51cefe",
+    "head_sha": "7c44e66c5b6630f5530420a4c8abebd2e31153e8",
+    "user_login": "belugabehr",
+    "extracted_count": 1,
+    "skipped_count": 0,
+    "files": [
+      {
+        "source_filename": "src/main/java/org/apache/commons/csv/Lexer.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_167/src/test/java/org/apache/commons/csv/LexerLLM_Test.java",
+        "package": "org.apache.commons.csv",
+        "original_class_name": "LexerTest2",
+        "final_class_name": "LexerLLM_Test"
+      }
+    ]
+  },
+  {
+    "pr_number": 163,
+    "title": "CSV-279: Optimize Lexer Delimiter Check for One Character Delimiter",
+    "state": "closed",
+    "created_at": "2021-07-13T02:26:08Z",
+    "merge_commit_sha": "f7c067d9b27f76849838d26f7c5b5dff7901f271",
+    "base_sha": "3b959626f4c1ad31a4f8fbdcba513e12fc6f7f3d",
+    "head_sha": "7d2bb6a0f152254b04ddd6e975b29bbc6d638068",
+    "user_login": "belugabehr",
+    "extracted_count": 1,
+    "skipped_count": 0,
+    "files": [
+      {
+        "source_filename": "src/main/java/org/apache/commons/csv/Lexer.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_163/src/test/java/org/apache/commons/csv/LexerLLM_Test.java",
+        "package": "org.apache.commons.csv",
+        "original_class_name": "LexerTest2",
+        "final_class_name": "LexerLLM_Test"
+      }
+    ]
+  },
+  {
+    "pr_number": 162,
+    "title": "CSV-278: Reuse Buffers in Lexer for Delimiter Detection",
+    "state": "closed",
+    "created_at": "2021-07-13T00:00:34Z",
+    "merge_commit_sha": "3ac702b190fd04c56118cb03aa87577f0a6a86f7",
+    "base_sha": "bda783580a223a8505214b386c3fa94e5a8ac6f3",
+    "head_sha": "feb90c1538174c66019e3019601d31400f26419d",
+    "user_login": "belugabehr",
+    "extracted_count": 2,
+    "skipped_count": 0,
+    "files": [
+      {
+        "source_filename": "src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_162/src/test/java/org/apache/commons/csv/ExtendedBufferedReaderLLM_Test.java",
+        "package": "org.apache.commons.csv",
+        "original_class_name": "ExtendedBufferedReaderTest2",
+        "final_class_name": "ExtendedBufferedReaderLLM_Test"
+      },
+      {
+        "source_filename": "src/main/java/org/apache/commons/csv/Lexer.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_162/src/test/java/org/apache/commons/csv/LexerLLM_Test.java",
+        "package": "org.apache.commons.csv",
+        "original_class_name": "LexerTest2",
+        "final_class_name": "LexerLLM_Test"
+      }
+    ]
+  },
+  {
+    "pr_number": 157,
+    "title": "[CSV-271] Missing separator with \"print(object)\" followed by \"printRecord(Object[])\"",
+    "state": "closed",
+    "created_at": "2021-07-04T16:31:10Z",
+    "merge_commit_sha": "2c83a308255d07295c761d7e61f10359b0687b01",
+    "base_sha": "dc5d034a47aa1f69612f20ec646b7a2f0050279e",
+    "head_sha": "53189e9f220f67edcfd91a9bbfde734558efa933",
+    "user_login": "amarlearning",
+    "extracted_count": 1,
+    "skipped_count": 2,
+    "files": [
+      {
+        "source_filename": "src/main/java/org/apache/commons/csv/CSVPrinter.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_157/src/test/java/org/apache/commons/csv/CSVPrinterLLM_Test.java",
+        "package": "org.apache.commons.csv",
+        "original_class_name": "CSVPrinterTest2",
+        "final_class_name": "CSVPrinterLLM_Test"
+      },
+      {
+        "source_filename": "src/test/java/org/apache/commons/csv/CSVFormatTest.java",
+        "status_in_pr": "modified",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      },
+      {
+        "source_filename": "src/test/java/org/apache/commons/csv/issues/JiraCsv271Test.java",
+        "status_in_pr": "added",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      }
+    ]
+  },
+  {
+    "pr_number": 127,
+    "title": "Minor Improvements",
+    "state": "closed",
+    "created_at": "2020-12-18T06:53:29Z",
+    "merge_commit_sha": "d580c90f73e17aca94204d03c7a472807205997d",
+    "base_sha": "8e953c0c17a2fd251e30f6c2673da64e18181e7b",
+    "head_sha": "16827955cc02d2d2adf6e12689af2c865c5ce895",
+    "user_login": "arturobernalg",
+    "extracted_count": 1,
+    "skipped_count": 5,
+    "files": [
+      {
+        "source_filename": "src/main/java/org/apache/commons/csv/CSVFormat.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_127/src/test/java/org/apache/commons/csv/CSVFormatLLM_Test.java",
+        "package": "org.apache.commons.csv",
+        "original_class_name": "CSVFormatTest2",
+        "final_class_name": "CSVFormatLLM_Test"
+      },
+      {
+        "source_filename": "src/test/java/org/apache/commons/csv/CSVBenchmark.java",
+        "status_in_pr": "modified",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      },
+      {
+        "source_filename": "src/test/java/org/apache/commons/csv/CSVFileParserTest.java",
+        "status_in_pr": "modified",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      },
+      {
+        "source_filename": "src/test/java/org/apache/commons/csv/CSVParserTest.java",
+        "status_in_pr": "modified",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      },
+      {
+        "source_filename": "src/test/java/org/apache/commons/csv/CSVPrinterTest.java",
+        "status_in_pr": "modified",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      },
+      {
+        "source_filename": "src/test/java/org/apache/commons/csv/PerformanceTest.java",
+        "status_in_pr": "modified",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      }
+    ]
+  },
+  {
+    "pr_number": 126,
+    "title": "[CSV-267] Minor improvements",
+    "state": "closed",
+    "created_at": "2020-12-12T07:57:56Z",
+    "merge_commit_sha": "64bae1731766dfba45eec76b26e4af837b24effa",
+    "base_sha": "e5fbba3eb326bf6443167df90f32560e66fa102a",
+    "head_sha": "5c7a6f28c41452b694e5524ebb3ad88d1d8a8095",
+    "user_login": "arturobernalg",
+    "extracted_count": 1,
+    "skipped_count": 8,
+    "files": [
+      {
+        "source_filename": "src/main/java/org/apache/commons/csv/CSVFormat.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_126/src/test/java/org/apache/commons/csv/CSVFormatLLM_Test.java",
+        "package": "org.apache.commons.csv",
+        "original_class_name": "CSVFormatTest2",
+        "final_class_name": "CSVFormatLLM_Test"
+      },
+      {
+        "source_filename": "src/test/java/org/apache/commons/csv/CSVPrinterTest.java",
+        "status_in_pr": "modified",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      },
+      {
+        "source_filename": "src/test/java/org/apache/commons/csv/CSVRecordTest.java",
+        "status_in_pr": "modified",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      },
+      {
+        "source_filename": "src/test/java/org/apache/commons/csv/PerformanceTest.java",
+        "status_in_pr": "modified",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      },
+      {
+        "source_filename": "src/test/java/org/apache/commons/csv/Utils.java",
+        "status_in_pr": "modified",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      },
+      {
+        "source_filename": "src/test/java/org/apache/commons/csv/issues/JiraCsv198Test.java",
+        "status_in_pr": "modified",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      },
+      {
+        "source_filename": "src/test/java/org/apache/commons/csv/issues/JiraCsv248Test.java",
+        "status_in_pr": "modified",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      },
+      {
+        "source_filename": "src/test/java/org/apache/commons/csv/issues/JiraCsv249Test.java",
+        "status_in_pr": "modified",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      },
+      {
+        "source_filename": "src/test/resources/org/apache/commons/csv/CSVPrinter.java",
+        "status_in_pr": "modified",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      }
+    ]
+  },
+  {
+    "pr_number": 120,
+    "title": "[CSV-265] Update buffer position when reading line comment",
+    "state": "closed",
+    "created_at": "2020-10-28T14:23:54Z",
+    "merge_commit_sha": "a4c6037d0ccfc5b7176d6c522fcc0ab38b9bdd28",
+    "base_sha": "27843d8dc0ec6e5af910674bfb4cba4e48b2475b",
+    "head_sha": "69d3de8e20e06553ec7df75732d8b483c0beba41",
+    "user_login": "king-tyler",
+    "extracted_count": 1,
+    "skipped_count": 1,
+    "files": [
+      {
+        "source_filename": "src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_120/src/test/java/org/apache/commons/csv/ExtendedBufferedReaderLLM_Test.java",
+        "package": "org.apache.commons.csv",
+        "original_class_name": "ExtendedBufferedReaderTest2",
+        "final_class_name": "ExtendedBufferedReaderLLM_Test"
+      },
+      {
+        "source_filename": "src/test/java/org/apache/commons/csv/issues/JiraCsv265Test.java",
+        "status_in_pr": "added",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      }
+    ]
+  },
+  {
+    "pr_number": 114,
+    "title": "CSV-264: Added DuplicateHeaderMode for flexibility with header strictness.",
+    "state": "closed",
+    "created_at": "2020-10-02T20:44:51Z",
+    "merge_commit_sha": "4fdfc59b1cb668cb110b074742a1e760819f719b",
+    "base_sha": "e9e27fb2c59b5566d8355d146588ed6cf1747545",
+    "head_sha": "511f2b49f5db1d60866f08664cc09f85427f2c81",
+    "user_login": "SethFalco",
+    "extracted_count": 3,
+    "skipped_count": 3,
+    "files": [
+      {
+        "source_filename": "src/main/java/org/apache/commons/csv/CSVFormat.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_114/src/test/java/org/apache/commons/csv/CSVFormatLLM_Test.java",
+        "package": "org.apache.commons.csv",
+        "original_class_name": "CSVFormatTest2",
+        "final_class_name": "CSVFormatLLM_Test"
+      },
+      {
+        "source_filename": "src/main/java/org/apache/commons/csv/CSVParser.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_114/src/test/java/org/apache/commons/csv/CSVParserLLM_Test.java",
+        "package": "org.apache.commons.csv",
+        "original_class_name": "CSVParserTest2",
+        "final_class_name": "CSVParserLLM_Test"
+      },
+      {
+        "source_filename": "src/main/java/org/apache/commons/csv/DuplicateHeaderMode.java",
+        "status_in_pr": "added",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_114/src/test/java/org/apache/commons/csv/DuplicateHeaderModeLLM_Test.java",
+        "package": "org.apache.commons.csv",
+        "original_class_name": "DuplicateHeaderModeTest",
+        "final_class_name": "DuplicateHeaderModeLLM_Test"
+      },
+      {
+        "source_filename": "src/site/resources/checkstyle/checkstyle-suppressions.xml",
+        "status_in_pr": "modified",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      },
+      {
+        "source_filename": "src/test/java/org/apache/commons/csv/CSVFormatTest.java",
+        "status_in_pr": "modified",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      },
+      {
+        "source_filename": "src/test/java/org/apache/commons/csv/issues/JiraCsv264Test.java",
+        "status_in_pr": "added",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      }
+    ]
+  },
+  {
+    "pr_number": 71,
+    "title": "[CSV-211] CSVFormat.format trims last delimiter if the delimiter is a white space",
+    "state": "closed",
+    "created_at": "2020-05-18T09:33:31Z",
+    "merge_commit_sha": "3eac15fc8d5a1da80119e7389f78b9795e8aa4db",
+    "base_sha": "57c77341d42f54b71018931dd4f389d507a30a3c",
+    "head_sha": "f25649ce03b2e1f84d50c3024f3ec394cac55246",
+    "user_login": "dota17",
+    "extracted_count": 1,
+    "skipped_count": 1,
+    "files": [
+      {
+        "source_filename": "src/main/java/org/apache/commons/csv/CSVFormat.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_71/src/test/java/org/apache/commons/csv/CSVFormatLLM_Test.java",
+        "package": "org.apache.commons.csv",
+        "original_class_name": "CSVFormatTest2",
+        "final_class_name": "CSVFormatLLM_Test"
+      },
+      {
+        "source_filename": "src/test/java/org/apache/commons/csv/issues/JiraCsv211Test.java",
+        "status_in_pr": "added",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      }
+    ]
+  },
+  {
+    "pr_number": 64,
+    "title": "Removed invalid Javadoc markup for CSVFormat EXCEL",
+    "state": "closed",
+    "created_at": "2020-04-01T17:43:54Z",
+    "merge_commit_sha": "3c393fedbdee92fe55d3c2ffa801132a91a0882e",
+    "base_sha": "cab61c53f12a5cef50c25397a2946b303582193c",
+    "head_sha": "1e3117021306ee721d61245731fb94cf38560c02",
+    "user_login": "a4ff7810",
+    "extracted_count": 1,
+    "skipped_count": 0,
+    "files": [
+      {
+        "source_filename": "src/main/java/org/apache/commons/csv/CSVFormat.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_64/src/test/java/org/apache/commons/csv/CSVFormatLLM_Test.java",
+        "package": "org.apache.commons.csv",
+        "original_class_name": "CSVFormatTest2",
+        "final_class_name": "CSVFormatLLM_Test"
+      }
+    ]
+  },
+  {
+    "pr_number": 61,
+    "title": "[CSV-259] CSVFormat.printWithEscapes throws StringIndexOutOfBoundsException when value is Reader",
+    "state": "closed",
+    "created_at": "2020-03-13T07:58:42Z",
+    "merge_commit_sha": "953a6de7224d0535f68f549cc1deefc7fa7d78c1",
+    "base_sha": "e503c568a10ae42364a94695b8505bcb4db28969",
+    "head_sha": "819c44b96f40a01617025ce8039cb31a3acf6458",
+    "user_login": "dota17",
+    "extracted_count": 1,
+    "skipped_count": 3,
+    "files": [
+      {
+        "source_filename": "pom.xml",
+        "status_in_pr": "modified",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      },
+      {
+        "source_filename": "src/main/java/org/apache/commons/csv/CSVFormat.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_61/src/test/java/org/apache/commons/csv/CSVFormatLLM_Test.java",
+        "package": "org.apache.commons.csv",
+        "original_class_name": "CSVFormatTest2",
+        "final_class_name": "CSVFormatLLM_Test"
+      },
+      {
+        "source_filename": "src/test/java/org/apache/commons/csv/CSVPrinterTest.java",
+        "status_in_pr": "modified",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      },
+      {
+        "source_filename": "src/test/resources/CSV-259/sample.txt",
+        "status_in_pr": "added",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      }
+    ]
+  },
+  {
+    "pr_number": 60,
+    "title": "Fix CSV-149 and CSV-195",
+    "state": "closed",
+    "created_at": "2020-02-24T08:10:36Z",
+    "merge_commit_sha": "ad11cd14d0e407e351d7de71018cbc25ccb4352f",
+    "base_sha": "c958d96f34a88bd70c5e79fddf7522f604e882c9",
+    "head_sha": "5a621a5870a43bf399d38e8553b680a140ac880a",
+    "user_login": "dota17",
+    "extracted_count": 1,
+    "skipped_count": 2,
+    "files": [
+      {
+        "source_filename": "src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_60/src/test/java/org/apache/commons/csv/ExtendedBufferedReaderLLM_Test.java",
+        "package": "org.apache.commons.csv",
+        "original_class_name": "ExtendedBufferedReaderTest2",
+        "final_class_name": "ExtendedBufferedReaderLLM_Test"
+      },
+      {
+        "source_filename": "src/test/java/org/apache/commons/csv/CSVParserTest.java",
+        "status_in_pr": "modified",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      },
+      {
+        "source_filename": "src/test/java/org/apache/commons/csv/issues/JiraCsv149Test.java",
+        "status_in_pr": "modified",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      }
+    ]
+  },
+  {
+    "pr_number": 57,
+    "title": "Javadoc typo in CSVFormat let's -> lets",
+    "state": "closed",
+    "created_at": "2020-02-10T07:09:49Z",
+    "merge_commit_sha": "db130e71784f18624debe3f8f763523ff1dd53c4",
+    "base_sha": "e60777139fa7e93cf8fac5511c54334f9f36c775",
+    "head_sha": "e754863d1304e213e5611a402782134e4456d8e1",
+    "user_login": "dota17",
+    "extracted_count": 1,
+    "skipped_count": 0,
+    "files": [
+      {
+        "source_filename": "src/main/java/org/apache/commons/csv/CSVFormat.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_57/src/test/java/org/apache/commons/csv/CSVFormatLLM_Test.java",
+        "package": "org.apache.commons.csv",
+        "original_class_name": "CSVFormatTest2",
+        "final_class_name": "CSVFormatLLM_Test"
+      }
+    ]
+  },
+  {
+    "pr_number": 52,
+    "title": "Add CSVRecord.isSet(int) method",
+    "state": "closed",
+    "created_at": "2019-12-25T20:49:43Z",
+    "merge_commit_sha": "4033a0199e2d0086afeeb07870a687e3b0caf4bf",
+    "base_sha": "129641ead46c8faefdb18903e283f7c4f55a000d",
+    "head_sha": "827565a715def081359f6d01c782437bdf92b8ff",
+    "user_login": "0x100",
+    "extracted_count": 1,
+    "skipped_count": 1,
+    "files": [
+      {
+        "source_filename": "src/main/java/org/apache/commons/csv/CSVRecord.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_52/src/test/java/org/apache/commons/csv/CSVRecordLLM_Test.java",
+        "package": "org.apache.commons.csv",
+        "original_class_name": "CSVRecordTest2",
+        "final_class_name": "CSVRecordLLM_Test"
+      },
+      {
+        "source_filename": "src/test/java/org/apache/commons/csv/CSVRecordTest.java",
+        "status_in_pr": "modified",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      }
+    ]
+  },
+  {
+    "pr_number": 47,
+    "title": "CSV-247: CSVParser to check an empty header before checking duplicates.",
+    "state": "closed",
+    "created_at": "2019-07-03T08:49:48Z",
+    "merge_commit_sha": "059649167c5045dfd40ebf0f97def33a9235c3d1",
+    "base_sha": "dcc44cdcd1419c65cc0b51a7368f3a63a06e9872",
+    "head_sha": "c4633eada5bc97cd8e4245954891738364428da3",
+    "user_login": "aherbert",
+    "extracted_count": 1,
+    "skipped_count": 3,
+    "files": [
+      {
+        "source_filename": "src/main/java/org/apache/commons/csv/CSVParser.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_47/src/test/java/org/apache/commons/csv/CSVParserLLM_Test.java",
+        "package": "org.apache.commons.csv",
+        "original_class_name": "CSVParserTest2",
+        "final_class_name": "CSVParserLLM_Test"
+      },
+      {
+        "source_filename": "src/main/resources/checkstyle/checkstyle-suppressions.xml",
+        "status_in_pr": "modified",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      },
+      {
+        "source_filename": "src/test/java/org/apache/commons/csv/CSVParserTest.java",
+        "status_in_pr": "modified",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      },
+      {
+        "source_filename": "src/test/java/org/apache/commons/csv/issues/JiraCsv247Test.java",
+        "status_in_pr": "modified",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      }
+    ]
+  },
+  {
+    "pr_number": 44,
+    "title": "Post release fixes",
+    "state": "closed",
+    "created_at": "2019-06-13T21:21:32Z",
+    "merge_commit_sha": "03550ab565e55f509def8995c3c852b8686e80b2",
+    "base_sha": "42b9fdb099a438886842795d8b0b325952d9f3e9",
+    "head_sha": "e9e98f0050bd99fef8a9700bedf82828364760c4",
+    "user_login": "aherbert",
+    "extracted_count": 2,
+    "skipped_count": 5,
+    "files": [
+      {
+        "source_filename": "pom.xml",
+        "status_in_pr": "modified",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      },
+      {
+        "source_filename": "src/main/java/org/apache/commons/csv/CSVFormat.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_44/src/test/java/org/apache/commons/csv/CSVFormatLLM_Test.java",
+        "package": "org.apache.commons.csv",
+        "original_class_name": "CSVFormatTest2",
+        "final_class_name": "CSVFormatLLM_Test"
+      },
+      {
+        "source_filename": "src/main/java/org/apache/commons/csv/CSVParser.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_44/src/test/java/org/apache/commons/csv/CSVParserLLM_Test.java",
+        "package": "org.apache.commons.csv",
+        "original_class_name": "CSVParserTest2",
+        "final_class_name": "CSVParserLLM_Test"
+      },
+      {
+        "source_filename": "src/main/resources/checkstyle/checkstyle-suppressions.xml",
+        "status_in_pr": "added",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      },
+      {
+        "source_filename": "src/main/resources/findbugs/findbugs-exclude-filter.xml",
+        "status_in_pr": "added",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      },
+      {
+        "source_filename": "src/main/resources/pmd/pmd-ruleset.xml",
+        "status_in_pr": "added",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      },
+      {
+        "source_filename": "src/test/java/org/apache/commons/csv/CSVPrinterTest.java",
+        "status_in_pr": "modified",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      }
+    ]
+  },
+  {
+    "pr_number": 42,
+    "title": "[CSV-239] Add javadoc to CSVFormat",
+    "state": "closed",
+    "created_at": "2019-05-27T21:45:55Z",
+    "merge_commit_sha": "474b7f4d00387aefa7abc559034ab58ee92e62b6",
+    "base_sha": "dca99998f17a9755dfb40ed30bc1734e54ba0b04",
+    "head_sha": "e177f5dc37e737b0fcc1649ab08ac3096a610e0d",
+    "user_login": "davidmoten",
+    "extracted_count": 1,
+    "skipped_count": 0,
+    "files": [
+      {
+        "source_filename": "src/main/java/org/apache/commons/csv/CSVFormat.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_42/src/test/java/org/apache/commons/csv/CSVFormatLLM_Test.java",
+        "package": "org.apache.commons.csv",
+        "original_class_name": "CSVFormatTest2",
+        "final_class_name": "CSVFormatLLM_Test"
+      }
+    ]
+  },
+  {
+    "pr_number": 41,
+    "title": "[CSV-239] Add CSVRecord.getHeaderNames and allow duplicate headers",
+    "state": "closed",
+    "created_at": "2019-05-22T02:20:47Z",
+    "merge_commit_sha": "030fb8e37c4024b24fac2b5404300449a6741699",
+    "base_sha": "4d2616b7a550c2ce855b612829eb34dea9ce09dc",
+    "head_sha": "2a5ddb72aeec50180de878386b4be04a6f41c49c",
+    "user_login": "davidmoten",
+    "extracted_count": 3,
+    "skipped_count": 1,
+    "files": [
+      {
+        "source_filename": "src/main/java/org/apache/commons/csv/CSVFormat.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_41/src/test/java/org/apache/commons/csv/CSVFormatLLM_Test.java",
+        "package": "org.apache.commons.csv",
+        "original_class_name": "CSVFormatTest2",
+        "final_class_name": "CSVFormatLLM_Test"
+      },
+      {
+        "source_filename": "src/main/java/org/apache/commons/csv/CSVParser.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_41/src/test/java/org/apache/commons/csv/CSVParserLLM_Test.java",
+        "package": "org.apache.commons.csv",
+        "original_class_name": "CSVParserTest2",
+        "final_class_name": "CSVParserLLM_Test"
+      },
+      {
+        "source_filename": "src/main/java/org/apache/commons/csv/CSVRecord.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_41/src/test/java/org/apache/commons/csv/CSVRecordLLM_Test.java",
+        "package": "org.apache.commons.csv",
+        "original_class_name": "CSVRecordTest2",
+        "final_class_name": "CSVRecordLLM_Test"
+      },
+      {
+        "source_filename": "src/test/java/org/apache/commons/csv/CSVParserTest.java",
+        "status_in_pr": "modified",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      }
+    ]
+  }
+]

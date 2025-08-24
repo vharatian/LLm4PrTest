@@ -1,0 +1,36 @@
+{
+  "pr_number": 162,
+  "title": "CSV-278: Reuse Buffers in Lexer for Delimiter Detection",
+  "state": "closed",
+  "created_at": "2021-07-13T00:00:34Z",
+  "merge_commit_sha": "3ac702b190fd04c56118cb03aa87577f0a6a86f7",
+  "base_sha": "bda783580a223a8505214b386c3fa94e5a8ac6f3",
+  "head_sha": "feb90c1538174c66019e3019601d31400f26419d",
+  "user_login": "belugabehr",
+  "extracted_count": 2,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_162/src/test/java/org/apache/commons/csv/ExtendedBufferedReaderLLM_Test.java",
+      "package": "org.apache.commons.csv",
+      "original_class_name": "ExtendedBufferedReaderTest2",
+      "final_class_name": "ExtendedBufferedReaderLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/csv/Lexer.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_162/src/test/java/org/apache/commons/csv/LexerLLM_Test.java",
+      "package": "org.apache.commons.csv",
+      "original_class_name": "LexerTest2",
+      "final_class_name": "LexerLLM_Test"
+    }
+  ]
+}

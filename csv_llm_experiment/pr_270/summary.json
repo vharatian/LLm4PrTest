@@ -1,0 +1,25 @@
+{
+  "pr_number": 270,
+  "title": "[CSV-274] Add comments to iterator() and stream()",
+  "state": "closed",
+  "created_at": "2022-10-05T19:57:22Z",
+  "merge_commit_sha": "d46919da2651a797662a937c9870cb04ac4037c2",
+  "base_sha": "f36e0f590b3882a810eefac04c092f83011526a4",
+  "head_sha": "5fbd3538566a0629f3d02dd8458d9b54a6013975",
+  "user_login": "pedro-w",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/csv/CSVParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_270/src/test/java/org/apache/commons/csv/CSVParserLLM_Test.java",
+      "package": "org.apache.commons.csv",
+      "original_class_name": "CSVParserTest2",
+      "final_class_name": "CSVParserLLM_Test"
+    }
+  ]
+}

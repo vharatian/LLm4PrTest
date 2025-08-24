@@ -1,0 +1,25 @@
+{
+  "pr_number": 348,
+  "title": "Update exception message in CSVRecord#getNextRecord()",
+  "state": "closed",
+  "created_at": "2023-08-30T11:47:16Z",
+  "merge_commit_sha": "008269a7ea44dda0d743d5a10f175ad3628270a6",
+  "base_sha": "87529dea16bd7f20f6b7e8d3597689ad6043156e",
+  "head_sha": "dbc418b9e79369d4a4b440340322b45192d10aed",
+  "user_login": "gbidsilva",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/csv/CSVParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_348/src/test/java/org/apache/commons/csv/CSVParserLLM_Test.java",
+      "package": "org.apache.commons.csv",
+      "original_class_name": "CSVParserTest2",
+      "final_class_name": "CSVParserLLM_Test"
+    }
+  ]
+}

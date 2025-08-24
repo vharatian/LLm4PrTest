@@ -1,0 +1,36 @@
+{
+  "pr_number": 52,
+  "title": "Add CSVRecord.isSet(int) method",
+  "state": "closed",
+  "created_at": "2019-12-25T20:49:43Z",
+  "merge_commit_sha": "4033a0199e2d0086afeeb07870a687e3b0caf4bf",
+  "base_sha": "129641ead46c8faefdb18903e283f7c4f55a000d",
+  "head_sha": "827565a715def081359f6d01c782437bdf92b8ff",
+  "user_login": "0x100",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/csv/CSVRecord.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_52/src/test/java/org/apache/commons/csv/CSVRecordLLM_Test.java",
+      "package": "org.apache.commons.csv",
+      "original_class_name": "CSVRecordTest2",
+      "final_class_name": "CSVRecordLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/csv/CSVRecordTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

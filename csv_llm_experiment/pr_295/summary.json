@@ -1,0 +1,47 @@
+{
+  "pr_number": 295,
+  "title": "[CSV-141] Add support for trailing text after the closing quote, and EOF without a final closing quote, for Excel compatibility",
+  "state": "closed",
+  "created_at": "2022-12-27T03:17:09Z",
+  "merge_commit_sha": "b1bdb99c427716381eee074eba0450e5f9189cca",
+  "base_sha": "534916e25e9f4a519833ca7ecdfcf57d73ca3abc",
+  "head_sha": "d0ea9e3a000aa358a4960df6cfc8abd735a3d165",
+  "user_login": "DamjanJovanovic",
+  "extracted_count": 2,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/csv/CSVFormat.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_295/src/test/java/org/apache/commons/csv/CSVFormatLLM_Test.java",
+      "package": "org.apache.commons.csv",
+      "original_class_name": "CSVFormatTest2",
+      "final_class_name": "CSVFormatLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/csv/Lexer.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_295/src/test/java/org/apache/commons/csv/LexerLLM_Test.java",
+      "package": "org.apache.commons.csv",
+      "original_class_name": "LexerTest2",
+      "final_class_name": "LexerLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/csv/LexerTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

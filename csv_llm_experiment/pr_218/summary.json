@@ -1,0 +1,36 @@
+{
+  "pr_number": 218,
+  "title": "CSV-288 Fix for multi-char delimiter not working as expected",
+  "state": "closed",
+  "created_at": "2022-02-19T09:06:45Z",
+  "merge_commit_sha": "c15a06eee95e227fbe5c61849dd12b7bf126016a",
+  "base_sha": "94711ebf25d79bd95df8a5e70885325660f94ddc",
+  "head_sha": "3a99e2eb3dca28175885b9fb1e4ca6dfefdb4337",
+  "user_login": "angusdev",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/csv/Lexer.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_218/src/test/java/org/apache/commons/csv/LexerLLM_Test.java",
+      "package": "org.apache.commons.csv",
+      "original_class_name": "LexerTest2",
+      "final_class_name": "LexerLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/csv/issues/JiraCsv288Test.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

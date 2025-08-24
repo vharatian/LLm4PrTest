@@ -1,0 +1,36 @@
+{
+  "pr_number": 71,
+  "title": "[CSV-211] CSVFormat.format trims last delimiter if the delimiter is a white space",
+  "state": "closed",
+  "created_at": "2020-05-18T09:33:31Z",
+  "merge_commit_sha": "3eac15fc8d5a1da80119e7389f78b9795e8aa4db",
+  "base_sha": "57c77341d42f54b71018931dd4f389d507a30a3c",
+  "head_sha": "f25649ce03b2e1f84d50c3024f3ec394cac55246",
+  "user_login": "dota17",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/csv/CSVFormat.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_71/src/test/java/org/apache/commons/csv/CSVFormatLLM_Test.java",
+      "package": "org.apache.commons.csv",
+      "original_class_name": "CSVFormatTest2",
+      "final_class_name": "CSVFormatLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/csv/issues/JiraCsv211Test.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}
