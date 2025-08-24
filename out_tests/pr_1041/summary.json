@@ -1,0 +1,25 @@
+{
+  "pr_number": 1041,
+  "title": "[LANG-1643] Construct ArrayList with better default size",
+  "state": "closed",
+  "created_at": "2023-03-14T13:58:28Z",
+  "merge_commit_sha": "4ebef61c03ed1beb6747158170618296dec88a0e",
+  "base_sha": "4e8d9d39f16cfe1d782fe6e0258f57050bb5b522",
+  "head_sha": "ab7f30fb5221c5f32ebedeeb5796bf3bf0e093a4",
+  "user_login": "laurentschoelens",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/builder/EqualsBuilder.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_1041/src/test/java/org/apache/commons/lang3/builder/EqualsBuilderLLM_Test.java",
+      "package": "org.apache.commons.lang3.builder",
+      "original_class_name": "EqualsBuilderTest2",
+      "final_class_name": "EqualsBuilderLLM_Test"
+    }
+  ]
+}

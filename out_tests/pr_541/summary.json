@@ -1,0 +1,102 @@
+{
+  "pr_number": 541,
+  "title": "[LANG-1556] Use Java 8 lambdas and Map operations.",
+  "state": "closed",
+  "created_at": "2020-06-01T07:37:16Z",
+  "merge_commit_sha": "797d550a92d7df12ebc83e3c5e3fafa61a2a8ce3",
+  "base_sha": "a9be3ec55bb764f02acf5bb438aee7e1ab660942",
+  "head_sha": "b4004059c4f610bd9a1f74cf59680329852f2fa9",
+  "user_login": "XenoAmess",
+  "extracted_count": 6,
+  "skipped_count": 2,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/Streams.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_541/src/test/java/org/apache/commons/lang3/StreamsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "StreamsTest2",
+      "final_class_name": "StreamsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/concurrent/TimedSemaphore.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_541/src/test/java/org/apache/commons/lang3/concurrent/TimedSemaphoreLLM_Test.java",
+      "package": "org.apache.commons.lang3.concurrent",
+      "original_class_name": "TimedSemaphoreTest2",
+      "final_class_name": "TimedSemaphoreLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/exception/DefaultExceptionContext.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_541/src/test/java/org/apache/commons/lang3/exception/DefaultExceptionContextLLM_Test.java",
+      "package": "org.apache.commons.lang3.exception",
+      "original_class_name": "DefaultExceptionContextTest2",
+      "final_class_name": "DefaultExceptionContextLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_541/src/test/java/org/apache/commons/lang3/reflect/MethodUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3.reflect",
+      "original_class_name": "MethodUtilsTest2",
+      "final_class_name": "MethodUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_541/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3.reflect",
+      "original_class_name": "TypeUtilsTest2",
+      "final_class_name": "TypeUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/time/FastDateParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_541/src/test/java/org/apache/commons/lang3/time/FastDateParserLLM_Test.java",
+      "package": "org.apache.commons.lang3.time",
+      "original_class_name": "FastDateParserTest2",
+      "final_class_name": "FastDateParserLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/FunctionsTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

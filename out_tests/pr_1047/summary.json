@@ -1,0 +1,168 @@
+{
+  "pr_number": 1047,
+  "title": "[LANG-1681] Fix some FieldUtils Javadocs",
+  "state": "closed",
+  "created_at": "2023-04-03T07:27:37Z",
+  "merge_commit_sha": "f19416ae375e46c4e8220141f55f8d3a334f4104",
+  "base_sha": "fee35ddc141a65a4956290864598e825214c4cff",
+  "head_sha": "5decdcab7cfd6d1c2d8c08ccdd7d3959d7b1ca45",
+  "user_login": "laurentschoelens",
+  "extracted_count": 9,
+  "skipped_count": 5,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/ClassPathUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_1047/src/test/java/org/apache/commons/lang3/ClassPathUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "ClassPathUtilsTest2",
+      "final_class_name": "ClassPathUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/RandomStringUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_1047/src/test/java/org/apache/commons/lang3/RandomStringUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "RandomStringUtilsTest2",
+      "final_class_name": "RandomStringUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/builder/DiffBuilder.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_1047/src/test/java/org/apache/commons/lang3/builder/DiffBuilderLLM_Test.java",
+      "package": "org.apache.commons.lang3.builder",
+      "original_class_name": "DiffBuilderTest2",
+      "final_class_name": "DiffBuilderLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_1047/src/test/java/org/apache/commons/lang3/builder/HashCodeBuilderLLM_Test.java",
+      "package": "org.apache.commons.lang3.builder",
+      "original_class_name": "HashCodeBuilderTest2",
+      "final_class_name": "HashCodeBuilderLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/builder/ToStringBuilder.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_1047/src/test/java/org/apache/commons/lang3/builder/ToStringBuilderLLM_Test.java",
+      "package": "org.apache.commons.lang3.builder",
+      "original_class_name": "ToStringBuilderTest2",
+      "final_class_name": "ToStringBuilderLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/math/Fraction.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_1047/src/test/java/org/apache/commons/lang3/math/FractionLLM_Test.java",
+      "package": "org.apache.commons.lang3.math",
+      "original_class_name": "FractionTest2",
+      "final_class_name": "FractionLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/reflect/FieldUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_1047/src/test/java/org/apache/commons/lang3/reflect/FieldUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3.reflect",
+      "original_class_name": "FieldUtilsTest2",
+      "final_class_name": "FieldUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_1047/src/test/java/org/apache/commons/lang3/reflect/MethodUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3.reflect",
+      "original_class_name": "MethodUtilsTest2",
+      "final_class_name": "MethodUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_1047/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3.reflect",
+      "original_class_name": "TypeUtilsTest2",
+      "final_class_name": "TypeUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/builder/DiffBuilderTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

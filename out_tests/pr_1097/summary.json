@@ -1,0 +1,25 @@
+{
+  "pr_number": 1097,
+  "title": "[Javadoc] Point to right getShortClassName flavor in Javadoc for relevant notes",
+  "state": "closed",
+  "created_at": "2023-08-15T08:54:05Z",
+  "merge_commit_sha": "0701011fe90c36ba3b98da8a23059115b5051702",
+  "base_sha": "09bc83b55f0f64c5de3a21088db0fff9669250f6",
+  "head_sha": "a64e54506acdf459ad1067d7bd6ccf42a184b29b",
+  "user_login": "ljacqu",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/ClassUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_1097/src/test/java/org/apache/commons/lang3/ClassUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "ClassUtilsTest2",
+      "final_class_name": "ClassUtilsLLM_Test"
+    }
+  ]
+}

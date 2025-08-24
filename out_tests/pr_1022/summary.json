@@ -1,0 +1,36 @@
+{
+  "pr_number": 1022,
+  "title": "Use Objects.requireNonNull() directly.",
+  "state": "closed",
+  "created_at": "2023-01-22T20:23:52Z",
+  "merge_commit_sha": "89bc92278a4a443a014aa0c4ecb3bc11aa6432a4",
+  "base_sha": "8cc4505dd0431eb40a16aacf932982dd33ccafbc",
+  "head_sha": "6038f1dad34e0a7edcbfa7c2804f655e432184f5",
+  "user_login": "arturobernalg",
+  "extracted_count": 2,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/ObjectUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_1022/src/test/java/org/apache/commons/lang3/ObjectUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "ObjectUtilsTest2",
+      "final_class_name": "ObjectUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_1022/src/test/java/org/apache/commons/lang3/reflect/MethodUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3.reflect",
+      "original_class_name": "MethodUtilsTest2",
+      "final_class_name": "MethodUtilsLLM_Test"
+    }
+  ]
+}

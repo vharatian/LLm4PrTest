@@ -1,0 +1,36 @@
+{
+  "pr_number": 871,
+  "title": "Fixing and adding DateUtils exception Javadocs",
+  "state": "closed",
+  "created_at": "2022-03-27T11:42:39Z",
+  "merge_commit_sha": "75bb10331c02d979561b5804d41641bf82192d2d",
+  "base_sha": "8b7dff9900155179741df9d574a68659b0eccd0c",
+  "head_sha": "63b167f8798053d5d71e36290aba1ee451514f4c",
+  "user_login": "dvmarcilio",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_871/src/test/java/org/apache/commons/lang3/time/DateUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3.time",
+      "original_class_name": "DateUtilsTest2",
+      "final_class_name": "DateUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

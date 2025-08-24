@@ -1,0 +1,25 @@
+{
+  "pr_number": 924,
+  "title": "LANG-1638: Added docs regarding week year support",
+  "state": "closed",
+  "created_at": "2022-07-16T15:16:26Z",
+  "merge_commit_sha": "44c5d39becfcfdcc8b2bd0cab4aa705a36f59da3",
+  "base_sha": "e0818e3383f71ddff62854f85712cb6b7d187c9b",
+  "head_sha": "8e84aeacaf4d8867aa86b8d0c54e6dafabc4eec6",
+  "user_login": "greatmastermario",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/time/DateFormatUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_924/src/test/java/org/apache/commons/lang3/time/DateFormatUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3.time",
+      "original_class_name": "DateFormatUtilsTest2",
+      "final_class_name": "DateFormatUtilsLLM_Test"
+    }
+  ]
+}

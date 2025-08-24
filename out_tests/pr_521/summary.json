@@ -1,0 +1,25 @@
+{
+  "pr_number": 521,
+  "title": "Simplify some if statements in StringUtils.",
+  "state": "closed",
+  "created_at": "2020-04-20T00:40:33Z",
+  "merge_commit_sha": "675d30d88282e4ee8e96952d672ea1e7fa330ee6",
+  "base_sha": "7f45b8898b804f0fe4fa55c088ff4a99a56af277",
+  "head_sha": "a7c92a631e1453b1f2b041e894a7b7ad34194c4f",
+  "user_login": "Isira-Seneviratne",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/StringUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_521/src/test/java/org/apache/commons/lang3/StringUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "StringUtilsTest2",
+      "final_class_name": "StringUtilsLLM_Test"
+    }
+  ]
+}

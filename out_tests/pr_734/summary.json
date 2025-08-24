@@ -1,0 +1,25 @@
+{
+  "pr_number": 734,
+  "title": "Use Set instead of List for checking the contains() method",
+  "state": "closed",
+  "created_at": "2021-03-20T14:15:13Z",
+  "merge_commit_sha": "ca4e62f7ba61340bd89f15ef041affce0b194fb3",
+  "base_sha": "69c9593cc1da760bb4dbcf32f4ae755c54376b77",
+  "head_sha": "4ec9abf894aeab727cb18f53d34cd6fc057c7b95",
+  "user_login": "CiprianBodnarescu",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/LocaleUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_734/src/test/java/org/apache/commons/lang3/LocaleUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "LocaleUtilsTest2",
+      "final_class_name": "LocaleUtilsLLM_Test"
+    }
+  ]
+}

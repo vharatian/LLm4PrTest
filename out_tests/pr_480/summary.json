@@ -1,0 +1,36 @@
+{
+  "pr_number": 480,
+  "title": "LANG-1500 | Test may fail due to a different order of fields returned by reflection api",
+  "state": "closed",
+  "created_at": "2019-11-22T16:16:07Z",
+  "merge_commit_sha": "bc8a3b9d8428bfcdfbce67e9010cf0aa27e6c8a6",
+  "base_sha": "1163e177137f5c57ce80092c0743209b28d33400",
+  "head_sha": "d5d01c2191f4e2a801f07d0a37ffcba183071e25",
+  "user_login": "contextshuffling",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_480/src/test/java/org/apache/commons/lang3/builder/HashCodeBuilderLLM_Test.java",
+      "package": "org.apache.commons.lang3.builder",
+      "original_class_name": "HashCodeBuilderTest2",
+      "final_class_name": "HashCodeBuilderLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/builder/HashCodeBuilderTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

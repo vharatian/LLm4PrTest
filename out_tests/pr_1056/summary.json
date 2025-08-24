@@ -1,0 +1,25 @@
+{
+  "pr_number": 1056,
+  "title": "Fix the comment of Failable, redundant \"-\"",
+  "state": "closed",
+  "created_at": "2023-04-17T12:15:51Z",
+  "merge_commit_sha": "4623bf18270c9e5e9e8996070a4cc54d81e07d9d",
+  "base_sha": "2d82a504ab12f3bd5041351261336257b73e2a5d",
+  "head_sha": "c0bbeb63dfec3dbe02cd2a1c6fe4f5655442e1ff",
+  "user_login": "remeio",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/function/Failable.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_1056/src/test/java/org/apache/commons/lang3/function/FailableLLM_Test.java",
+      "package": "org.apache.commons.lang3.function",
+      "original_class_name": "FailableTest",
+      "final_class_name": "FailableLLM_Test"
+    }
+  ]
+}

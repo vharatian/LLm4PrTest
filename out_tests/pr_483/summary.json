@@ -1,0 +1,58 @@
+{
+  "pr_number": 483,
+  "title": "[LANG-1509] Add ObjectToStringComparator.",
+  "state": "closed",
+  "created_at": "2019-12-31T14:50:14Z",
+  "merge_commit_sha": "1df9bc70256d166cd78ea805a2dbac4433a89f2a",
+  "base_sha": "6f358e9e8d4a1be135d423f8a25262a2f3325463",
+  "head_sha": "1a7042a96b619e7f28681366c34d5907d61f46be",
+  "user_login": "garydgregory",
+  "extracted_count": 1,
+  "skipped_count": 3,
+  "files": [
+    {
+      "source_filename": "pom.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "spotbugs-exclude-filter.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/compare/ObjectToStringComparator.java",
+      "status_in_pr": "added",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_483/src/test/java/org/apache/commons/lang3/compare/ObjectToStringComparatorLLM_Test.java",
+      "package": "org.apache.commons.lang3.compare",
+      "original_class_name": "ObjectToStringComparatorTest",
+      "final_class_name": "ObjectToStringComparatorLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/compare/ObjectToStringComparatorTest.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

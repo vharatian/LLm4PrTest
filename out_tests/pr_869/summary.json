@@ -1,0 +1,91 @@
+{
+  "pr_number": 869,
+  "title": "Add missing exception javadoc/tests for some null arguments",
+  "state": "closed",
+  "created_at": "2022-03-26T15:07:13Z",
+  "merge_commit_sha": "680f9d5492e2c9c27e5c1178744a9edf36a0272b",
+  "base_sha": "3ac6beab459a7ba1757c35847a2f38d074d2d6a5",
+  "head_sha": "48566c617fe4398b40356271f736f1b48bc81648",
+  "user_login": "dvmarcilio",
+  "extracted_count": 4,
+  "skipped_count": 3,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/ArrayUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_869/src/test/java/org/apache/commons/lang3/ArrayUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "ArrayUtilsTest2",
+      "final_class_name": "ArrayUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/Range.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_869/src/test/java/org/apache/commons/lang3/RangeLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "RangeTest2",
+      "final_class_name": "RangeLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/builder/ToStringBuilder.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_869/src/test/java/org/apache/commons/lang3/builder/ToStringBuilderLLM_Test.java",
+      "package": "org.apache.commons.lang3.builder",
+      "original_class_name": "ToStringBuilderTest2",
+      "final_class_name": "ToStringBuilderLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_869/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3.reflect",
+      "original_class_name": "TypeUtilsTest2",
+      "final_class_name": "TypeUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/builder/ToStringBuilderTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/time/DurationUtilsTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "pr_number": 812,
+  "title": "LANG-1675 - Improve performance of StringUtils.join for primitives",
+  "state": "closed",
+  "created_at": "2021-10-09T10:55:36Z",
+  "merge_commit_sha": "0f7d48488277cc64730b4b4ebe791986fa94da4e",
+  "base_sha": "0ffdcf31e790e0439fc926318bace08156cdbc5f",
+  "head_sha": "a77bcf0d2ad741e4095ffbe165f6698963ec1e67",
+  "user_login": "HubertWo",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/StringUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_812/src/test/java/org/apache/commons/lang3/StringUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "StringUtilsTest2",
+      "final_class_name": "StringUtilsLLM_Test"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "pr_number": 718,
+  "title": "Use own validator ObjectUtils.anyNull to check null String input",
+  "state": "closed",
+  "created_at": "2021-02-24T14:13:54Z",
+  "merge_commit_sha": "615c1dad1b2ed8901f97c6c75a89b8d49320643e",
+  "base_sha": "b57f292cdf14fef72e68d60c580cb80d794be7e0",
+  "head_sha": "a4713172f607892e154467c9f4e5e880407e01f0",
+  "user_login": "arturobernalg",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/RegExUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_718/src/test/java/org/apache/commons/lang3/RegExUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "RegExUtilsTest2",
+      "final_class_name": "RegExUtilsLLM_Test"
+    }
+  ]
+}

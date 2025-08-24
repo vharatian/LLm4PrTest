@@ -1,0 +1,36 @@
+{
+  "pr_number": 553,
+  "title": "[LANG-1570] JavaVersion enum constants for Java 14 and 15.",
+  "state": "closed",
+  "created_at": "2020-06-13T19:43:20Z",
+  "merge_commit_sha": "31d7eea1c6205066b91c79f19219a436b26e9060",
+  "base_sha": "496eb10372c0161eac4729e758d789357adfcc0f",
+  "head_sha": "d91ac808add8e7c39ad3e204c36a0bfa6b8acac6",
+  "user_login": "nstdio",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/JavaVersion.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_553/src/test/java/org/apache/commons/lang3/JavaVersionLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "JavaVersionTest2",
+      "final_class_name": "JavaVersionLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/JavaVersionTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

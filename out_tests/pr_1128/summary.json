@@ -1,0 +1,47 @@
+{
+  "pr_number": 1128,
+  "title": "LANG-1717: support RISC-V in ArchUtils",
+  "state": "closed",
+  "created_at": "2023-11-02T05:51:43Z",
+  "merge_commit_sha": "4cff6633e9301647c8815119f99da8932502dc88",
+  "base_sha": "984be03374825ebcc350f7616beadc1a4426887b",
+  "head_sha": "fe7011004989f26e45d8d686aa78f036c1868797",
+  "user_login": "kxxt",
+  "extracted_count": 2,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/ArchUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_1128/src/test/java/org/apache/commons/lang3/ArchUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "ArchUtilsTest2",
+      "final_class_name": "ArchUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/arch/Processor.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_1128/src/test/java/org/apache/commons/lang3/arch/ProcessorLLM_Test.java",
+      "package": "org.apache.commons.lang3.arch",
+      "original_class_name": "ProcessorTest",
+      "final_class_name": "ProcessorLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/ArchUtilsTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

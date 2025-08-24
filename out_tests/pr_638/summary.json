@@ -1,0 +1,25 @@
+{
+  "pr_number": 638,
+  "title": "Fix Javadoc for SystemUtils.isJavaVersionAtMost()",
+  "state": "closed",
+  "created_at": "2020-11-02T11:41:03Z",
+  "merge_commit_sha": "2adf71bf239e7af87f5e4434264e6f5d9d32e741",
+  "base_sha": "4b1a602e4903167be5e8e90f2a1578630a56ce5b",
+  "head_sha": "6b94e87782c01b749c8a682da4b2fac8cdcd42d2",
+  "user_login": "JohnRDOrazio",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/SystemUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_638/src/test/java/org/apache/commons/lang3/SystemUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "SystemUtilsTest2",
+      "final_class_name": "SystemUtilsLLM_Test"
+    }
+  ]
+}

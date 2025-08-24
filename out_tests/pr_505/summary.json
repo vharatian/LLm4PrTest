@@ -1,0 +1,36 @@
+{
+  "pr_number": 505,
+  "title": "[LANG-1528] StringUtils.replaceEachRepeatedly gives IllegalStateException",
+  "state": "closed",
+  "created_at": "2020-03-24T00:37:29Z",
+  "merge_commit_sha": "d62d4e21ef20ee01e65cbf5257e04d6b572aa73b",
+  "base_sha": "e3a7399a7d82a5b3a33cc7653107821ce1709f67",
+  "head_sha": "9034577e964132a4f6693bd44b9f2619270d3031",
+  "user_login": "edelgadoh",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/StringUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_505/src/test/java/org/apache/commons/lang3/StringUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "StringUtilsTest2",
+      "final_class_name": "StringUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/StringUtilsTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

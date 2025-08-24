@@ -1,0 +1,25 @@
+{
+  "pr_number": 411,
+  "title": "LANG-1437: Remove redundant if statements in join methods",
+  "state": "closed",
+  "created_at": "2019-03-04T21:15:21Z",
+  "merge_commit_sha": "eafdd08e2096e15e16182096d94fa37e72ae908b",
+  "base_sha": "d5ffc4dde6236ed5afbedfeb333bb87dceb3fe7a",
+  "head_sha": "ad6e77c0bb4eda0fc701b6931191a141eac62eff",
+  "user_login": "aft90",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/StringUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_411/src/test/java/org/apache/commons/lang3/StringUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "StringUtilsTest2",
+      "final_class_name": "StringUtilsLLM_Test"
+    }
+  ]
+}

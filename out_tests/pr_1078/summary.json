@@ -1,0 +1,25 @@
+{
+  "pr_number": 1078,
+  "title": "Update Javadoc for the insert methods in ArrayUtils",
+  "state": "closed",
+  "created_at": "2023-07-01T21:07:08Z",
+  "merge_commit_sha": "6f0043e21ada2cf624d59e702b58c0516c7e6b3e",
+  "base_sha": "39fdca2da56fc3d5a53c70cf73dbcf9303e14788",
+  "head_sha": "49f39f0a72f5ba7c4722867ab01fdb4b0d1f0101",
+  "user_login": "orionlibs",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/ArrayUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_1078/src/test/java/org/apache/commons/lang3/ArrayUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "ArrayUtilsTest2",
+      "final_class_name": "ArrayUtilsLLM_Test"
+    }
+  ]
+}

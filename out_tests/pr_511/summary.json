@@ -1,0 +1,25 @@
+{
+  "pr_number": 511,
+  "title": "Fix some spelling and grammar issues in the StringUtils Javadoc.",
+  "state": "closed",
+  "created_at": "2020-04-17T06:37:38Z",
+  "merge_commit_sha": "d82301acbdf96f519b27fe379d3cbe9f17e1aa16",
+  "base_sha": "cfe457636a53d3a1927f3c3f130074bfa0c9d492",
+  "head_sha": "9949212b92de00609cb511d6f1b4599290240f73",
+  "user_login": "Isira-Seneviratne",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/StringUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_511/src/test/java/org/apache/commons/lang3/StringUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "StringUtilsTest2",
+      "final_class_name": "StringUtilsLLM_Test"
+    }
+  ]
+}

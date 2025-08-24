@@ -1,0 +1,212 @@
+{
+  "pr_number": 1123,
+  "title": "Use ConcurrentInitializer implementations without subclassing.",
+  "state": "closed",
+  "created_at": "2023-10-16T19:17:34Z",
+  "merge_commit_sha": "5d146cd06965432812c11ea8a6b458b3d2f56f65",
+  "base_sha": "88879df3a9ba47d597f2620c1a72befcb5c69711",
+  "head_sha": "929a17d87df8db6088926d6de85d72b3cc3341c9",
+  "user_login": "garydgregory",
+  "extracted_count": 8,
+  "skipped_count": 10,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/builder/AbstractSupplier.java",
+      "status_in_pr": "added",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_1123/src/test/java/org/apache/commons/lang3/builder/AbstractSupplierLLM_Test.java",
+      "package": "org.apache.commons.lang3.builder",
+      "original_class_name": "AbstractSupplierTest",
+      "final_class_name": "AbstractSupplierLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/concurrent/AbstractConcurrentInitializer.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_1123/src/test/java/org/apache/commons/lang3/concurrent/AbstractConcurrentInitializerLLM_Test.java",
+      "package": "org.apache.commons.lang3.concurrent",
+      "original_class_name": "AbstractConcurrentInitializerTest2",
+      "final_class_name": "AbstractConcurrentInitializerLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/concurrent/AtomicInitializer.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_1123/src/test/java/org/apache/commons/lang3/concurrent/AtomicInitializerLLM_Test.java",
+      "package": "org.apache.commons.lang3.concurrent",
+      "original_class_name": "AtomicInitializerTest2",
+      "final_class_name": "AtomicInitializerLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/concurrent/AtomicSafeInitializer.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_1123/src/test/java/org/apache/commons/lang3/concurrent/AtomicSafeInitializerLLM_Test.java",
+      "package": "org.apache.commons.lang3.concurrent",
+      "original_class_name": "AtomicSafeInitializerTest2",
+      "final_class_name": "AtomicSafeInitializerLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/concurrent/BackgroundInitializer.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_1123/src/test/java/org/apache/commons/lang3/concurrent/BackgroundInitializerLLM_Test.java",
+      "package": "org.apache.commons.lang3.concurrent",
+      "original_class_name": "BackgroundInitializerTest2",
+      "final_class_name": "BackgroundInitializerLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/concurrent/CallableBackgroundInitializer.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_1123/src/test/java/org/apache/commons/lang3/concurrent/CallableBackgroundInitializerLLM_Test.java",
+      "package": "org.apache.commons.lang3.concurrent",
+      "original_class_name": "CallableBackgroundInitializerTest2",
+      "final_class_name": "CallableBackgroundInitializerLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/concurrent/LazyInitializer.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_1123/src/test/java/org/apache/commons/lang3/concurrent/LazyInitializerLLM_Test.java",
+      "package": "org.apache.commons.lang3.concurrent",
+      "original_class_name": "LazyInitializerTest",
+      "final_class_name": "LazyInitializerLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/concurrent/MultiBackgroundInitializer.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_1123/src/test/java/org/apache/commons/lang3/concurrent/MultiBackgroundInitializerLLM_Test.java",
+      "package": "org.apache.commons.lang3.concurrent",
+      "original_class_name": "MultiBackgroundInitializerTest2",
+      "final_class_name": "MultiBackgroundInitializerLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/concurrent/AbstractConcurrentInitializerCloseAndExceptionsTest.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/concurrent/AtomicInitializerSupplierTest.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/concurrent/AtomicSafeInitializerSupplierTest.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/concurrent/BackgroundInitializerSupplierTest.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/concurrent/BackgroundInitializerTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/concurrent/LazyInitializerCloserTest.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/concurrent/LazyInitializerFailableCloserTest.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/concurrent/LazyInitializerSupplierTest.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/concurrent/MultiBackgroundInitializerSupplierTest.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/concurrent/MultiBackgroundInitializerTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "pr_number": 551,
+  "title": "[LANG-1550] Optimize ArrayUtils::isArrayIndexValid method.",
+  "state": "closed",
+  "created_at": "2020-06-01T19:57:56Z",
+  "merge_commit_sha": "874cc143284feb8a469e3d41e05543663cffeafb",
+  "base_sha": "96a8969c13305dfe787847a84e362e66461428e7",
+  "head_sha": "0843f6013ba6c7ce599d3e3f0fb442dc94ebcc50",
+  "user_login": "nstdio",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/ArrayUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_551/src/test/java/org/apache/commons/lang3/ArrayUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "ArrayUtilsTest2",
+      "final_class_name": "ArrayUtilsLLM_Test"
+    }
+  ]
+}

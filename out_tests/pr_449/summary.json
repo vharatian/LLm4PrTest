@@ -1,0 +1,36 @@
+{
+  "pr_number": 449,
+  "title": "Update documentation related to the issue LANG-696",
+  "state": "closed",
+  "created_at": "2019-08-27T12:23:17Z",
+  "merge_commit_sha": "23f18044d1cc750ce07a59662f636468e616d4d5",
+  "base_sha": "24f66b175fdbc37c02ac234f1f3d7b2a5f13cc57",
+  "head_sha": "1a645d7ffa5eb482c439673e6f7251f59a4cd0ac",
+  "user_login": "verhas",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/ClassUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_449/src/test/java/org/apache/commons/lang3/ClassUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "ClassUtilsTest2",
+      "final_class_name": "ClassUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/ClassUtilsTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

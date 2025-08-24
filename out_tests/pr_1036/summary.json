@@ -1,0 +1,25 @@
+{
+  "pr_number": 1036,
+  "title": "Typo in EnumUtils class",
+  "state": "closed",
+  "created_at": "2023-03-02T14:38:18Z",
+  "merge_commit_sha": "2986222b8c3ce04ffe7380cde78b40c91a2df3d1",
+  "base_sha": "8ba794181daee4a827184771300bb172b5de8e42",
+  "head_sha": "26926ee5c601a9c2905d1976974d69b827d4c5e5",
+  "user_login": "jblaski1",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/EnumUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_1036/src/test/java/org/apache/commons/lang3/EnumUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "EnumUtilsTest2",
+      "final_class_name": "EnumUtilsLLM_Test"
+    }
+  ]
+}

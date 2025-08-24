@@ -1,0 +1,36 @@
+{
+  "pr_number": 933,
+  "title": "[LANG-1689] Simple Optional in ObjectUtils#isEmpty()",
+  "state": "closed",
+  "created_at": "2022-08-10T19:35:17Z",
+  "merge_commit_sha": "eb07b19f4a23d443a1fa1005c344d78f79c0f110",
+  "base_sha": "9f71c33b000083dab7bb746a2fca193a78a51f13",
+  "head_sha": "08409e72e98e6e430ddb50c5d47fbd52211cc8b7",
+  "user_login": "hendrixjoseph",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/ObjectUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_933/src/test/java/org/apache/commons/lang3/ObjectUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "ObjectUtilsTest2",
+      "final_class_name": "ObjectUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/ObjectUtilsTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

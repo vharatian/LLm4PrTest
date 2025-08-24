@@ -1,0 +1,102 @@
+{
+  "pr_number": 539,
+  "title": "[LANG-1554] Fix typos",
+  "state": "closed",
+  "created_at": "2020-06-01T07:28:13Z",
+  "merge_commit_sha": "0e17c1e93c5a5e5adf930d945a3235cc09361d7c",
+  "base_sha": "3d4ed4a8ac63db1e51601ffc31fed44dccbb276c",
+  "head_sha": "1e62f1152e82a789c32d307ef7ab827407c73db4",
+  "user_login": "XenoAmess",
+  "extracted_count": 4,
+  "skipped_count": 4,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/ClassLoaderUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_539/src/test/java/org/apache/commons/lang3/ClassLoaderUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "ClassLoaderUtilsTest2",
+      "final_class_name": "ClassLoaderUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/Locks.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_539/src/test/java/org/apache/commons/lang3/LocksLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "LocksTest2",
+      "final_class_name": "LocksLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/reflect/MemberUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_539/src/test/java/org/apache/commons/lang3/reflect/MemberUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3.reflect",
+      "original_class_name": "MemberUtilsTest",
+      "final_class_name": "MemberUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_539/src/test/java/org/apache/commons/lang3/time/DateUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3.time",
+      "original_class_name": "DateUtilsTest2",
+      "final_class_name": "DateUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/EnumUtilsTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/event/EventUtilsTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/text/ExtendedMessageFormatTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/time/FastDateParserTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

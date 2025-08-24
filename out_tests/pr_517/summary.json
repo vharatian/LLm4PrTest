@@ -1,0 +1,25 @@
+{
+  "pr_number": 517,
+  "title": "Simplify null checks in Pair.hashCode() using Objects.hashCode().",
+  "state": "closed",
+  "created_at": "2020-04-17T23:29:24Z",
+  "merge_commit_sha": "d7f8dcedfa7b5719011fd14b620b045b4dcac9af",
+  "base_sha": "e9225d05b25122e0914f1c6f200aaf8fe0e6a75c",
+  "head_sha": "c9129ab8fc1b3e40ec01c98d6bd3c3c4b1802c78",
+  "user_login": "Isira-Seneviratne",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/tuple/Pair.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_517/src/test/java/org/apache/commons/lang3/tuple/PairLLM_Test.java",
+      "package": "org.apache.commons.lang3.tuple",
+      "original_class_name": "PairTest2",
+      "final_class_name": "PairLLM_Test"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "pr_number": 1091,
+  "title": "Javadoc: Remove 2.1 specific comment",
+  "state": "closed",
+  "created_at": "2023-07-29T11:27:17Z",
+  "merge_commit_sha": "89dd8ea75241a004e01a77112f3fd1ef56443ed4",
+  "base_sha": "aa74b736dec153d5d460ee1d559054f085b2e1a4",
+  "head_sha": "0dee4cda62eada1f07c269843d125c899b36f8fe",
+  "user_login": "elharo",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/time/package-info.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_1091/src/test/java/org/apache/commons/lang3/time/PackageInfoLLM_Test.java",
+      "package": "org.apache.commons.lang3.time",
+      "original_class_name": "PackageInfoTest",
+      "final_class_name": "PackageInfoLLM_Test"
+    }
+  ]
+}

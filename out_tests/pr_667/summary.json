@@ -1,0 +1,36 @@
+{
+  "pr_number": 667,
+  "title": "[LANG-1622] Corrected reference to right methods.",
+  "state": "closed",
+  "created_at": "2020-12-03T07:52:12Z",
+  "merge_commit_sha": "9bd9643a0bf2137b70690f4e77056d10b1a936da",
+  "base_sha": "8c66a5fcb7f08aba86bbb1efeaa0a2e1f42d4e16",
+  "head_sha": "03adf1a2ec6ed645d2d1c6cb7b50c589663c59b7",
+  "user_login": "kanaksony",
+  "extracted_count": 2,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/BooleanUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_667/src/test/java/org/apache/commons/lang3/BooleanUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "BooleanUtilsTest2",
+      "final_class_name": "BooleanUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/StringUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_667/src/test/java/org/apache/commons/lang3/StringUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "StringUtilsTest2",
+      "final_class_name": "StringUtilsLLM_Test"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "pr_number": 1059,
+  "title": "Refactor rename variable \"hex_prefixes\" to \"hexPrefixes\"",
+  "state": "closed",
+  "created_at": "2023-04-20T07:04:41Z",
+  "merge_commit_sha": "67c6450b6179e027ff253cec31b6ebec882acfba",
+  "base_sha": "7d7e8af45032f1f3a29a18888cd3b0ca6085a156",
+  "head_sha": "486e108e8387901040b8d68b731552cd510bad06",
+  "user_login": "remeio",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/math/NumberUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_1059/src/test/java/org/apache/commons/lang3/math/NumberUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3.math",
+      "original_class_name": "NumberUtilsTest2",
+      "final_class_name": "NumberUtilsLLM_Test"
+    }
+  ]
+}

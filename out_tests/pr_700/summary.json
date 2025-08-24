@@ -1,0 +1,179 @@
+{
+  "pr_number": 700,
+  "title": "Minor Improvement: Add final variable.try to make the code read-only",
+  "state": "closed",
+  "created_at": "2021-01-19T16:36:55Z",
+  "merge_commit_sha": "8c0bae01e57a20639f49c1d6cc4f6881e5bfd429",
+  "base_sha": "0b135af5a0553d9882efef13e60a464986e6af36",
+  "head_sha": "7007764b10c37faa62db76c8016177385fc816ab",
+  "user_login": "arturobernalg",
+  "extracted_count": 15,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/ArrayUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_700/src/test/java/org/apache/commons/lang3/ArrayUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "ArrayUtilsTest2",
+      "final_class_name": "ArrayUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/ClassUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_700/src/test/java/org/apache/commons/lang3/ClassUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "ClassUtilsTest2",
+      "final_class_name": "ClassUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/RandomStringUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_700/src/test/java/org/apache/commons/lang3/RandomStringUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "RandomStringUtilsTest2",
+      "final_class_name": "RandomStringUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/StringUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_700/src/test/java/org/apache/commons/lang3/StringUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "StringUtilsTest2",
+      "final_class_name": "StringUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/builder/DiffBuilder.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_700/src/test/java/org/apache/commons/lang3/builder/DiffBuilderLLM_Test.java",
+      "package": "org.apache.commons.lang3.builder",
+      "original_class_name": "DiffBuilderTest2",
+      "final_class_name": "DiffBuilderLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/concurrent/BackgroundInitializer.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_700/src/test/java/org/apache/commons/lang3/concurrent/BackgroundInitializerLLM_Test.java",
+      "package": "org.apache.commons.lang3.concurrent",
+      "original_class_name": "BackgroundInitializerTest2",
+      "final_class_name": "BackgroundInitializerLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/concurrent/EventCountCircuitBreaker.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_700/src/test/java/org/apache/commons/lang3/concurrent/EventCountCircuitBreakerLLM_Test.java",
+      "package": "org.apache.commons.lang3.concurrent",
+      "original_class_name": "EventCountCircuitBreakerTest2",
+      "final_class_name": "EventCountCircuitBreakerLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/concurrent/MultiBackgroundInitializer.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_700/src/test/java/org/apache/commons/lang3/concurrent/MultiBackgroundInitializerLLM_Test.java",
+      "package": "org.apache.commons.lang3.concurrent",
+      "original_class_name": "MultiBackgroundInitializerTest2",
+      "final_class_name": "MultiBackgroundInitializerLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/math/Fraction.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_700/src/test/java/org/apache/commons/lang3/math/FractionLLM_Test.java",
+      "package": "org.apache.commons.lang3.math",
+      "original_class_name": "FractionTest2",
+      "final_class_name": "FractionLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/math/NumberUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_700/src/test/java/org/apache/commons/lang3/math/NumberUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3.math",
+      "original_class_name": "NumberUtilsTest2",
+      "final_class_name": "NumberUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_700/src/test/java/org/apache/commons/lang3/reflect/MethodUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3.reflect",
+      "original_class_name": "MethodUtilsTest2",
+      "final_class_name": "MethodUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_700/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3.reflect",
+      "original_class_name": "TypeUtilsTest2",
+      "final_class_name": "TypeUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_700/src/test/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaperLLM_Test.java",
+      "package": "org.apache.commons.lang3.text.translate",
+      "original_class_name": "NumericEntityUnescaperTest2",
+      "final_class_name": "NumericEntityUnescaperLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/time/FastDateParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_700/src/test/java/org/apache/commons/lang3/time/FastDateParserLLM_Test.java",
+      "package": "org.apache.commons.lang3.time",
+      "original_class_name": "FastDateParserTest2",
+      "final_class_name": "FastDateParserLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/time/FormatCache.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_700/src/test/java/org/apache/commons/lang3/time/FormatCacheLLM_Test.java",
+      "package": "org.apache.commons.lang3.time",
+      "original_class_name": "FormatCacheTest",
+      "final_class_name": "FormatCacheLLM_Test"
+    }
+  ]
+}

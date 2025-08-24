@@ -1,0 +1,36 @@
+{
+  "pr_number": 543,
+  "title": "[LANG-1558] Simplify if as some conditions are covered by others",
+  "state": "closed",
+  "created_at": "2020-06-01T07:42:30Z",
+  "merge_commit_sha": "fb2d228380eba79585099e4c5737b3e764864d0b",
+  "base_sha": "3d4ed4a8ac63db1e51601ffc31fed44dccbb276c",
+  "head_sha": "0b496ea254fcee63acecbb8ac9971f3792d47161",
+  "user_login": "XenoAmess",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_543/src/test/java/org/apache/commons/lang3/builder/ToStringStyleLLM_Test.java",
+      "package": "org.apache.commons.lang3.builder",
+      "original_class_name": "ToStringStyleTest2",
+      "final_class_name": "ToStringStyleLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/StringUtilsEqualsIndexOfTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

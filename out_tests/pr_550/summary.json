@@ -1,0 +1,25 @@
+{
+  "pr_number": 550,
+  "title": "[LANG-1565] Change removeLastFieldSeparator to use endsWith",
+  "state": "closed",
+  "created_at": "2020-06-01T08:25:13Z",
+  "merge_commit_sha": "1406f67252c3ef919c1045ab2183fb03d2bd5464",
+  "base_sha": "9fcd9c86edc05a0bd25f8eb73cf840400e5e6b95",
+  "head_sha": "d3e1cda30d8ae19a7cb48ecb1bb43ffe6b523eee",
+  "user_login": "XenoAmess",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_550/src/test/java/org/apache/commons/lang3/builder/ToStringStyleLLM_Test.java",
+      "package": "org.apache.commons.lang3.builder",
+      "original_class_name": "ToStringStyleTest2",
+      "final_class_name": "ToStringStyleLLM_Test"
+    }
+  ]
+}

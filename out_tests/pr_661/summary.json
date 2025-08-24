@@ -1,0 +1,36 @@
+{
+  "pr_number": 661,
+  "title": "[LANG-1618] - TypeUtils. containsTypeVariables does not support GenericArrayType",
+  "state": "closed",
+  "created_at": "2020-11-26T05:52:21Z",
+  "merge_commit_sha": "b74c697bba6d3e16941b669de6cca5e25ee1675f",
+  "base_sha": "5b025fe4b60ebe33fa3e8cd5f16f0924f8eefdd2",
+  "head_sha": "87585073083eaaaef7b6f39a4a1c560d93d6c7b8",
+  "user_login": "arturobernalg",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_661/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3.reflect",
+      "original_class_name": "TypeUtilsTest2",
+      "final_class_name": "TypeUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

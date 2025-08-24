@@ -1,0 +1,36 @@
+{
+  "pr_number": 417,
+  "title": "(doc) Fixing couple of dangling javadocs, converted to comments.",
+  "state": "closed",
+  "created_at": "2019-04-12T03:49:47Z",
+  "merge_commit_sha": "233711f860bf1fd7a2ecfb478abe4d6c1b37dc87",
+  "base_sha": "24ebbb069b59c7729010ce7c7a7c59b28a4620ef",
+  "head_sha": "82cfd26b56c5dd9481eecfe73cea8f2ccf01a5e6",
+  "user_login": "ethanwood17",
+  "extracted_count": 2,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/ClassUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_417/src/test/java/org/apache/commons/lang3/ClassUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "ClassUtilsTest2",
+      "final_class_name": "ClassUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/concurrent/LazyInitializer.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_417/src/test/java/org/apache/commons/lang3/concurrent/LazyInitializerLLM_Test.java",
+      "package": "org.apache.commons.lang3.concurrent",
+      "original_class_name": "LazyInitializerTest2",
+      "final_class_name": "LazyInitializerLLM_Test"
+    }
+  ]
+}

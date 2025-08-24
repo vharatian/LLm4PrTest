@@ -1,0 +1,58 @@
+{
+  "pr_number": 547,
+  "title": "[LANG-1562] Use Math.max and min",
+  "state": "closed",
+  "created_at": "2020-06-01T07:53:55Z",
+  "merge_commit_sha": "9078cdc8c4320296219a42efa304b21d2e87f0e2",
+  "base_sha": "3d4ed4a8ac63db1e51601ffc31fed44dccbb276c",
+  "head_sha": "681565747e54c19bcabbcb1f67be2c1c239d1d26",
+  "user_login": "XenoAmess",
+  "extracted_count": 4,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/ArrayUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_547/src/test/java/org/apache/commons/lang3/ArrayUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "ArrayUtilsTest2",
+      "final_class_name": "ArrayUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/Conversion.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_547/src/test/java/org/apache/commons/lang3/ConversionLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "ConversionTest2",
+      "final_class_name": "ConversionLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/text/StrBuilder.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_547/src/test/java/org/apache/commons/lang3/text/StrBuilderLLM_Test.java",
+      "package": "org.apache.commons.lang3.text",
+      "original_class_name": "StrBuilderTest2",
+      "final_class_name": "StrBuilderLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_547/src/test/java/org/apache/commons/lang3/time/FastDatePrinterLLM_Test.java",
+      "package": "org.apache.commons.lang3.time",
+      "original_class_name": "FastDatePrinterTest2",
+      "final_class_name": "FastDatePrinterLLM_Test"
+    }
+  ]
+}

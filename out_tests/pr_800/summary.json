@@ -1,0 +1,113 @@
+{
+  "pr_number": 800,
+  "title": "Remove redundant initializers",
+  "state": "closed",
+  "created_at": "2021-09-04T14:26:10Z",
+  "merge_commit_sha": "d094dd624e44041eeba5354e2c3d0253bca61cd8",
+  "base_sha": "4ff5e2b9f98e5ca9dd105a2d08477e0371ae8832",
+  "head_sha": "236e5d813895171cf57b9bd145522bfda5736eed",
+  "user_login": "arturobernalg",
+  "extracted_count": 9,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/ArrayUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_800/src/test/java/org/apache/commons/lang3/ArrayUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "ArrayUtilsTest2",
+      "final_class_name": "ArrayUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/CharSetUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_800/src/test/java/org/apache/commons/lang3/CharSetUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "CharSetUtilsTest2",
+      "final_class_name": "CharSetUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/StringUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_800/src/test/java/org/apache/commons/lang3/StringUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "StringUtilsTest2",
+      "final_class_name": "StringUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/math/Fraction.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_800/src/test/java/org/apache/commons/lang3/math/FractionLLM_Test.java",
+      "package": "org.apache.commons.lang3.math",
+      "original_class_name": "FractionTest2",
+      "final_class_name": "FractionLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_800/src/test/java/org/apache/commons/lang3/reflect/MethodUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3.reflect",
+      "original_class_name": "MethodUtilsTest2",
+      "final_class_name": "MethodUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_800/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3.reflect",
+      "original_class_name": "TypeUtilsTest2",
+      "final_class_name": "TypeUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_800/src/test/java/org/apache/commons/lang3/text/ExtendedMessageFormatLLM_Test.java",
+      "package": "org.apache.commons.lang3.text",
+      "original_class_name": "ExtendedMessageFormatTest2",
+      "final_class_name": "ExtendedMessageFormatLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/text/StrSubstitutor.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_800/src/test/java/org/apache/commons/lang3/text/StrSubstitutorLLM_Test.java",
+      "package": "org.apache.commons.lang3.text",
+      "original_class_name": "StrSubstitutorTest2",
+      "final_class_name": "StrSubstitutorLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_800/src/test/java/org/apache/commons/lang3/time/DateUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3.time",
+      "original_class_name": "DateUtilsTest2",
+      "final_class_name": "DateUtilsLLM_Test"
+    }
+  ]
+}

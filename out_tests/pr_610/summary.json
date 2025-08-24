@@ -1,0 +1,102 @@
+{
+  "pr_number": 610,
+  "title": "[LANG-1600] Restore handling of collections for non-JSON ToStringStyle",
+  "state": "closed",
+  "created_at": "2020-08-24T19:39:38Z",
+  "merge_commit_sha": "772f97c4378613d241ecacc2076fdda20d59e982",
+  "base_sha": "31dc5c700e1a08f4af33d94301ff06790533099b",
+  "head_sha": "8d027c87741acfafad2ba07428fd94646b5ca53a",
+  "user_login": "amphied",
+  "extracted_count": 1,
+  "skipped_count": 7,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_610/src/test/java/org/apache/commons/lang3/builder/ToStringStyleLLM_Test.java",
+      "package": "org.apache.commons.lang3.builder",
+      "original_class_name": "ToStringStyleTest2",
+      "final_class_name": "ToStringStyleLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/builder/DefaultToStringStyleTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/builder/MultiLineToStringStyleTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/builder/NoClassNameToStringStyleTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/builder/NoFieldNamesToStringStyleTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/builder/ShortPrefixToStringStyleTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/builder/SimpleToStringStyleTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/builder/StandardToStringStyleTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

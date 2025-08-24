@@ -1,0 +1,135 @@
+{
+  "pr_number": 525,
+  "title": "Correct Javadocs of methods that use Validate.notNull() and replace some uses of Validate.isTrue() with Validate.notNull().",
+  "state": "closed",
+  "created_at": "2020-04-21T01:47:45Z",
+  "merge_commit_sha": "3700641b4e745a1804b4409c58dee15b459dad16",
+  "base_sha": "031f4f61b70ec88d16affc982a7092935fd4a0c9",
+  "head_sha": "a6e0946a75295847e3198a7236e53a5be9632cf8",
+  "user_login": "Isira-Seneviratne",
+  "extracted_count": 10,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/CharUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_525/src/test/java/org/apache/commons/lang3/CharUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "CharUtilsTest2",
+      "final_class_name": "CharUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/SerializationUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_525/src/test/java/org/apache/commons/lang3/SerializationUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "SerializationUtilsTest2",
+      "final_class_name": "SerializationUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/builder/DiffBuilder.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_525/src/test/java/org/apache/commons/lang3/builder/DiffBuilderLLM_Test.java",
+      "package": "org.apache.commons.lang3.builder",
+      "original_class_name": "DiffBuilderTest2",
+      "final_class_name": "DiffBuilderLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/builder/DiffResult.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_525/src/test/java/org/apache/commons/lang3/builder/DiffResultLLM_Test.java",
+      "package": "org.apache.commons.lang3.builder",
+      "original_class_name": "DiffResultTest2",
+      "final_class_name": "DiffResultLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/math/Fraction.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_525/src/test/java/org/apache/commons/lang3/math/FractionLLM_Test.java",
+      "package": "org.apache.commons.lang3.math",
+      "original_class_name": "FractionTest2",
+      "final_class_name": "FractionLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/math/IEEE754rUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_525/src/test/java/org/apache/commons/lang3/math/IEEE754rUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3.math",
+      "original_class_name": "IEEE754rUtilsTest2",
+      "final_class_name": "IEEE754rUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/reflect/FieldUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_525/src/test/java/org/apache/commons/lang3/reflect/FieldUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3.reflect",
+      "original_class_name": "FieldUtilsTest2",
+      "final_class_name": "FieldUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_525/src/test/java/org/apache/commons/lang3/reflect/MethodUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3.reflect",
+      "original_class_name": "MethodUtilsTest2",
+      "final_class_name": "MethodUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_525/src/test/java/org/apache/commons/lang3/time/DateUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3.time",
+      "original_class_name": "DateUtilsTest2",
+      "final_class_name": "DateUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/time/FormatCache.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_525/src/test/java/org/apache/commons/lang3/time/FormatCacheLLM_Test.java",
+      "package": "org.apache.commons.lang3.time",
+      "original_class_name": "FormatCacheTest",
+      "final_class_name": "FormatCacheLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

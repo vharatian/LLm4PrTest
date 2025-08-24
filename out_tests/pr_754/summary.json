@@ -1,0 +1,91 @@
+{
+  "pr_number": 754,
+  "title": "LANG-1659 - Add null-safe ObjectUtils.isArray()",
+  "state": "closed",
+  "created_at": "2021-05-13T16:20:01Z",
+  "merge_commit_sha": "62d7aacb4f3eb318045496f115a7171f0bc2c6c1",
+  "base_sha": "4ff5e2b9f98e5ca9dd105a2d08477e0371ae8832",
+  "head_sha": "477a483fc47c6ff0a6c549423415850748827292",
+  "user_login": "arturobernalg",
+  "extracted_count": 6,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/AnnotationUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_754/src/test/java/org/apache/commons/lang3/AnnotationUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "AnnotationUtilsTest2",
+      "final_class_name": "AnnotationUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/ObjectUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_754/src/test/java/org/apache/commons/lang3/ObjectUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "ObjectUtilsTest2",
+      "final_class_name": "ObjectUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/builder/CompareToBuilder.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_754/src/test/java/org/apache/commons/lang3/builder/CompareToBuilderLLM_Test.java",
+      "package": "org.apache.commons.lang3.builder",
+      "original_class_name": "CompareToBuilderTest2",
+      "final_class_name": "CompareToBuilderLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/builder/DiffBuilder.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_754/src/test/java/org/apache/commons/lang3/builder/DiffBuilderLLM_Test.java",
+      "package": "org.apache.commons.lang3.builder",
+      "original_class_name": "DiffBuilderTest2",
+      "final_class_name": "DiffBuilderLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_754/src/test/java/org/apache/commons/lang3/builder/HashCodeBuilderLLM_Test.java",
+      "package": "org.apache.commons.lang3.builder",
+      "original_class_name": "HashCodeBuilderTest2",
+      "final_class_name": "HashCodeBuilderLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_754/src/test/java/org/apache/commons/lang3/builder/ToStringStyleLLM_Test.java",
+      "package": "org.apache.commons.lang3.builder",
+      "original_class_name": "ToStringStyleTest2",
+      "final_class_name": "ToStringStyleLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/ObjectUtilsTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

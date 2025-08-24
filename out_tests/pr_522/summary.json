@@ -1,0 +1,36 @@
+{
+  "pr_number": 522,
+  "title": "[LANG-1539] Add allNull() and anyNull() methods to ObjectUtils.",
+  "state": "closed",
+  "created_at": "2020-04-20T03:09:48Z",
+  "merge_commit_sha": "1a77a547dd72e82a8967e462406436a1c2e341a2",
+  "base_sha": "1fc15b43d4b243262d6383d2e5a554a2158aa57f",
+  "head_sha": "ee6c682ed5fa8c1b33aa1d52a1e2f088b0191b6b",
+  "user_login": "Isira-Seneviratne",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/ObjectUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_522/src/test/java/org/apache/commons/lang3/ObjectUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "ObjectUtilsTest2",
+      "final_class_name": "ObjectUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/ObjectUtilsTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

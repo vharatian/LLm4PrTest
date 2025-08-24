@@ -1,0 +1,47 @@
+{
+  "pr_number": 838,
+  "title": "[LANG-1677] Add ReflectionDiffBuilder.setExcludeFieldNames(...) and DiffExclude a…",
+  "state": "closed",
+  "created_at": "2021-11-30T20:22:50Z",
+  "merge_commit_sha": "f51299ced4fd40b44a3f6eca9ae528e818558205",
+  "base_sha": "ccb4ad2234dbc56a6396e4b1d54a1675b5446c5b",
+  "head_sha": "98dedfd6aa7b49695b17506680ea947cd3021477",
+  "user_login": "debae",
+  "extracted_count": 2,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/builder/DiffExclude.java",
+      "status_in_pr": "added",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_838/src/test/java/org/apache/commons/lang3/builder/DiffExcludeLLM_Test.java",
+      "package": "org.apache.commons.lang3.builder",
+      "original_class_name": "DiffExcludeTest",
+      "final_class_name": "DiffExcludeLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/builder/ReflectionDiffBuilder.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_838/src/test/java/org/apache/commons/lang3/builder/ReflectionDiffBuilderLLM_Test.java",
+      "package": "org.apache.commons.lang3.builder",
+      "original_class_name": "ReflectionDiffBuilderTest2",
+      "final_class_name": "ReflectionDiffBuilderLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/builder/ReflectionDiffBuilderTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "pr_number": 1066,
+  "title": "[LANG-1699] SystemUtils.JAVA_VENDOR returns Java version",
+  "state": "closed",
+  "created_at": "2023-06-15T13:07:58Z",
+  "merge_commit_sha": "def9f76bca6395e5e026b27b1ad645fd2b92fc86",
+  "base_sha": "c646f494bb9d91f581f30fbc12bfb045bf198291",
+  "head_sha": "ec25ec2b9d13ab0c46101469d272a76cf9189c75",
+  "user_login": "djcoleman",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/SystemUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_1066/src/test/java/org/apache/commons/lang3/SystemUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "SystemUtilsTest2",
+      "final_class_name": "SystemUtilsLLM_Test"
+    }
+  ]
+}

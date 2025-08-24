@@ -1,0 +1,25 @@
+{
+  "pr_number": 1031,
+  "title": "(doc) Fix typos in Javadoc",
+  "state": "closed",
+  "created_at": "2023-02-19T19:37:27Z",
+  "merge_commit_sha": "469013a4f5a5cb666b35d72122690bb7f355c0b5",
+  "base_sha": "eaff7e0a693455081932b53688029f0700447305",
+  "head_sha": "ecacc3a0ffde5efda68cb07d3dfbd10d8c9a1462",
+  "user_login": "ottlinger",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/math/NumberUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_1031/src/test/java/org/apache/commons/lang3/math/NumberUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3.math",
+      "original_class_name": "NumberUtilsTest2",
+      "final_class_name": "NumberUtilsLLM_Test"
+    }
+  ]
+}

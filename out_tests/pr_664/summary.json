@@ -1,0 +1,25 @@
+{
+  "pr_number": 664,
+  "title": "[LANG-1620] - refine StringUtils.lastIndexOfIgnoreCase",
+  "state": "closed",
+  "created_at": "2020-11-29T08:44:22Z",
+  "merge_commit_sha": "76443d7f1d430f3708f5be7f3aa3cd6565dba433",
+  "base_sha": "c2da7e3c511f6a74c2450d612a61887b8be8fcab",
+  "head_sha": "0e07fc1f8d561ceb469fa8d24831a8a0b4bc7304",
+  "user_login": "arturobernalg",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/StringUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_664/src/test/java/org/apache/commons/lang3/StringUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "StringUtilsTest2",
+      "final_class_name": "StringUtilsLLM_Test"
+    }
+  ]
+}

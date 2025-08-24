@@ -1,0 +1,36 @@
+{
+  "pr_number": 398,
+  "title": "Add ComparableUtils",
+  "state": "closed",
+  "created_at": "2019-01-17T14:56:08Z",
+  "merge_commit_sha": "2425853701d6decfd3ff53c2803a9273119084be",
+  "base_sha": "1163e177137f5c57ce80092c0743209b28d33400",
+  "head_sha": "0f84e84c4a0452ab2aacb0ccac06cc200a080d50",
+  "user_login": "Sam-Kruglov",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/ComparableUtils.java",
+      "status_in_pr": "added",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_398/src/test/java/org/apache/commons/lang3/ComparableUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "ComparableUtilsTest",
+      "final_class_name": "ComparableUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/ComparableUtilsTest.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

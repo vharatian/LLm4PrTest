@@ -1,0 +1,25 @@
+{
+  "pr_number": 714,
+  "title": "Add and use true & false String constants",
+  "state": "closed",
+  "created_at": "2021-02-20T07:13:03Z",
+  "merge_commit_sha": "397a2c8044188433e39c68e4c025f1f64119dde0",
+  "base_sha": "5689c91cf2a3a27f0a3a8a362857f2cf0919d4f6",
+  "head_sha": "d984607bcf9317717777f701265a3de8c120bca9",
+  "user_login": "arturobernalg",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/BooleanUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_714/src/test/java/org/apache/commons/lang3/BooleanUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "BooleanUtilsTest2",
+      "final_class_name": "BooleanUtilsLLM_Test"
+    }
+  ]
+}

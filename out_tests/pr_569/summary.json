@@ -1,0 +1,25 @@
+{
+  "pr_number": 569,
+  "title": "[LANG-1580] Refine StringUtils.deleteWhitespace",
+  "state": "closed",
+  "created_at": "2020-06-29T06:33:10Z",
+  "merge_commit_sha": "5a17dc7ad38786680a15989e179255ed41c9bb4f",
+  "base_sha": "da0f6a8051cc60d1bebe703b4e390ce3035497db",
+  "head_sha": "80c32ac2b496e96c487c335651d2c96212cce4e6",
+  "user_login": "XenoAmess",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/StringUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_569/src/test/java/org/apache/commons/lang3/StringUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "StringUtilsTest2",
+      "final_class_name": "StringUtilsLLM_Test"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "pr_number": 940,
+  "title": "Deprecate getNanosOfMiili() method with typo and create proper getNanosOfMilli()",
+  "state": "closed",
+  "created_at": "2022-08-20T19:28:07Z",
+  "merge_commit_sha": "2f153733c7dfe33f38438be3fd3269e0c3ab7005",
+  "base_sha": "dc4810aa9847f8bc11b269cba7930d005303329f",
+  "head_sha": "a1d4a49c2ec3b021ff4fbeb097188fb1083ac71f",
+  "user_login": "arturobernalg",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/time/DurationUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_940/src/test/java/org/apache/commons/lang3/time/DurationUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3.time",
+      "original_class_name": "DurationUtilsTest2",
+      "final_class_name": "DurationUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/time/DurationUtilsTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

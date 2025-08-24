@@ -1,0 +1,25 @@
+{
+  "pr_number": 518,
+  "title": "(Javadoc) Fix return tag for throwableOf*() methods",
+  "state": "closed",
+  "created_at": "2020-04-19T12:24:05Z",
+  "merge_commit_sha": "22500d11ae62c0d54021081d1909b504178e0276",
+  "base_sha": "f13f787a6629e6eba2d027dd9635fb7cdcf0c17b",
+  "head_sha": "41cf675cc144ed316323c88ad3ef21b6e1f74561",
+  "user_login": "arend-von-reinersdorff",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_518/src/test/java/org/apache/commons/lang3/exception/ExceptionUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3.exception",
+      "original_class_name": "ExceptionUtilsTest2",
+      "final_class_name": "ExceptionUtilsLLM_Test"
+    }
+  ]
+}

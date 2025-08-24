@@ -1,0 +1,25 @@
+{
+  "pr_number": 965,
+  "title": "Remove unnecessary statement in DurationFormatUtils",
+  "state": "closed",
+  "created_at": "2022-10-08T19:34:23Z",
+  "merge_commit_sha": "65ac1e9f8852207382e5106117c0b7501b7a1468",
+  "base_sha": "b6d39a4257c46672e915098a156f63cd0a713a72",
+  "head_sha": "16cc08f59b32bb97a214e0ff86d4b9f7eeea7522",
+  "user_login": "arturobernalg",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/time/DurationFormatUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_965/src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3.time",
+      "original_class_name": "DurationFormatUtilsTest2",
+      "final_class_name": "DurationFormatUtilsLLM_Test"
+    }
+  ]
+}

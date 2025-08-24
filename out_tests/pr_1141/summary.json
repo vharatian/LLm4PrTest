@@ -1,0 +1,36 @@
+{
+  "pr_number": 1141,
+  "title": "LANG-1722: Rethrow NegativeArraySizeException as SerializationException in SerializationUtils.deserialize(InputStream)",
+  "state": "closed",
+  "created_at": "2023-12-04T23:28:06Z",
+  "merge_commit_sha": "c3f5f3204bcc8d62a56ff214e904876b7e7a206f",
+  "base_sha": "a6d37ef550f3a570911a61858a5141207001bbb1",
+  "head_sha": "a46df1d5574210cc96152938ad30683c86b7d662",
+  "user_login": "arthurscchan",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/SerializationUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_1141/src/test/java/org/apache/commons/lang3/SerializationUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "SerializationUtilsTest2",
+      "final_class_name": "SerializationUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

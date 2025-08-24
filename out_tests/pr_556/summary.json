@@ -1,0 +1,25 @@
+{
+  "pr_number": 556,
+  "title": "[LANG-1567] Fix Javadocs for EqualsBuilder#setTestRecursive()",
+  "state": "closed",
+  "created_at": "2020-06-17T09:23:00Z",
+  "merge_commit_sha": "a7be33e9c6603cb15fb873ab721fbca1ef300600",
+  "base_sha": "8a2d7afd9f1be1c6cc6b5f3102b6659846fad874",
+  "head_sha": "96a00933a7eab35d01094dcd075daacfb3d5b447",
+  "user_login": "SwingGuy1024",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/builder/EqualsBuilder.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_556/src/test/java/org/apache/commons/lang3/builder/EqualsBuilderLLM_Test.java",
+      "package": "org.apache.commons.lang3.builder",
+      "original_class_name": "EqualsBuilderTest2",
+      "final_class_name": "EqualsBuilderLLM_Test"
+    }
+  ]
+}
