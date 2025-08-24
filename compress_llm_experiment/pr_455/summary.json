@@ -1,0 +1,179 @@
+{
+  "pr_number": 455,
+  "title": "[COMPRESS-653] ZipArchiveOutputStream multi archive updates metadata in incorrect file",
+  "state": "closed",
+  "created_at": "2023-12-27T19:41:09Z",
+  "merge_commit_sha": "07323f25f7236ffb7e53aceadc1abef8897ff35c",
+  "base_sha": "c6656082e3e48ad6fc337b043673bd491fb12990",
+  "head_sha": "5ca3d80b4bb28d6174cbb17d2c8e663e53fff7bf",
+  "user_login": "kvr000",
+  "extracted_count": 8,
+  "skipped_count": 7,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/zip/FileRandomAccessOutputStream.java",
+      "status_in_pr": "added",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_455/src/test/java/org/apache/commons/compress/archivers/zip/FileRandomAccessOutputStreamLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.zip",
+      "original_class_name": "FileRandomAccessOutputStreamTest",
+      "final_class_name": "FileRandomAccessOutputStreamLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/zip/RandomAccessOutputStream.java",
+      "status_in_pr": "added",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_455/src/test/java/org/apache/commons/compress/archivers/zip/RandomAccessOutputStreamLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.zip",
+      "original_class_name": "RandomAccessOutputStreamTest",
+      "final_class_name": "RandomAccessOutputStreamLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/zip/SeekableChannelRandomAccessOutputStream.java",
+      "status_in_pr": "added",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_455/src/test/java/org/apache/commons/compress/archivers/zip/SeekableChannelRandomAccessOutputStreamLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.zip",
+      "original_class_name": "SeekableChannelRandomAccessOutputStreamTest",
+      "final_class_name": "SeekableChannelRandomAccessOutputStreamLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_455/src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStreamLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.zip",
+      "original_class_name": "ZipArchiveOutputStreamTest",
+      "final_class_name": "ZipArchiveOutputStreamLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/zip/ZipFile.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_455/src/test/java/org/apache/commons/compress/archivers/zip/ZipFileLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.zip",
+      "original_class_name": "ZipFileTest2",
+      "final_class_name": "ZipFileLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/zip/ZipIoUtil.java",
+      "status_in_pr": "added",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_455/src/test/java/org/apache/commons/compress/archivers/zip/ZipIoUtilLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.zip",
+      "original_class_name": "ZipIoUtilTest",
+      "final_class_name": "ZipIoUtilLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/zip/ZipSplitOutputStream.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_455/src/test/java/org/apache/commons/compress/archivers/zip/ZipSplitOutputStreamLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.zip",
+      "original_class_name": "ZipSplitOutputStreamTest2",
+      "final_class_name": "ZipSplitOutputStreamLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/zip/ZipSplitReadOnlySeekableByteChannel.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_455/src/test/java/org/apache/commons/compress/archivers/zip/ZipSplitReadOnlySeekableByteChannelLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.zip",
+      "original_class_name": "ZipSplitReadOnlySeekableByteChannelTest",
+      "final_class_name": "ZipSplitReadOnlySeekableByteChannelLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/compress/archivers/ZipTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/compress/archivers/zip/FileRandomAccessOutputStreamTest.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/compress/archivers/zip/RandomAccessOutputStreamTest.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/compress/archivers/zip/SeekableChannelRandomAccessOutputStreamTest.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStreamTest.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/compress/archivers/zip/ZipIoUtilTest.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/compress/utils/ZipSplitReadOnlySeekableByteChannelTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

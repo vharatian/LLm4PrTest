@@ -1,0 +1,25 @@
+{
+  "pr_number": 172,
+  "title": "Remove empty loop in X0017_StrongEncryptionHeader",
+  "state": "closed",
+  "created_at": "2021-02-25T11:20:49Z",
+  "merge_commit_sha": "627045d9d66c59ee11eb45d185b52631f9cd9912",
+  "base_sha": "1b7528fbd6295a3958daf1b1114621ee5e40e83c",
+  "head_sha": "fda4e34ff43f3c7a742292d858b60fc3b4bb1663",
+  "user_login": "fmeum",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/zip/X0017_StrongEncryptionHeader.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_172/src/test/java/org/apache/commons/compress/archivers/zip/X0017_StrongEncryptionHeaderLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.zip",
+      "original_class_name": "X0017_StrongEncryptionHeaderTest",
+      "final_class_name": "X0017_StrongEncryptionHeaderLLM_Test"
+    }
+  ]
+}

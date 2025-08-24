@@ -1,0 +1,47 @@
+{
+  "pr_number": 169,
+  "title": "COMPRESS-565 : add a new AlwaysWithCompatibility in Zip64Mode",
+  "state": "closed",
+  "created_at": "2021-02-22T08:27:22Z",
+  "merge_commit_sha": "f4b5586835e56373d6099c44a8be58a77efe5db4",
+  "base_sha": "02dbe7bb52d541271c3048728c156ca2f1034bc0",
+  "head_sha": "6006749f19acc6aec0dbf3115448a628efd27667",
+  "user_login": "PeterAlfredLee",
+  "extracted_count": 2,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/zip/Zip64Mode.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_169/src/test/java/org/apache/commons/compress/archivers/zip/Zip64ModeLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.zip",
+      "original_class_name": "Zip64ModeTest",
+      "final_class_name": "Zip64ModeLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_169/src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStreamLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.zip",
+      "original_class_name": "ZipArchiveOutputStreamTest",
+      "final_class_name": "ZipArchiveOutputStreamLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/compress/archivers/zip/Zip64SupportIT.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

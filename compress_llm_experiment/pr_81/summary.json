@@ -1,0 +1,47 @@
+{
+  "pr_number": 81,
+  "title": "Performance Improvement: Call toArray with 0 Array Size",
+  "state": "closed",
+  "created_at": "2019-06-17T19:21:18Z",
+  "merge_commit_sha": "e9126314282c6675484a0607a5799ddf754e6f1b",
+  "base_sha": "1e9c8fd34c69b5a7f107c40fb4203b3b74946634",
+  "head_sha": "f925a0c62a74199b0869614f7a266297af26dc3b",
+  "user_login": "DaGeRe",
+  "extracted_count": 3,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/arj/ArjArchiveInputStream.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_81/src/test/java/org/apache/commons/compress/archivers/arj/ArjArchiveInputStreamLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.arj",
+      "original_class_name": "ArjArchiveInputStreamTest2",
+      "final_class_name": "ArjArchiveInputStreamLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_81/src/test/java/org/apache/commons/compress/archivers/sevenz/SevenZOutputFileLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.sevenz",
+      "original_class_name": "SevenZOutputFileTest2",
+      "final_class_name": "SevenZOutputFileLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_81/src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveEntryLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.zip",
+      "original_class_name": "ZipArchiveEntryTest2",
+      "final_class_name": "ZipArchiveEntryLLM_Test"
+    }
+  ]
+}

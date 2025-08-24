@@ -1,0 +1,135 @@
+{
+  "pr_number": 87,
+  "title": "COMPRESS-124 : Add support for extracting sparse entries from tar archives",
+  "state": "closed",
+  "created_at": "2019-11-25T01:40:33Z",
+  "merge_commit_sha": "50569e5bfb1526c54acf0abe5a6e4d5463c5a4bd",
+  "base_sha": "28049d2f89a76c5a4845c12151a483ca7773fb6f",
+  "head_sha": "50569e5bfb1526c54acf0abe5a6e4d5463c5a4bd",
+  "user_login": "PeterAlfredLee",
+  "extracted_count": 7,
+  "skipped_count": 4,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_87/src/test/java/org/apache/commons/compress/archivers/tar/TarArchiveEntryLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.tar",
+      "original_class_name": "TarArchiveEntryTest2",
+      "final_class_name": "TarArchiveEntryLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_87/src/test/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStreamLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.tar",
+      "original_class_name": "TarArchiveInputStreamTest2",
+      "final_class_name": "TarArchiveInputStreamLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveSparseEntry.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_87/src/test/java/org/apache/commons/compress/archivers/tar/TarArchiveSparseEntryLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.tar",
+      "original_class_name": "TarArchiveSparseEntryTest",
+      "final_class_name": "TarArchiveSparseEntryLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveStructSparse.java",
+      "status_in_pr": "added",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_87/src/test/java/org/apache/commons/compress/archivers/tar/TarArchiveStructSparseLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.tar",
+      "original_class_name": "TarArchiveStructSparseTest",
+      "final_class_name": "TarArchiveStructSparseLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/tar/TarConstants.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_87/src/test/java/org/apache/commons/compress/archivers/tar/TarConstantsLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.tar",
+      "original_class_name": "TarConstantsTest",
+      "final_class_name": "TarConstantsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_87/src/test/java/org/apache/commons/compress/archivers/tar/TarUtilsLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.tar",
+      "original_class_name": "TarUtilsTest2",
+      "final_class_name": "TarUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/utils/BoundedInputStream.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_87/src/test/java/org/apache/commons/compress/utils/BoundedInputStreamLLM_Test.java",
+      "package": "org.apache.commons.compress.utils",
+      "original_class_name": "BoundedInputStreamTest",
+      "final_class_name": "BoundedInputStreamLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/compress/archivers/tar/SparseFilesTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStreamTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/compress/archivers/tar/TarUtilsTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/resources/oldgnu_extended_sparse.tar",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

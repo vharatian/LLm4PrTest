@@ -1,0 +1,25 @@
+{
+  "pr_number": 360,
+  "title": "pack200: Fix FileBands misusing InputStream#read(byte[])",
+  "state": "closed",
+  "created_at": "2023-02-12T21:44:33Z",
+  "merge_commit_sha": "14493492edf675483b1f81d488eba1e77ea156bf",
+  "base_sha": "e6930d06cfebbdbee586b863481779b2c4b9b202",
+  "head_sha": "66a5850dadb68e63d339051ec98d67a6316d50bd",
+  "user_login": "unascribed",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/harmony/unpack200/FileBands.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_360/src/test/java/org/apache/commons/compress/harmony/unpack200/FileBandsLLM_Test.java",
+      "package": "org.apache.commons.compress.harmony.unpack200",
+      "original_class_name": "FileBandsTest",
+      "final_class_name": "FileBandsLLM_Test"
+    }
+  ]
+}

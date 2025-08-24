@@ -1,0 +1,135 @@
+{
+  "pr_number": 76,
+  "title": "COMPRESS-481 Allow passing memory limit to SevenZFile",
+  "state": "closed",
+  "created_at": "2019-04-08T11:03:23Z",
+  "merge_commit_sha": "c49718dc6f922c89bf770b3af629cccaf88ecfaa",
+  "base_sha": "1b6fd49edb1a5986a44013fdbb4a1827475009e3",
+  "head_sha": "e60172f99db457df69d1a3c1cc430f9d0a1bad9a",
+  "user_login": "theobisproject",
+  "extracted_count": 7,
+  "skipped_count": 4,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/sevenz/AES256SHA256Decoder.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_76/src/test/java/org/apache/commons/compress/archivers/sevenz/AES256SHA256DecoderLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.sevenz",
+      "original_class_name": "AES256SHA256DecoderTest2",
+      "final_class_name": "AES256SHA256DecoderLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/sevenz/CoderBase.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_76/src/test/java/org/apache/commons/compress/archivers/sevenz/CoderBaseLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.sevenz",
+      "original_class_name": "CoderBaseTest",
+      "final_class_name": "CoderBaseLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/sevenz/Coders.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_76/src/test/java/org/apache/commons/compress/archivers/sevenz/CodersLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.sevenz",
+      "original_class_name": "CodersTest",
+      "final_class_name": "CodersLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/sevenz/DeltaDecoder.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_76/src/test/java/org/apache/commons/compress/archivers/sevenz/DeltaDecoderLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.sevenz",
+      "original_class_name": "DeltaDecoderTest",
+      "final_class_name": "DeltaDecoderLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/sevenz/LZMA2Decoder.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_76/src/test/java/org/apache/commons/compress/archivers/sevenz/LZMA2DecoderLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.sevenz",
+      "original_class_name": "LZMA2DecoderTest",
+      "final_class_name": "LZMA2DecoderLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/sevenz/LZMADecoder.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_76/src/test/java/org/apache/commons/compress/archivers/sevenz/LZMADecoderLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.sevenz",
+      "original_class_name": "LZMADecoderTest",
+      "final_class_name": "LZMADecoderLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_76/src/test/java/org/apache/commons/compress/archivers/sevenz/SevenZFileLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.sevenz",
+      "original_class_name": "SevenZFileTest2",
+      "final_class_name": "SevenZFileLLM_Test"
+    },
+    {
+      "source_filename": "src/site/xdoc/examples.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/compress/archivers/sevenz/AES256SHA256DecoderTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/compress/archivers/sevenz/SevenZFileTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/compress/archivers/sevenz/SevenZNativeHeapTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

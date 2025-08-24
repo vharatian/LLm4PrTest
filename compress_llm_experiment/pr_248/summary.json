@@ -1,0 +1,25 @@
+{
+  "pr_number": 248,
+  "title": "Fix thread safety issues when encoding 7z password",
+  "state": "closed",
+  "created_at": "2022-02-13T15:46:19Z",
+  "merge_commit_sha": "6860cf108dbaa3c94e8335a8481e6c5d69c65562",
+  "base_sha": "71857f4bf17fcadd7a28036a73caf7a0a0bb01ed",
+  "head_sha": "b4620f958a24fcb64c56634a88fda7670f70ca84",
+  "user_login": "Glavo",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_248/src/test/java/org/apache/commons/compress/archivers/sevenz/SevenZFileLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.sevenz",
+      "original_class_name": "SevenZFileTest2",
+      "final_class_name": "SevenZFileLLM_Test"
+    }
+  ]
+}

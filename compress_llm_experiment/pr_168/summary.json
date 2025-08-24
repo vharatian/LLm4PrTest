@@ -1,0 +1,47 @@
+{
+  "pr_number": 168,
+  "title": "COMPRESS-566 allow gzip buffer size to be configured",
+  "state": "closed",
+  "created_at": "2021-02-19T21:17:08Z",
+  "merge_commit_sha": "79284823dbbd92f7cc612936c38162e477edf932",
+  "base_sha": "1b7528fbd6295a3958daf1b1114621ee5e40e83c",
+  "head_sha": "309681f315008eb78bc063db623e02bbe8c8855c",
+  "user_login": "bokken",
+  "extracted_count": 2,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/compressors/gzip/GzipCompressorOutputStream.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_168/src/test/java/org/apache/commons/compress/compressors/gzip/GzipCompressorOutputStreamLLM_Test.java",
+      "package": "org.apache.commons.compress.compressors.gzip",
+      "original_class_name": "GzipCompressorOutputStreamTest",
+      "final_class_name": "GzipCompressorOutputStreamLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/compressors/gzip/GzipParameters.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_168/src/test/java/org/apache/commons/compress/compressors/gzip/GzipParametersLLM_Test.java",
+      "package": "org.apache.commons.compress.compressors.gzip",
+      "original_class_name": "GzipParametersTest",
+      "final_class_name": "GzipParametersLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/compress/compressors/GZipTestCase.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

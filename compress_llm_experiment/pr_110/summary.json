@@ -1,0 +1,25 @@
+{
+  "pr_number": 110,
+  "title": "use System.currentTimeMillis instead of new Date().getTime",
+  "state": "closed",
+  "created_at": "2020-06-04T19:57:02Z",
+  "merge_commit_sha": "a212dd4c4f41321a079f19c51531e2158ca5218f",
+  "base_sha": "18fb261d0bbbb8cc52483267213e0d2ef4c43de7",
+  "head_sha": "1cdf4eda2273473a9e046d0f0f9e3a984fedb63a",
+  "user_login": "XenoAmess",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_110/src/test/java/org/apache/commons/compress/archivers/tar/TarArchiveEntryLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.tar",
+      "original_class_name": "TarArchiveEntryTest2",
+      "final_class_name": "TarArchiveEntryLLM_Test"
+    }
+  ]
+}

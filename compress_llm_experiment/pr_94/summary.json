@@ -1,0 +1,25 @@
+{
+  "pr_number": 94,
+  "title": "Deprecated constructors of ZstdOutputStream fix",
+  "state": "closed",
+  "created_at": "2020-03-04T02:57:29Z",
+  "merge_commit_sha": "a19a89994f7026e3b427ce9de02f1cedd4b0f5d2",
+  "base_sha": "1e8d131ec08ae418f0140d8166d452dff6739937",
+  "head_sha": "e5625d080bcf1678c14c80a7f5d9f7242b676914",
+  "user_login": "PeterAlfredLee",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/compressors/zstandard/ZstdCompressorOutputStream.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_94/src/test/java/org/apache/commons/compress/compressors/zstandard/ZstdCompressorOutputStreamLLM_Test.java",
+      "package": "org.apache.commons.compress.compressors.zstandard",
+      "original_class_name": "ZstdCompressorOutputStreamTest",
+      "final_class_name": "ZstdCompressorOutputStreamLLM_Test"
+    }
+  ]
+}

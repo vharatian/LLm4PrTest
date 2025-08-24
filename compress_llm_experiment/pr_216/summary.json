@@ -1,0 +1,58 @@
+{
+  "pr_number": 216,
+  "title": "COMPRESS-582: Bump Pack200 packages from ASM 3.2 to 7.0.",
+  "state": "closed",
+  "created_at": "2021-08-10T12:48:07Z",
+  "merge_commit_sha": "f8b01d11a64f985aea436d743f0879c3fe8dba59",
+  "base_sha": "502dc97e620423f84b782f145623ea97fdc510df",
+  "head_sha": "7709c8be97147e8d5c5d7fa42d076504931ba9e0",
+  "user_login": "blecher-at",
+  "extracted_count": 2,
+  "skipped_count": 2,
+  "files": [
+    {
+      "source_filename": "pom.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/harmony/pack200/Pack200ClassReader.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_216/src/test/java/org/apache/commons/compress/harmony/pack200/Pack200ClassReaderLLM_Test.java",
+      "package": "org.apache.commons.compress.harmony.pack200",
+      "original_class_name": "Pack200ClassReaderTest",
+      "final_class_name": "Pack200ClassReaderLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/harmony/pack200/Segment.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_216/src/test/java/org/apache/commons/compress/harmony/pack200/SegmentLLM_Test.java",
+      "package": "org.apache.commons.compress.harmony.pack200",
+      "original_class_name": "SegmentTest",
+      "final_class_name": "SegmentLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/compress/harmony/pack200/tests/ArchiveTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

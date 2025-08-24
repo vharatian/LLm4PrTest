@@ -1,0 +1,25 @@
+{
+  "pr_number": 225,
+  "title": "Use Boolean constants instead of Boolean.valueOf",
+  "state": "closed",
+  "created_at": "2021-10-12T17:10:28Z",
+  "merge_commit_sha": "757c229408f763887e214c02da0934c88bd05b27",
+  "base_sha": "bdbc0a25d35abe8c8714773c98c53d6b9cff3e92",
+  "head_sha": "acb980bcb4b39607abc22860d7eb6fc2ecbeef60",
+  "user_login": "stefanbirkner",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/harmony/unpack200/BcBands.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_225/src/test/java/org/apache/commons/compress/harmony/unpack200/BcBandsLLM_Test.java",
+      "package": "org.apache.commons.compress.harmony.unpack200",
+      "original_class_name": "BcBandsTest",
+      "final_class_name": "BcBandsLLM_Test"
+    }
+  ]
+}

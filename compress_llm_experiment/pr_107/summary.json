@@ -1,0 +1,25 @@
+{
+  "pr_number": 107,
+  "title": "[COMPRESS-536] maybe we can make it static",
+  "state": "closed",
+  "created_at": "2020-06-03T11:37:36Z",
+  "merge_commit_sha": "18fb261d0bbbb8cc52483267213e0d2ef4c43de7",
+  "base_sha": "f333bc647c860375cc4e9999da10b2c3c8d4d57f",
+  "head_sha": "a1e0be725078e679776e6d56e20f810c9a7c8a4e",
+  "user_login": "XenoAmess",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/compressors/deflate64/HuffmanDecoder.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_107/src/test/java/org/apache/commons/compress/compressors/deflate64/HuffmanDecoderLLM_Test.java",
+      "package": "org.apache.commons.compress.compressors.deflate64",
+      "original_class_name": "HuffmanDecoderTest2",
+      "final_class_name": "HuffmanDecoderLLM_Test"
+    }
+  ]
+}

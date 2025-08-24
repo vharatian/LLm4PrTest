@@ -1,0 +1,58 @@
+{
+  "pr_number": 245,
+  "title": "Replace wrapper Collections.sort is with an instance method directly.",
+  "state": "closed",
+  "created_at": "2022-02-08T20:25:56Z",
+  "merge_commit_sha": "bf98a8cfe5259858981bdc7b45736292966d835a",
+  "base_sha": "43e8603c72e6e3008430f6ead800aaaa7765f714",
+  "head_sha": "f1a3c614b1cc3d5d47a662a63bd3447a90f609c1",
+  "user_login": "arturobernalg",
+  "extracted_count": 4,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/harmony/pack200/BandSet.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_245/src/test/java/org/apache/commons/compress/harmony/pack200/BandSetLLM_Test.java",
+      "package": "org.apache.commons.compress.harmony.pack200",
+      "original_class_name": "BandSetTest",
+      "final_class_name": "BandSetLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/harmony/pack200/ClassBands.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_245/src/test/java/org/apache/commons/compress/harmony/pack200/ClassBandsLLM_Test.java",
+      "package": "org.apache.commons.compress.harmony.pack200",
+      "original_class_name": "ClassBandsTest",
+      "final_class_name": "ClassBandsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/harmony/pack200/PackingUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_245/src/test/java/org/apache/commons/compress/harmony/pack200/PackingUtilsLLM_Test.java",
+      "package": "org.apache.commons.compress.harmony.pack200",
+      "original_class_name": "PackingUtilsTest",
+      "final_class_name": "PackingUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/harmony/unpack200/IcBands.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_245/src/test/java/org/apache/commons/compress/harmony/unpack200/IcBandsLLM_Test.java",
+      "package": "org.apache.commons.compress.harmony.unpack200",
+      "original_class_name": "IcBandsTest",
+      "final_class_name": "IcBandsLLM_Test"
+    }
+  ]
+}
