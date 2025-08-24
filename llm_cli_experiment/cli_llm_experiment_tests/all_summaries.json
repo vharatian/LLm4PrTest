@@ -1,0 +1,681 @@
+[
+  {
+    "pr_number": 206,
+    "title": "[CLI-320] Awkward behavior of Option.builder() for multiple optional args",
+    "state": "closed",
+    "created_at": "2023-11-02T02:45:00Z",
+    "merge_commit_sha": "fbd01940d2e675fb1fd2a5b526f831bd0853ce55",
+    "base_sha": "fb92585d967e53e87886e0652755ad921b645c32",
+    "head_sha": "03e9ab2dc275f762b86ce2b51e1ce3f669f4896b",
+    "user_login": "paulk-asert",
+    "extracted_count": 1,
+    "skipped_count": 1,
+    "files": [
+      {
+        "source_filename": "src/main/java/org/apache/commons/cli/Option.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_206/src/test/java/org/apache/commons/cli/OptionLLM_Test.java",
+        "package": "org.apache.commons.cli",
+        "original_class_name": "OptionTest2",
+        "final_class_name": "OptionLLM_Test"
+      },
+      {
+        "source_filename": "src/test/java/org/apache/commons/cli/AbstractParserTestCase.java",
+        "status_in_pr": "modified",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      }
+    ]
+  },
+  {
+    "pr_number": 186,
+    "title": "CLI-313: Fixed StringIndexOutOfBoundsException for Java-like property token",
+    "state": "closed",
+    "created_at": "2023-08-17T14:20:30Z",
+    "merge_commit_sha": "0374deecea322be7500dd7164106b1bfe1dd0ce9",
+    "base_sha": "3790cec2dbc27f66f4518dcf311cbd70d9e2140b",
+    "head_sha": "379558822e41b749b968a9cd7ca90d371c927e30",
+    "user_login": "kumarp149",
+    "extracted_count": 1,
+    "skipped_count": 1,
+    "files": [
+      {
+        "source_filename": "src/main/java/org/apache/commons/cli/DefaultParser.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_186/src/test/java/org/apache/commons/cli/DefaultParserLLM_Test.java",
+        "package": "org.apache.commons.cli",
+        "original_class_name": "DefaultParserTest2",
+        "final_class_name": "DefaultParserLLM_Test"
+      },
+      {
+        "source_filename": "src/test/java/org/apache/commons/cli/ParserTestCase.java",
+        "status_in_pr": "modified",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      }
+    ]
+  },
+  {
+    "pr_number": 112,
+    "title": "Delete unused assignment.",
+    "state": "closed",
+    "created_at": "2022-06-24T20:16:18Z",
+    "merge_commit_sha": "61a465a96a4c67012a924ee0467760c02ad6f479",
+    "base_sha": "88713a0697ec763d36bb4d6b30d7554b2e05a133",
+    "head_sha": "5a6968236e177d02f7bc75369f99aca102ffc252",
+    "user_login": "arturobernalg",
+    "extracted_count": 2,
+    "skipped_count": 0,
+    "files": [
+      {
+        "source_filename": "src/main/java/org/apache/commons/cli/OptionBuilder.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_112/src/test/java/org/apache/commons/cli/OptionBuilderLLM_Test.java",
+        "package": "org.apache.commons.cli",
+        "original_class_name": "OptionBuilderTest2",
+        "final_class_name": "OptionBuilderLLM_Test"
+      },
+      {
+        "source_filename": "src/main/java/org/apache/commons/cli/PatternOptionBuilder.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_112/src/test/java/org/apache/commons/cli/PatternOptionBuilderLLM_Test.java",
+        "package": "org.apache.commons.cli",
+        "original_class_name": "PatternOptionBuilderTest2",
+        "final_class_name": "PatternOptionBuilderLLM_Test"
+      }
+    ]
+  },
+  {
+    "pr_number": 111,
+    "title": "Use Math.max()",
+    "state": "closed",
+    "created_at": "2022-06-24T20:12:46Z",
+    "merge_commit_sha": "6647dccc95f8ae3f3b5547b7d2cb2cbef6703e91",
+    "base_sha": "88713a0697ec763d36bb4d6b30d7554b2e05a133",
+    "head_sha": "1d64f9031b2b26614f392f96cad6b58d200e7549",
+    "user_login": "arturobernalg",
+    "extracted_count": 1,
+    "skipped_count": 0,
+    "files": [
+      {
+        "source_filename": "src/main/java/org/apache/commons/cli/HelpFormatter.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_111/src/test/java/org/apache/commons/cli/HelpFormatterLLM_Test.java",
+        "package": "org.apache.commons.cli",
+        "original_class_name": "HelpFormatterTest2",
+        "final_class_name": "HelpFormatterLLM_Test"
+      }
+    ]
+  },
+  {
+    "pr_number": 102,
+    "title": "Use EMPTY_STRING_ARRAY constant.",
+    "state": "closed",
+    "created_at": "2022-04-17T08:40:02Z",
+    "merge_commit_sha": "27b961f2b40a2d2ba695dc50774bed32401201be",
+    "base_sha": "7ccf15c0dc620ebcdb59bf15e971cbeffa55eb7c",
+    "head_sha": "11783bec6008701c0fd3076d3c0393125e1e919e",
+    "user_login": "arturobernalg",
+    "extracted_count": 2,
+    "skipped_count": 0,
+    "files": [
+      {
+        "source_filename": "src/main/java/org/apache/commons/cli/CommandLine.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_102/src/test/java/org/apache/commons/cli/CommandLineLLM_Test.java",
+        "package": "org.apache.commons.cli",
+        "original_class_name": "CommandLineTest2",
+        "final_class_name": "CommandLineLLM_Test"
+      },
+      {
+        "source_filename": "src/main/java/org/apache/commons/cli/Option.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_102/src/test/java/org/apache/commons/cli/OptionLLM_Test.java",
+        "package": "org.apache.commons.cli",
+        "original_class_name": "OptionTest2",
+        "final_class_name": "OptionLLM_Test"
+      }
+    ]
+  },
+  {
+    "pr_number": 61,
+    "title": "Minor Improvement",
+    "state": "closed",
+    "created_at": "2021-03-26T05:46:28Z",
+    "merge_commit_sha": "bd39a1c9cfb3ee394791f7e015a3045d042c01ba",
+    "base_sha": "d63b4bd3e61e83b6dbe7b3d6f81a06967f17e784",
+    "head_sha": "08bc73b9708e9132b59337747c0251783ea4bf19",
+    "user_login": "arturobernalg",
+    "extracted_count": 3,
+    "skipped_count": 0,
+    "files": [
+      {
+        "source_filename": "src/main/java/org/apache/commons/cli/GnuParser.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_61/src/test/java/org/apache/commons/cli/GnuParserLLM_Test.java",
+        "package": "org.apache.commons.cli",
+        "original_class_name": "GnuParserTest2",
+        "final_class_name": "GnuParserLLM_Test"
+      },
+      {
+        "source_filename": "src/main/java/org/apache/commons/cli/PosixParser.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_61/src/test/java/org/apache/commons/cli/PosixParserLLM_Test.java",
+        "package": "org.apache.commons.cli",
+        "original_class_name": "PosixParserTest2",
+        "final_class_name": "PosixParserLLM_Test"
+      },
+      {
+        "source_filename": "src/main/java/org/apache/commons/cli/Util.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_61/src/test/java/org/apache/commons/cli/UtilLLM_Test.java",
+        "package": "org.apache.commons.cli",
+        "original_class_name": "UtilTest2",
+        "final_class_name": "UtilLLM_Test"
+      }
+    ]
+  },
+  {
+    "pr_number": 58,
+    "title": "CLI-254: \"test\" gets parsed as test, quotes die :-(",
+    "state": "closed",
+    "created_at": "2021-01-29T09:53:16Z",
+    "merge_commit_sha": "44173949e8165537b201d4efd024e31e6e8b06eb",
+    "base_sha": "6c94af34d792772a3f736be314093c5f01533cd0",
+    "head_sha": "93d13ca0955e95341ef38aeec46c72f2c4b212da",
+    "user_login": "stoty",
+    "extracted_count": 1,
+    "skipped_count": 3,
+    "files": [
+      {
+        "source_filename": "src/main/java/org/apache/commons/cli/DefaultParser.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_58/src/test/java/org/apache/commons/cli/DefaultParserLLM_Test.java",
+        "package": "org.apache.commons.cli",
+        "original_class_name": "DefaultParserTest2",
+        "final_class_name": "DefaultParserLLM_Test"
+      },
+      {
+        "source_filename": "src/test/java/org/apache/commons/cli/BasicParserTest.java",
+        "status_in_pr": "modified",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      },
+      {
+        "source_filename": "src/test/java/org/apache/commons/cli/DefaultParserTest.java",
+        "status_in_pr": "modified",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      },
+      {
+        "source_filename": "src/test/java/org/apache/commons/cli/ParserTestCase.java",
+        "status_in_pr": "modified",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      }
+    ]
+  },
+  {
+    "pr_number": 57,
+    "title": "Minor Improvements",
+    "state": "closed",
+    "created_at": "2020-12-26T18:36:28Z",
+    "merge_commit_sha": "c67275279176504a6f5fc556cfa247e1df02a580",
+    "base_sha": "d687ec917e84dea7591a01546d4c52611597c3ce",
+    "head_sha": "494dafcd94be05d106c0f27972a0ea08ce8738d6",
+    "user_login": "arturobernalg",
+    "extracted_count": 22,
+    "skipped_count": 8,
+    "files": [
+      {
+        "source_filename": "src/main/java/org/apache/commons/cli/AlreadySelectedException.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_57/src/test/java/org/apache/commons/cli/AlreadySelectedExceptionLLM_Test.java",
+        "package": "org.apache.commons.cli",
+        "original_class_name": "AlreadySelectedExceptionTest",
+        "final_class_name": "AlreadySelectedExceptionLLM_Test"
+      },
+      {
+        "source_filename": "src/main/java/org/apache/commons/cli/AmbiguousOptionException.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_57/src/test/java/org/apache/commons/cli/AmbiguousOptionExceptionLLM_Test.java",
+        "package": "org.apache.commons.cli",
+        "original_class_name": "AmbiguousOptionExceptionTest",
+        "final_class_name": "AmbiguousOptionExceptionLLM_Test"
+      },
+      {
+        "source_filename": "src/main/java/org/apache/commons/cli/BasicParser.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_57/src/test/java/org/apache/commons/cli/BasicParserLLM_Test.java",
+        "package": "org.apache.commons.cli",
+        "original_class_name": "BasicParserTest2",
+        "final_class_name": "BasicParserLLM_Test"
+      },
+      {
+        "source_filename": "src/main/java/org/apache/commons/cli/CommandLine.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_57/src/test/java/org/apache/commons/cli/CommandLineLLM_Test.java",
+        "package": "org.apache.commons.cli",
+        "original_class_name": "CommandLineTest2",
+        "final_class_name": "CommandLineLLM_Test"
+      },
+      {
+        "source_filename": "src/main/java/org/apache/commons/cli/CommandLineParser.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_57/src/test/java/org/apache/commons/cli/CommandLineParserLLM_Test.java",
+        "package": "org.apache.commons.cli",
+        "original_class_name": "CommandLineParserTest",
+        "final_class_name": "CommandLineParserLLM_Test"
+      },
+      {
+        "source_filename": "src/main/java/org/apache/commons/cli/DefaultParser.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_57/src/test/java/org/apache/commons/cli/DefaultParserLLM_Test.java",
+        "package": "org.apache.commons.cli",
+        "original_class_name": "DefaultParserTest2",
+        "final_class_name": "DefaultParserLLM_Test"
+      },
+      {
+        "source_filename": "src/main/java/org/apache/commons/cli/GnuParser.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_57/src/test/java/org/apache/commons/cli/GnuParserLLM_Test.java",
+        "package": "org.apache.commons.cli",
+        "original_class_name": "GnuParserTest2",
+        "final_class_name": "GnuParserLLM_Test"
+      },
+      {
+        "source_filename": "src/main/java/org/apache/commons/cli/HelpFormatter.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_57/src/test/java/org/apache/commons/cli/HelpFormatterLLM_Test.java",
+        "package": "org.apache.commons.cli",
+        "original_class_name": "HelpFormatterTest2",
+        "final_class_name": "HelpFormatterLLM_Test"
+      },
+      {
+        "source_filename": "src/main/java/org/apache/commons/cli/MissingArgumentException.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_57/src/test/java/org/apache/commons/cli/MissingArgumentExceptionLLM_Test.java",
+        "package": "org.apache.commons.cli",
+        "original_class_name": "MissingArgumentExceptionTest",
+        "final_class_name": "MissingArgumentExceptionLLM_Test"
+      },
+      {
+        "source_filename": "src/main/java/org/apache/commons/cli/MissingOptionException.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_57/src/test/java/org/apache/commons/cli/MissingOptionExceptionLLM_Test.java",
+        "package": "org.apache.commons.cli",
+        "original_class_name": "MissingOptionExceptionTest",
+        "final_class_name": "MissingOptionExceptionLLM_Test"
+      },
+      {
+        "source_filename": "src/main/java/org/apache/commons/cli/Option.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_57/src/test/java/org/apache/commons/cli/OptionLLM_Test.java",
+        "package": "org.apache.commons.cli",
+        "original_class_name": "OptionTest2",
+        "final_class_name": "OptionLLM_Test"
+      },
+      {
+        "source_filename": "src/main/java/org/apache/commons/cli/OptionBuilder.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_57/src/test/java/org/apache/commons/cli/OptionBuilderLLM_Test.java",
+        "package": "org.apache.commons.cli",
+        "original_class_name": "OptionBuilderTest2",
+        "final_class_name": "OptionBuilderLLM_Test"
+      },
+      {
+        "source_filename": "src/main/java/org/apache/commons/cli/OptionGroup.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_57/src/test/java/org/apache/commons/cli/OptionGroupLLM_Test.java",
+        "package": "org.apache.commons.cli",
+        "original_class_name": "OptionGroupTest2",
+        "final_class_name": "OptionGroupLLM_Test"
+      },
+      {
+        "source_filename": "src/main/java/org/apache/commons/cli/OptionValidator.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_57/src/test/java/org/apache/commons/cli/OptionValidatorLLM_Test.java",
+        "package": "org.apache.commons.cli",
+        "original_class_name": "OptionValidatorTest",
+        "final_class_name": "OptionValidatorLLM_Test"
+      },
+      {
+        "source_filename": "src/main/java/org/apache/commons/cli/Options.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_57/src/test/java/org/apache/commons/cli/OptionsLLM_Test.java",
+        "package": "org.apache.commons.cli",
+        "original_class_name": "OptionsTest2",
+        "final_class_name": "OptionsLLM_Test"
+      },
+      {
+        "source_filename": "src/main/java/org/apache/commons/cli/ParseException.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_57/src/test/java/org/apache/commons/cli/ParseExceptionLLM_Test.java",
+        "package": "org.apache.commons.cli",
+        "original_class_name": "ParseExceptionTest",
+        "final_class_name": "ParseExceptionLLM_Test"
+      },
+      {
+        "source_filename": "src/main/java/org/apache/commons/cli/Parser.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_57/src/test/java/org/apache/commons/cli/ParserLLM_Test.java",
+        "package": "org.apache.commons.cli",
+        "original_class_name": "ParserTest",
+        "final_class_name": "ParserLLM_Test"
+      },
+      {
+        "source_filename": "src/main/java/org/apache/commons/cli/PatternOptionBuilder.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_57/src/test/java/org/apache/commons/cli/PatternOptionBuilderLLM_Test.java",
+        "package": "org.apache.commons.cli",
+        "original_class_name": "PatternOptionBuilderTest2",
+        "final_class_name": "PatternOptionBuilderLLM_Test"
+      },
+      {
+        "source_filename": "src/main/java/org/apache/commons/cli/PosixParser.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_57/src/test/java/org/apache/commons/cli/PosixParserLLM_Test.java",
+        "package": "org.apache.commons.cli",
+        "original_class_name": "PosixParserTest2",
+        "final_class_name": "PosixParserLLM_Test"
+      },
+      {
+        "source_filename": "src/main/java/org/apache/commons/cli/TypeHandler.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_57/src/test/java/org/apache/commons/cli/TypeHandlerLLM_Test.java",
+        "package": "org.apache.commons.cli",
+        "original_class_name": "TypeHandlerTest2",
+        "final_class_name": "TypeHandlerLLM_Test"
+      },
+      {
+        "source_filename": "src/main/java/org/apache/commons/cli/UnrecognizedOptionException.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_57/src/test/java/org/apache/commons/cli/UnrecognizedOptionExceptionLLM_Test.java",
+        "package": "org.apache.commons.cli",
+        "original_class_name": "UnrecognizedOptionExceptionTest",
+        "final_class_name": "UnrecognizedOptionExceptionLLM_Test"
+      },
+      {
+        "source_filename": "src/main/java/org/apache/commons/cli/Util.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_57/src/test/java/org/apache/commons/cli/UtilLLM_Test.java",
+        "package": "org.apache.commons.cli",
+        "original_class_name": "UtilTest2",
+        "final_class_name": "UtilLLM_Test"
+      },
+      {
+        "source_filename": "src/test/java/org/apache/commons/cli/ApplicationTest.java",
+        "status_in_pr": "modified",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      },
+      {
+        "source_filename": "src/test/java/org/apache/commons/cli/ArgumentIsOptionTest.java",
+        "status_in_pr": "modified",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      },
+      {
+        "source_filename": "src/test/java/org/apache/commons/cli/BasicParserTest.java",
+        "status_in_pr": "modified",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      },
+      {
+        "source_filename": "src/test/java/org/apache/commons/cli/CommandLineTest.java",
+        "status_in_pr": "modified",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      },
+      {
+        "source_filename": "src/test/java/org/apache/commons/cli/DefaultParserTest.java",
+        "status_in_pr": "modified",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      },
+      {
+        "source_filename": "src/test/java/org/apache/commons/cli/DisablePartialMatchingTest.java",
+        "status_in_pr": "modified",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      },
+      {
+        "source_filename": "src/test/java/org/apache/commons/cli/GnuParserTest.java",
+        "status_in_pr": "modified",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      },
+      {
+        "source_filename": "src/test/java/org/apache/commons/cli/HelpFormatterTest.java",
+        "status_in_pr": "modified",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      }
+    ]
+  },
+  {
+    "pr_number": 55,
+    "title": "Option Javadocs grammar nits",
+    "state": "closed",
+    "created_at": "2020-11-30T13:32:03Z",
+    "merge_commit_sha": "ef1309b0975a102abcb1d7e351b1ec2438173d2c",
+    "base_sha": "e5fb78e2fa5e8d839fb85c337af9ec28b9427b59",
+    "head_sha": "d35b8d9d8c56c0320a532048e2285500f94edfd9",
+    "user_login": "elharo",
+    "extracted_count": 1,
+    "skipped_count": 0,
+    "files": [
+      {
+        "source_filename": "src/main/java/org/apache/commons/cli/Option.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_55/src/test/java/org/apache/commons/cli/OptionLLM_Test.java",
+        "package": "org.apache.commons.cli",
+        "original_class_name": "OptionTest2",
+        "final_class_name": "OptionLLM_Test"
+      }
+    ]
+  },
+  {
+    "pr_number": 33,
+    "title": "Added setter for Builder.option",
+    "state": "closed",
+    "created_at": "2020-02-24T15:57:36Z",
+    "merge_commit_sha": "c886434a34107af01ae3cf70645e8e7d8aaa9ede",
+    "base_sha": "0b980a180d66545bfcc669d6185107e6b665be01",
+    "head_sha": "c3a00f3bad00bd91fd7eafb523b39a6d5c99b850",
+    "user_login": "waso",
+    "extracted_count": 1,
+    "skipped_count": 1,
+    "files": [
+      {
+        "source_filename": "src/main/java/org/apache/commons/cli/Option.java",
+        "status_in_pr": "modified",
+        "do_experiment": true,
+        "reason": null,
+        "status": "written",
+        "out_test_path": "pr_33/src/test/java/org/apache/commons/cli/OptionLLM_Test.java",
+        "package": "org.apache.commons.cli",
+        "original_class_name": "OptionTest2",
+        "final_class_name": "OptionLLM_Test"
+      },
+      {
+        "source_filename": "src/test/java/org/apache/commons/cli/OptionTest.java",
+        "status_in_pr": "modified",
+        "do_experiment": false,
+        "reason": "do_experiment is not true",
+        "status": "skipped",
+        "out_test_path": null,
+        "package": null,
+        "original_class_name": null,
+        "final_class_name": null
+      }
+    ]
+  }
+]

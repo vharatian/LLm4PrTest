@@ -1,0 +1,47 @@
+{
+  "pr_number": 61,
+  "title": "Minor Improvement",
+  "state": "closed",
+  "created_at": "2021-03-26T05:46:28Z",
+  "merge_commit_sha": "bd39a1c9cfb3ee394791f7e015a3045d042c01ba",
+  "base_sha": "d63b4bd3e61e83b6dbe7b3d6f81a06967f17e784",
+  "head_sha": "08bc73b9708e9132b59337747c0251783ea4bf19",
+  "user_login": "arturobernalg",
+  "extracted_count": 3,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/cli/GnuParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_61/src/test/java/org/apache/commons/cli/GnuParserLLM_Test.java",
+      "package": "org.apache.commons.cli",
+      "original_class_name": "GnuParserTest2",
+      "final_class_name": "GnuParserLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/cli/PosixParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_61/src/test/java/org/apache/commons/cli/PosixParserLLM_Test.java",
+      "package": "org.apache.commons.cli",
+      "original_class_name": "PosixParserTest2",
+      "final_class_name": "PosixParserLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/cli/Util.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_61/src/test/java/org/apache/commons/cli/UtilLLM_Test.java",
+      "package": "org.apache.commons.cli",
+      "original_class_name": "UtilTest2",
+      "final_class_name": "UtilLLM_Test"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "pr_number": 102,
+  "title": "Use EMPTY_STRING_ARRAY constant.",
+  "state": "closed",
+  "created_at": "2022-04-17T08:40:02Z",
+  "merge_commit_sha": "27b961f2b40a2d2ba695dc50774bed32401201be",
+  "base_sha": "7ccf15c0dc620ebcdb59bf15e971cbeffa55eb7c",
+  "head_sha": "11783bec6008701c0fd3076d3c0393125e1e919e",
+  "user_login": "arturobernalg",
+  "extracted_count": 2,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/cli/CommandLine.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_102/src/test/java/org/apache/commons/cli/CommandLineLLM_Test.java",
+      "package": "org.apache.commons.cli",
+      "original_class_name": "CommandLineTest2",
+      "final_class_name": "CommandLineLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/cli/Option.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_102/src/test/java/org/apache/commons/cli/OptionLLM_Test.java",
+      "package": "org.apache.commons.cli",
+      "original_class_name": "OptionTest2",
+      "final_class_name": "OptionLLM_Test"
+    }
+  ]
+}

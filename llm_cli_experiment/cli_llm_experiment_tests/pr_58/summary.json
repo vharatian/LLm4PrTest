@@ -1,0 +1,58 @@
+{
+  "pr_number": 58,
+  "title": "CLI-254: \"test\" gets parsed as test, quotes die :-(",
+  "state": "closed",
+  "created_at": "2021-01-29T09:53:16Z",
+  "merge_commit_sha": "44173949e8165537b201d4efd024e31e6e8b06eb",
+  "base_sha": "6c94af34d792772a3f736be314093c5f01533cd0",
+  "head_sha": "93d13ca0955e95341ef38aeec46c72f2c4b212da",
+  "user_login": "stoty",
+  "extracted_count": 1,
+  "skipped_count": 3,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/cli/DefaultParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_58/src/test/java/org/apache/commons/cli/DefaultParserLLM_Test.java",
+      "package": "org.apache.commons.cli",
+      "original_class_name": "DefaultParserTest2",
+      "final_class_name": "DefaultParserLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/cli/BasicParserTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/cli/DefaultParserTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/cli/ParserTestCase.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

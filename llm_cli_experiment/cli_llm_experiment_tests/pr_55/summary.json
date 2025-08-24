@@ -1,0 +1,25 @@
+{
+  "pr_number": 55,
+  "title": "Option Javadocs grammar nits",
+  "state": "closed",
+  "created_at": "2020-11-30T13:32:03Z",
+  "merge_commit_sha": "ef1309b0975a102abcb1d7e351b1ec2438173d2c",
+  "base_sha": "e5fb78e2fa5e8d839fb85c337af9ec28b9427b59",
+  "head_sha": "d35b8d9d8c56c0320a532048e2285500f94edfd9",
+  "user_login": "elharo",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/cli/Option.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_55/src/test/java/org/apache/commons/cli/OptionLLM_Test.java",
+      "package": "org.apache.commons.cli",
+      "original_class_name": "OptionTest2",
+      "final_class_name": "OptionLLM_Test"
+    }
+  ]
+}

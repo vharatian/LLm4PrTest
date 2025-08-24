@@ -1,0 +1,25 @@
+{
+  "pr_number": 111,
+  "title": "Use Math.max()",
+  "state": "closed",
+  "created_at": "2022-06-24T20:12:46Z",
+  "merge_commit_sha": "6647dccc95f8ae3f3b5547b7d2cb2cbef6703e91",
+  "base_sha": "88713a0697ec763d36bb4d6b30d7554b2e05a133",
+  "head_sha": "1d64f9031b2b26614f392f96cad6b58d200e7549",
+  "user_login": "arturobernalg",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/cli/HelpFormatter.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_111/src/test/java/org/apache/commons/cli/HelpFormatterLLM_Test.java",
+      "package": "org.apache.commons.cli",
+      "original_class_name": "HelpFormatterTest2",
+      "final_class_name": "HelpFormatterLLM_Test"
+    }
+  ]
+}
