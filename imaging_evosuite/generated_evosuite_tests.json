@@ -1,0 +1,398 @@
+[
+  {
+    "pr_number": 337,
+    "is_evosuite_tests_found": true,
+    "merge_phase": {
+      "is_compiled": true,
+      "is_tests_passed": true
+    },
+    "base_phase": {
+      "is_compiled": true,
+      "is_tests_passed": true
+    }
+  },
+  {
+    "pr_number": 335,
+    "is_evosuite_tests_found": true,
+    "merge_phase": {
+      "is_compiled": true,
+      "is_tests_passed": true
+    },
+    "base_phase": {
+      "is_compiled": true,
+      "is_tests_passed": true
+    }
+  },
+  {
+    "pr_number": 334,
+    "is_evosuite_tests_found": true,
+    "merge_phase": {
+      "is_compiled": true,
+      "is_tests_passed": false
+    },
+    "base_phase": {
+      "is_compiled": false,
+      "is_tests_passed": null
+    }
+  },
+  {
+    "pr_number": 318,
+    "is_evosuite_tests_found": true,
+    "merge_phase": {
+      "is_compiled": true,
+      "is_tests_passed": true
+    },
+    "base_phase": {
+      "is_compiled": false,
+      "is_tests_passed": null
+    }
+  },
+  {
+    "pr_number": 311,
+    "is_evosuite_tests_found": true,
+    "merge_phase": {
+      "is_compiled": true,
+      "is_tests_passed": true
+    },
+    "base_phase": {
+      "is_compiled": false,
+      "is_tests_passed": null
+    }
+  },
+  {
+    "pr_number": 301,
+    "is_evosuite_tests_found": true,
+    "merge_phase": {
+      "is_compiled": true,
+      "is_tests_passed": true
+    },
+    "base_phase": {
+      "is_compiled": false,
+      "is_tests_passed": null
+    }
+  },
+  {
+    "pr_number": 295,
+    "is_evosuite_tests_found": true,
+    "merge_phase": {
+      "is_compiled": true,
+      "is_tests_passed": true
+    },
+    "base_phase": {
+      "is_compiled": true,
+      "is_tests_passed": true
+    }
+  },
+  {
+    "pr_number": 294,
+    "is_evosuite_tests_found": true,
+    "merge_phase": {
+      "is_compiled": true,
+      "is_tests_passed": true
+    },
+    "base_phase": {
+      "is_compiled": false,
+      "is_tests_passed": null
+    }
+  },
+  {
+    "pr_number": 254,
+    "is_evosuite_tests_found": true,
+    "merge_phase": {
+      "is_compiled": true,
+      "is_tests_passed": true
+    },
+    "base_phase": {
+      "is_compiled": false,
+      "is_tests_passed": null
+    }
+  },
+  {
+    "pr_number": 218,
+    "is_evosuite_tests_found": true,
+    "merge_phase": {
+      "is_compiled": true,
+      "is_tests_passed": false
+    },
+    "base_phase": {
+      "is_compiled": true,
+      "is_tests_passed": false
+    }
+  },
+  {
+    "pr_number": 201,
+    "is_evosuite_tests_found": true,
+    "merge_phase": {
+      "is_compiled": true,
+      "is_tests_passed": false
+    },
+    "base_phase": {
+      "is_compiled": true,
+      "is_tests_passed": false
+    }
+  },
+  {
+    "pr_number": 200,
+    "is_evosuite_tests_found": true,
+    "merge_phase": {
+      "is_compiled": true,
+      "is_tests_passed": true
+    },
+    "base_phase": {
+      "is_compiled": true,
+      "is_tests_passed": true
+    }
+  },
+  {
+    "pr_number": 196,
+    "is_evosuite_tests_found": true,
+    "merge_phase": {
+      "is_compiled": true,
+      "is_tests_passed": false
+    },
+    "base_phase": {
+      "is_compiled": true,
+      "is_tests_passed": false
+    }
+  },
+  {
+    "pr_number": 195,
+    "is_evosuite_tests_found": true,
+    "merge_phase": {
+      "is_compiled": true,
+      "is_tests_passed": false
+    },
+    "base_phase": {
+      "is_compiled": true,
+      "is_tests_passed": false
+    }
+  },
+  {
+    "pr_number": 194,
+    "is_evosuite_tests_found": true,
+    "merge_phase": {
+      "is_compiled": true,
+      "is_tests_passed": true
+    },
+    "base_phase": {
+      "is_compiled": true,
+      "is_tests_passed": true
+    }
+  },
+  {
+    "pr_number": 184,
+    "is_evosuite_tests_found": true,
+    "merge_phase": {
+      "is_compiled": true,
+      "is_tests_passed": false
+    },
+    "base_phase": {
+      "is_compiled": true,
+      "is_tests_passed": false
+    }
+  },
+  {
+    "pr_number": 182,
+    "is_evosuite_tests_found": true,
+    "merge_phase": {
+      "is_compiled": true,
+      "is_tests_passed": true
+    },
+    "base_phase": {
+      "is_compiled": true,
+      "is_tests_passed": true
+    }
+  },
+  {
+    "pr_number": 179,
+    "is_evosuite_tests_found": true,
+    "merge_phase": {
+      "is_compiled": true,
+      "is_tests_passed": false
+    },
+    "base_phase": {
+      "is_compiled": false,
+      "is_tests_passed": null
+    }
+  },
+  {
+    "pr_number": 169,
+    "is_evosuite_tests_found": true,
+    "merge_phase": {
+      "is_compiled": true,
+      "is_tests_passed": true
+    },
+    "base_phase": {
+      "is_compiled": false,
+      "is_tests_passed": null
+    }
+  },
+  {
+    "pr_number": 168,
+    "is_evosuite_tests_found": true,
+    "merge_phase": {
+      "is_compiled": true,
+      "is_tests_passed": false
+    },
+    "base_phase": {
+      "is_compiled": true,
+      "is_tests_passed": false
+    }
+  },
+  {
+    "pr_number": 165,
+    "is_evosuite_tests_found": true,
+    "merge_phase": {
+      "is_compiled": true,
+      "is_tests_passed": false
+    },
+    "base_phase": {
+      "is_compiled": false,
+      "is_tests_passed": null
+    }
+  },
+  {
+    "pr_number": 154,
+    "is_evosuite_tests_found": true,
+    "merge_phase": {
+      "is_compiled": true,
+      "is_tests_passed": false
+    },
+    "base_phase": {
+      "is_compiled": true,
+      "is_tests_passed": false
+    }
+  },
+  {
+    "pr_number": 147,
+    "is_evosuite_tests_found": true,
+    "merge_phase": {
+      "is_compiled": true,
+      "is_tests_passed": true
+    },
+    "base_phase": {
+      "is_compiled": true,
+      "is_tests_passed": true
+    }
+  },
+  {
+    "pr_number": 146,
+    "is_evosuite_tests_found": true,
+    "merge_phase": {
+      "is_compiled": true,
+      "is_tests_passed": true
+    },
+    "base_phase": {
+      "is_compiled": true,
+      "is_tests_passed": true
+    }
+  },
+  {
+    "pr_number": 145,
+    "is_evosuite_tests_found": true,
+    "merge_phase": {
+      "is_compiled": true,
+      "is_tests_passed": true
+    },
+    "base_phase": {
+      "is_compiled": true,
+      "is_tests_passed": true
+    }
+  },
+  {
+    "pr_number": 144,
+    "is_evosuite_tests_found": true,
+    "merge_phase": {
+      "is_compiled": true,
+      "is_tests_passed": false
+    },
+    "base_phase": {
+      "is_compiled": true,
+      "is_tests_passed": false
+    }
+  },
+  {
+    "pr_number": 122,
+    "is_evosuite_tests_found": true,
+    "merge_phase": {
+      "is_compiled": true,
+      "is_tests_passed": true
+    },
+    "base_phase": {
+      "is_compiled": true,
+      "is_tests_passed": false
+    }
+  },
+  {
+    "pr_number": 116,
+    "is_evosuite_tests_found": true,
+    "merge_phase": {
+      "is_compiled": true,
+      "is_tests_passed": false
+    },
+    "base_phase": {
+      "is_compiled": false,
+      "is_tests_passed": null
+    }
+  },
+  {
+    "pr_number": 113,
+    "is_evosuite_tests_found": true,
+    "merge_phase": {
+      "is_compiled": true,
+      "is_tests_passed": true
+    },
+    "base_phase": {
+      "is_compiled": true,
+      "is_tests_passed": true
+    }
+  },
+  {
+    "pr_number": 94,
+    "is_evosuite_tests_found": true,
+    "merge_phase": {
+      "is_compiled": true,
+      "is_tests_passed": false
+    },
+    "base_phase": {
+      "is_compiled": true,
+      "is_tests_passed": false
+    }
+  },
+  {
+    "pr_number": 89,
+    "is_evosuite_tests_found": true,
+    "merge_phase": {
+      "is_compiled": true,
+      "is_tests_passed": true
+    },
+    "base_phase": {
+      "is_compiled": true,
+      "is_tests_passed": true
+    }
+  },
+  {
+    "pr_number": 74,
+    "is_evosuite_tests_found": true,
+    "merge_phase": {
+      "is_compiled": true,
+      "is_tests_passed": false
+    },
+    "base_phase": {
+      "is_compiled": true,
+      "is_tests_passed": false
+    }
+  },
+  {
+    "pr_number": 69,
+    "is_evosuite_tests_found": true,
+    "merge_phase": {
+      "is_compiled": true,
+      "is_tests_passed": true
+    },
+    "base_phase": {
+      "is_compiled": false,
+      "is_tests_passed": null
+    }
+  }
+]
