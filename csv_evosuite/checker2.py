@@ -30,7 +30,7 @@ from git import Repo
 
 # --- Config ---
 REPO_URL = "https://github.com/apache/commons-csv.git"  # change if needed
-PROJECT_NAME = "commons-csv"                             # used for preferred folder match
+PROJECT_NAME = "commons-csv"  # used for preferred folder match
 LOCAL_REPO_PATH = PROJECT_NAME
 
 PR_LIST_FILE = "csv.json"
@@ -46,6 +46,7 @@ ET.register_namespace('', NAMESPACE["mvn"])
 JUNIT4_VERSION = "4.12"
 EVOSUITE_RUNTIME_VERSION = "1.0.6"
 
+
 # ========================= Git Helpers =========================
 
 def clone_repo():
@@ -54,6 +55,7 @@ def clone_repo():
         return Repo.clone_from(REPO_URL, LOCAL_REPO_PATH)
     print("Using existing local repository.")
     return Repo(LOCAL_REPO_PATH)
+
 
 def ensure_pr_refspecs():
     out = subprocess.run(
@@ -67,6 +69,7 @@ def ensure_pr_refspecs():
             ["git", "config", "--add", "remote.origin.fetch", spec],
             cwd=LOCAL_REPO_PATH, check=True
         )
+
 
 def checkout_pr_head_sha_with_refspecs(pr, repo):
     ensure_pr_refspecs()
@@ -85,12 +88,14 @@ def checkout_pr_head_sha_with_refspecs(pr, repo):
     repo.git.checkout(head_sha)
     print(f"[PR {pr.get('pr_number')}] Checked out HEAD {head_sha}")
 
+
 def checkout_commit(commit_sha, repo, label="base"):
     print(f"Checking out {label} commit {commit_sha}…")
     repo.git.reset('--hard')
     repo.git.clean('-fdx')
     repo.git.fetch("--all", "--tags")
     repo.git.checkout(commit_sha)
+
 
 # ========================= External tests → copy into repo =========================
 
@@ -112,11 +117,13 @@ def find_external_evosuite_dir(pr_number: int) -> str | None:
                 candidates.append(os.path.abspath(p))
     return sorted(candidates)[0] if candidates else None
 
+
 def _strip_leading_src_test_java(rel_path: str) -> str:
     parts = rel_path.split(os.sep)
     if len(parts) >= 3 and parts[0] == "src" and parts[1] == "test" and parts[2] == "java":
         return os.path.join(*parts[3:]) if len(parts) > 3 else ""
     return rel_path
+
 
 def copy_evosuite_tests_into_project(evosuite_dir: str) -> int:
     """
@@ -143,6 +150,7 @@ def copy_evosuite_tests_into_project(evosuite_dir: str) -> int:
             copied += 1
     return copied
 
+
 def ensure_external_tests_copied(pr_number: int) -> bool:
     """
     If any *_ESTest.java already exists in src/test/java → True.
@@ -157,22 +165,27 @@ def ensure_external_tests_copied(pr_number: int) -> bool:
         return False
     return copy_evosuite_tests_into_project(ext) > 0
 
+
 # ========================= POM Editing (ONLY the 3 deps) =========================
 
 def E(tag: str) -> str:
     return f"{{{NAMESPACE['mvn']}}}{tag}"
 
+
 def _find_ns(parent, tag):
     return parent.find(f"mvn:{tag}", NAMESPACE)
 
+
 def _findall_ns(parent, tag):
     return parent.findall(f"mvn:{tag}", NAMESPACE)
+
 
 def _ensure_dependencies(root):
     deps = _find_ns(root, "dependencies")
     if deps is None:
         deps = ET.SubElement(root, E("dependencies"))
     return deps
+
 
 def _find_dependency(deps_elem, gid: str, aid: str):
     for d in _findall_ns(deps_elem, "dependency"):
@@ -182,11 +195,13 @@ def _find_dependency(deps_elem, gid: str, aid: str):
             return d
     return None
 
+
 def _set_child_text(elem, child_tag, text):
     c = _find_ns(elem, child_tag)
     if c is None:
         c = ET.SubElement(elem, E(child_tag))
     c.text = text
+
 
 def ensure_dep_with_version(pom_path: str, gid: str, aid: str, version: str, scope: str = "test"):
     tree = ET.parse(pom_path)
@@ -195,28 +210,20 @@ def ensure_dep_with_version(pom_path: str, gid: str, aid: str, version: str, sco
     dep = _find_dependency(deps, gid, aid)
     if dep is None:
         dep = ET.SubElement(deps, E("dependency"))
-        ET.SubElement(dep, E("groupId")).text    = gid
+        ET.SubElement(dep, E("groupId")).text = gid
         ET.SubElement(dep, E("artifactId")).text = aid
     _set_child_text(dep, "version", version)
     _set_child_text(dep, "scope", scope)
     tree.write(pom_path, encoding="utf-8", xml_declaration=True)
 
+
 # ========================= Strict JUnit (Jupiter) detection via mvn dependency:list =========================
 
-_VERSION_LINE = re.compile(
-    r"""^\s*(?:\[INFO\]\s*)?          # optional [INFO]
-         (?P<g>org\.junit\.jupiter)   # groupId
-         :(?P<a>[\w\.\-]+)            # artifactId
-         :(?P<p>[\w\.\-]+)            # packaging
-         :(?P<v>[0-9]+(?:\.[0-9]+){0,3}(?:[-A-Za-z0-9\._]+)?) # version
-         (?::(?P<s>\w+))?             # optional scope
-         \s*$""",
-    re.VERBOSE
-)
 
 def _semver_key(v: str):
     nums = [int(x) for x in re.split(r'[^0-9]+', v) if x.isdigit()]
     return (*nums[:4], 10 if re.search(r'[A-Za-z-]', v) is None else 0)
+
 
 def _run_mvn_dependency_list_for_jupiter() -> str:
     """
@@ -234,6 +241,7 @@ def _run_mvn_dependency_list_for_jupiter() -> str:
                          stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     return (res.stdout or "") + "\n" + (res.stderr or "")
 
+
 def detect_jupiter_version_via_dep_list_strict() -> str | None:
     """
     Parse mvn dependency:list output and return highest org.junit.jupiter version.
@@ -242,14 +250,18 @@ def detect_jupiter_version_via_dep_list_strict() -> str | None:
     out = _run_mvn_dependency_list_for_jupiter()
     candidates = set()
     for line in out.splitlines():
-        m = _VERSION_LINE.match(line)
+        m = re.search(
+            r"org\.junit\.jupiter:junit-jupiter:jar:([\w.\-]+)",  # <-- only this line
+            line
+        )
         if m:
-            ver = m.group("v").strip()
+            ver = m.group(1).strip()
             if ver:
                 candidates.add(ver)
     if not candidates:
         return None
     return sorted(candidates, key=_semver_key, reverse=True)[0]
+
 
 def add_test_deps_detecting_vintage_from_dep_list_strict() -> dict | None:
     """
@@ -278,6 +290,7 @@ def add_test_deps_detecting_vintage_from_dep_list_strict() -> dict | None:
 
     return {"jupiter": jupiter_ver, "vintage": jupiter_ver, "junit4": JUNIT4_VERSION}
 
+
 # ========================= Maven Steps =========================
 
 def compile_tests_only() -> bool:
@@ -292,16 +305,18 @@ def compile_tests_only() -> bool:
     res = subprocess.run(cmd, cwd=LOCAL_REPO_PATH)
     return res.returncode == 0
 
+
 def run_tests_estest_only() -> bool:
     cmd = [
         "mvn", "clean", "test",
         "-Dtest=*ESTest",
-        "-DfailIfNoTests=false",   # don't fail build if no matching tests are found
+        "-DfailIfNoTests=false",  # don't fail build if no matching tests are found
         "-Drat.skip=true",
     ]
     print("> " + " ".join(cmd))
     res = subprocess.run(cmd, cwd=LOCAL_REPO_PATH)
     return res.returncode == 0
+
 
 # ========================= JSON persistence =========================
 
@@ -339,6 +354,7 @@ def append_result_row(pr_number, is_found,
         data = []
     data.append(entry)
     json.dump(data, open(OUTPUT_JSON_FILE, "w", encoding="utf-8"), indent=2)
+
 
 # ========================= Main =========================
 
@@ -484,6 +500,7 @@ def main():
             except Exception:
                 pass
             continue
+
 
 if __name__ == "__main__":
     main()
