@@ -51,7 +51,7 @@ REPO_URL = "https://github.com/apache/commons-lang.git"  # change if needed
 PROJECT_NAME = "commons-lang"                              # used for folder names
 LOCAL_REPO_PATH = PROJECT_NAME
 
-PR_LIST_FILE = "lang3_filtered.json"                                 # list of PR dicts
+PR_LIST_FILE = "lang3.json"                                 # list of PR dicts
 OUTPUT_JSON_FILE = "generated_evosuite_tests.json"            # append-only output
 VERSION_LOG_FILE = "pr_versions.txt"                          # optional audit log
 
@@ -253,7 +253,7 @@ def run_evosuite_for_classes(class_names, pr_number, project_classpath, project_
             "java", "-jar", EVOSUITE_JAR,
             "-target", project_jar,
             "-projectCP", project_classpath,
-            "-Dsearch_budget=10",
+            "-Dsearch_budget=60",
             "-Duse_separate_classloader=false",
             "-Dalgorithm=DynaMOSA",
             "-class", cls,
