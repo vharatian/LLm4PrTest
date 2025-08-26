@@ -51,7 +51,7 @@ REPO_URL = "https://github.com/apache/commons-lang.git"  # change if needed
 PROJECT_NAME = "commons-lang"                              # used for folder names
 LOCAL_REPO_PATH = PROJECT_NAME
 
-PR_LIST_FILE = "lang3.json"                                 # list of PR dicts
+PR_LIST_FILE = "lang3_filtered.json"                                 # list of PR dicts
 OUTPUT_JSON_FILE = "generated_evosuite_tests.json"            # append-only output
 VERSION_LOG_FILE = "pr_versions.txt"                          # optional audit log
 
@@ -130,6 +130,7 @@ def checkout_pr_head_sha_with_refspecs(pr, repo):
         raise RuntimeError(f"Commit not found locally after fetch: {head_sha}\n{cp.stderr or cp.stdout}")
     
     # Check out the SHA
+    repo.git.clean("-xfd")
     repo.git.checkout(head_sha)
     print(f"Checked out PR HEAD (by SHA): {head_sha}")
 
@@ -252,7 +253,7 @@ def run_evosuite_for_classes(class_names, pr_number, project_classpath, project_
             "java", "-jar", EVOSUITE_JAR,
             "-target", project_jar,
             "-projectCP", project_classpath,
-            "-Dsearch_budget=120",
+            "-Dsearch_budget=10",
             "-Duse_separate_classloader=false",
             "-Dalgorithm=DynaMOSA",
             "-class", cls,
@@ -509,22 +510,43 @@ def package_without_running_tests() -> bool:
 
 def run_tests_estest_only() -> bool:
     cmd = [
-        "mvn", "clean", "test",
-        "-Dtest=*ESTest,*ES_Test",   # include both patterns; scaffolding won't match
+        "mvn", "test",
+        "-Dmaven.test.failure.ignore=true",
+        "-Dtest=*ESTest",   # include both patterns; scaffolding won't match
         "-DfailIfNoTests=false",
         "-Drat.skip=true",
         "-Dsurefire.printSummary=true",
     ]
     print("> " + " ".join(cmd))
-    res = subprocess.run(cmd, cwd=LOCAL_REPO_PATH)
-    return res.returncode == 0
+
+    res = subprocess.Popen(
+        cmd, cwd=LOCAL_REPO_PATH,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.STDOUT,
+        text=True, bufsize=1
+    )
+
+    # Regex that matches: Tests run: 288, Failures: 0, Errors: 1, Skipped: 0
+    fail_count = 0
+    for line in res.stdout:
+        print(line)
+        m = re.search(
+            r"Tests run:\s*\d+\s*,\s*Failures:\s*(\d+)\s*,\s*Errors:\s*(\d+)",
+            line
+        )
+        if m:
+            fail_count += int(m.group(1)) + int(m.group(2))
+
+    res.wait()
+    return res.returncode == 0, fail_count
+
 
 
 # --- JSON persistence ---
 
 def append_result_row(pr_number, is_found,
-                      merge_compiled, merge_passed,
-                      base_compiled, base_passed,
+                      merge_compiled, merge_passed, merge_fail_count,
+                      base_compiled, base_passed, base_fail_count,
                       is_junit_detected: Optional[bool] = None,
                       detected_versions: Optional[dict] = None,
                       skip_reason: Optional[str] = None):
@@ -534,10 +556,12 @@ def append_result_row(pr_number, is_found,
         "merge_phase": {
             "is_compiled": bool(merge_compiled) if merge_compiled is not None else False,
             "is_tests_passed": (None if merge_passed is None else bool(merge_passed)),
+            "failed_count": merge_fail_count
         },
         "base_phase": {
             "is_compiled": (None if base_compiled is None else bool(base_compiled)),
             "is_tests_passed": (None if base_passed is None else bool(base_passed)),
+            "failed_count": base_fail_count
         },
     }
     if is_junit_detected is not None:
@@ -577,8 +601,10 @@ def main():
         is_found = False
         merge_compiled = False
         merge_passed = None
+        merge_fail_count = None
         base_compiled = None
         base_passed = None
+        base_fail_count = None
         versions = None
         is_junit_detected = False
 
@@ -636,8 +662,8 @@ def main():
             if not is_found:
                 append_result_row(
                     pr_number, is_found,
-                    merge_compiled, merge_passed,
-                    base_compiled, base_passed,
+                    merge_compiled, merge_passed, merge_fail_count,
+                    base_compiled, base_passed, base_fail_count,
                     is_junit_detected=is_junit_detected,
                     detected_versions=versions
                 )
@@ -647,28 +673,28 @@ def main():
             # MERGE compile/test
             merge_compiled = package_without_running_tests()
             if merge_compiled:
-                merge_passed = run_tests_estest_only()
-            else:
-                append_result_row(
-                    pr_number, is_found,
-                    merge_compiled, merge_passed,
-                    base_compiled, base_passed,
-                    is_junit_detected=is_junit_detected,
-                    detected_versions=versions
-                )
-                print(f"[PR {pr_number}] Merge compile failed → skipping base.")
-                continue
+                merge_passed, merge_fail_count = run_tests_estest_only()
+            # else:
+            #     append_result_row(
+            #         pr_number, is_found,
+            #         merge_compiled, merge_passed, merge_fail_count,
+            #         base_compiled, base_passed, base_fail_count,
+            #         is_junit_detected=is_junit_detected,
+            #         detected_versions=versions
+            #     )
+            #     print(f"[PR {pr_number}] Merge compile failed → skipping base.")
+            #     continue
 
-            if merge_passed is False:
-                append_result_row(
-                    pr_number, is_found,
-                    merge_compiled, merge_passed,
-                    base_compiled, base_passed,
-                    is_junit_detected=is_junit_detected,
-                    detected_versions=versions
-                )
-                print(f"[PR {pr_number}] Merge tests failed → skipping base.")
-                continue
+            # if merge_passed is False:
+            #     append_result_row(
+            #         pr_number, is_found,
+            #         merge_compiled, merge_passed, merge_fail_count,
+            #         base_compiled, base_passed, base_fail_count,
+            #         is_junit_detected=is_junit_detected,
+            #         detected_versions=versions
+            #     )
+            #     print(f"[PR {pr_number}] Merge tests failed → skipping base.")
+            #     continue
 
             # --- BASE phase ---
             base_sha = pr.get("base_sha") or pr.get("base_commit")
@@ -695,15 +721,15 @@ def main():
 
                 base_compiled = package_without_running_tests()
                 if base_compiled:
-                    base_passed = run_tests_estest_only()
+                    base_passed, base_fail_count = run_tests_estest_only()
                 else:
                     print(f"[PR {pr_number}] Base compile failed → not running tests.")
 
             # Final JSON row for this PR
             append_result_row(
                 pr_number, is_found,
-                merge_compiled, merge_passed,
-                base_compiled, base_passed,
+                merge_compiled, merge_passed, merge_fail_count,
+                base_compiled, base_passed, base_fail_count,
                 is_junit_detected=is_junit_detected,
                 detected_versions=versions
             )
@@ -713,8 +739,8 @@ def main():
             try:
                 append_result_row(
                     pr_number, is_found,
-                    merge_compiled, merge_passed,
-                    base_compiled, base_passed,
+                    merge_compiled, merge_passed, merge_fail_count,
+                    base_compiled, base_passed, base_fail_count,
                     is_junit_detected=is_junit_detected,
                     detected_versions=versions if versions is not None else None,
                     skip_reason="exception"
