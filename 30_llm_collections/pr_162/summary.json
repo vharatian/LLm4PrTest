@@ -1,0 +1,58 @@
+{
+  "pr_number": 162,
+  "title": "Removed constructors that set initial values",
+  "state": "closed",
+  "created_at": "2020-05-17T11:24:52Z",
+  "merge_commit_sha": "0d10d917d71072dacba090aa864090523ff5502c",
+  "base_sha": "9f37668d9243fc71178f0e94a2b560ef861a639a",
+  "head_sha": "51f744aef8906c660d88d41447c982aa8142c861",
+  "user_login": "Claudenw",
+  "extracted_count": 2,
+  "skipped_count": 2,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/bloomfilter/ArrayCountingBloomFilter.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_162/src/test/java/org/apache/commons/collections4/bloomfilter/ArrayCountingBloomFilterLLM_Test.java",
+      "package": "org.apache.commons.collections4.bloomfilter",
+      "original_class_name": "ArrayCountingBloomFilterTest2",
+      "final_class_name": "ArrayCountingBloomFilterLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/bloomfilter/BitSetBloomFilter.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_162/src/test/java/org/apache/commons/collections4/bloomfilter/BitSetBloomFilterLLM_Test.java",
+      "package": "org.apache.commons.collections4.bloomfilter",
+      "original_class_name": "BitSetBloomFilterTest2",
+      "final_class_name": "BitSetBloomFilterLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/collections4/bloomfilter/ArrayCountingBloomFilterTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/collections4/bloomfilter/BitSetBloomFilterTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

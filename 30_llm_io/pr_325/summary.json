@@ -1,0 +1,47 @@
+{
+  "pr_number": 325,
+  "title": "IOCase.isCaseSensitive(IOCase) result is backward",
+  "state": "closed",
+  "created_at": "2022-02-05T09:36:43Z",
+  "merge_commit_sha": "498ed661d01f174ef9d6a7730db90aa9b6fe720a",
+  "base_sha": "1e746932257af3589c187cbc72e41ee28a9b3c78",
+  "head_sha": "194984c04ab104e57d8d580a6b65bdbb080761ed",
+  "user_login": "code-ferry",
+  "extracted_count": 2,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/IOCase.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_325/src/test/java/org/apache/commons/io/IOCaseLLM_Test.java",
+      "package": "org.apache.commons.io",
+      "original_class_name": "IOCaseTest2",
+      "final_class_name": "IOCaseLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/filefilter/RegexFileFilter.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_325/src/test/java/org/apache/commons/io/filefilter/RegexFileFilterLLM_Test.java",
+      "package": "org.apache.commons.io.filefilter",
+      "original_class_name": "RegexFileFilterTest2",
+      "final_class_name": "RegexFileFilterLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/IOCaseTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

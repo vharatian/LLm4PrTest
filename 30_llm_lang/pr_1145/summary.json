@@ -1,0 +1,36 @@
+{
+  "pr_number": 1145,
+  "title": "[LANG-1723]: Throw NumberFormatException instead of IndexOutOfBoundsException in NumberUtils.getMantissa(String, int)",
+  "state": "closed",
+  "created_at": "2023-12-08T15:13:54Z",
+  "merge_commit_sha": "6a65b76f2ab90cad2c297ff0d9f747ebb982e515",
+  "base_sha": "e298d0bd81d118f8d46c495e5cd4b3f014b22151",
+  "head_sha": "310804b8d6ca36deb188651c0265776b357819e9",
+  "user_login": "arthurscchan",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/math/NumberUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_1145/src/test/java/org/apache/commons/lang3/math/NumberUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3.math",
+      "original_class_name": "NumberUtilsTest2",
+      "final_class_name": "NumberUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

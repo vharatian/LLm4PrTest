@@ -1,0 +1,25 @@
+{
+  "pr_number": 797,
+  "title": "Avoid multiple equivalent occurrences of the same expression.",
+  "state": "closed",
+  "created_at": "2021-08-30T05:16:11Z",
+  "merge_commit_sha": "e2e3e0e19a8bdb6401d5f9a2c0193f1fa73565d3",
+  "base_sha": "8c153b833353e815ba0912aeea47130238379e25",
+  "head_sha": "c4efa20d495fc1a418f343c789c43ac7ff6a11c2",
+  "user_login": "arturobernalg",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/ClassUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_797/src/test/java/org/apache/commons/lang3/ClassUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "ClassUtilsTest2",
+      "final_class_name": "ClassUtilsLLM_Test"
+    }
+  ]
+}

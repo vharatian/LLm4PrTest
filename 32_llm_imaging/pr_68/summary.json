@@ -1,0 +1,80 @@
+{
+  "pr_number": 68,
+  "title": "[IMAGING-246] Skip Photoshop IPTC blocks that are not recommended to be interpreted by parsers in the specification",
+  "state": "closed",
+  "created_at": "2020-01-11T23:02:20Z",
+  "merge_commit_sha": "0644f1c44ca3cb2ac64c45db750e8fb72dfb8199",
+  "base_sha": "7c5ba7472786dafc78f039228113c23a52f4b3ce",
+  "head_sha": "68d39c7913ce16544a255e27fcaabebc08cdf5c9",
+  "user_login": "kinow",
+  "extracted_count": 3,
+  "skipped_count": 3,
+  "files": [
+    {
+      "source_filename": "src/changes/changes.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/common/BinaryFunctions.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_68/src/test/java/org/apache/commons/imaging/common/BinaryFunctionsLLM_Test.java",
+      "package": "org.apache.commons.imaging.common",
+      "original_class_name": "BinaryFunctionsTest",
+      "final_class_name": "BinaryFunctionsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/jpeg/JpegImageParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_68/src/test/java/org/apache/commons/imaging/formats/jpeg/JpegImageParserLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.jpeg",
+      "original_class_name": "JpegImageParserTest",
+      "final_class_name": "JpegImageParserLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/jpeg/iptc/IptcParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_68/src/test/java/org/apache/commons/imaging/formats/jpeg/iptc/IptcParserLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.jpeg.iptc",
+      "original_class_name": "IptcParserTest",
+      "final_class_name": "IptcParserLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/imaging/formats/jpeg/iptc/IptcParserTest.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/resources/images/jpeg/photoshop/IMAGING-246/FallHarvestKitKat_07610.jpg",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

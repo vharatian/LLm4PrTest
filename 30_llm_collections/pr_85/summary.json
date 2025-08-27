@@ -1,0 +1,25 @@
+{
+  "pr_number": 85,
+  "title": "[COLLECTIONS-679] Using existing class in example given in Javadocs.",
+  "state": "closed",
+  "created_at": "2019-09-22T18:15:40Z",
+  "merge_commit_sha": "f72f1ae330ea61e0cbca0832e4e32cee024775ac",
+  "base_sha": "8f39771cb53207fd447e34571ab653caa2e5b762",
+  "head_sha": "346b10db6f98726488e0e4a3ad81f0740c2825af",
+  "user_login": "mikkomaunu",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/MultiValuedMap.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_85/src/test/java/org/apache/commons/collections4/MultiValuedMapLLM_Test.java",
+      "package": "org.apache.commons.collections4",
+      "original_class_name": "MultiValuedMapTest",
+      "final_class_name": "MultiValuedMapLLM_Test"
+    }
+  ]
+}

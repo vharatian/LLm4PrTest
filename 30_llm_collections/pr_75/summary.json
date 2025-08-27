@@ -1,0 +1,102 @@
+{
+  "pr_number": 75,
+  "title": "[COLLECTIONS-719] Create a PropertiesFactory and SortedPropertiesFactory",
+  "state": "closed",
+  "created_at": "2019-06-01T12:18:36Z",
+  "merge_commit_sha": "ea9b4b51b0811114c006e18c841f0493ee826014",
+  "base_sha": "8ed5f6df652de166dc85f9b12ae47f54f840eea3",
+  "head_sha": "226151809bfb8aea181911ed6631be02729104d5",
+  "user_login": "garydgregory",
+  "extracted_count": 3,
+  "skipped_count": 5,
+  "files": [
+    {
+      "source_filename": "src/changes/changes.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/properties/AbstractPropertiesFactory.java",
+      "status_in_pr": "added",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_75/src/test/java/org/apache/commons/collections4/properties/AbstractPropertiesFactoryLLM_Test.java",
+      "package": "org.apache.commons.collections4.properties",
+      "original_class_name": "AbstractPropertiesFactoryTest",
+      "final_class_name": "AbstractPropertiesFactoryLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/properties/PropertiesFactory.java",
+      "status_in_pr": "added",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_75/src/test/java/org/apache/commons/collections4/properties/PropertiesFactoryLLM_Test.java",
+      "package": "org.apache.commons.collections4.properties",
+      "original_class_name": "PropertiesFactoryTest",
+      "final_class_name": "PropertiesFactoryLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/properties/SortedPropertiesFactory.java",
+      "status_in_pr": "added",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_75/src/test/java/org/apache/commons/collections4/properties/SortedPropertiesFactoryLLM_Test.java",
+      "package": "org.apache.commons.collections4.properties",
+      "original_class_name": "SortedPropertiesFactoryTest",
+      "final_class_name": "SortedPropertiesFactoryLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/collections4/properties/AbstractPropertiesFactoryTest.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/collections4/properties/PropertiesFactoryTest.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/collections4/properties/SortedPropertiesFactoryTest.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/resources/properties/test.properties",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

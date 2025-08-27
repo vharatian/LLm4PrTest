@@ -1,0 +1,36 @@
+{
+  "pr_number": 135,
+  "title": "CODEC-305: Fix byte-skipping in Base16 decoding",
+  "state": "closed",
+  "created_at": "2022-06-12T00:27:39Z",
+  "merge_commit_sha": "7ccbc3d0c39aaf49ff70f19d85f173f98550d0fb",
+  "base_sha": "b22276db7282efa0794e2cca02a32006c0bca0dd",
+  "head_sha": "7ccbc3d0c39aaf49ff70f19d85f173f98550d0fb",
+  "user_login": "gpsfl",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/codec/binary/Base16.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_135/src/test/java/org/apache/commons/codec/binary/Base16LLM_Test.java",
+      "package": "org.apache.commons.codec.binary",
+      "original_class_name": "Base16Test2",
+      "final_class_name": "Base16LLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/codec/binary/Base16Test.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

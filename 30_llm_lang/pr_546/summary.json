@@ -1,0 +1,36 @@
+{
+  "pr_number": 546,
+  "title": "[LANG-1561] use List.sort instead of Collection.sort",
+  "state": "closed",
+  "created_at": "2020-06-01T07:50:59Z",
+  "merge_commit_sha": "7651124bec8a74366fcc70af41ccaa2e441dec3b",
+  "base_sha": "3d4ed4a8ac63db1e51601ffc31fed44dccbb276c",
+  "head_sha": "139b2f73ce5a861dbf2d99f7eec5d5936fff7b09",
+  "user_login": "XenoAmess",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_546/src/test/java/org/apache/commons/lang3/reflect/MethodUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3.reflect",
+      "original_class_name": "MethodUtilsTest2",
+      "final_class_name": "MethodUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/compare/ObjectToStringComparatorTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

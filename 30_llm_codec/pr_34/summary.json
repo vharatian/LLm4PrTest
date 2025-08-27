@@ -1,0 +1,25 @@
+{
+  "pr_number": 34,
+  "title": "Added javadoc messages concerning hash64 seed and sign extension.",
+  "state": "closed",
+  "created_at": "2019-12-28T09:44:08Z",
+  "merge_commit_sha": "e91852735aae750523ab6e425c3b31e9653d6934",
+  "base_sha": "e4de423b8a197cf1f178256a2b65b28a6f8fe355",
+  "head_sha": "ee892271ea5945c67acf48bbf0e0a6886a688afd",
+  "user_login": "Claudenw",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/codec/digest/MurmurHash3.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_34/src/test/java/org/apache/commons/codec/digest/MurmurHash3LLM_Test.java",
+      "package": "org.apache.commons.codec.digest",
+      "original_class_name": "MurmurHash3Test2",
+      "final_class_name": "MurmurHash3LLM_Test"
+    }
+  ]
+}

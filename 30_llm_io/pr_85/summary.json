@@ -1,0 +1,58 @@
+{
+  "pr_number": 85,
+  "title": "Added TaggedReader, ClosedReader and BrokenReader.",
+  "state": "closed",
+  "created_at": "2019-08-01T20:38:49Z",
+  "merge_commit_sha": "3615e14865491b792e64619a1584c2b026232253",
+  "base_sha": "b79b6eab801a0a50588ca7af999e22a9671e6a34",
+  "head_sha": "3710f60738e35fe81670452fd548fc30f03865eb",
+  "user_login": "robtimus",
+  "extracted_count": 2,
+  "skipped_count": 2,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/input/BrokenReader.java",
+      "status_in_pr": "added",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_85/src/test/java/org/apache/commons/io/input/BrokenReaderLLM_Test.java",
+      "package": "org.apache.commons.io.input",
+      "original_class_name": "BrokenReaderTest",
+      "final_class_name": "BrokenReaderLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/input/TaggedReader.java",
+      "status_in_pr": "added",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_85/src/test/java/org/apache/commons/io/input/TaggedReaderLLM_Test.java",
+      "package": "org.apache.commons.io.input",
+      "original_class_name": "TaggedReaderTest",
+      "final_class_name": "TaggedReaderLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/input/BrokenReaderTest.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/input/TaggedReaderTest.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

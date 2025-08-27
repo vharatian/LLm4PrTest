@@ -1,0 +1,47 @@
+{
+  "pr_number": 125,
+  "title": "Fix inconsistent @throws comments in ListOrderedSet",
+  "state": "closed",
+  "created_at": "2019-12-09T08:18:43Z",
+  "merge_commit_sha": "45080bed9948079bdff761da4617973aa79f2de4",
+  "base_sha": "45b6865b59d344910dd8cf09b54e6ea91347752d",
+  "head_sha": "0d33a619b9c22f7be2dbec9d5378e7a8d92be9d6",
+  "user_login": "dota17",
+  "extracted_count": 2,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_125/src/test/java/org/apache/commons/collections4/keyvalue/MultiKeyLLM_Test.java",
+      "package": "org.apache.commons.collections4.keyvalue",
+      "original_class_name": "MultiKeyTest2",
+      "final_class_name": "MultiKeyLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/set/ListOrderedSet.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_125/src/test/java/org/apache/commons/collections4/set/ListOrderedSetLLM_Test.java",
+      "package": "org.apache.commons.collections4.set",
+      "original_class_name": "ListOrderedSetTest2",
+      "final_class_name": "ListOrderedSetLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/collections4/keyvalue/MultiKeyTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

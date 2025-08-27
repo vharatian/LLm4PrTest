@@ -1,0 +1,36 @@
+{
+  "pr_number": 123,
+  "title": "CharSequenceReader.skip should return 0 instead of EOF on stream end",
+  "state": "closed",
+  "created_at": "2020-07-08T19:38:32Z",
+  "merge_commit_sha": "807e61e2d5e5e7b7c41fb2b3b231b829d41c89bf",
+  "base_sha": "821ab5fc6140581d0dd4906c9cbcb721de0ec1fb",
+  "head_sha": "1388450ff89f3ed517af1dab41bbb3486852d84c",
+  "user_login": "robtimus",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/input/CharSequenceReader.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_123/src/test/java/org/apache/commons/io/input/CharSequenceReaderLLM_Test.java",
+      "package": "org.apache.commons.io.input",
+      "original_class_name": "CharSequenceReaderTest2",
+      "final_class_name": "CharSequenceReaderLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/input/CharSequenceReaderTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

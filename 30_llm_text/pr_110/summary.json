@@ -1,0 +1,25 @@
+{
+  "pr_number": 110,
+  "title": "TEXT-156: Fix the RegexTokenizer to use a static Pattern.",
+  "state": "closed",
+  "created_at": "2019-03-07T23:15:03Z",
+  "merge_commit_sha": "f40607a1689b96831212e73a3588187778e6dc2a",
+  "base_sha": "0ada5faf1f3a2c59fa832fc4223aad7f6c150917",
+  "head_sha": "f40607a1689b96831212e73a3588187778e6dc2a",
+  "user_login": "aherbert",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/text/similarity/RegexTokenizer.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_110/src/test/java/org/apache/commons/text/similarity/RegexTokenizerLLM_Test.java",
+      "package": "org.apache.commons.text.similarity",
+      "original_class_name": "RegexTokenizerTest",
+      "final_class_name": "RegexTokenizerLLM_Test"
+    }
+  ]
+}

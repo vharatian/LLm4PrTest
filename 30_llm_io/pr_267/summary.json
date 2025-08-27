@@ -1,0 +1,102 @@
+{
+  "pr_number": 267,
+  "title": "IO-746: Drop unnecessary casts and conversions",
+  "state": "closed",
+  "created_at": "2021-09-02T06:43:35Z",
+  "merge_commit_sha": "086e34b9516beaffe82aed5d93da074ad7a3b1e3",
+  "base_sha": "971d4f25cc4c34f87798c80f1185e35670ab9154",
+  "head_sha": "8770e7def4cc9f1939ab7723b4b0c11d1f223dcf",
+  "user_login": "dfa1",
+  "extracted_count": 1,
+  "skipped_count": 7,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/IOUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_267/src/test/java/org/apache/commons/io/IOUtilsLLM_Test.java",
+      "package": "org.apache.commons.io",
+      "original_class_name": "IOUtilsTest",
+      "final_class_name": "IOUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/FilenameUtilsTestCase.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/IOUtilsCopyTestCase.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/IOUtilsTestCase.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/filefilter/FileFilterTestCase.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/input/CharacterSetFilterReaderTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/input/TailerTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/input/TeeInputStreamTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

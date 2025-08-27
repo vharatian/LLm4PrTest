@@ -1,0 +1,25 @@
+{
+  "pr_number": 862,
+  "title": "LANG-1668 Update getMatchingMethod documentation.",
+  "state": "closed",
+  "created_at": "2022-03-06T13:42:30Z",
+  "merge_commit_sha": "ccc12ff185f3cdd92c65c90e1cf573f5f3fecaf0",
+  "base_sha": "cd29ff77783bb870dae96c2e2880a7bbbc9e61d5",
+  "head_sha": "53aaf93ef02feb323b5c869521ff5925db088cff",
+  "user_login": "mbuiakova",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_862/src/test/java/org/apache/commons/lang3/reflect/MethodUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3.reflect",
+      "original_class_name": "MethodUtilsTest2",
+      "final_class_name": "MethodUtilsLLM_Test"
+    }
+  ]
+}

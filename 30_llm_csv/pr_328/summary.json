@@ -1,0 +1,36 @@
+{
+  "pr_number": 328,
+  "title": "Add missing docs",
+  "state": "closed",
+  "created_at": "2023-06-24T13:06:25Z",
+  "merge_commit_sha": "57232617ce2f094ac6a9b8add905d7d8287c2d61",
+  "base_sha": "8f07f102a37356922e7493723769dd49f93f3511",
+  "head_sha": "d3ef84e248755e944cb7ef245cc2bf88be7a05e3",
+  "user_login": "jkbkupczyk",
+  "extracted_count": 2,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/csv/CSVFormat.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_328/src/test/java/org/apache/commons/csv/CSVFormatLLM_Test.java",
+      "package": "org.apache.commons.csv",
+      "original_class_name": "CSVFormatTest2",
+      "final_class_name": "CSVFormatLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/csv/CSVRecord.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_328/src/test/java/org/apache/commons/csv/CSVRecordLLM_Test.java",
+      "package": "org.apache.commons.csv",
+      "original_class_name": "CSVRecordTest2",
+      "final_class_name": "CSVRecordLLM_Test"
+    }
+  ]
+}

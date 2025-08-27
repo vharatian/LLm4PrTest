@@ -1,0 +1,58 @@
+{
+  "pr_number": 44,
+  "title": "[IMAGING-228] Drop cube method and add unit tests for PhotometricInterpretationLogLuv",
+  "state": "closed",
+  "created_at": "2019-06-03T08:06:20Z",
+  "merge_commit_sha": "06dd48ee5f3a6bf1bc020891f96bbc2ab154fd26",
+  "base_sha": "5d2eaf3528d3845563ee49afc2a1d03c324b4067",
+  "head_sha": "08ffc103c8fc401c446ecd91176869bc66e46a0e",
+  "user_login": "kinow",
+  "extracted_count": 2,
+  "skipped_count": 2,
+  "files": [
+    {
+      "source_filename": "src/changes/changes.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreter.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_44/src/test/java/org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.tiff.photometricinterpreters",
+      "original_class_name": "PhotometricInterpreterTest",
+      "final_class_name": "PhotometricInterpreterLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterLogLuv.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_44/src/test/java/org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterLogLuvLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.tiff.photometricinterpreters",
+      "original_class_name": "PhotometricInterpreterLogLuvTest",
+      "final_class_name": "PhotometricInterpreterLogLuvLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterLogLuvTest.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

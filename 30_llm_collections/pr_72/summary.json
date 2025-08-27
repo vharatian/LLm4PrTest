@@ -1,0 +1,25 @@
+{
+  "pr_number": 72,
+  "title": "Fix LRUMap exception message",
+  "state": "closed",
+  "created_at": "2019-05-21T09:46:12Z",
+  "merge_commit_sha": "b150dc8860a7c44ce027f4f808ccfbc544d481f3",
+  "base_sha": "f4cc9984c3ea0cb85db6c30c3bba6e6dfdc0b677",
+  "head_sha": "71ab2ad1f16e4c1affff8097d3892249596e9113",
+  "user_login": "grimreaper",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/map/LRUMap.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_72/src/test/java/org/apache/commons/collections4/map/LRUMapLLM_Test.java",
+      "package": "org.apache.commons.collections4.map",
+      "original_class_name": "LRUMapTest2",
+      "final_class_name": "LRUMapLLM_Test"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "pr_number": 242,
+  "title": "Simplify conditions and avoid extra checks.",
+  "state": "closed",
+  "created_at": "2021-06-19T08:26:58Z",
+  "merge_commit_sha": "55e666bead302da5871c5b91879ef6807f386c82",
+  "base_sha": "38eb80048863b58135783040072696c31537afd3",
+  "head_sha": "8e4430c89f91ba7ff5b3e263470f70f0d27faa88",
+  "user_login": "arturobernalg",
+  "extracted_count": 2,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/text/WordUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_242/src/test/java/org/apache/commons/text/WordUtilsLLM_Test.java",
+      "package": "org.apache.commons.text",
+      "original_class_name": "WordUtilsTest2",
+      "final_class_name": "WordUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/text/lookup/InterpolatorStringLookup.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_242/src/test/java/org/apache/commons/text/lookup/InterpolatorStringLookupLLM_Test.java",
+      "package": "org.apache.commons.text.lookup",
+      "original_class_name": "InterpolatorStringLookupTest2",
+      "final_class_name": "InterpolatorStringLookupLLM_Test"
+    }
+  ]
+}

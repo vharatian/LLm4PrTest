@@ -1,0 +1,69 @@
+{
+  "pr_number": 938,
+  "title": "Fix some Javadoc comments",
+  "state": "closed",
+  "created_at": "2022-08-20T19:00:21Z",
+  "merge_commit_sha": "598f2fb91594f4a71642632e7f9582afefd62d4d",
+  "base_sha": "ef68684cb3d49888a0b8a7c94699afb9c56f63d3",
+  "head_sha": "e6d4cdb6f4a871853810b59c75ffaa14a54db78a",
+  "user_login": "arturobernalg",
+  "extracted_count": 5,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/ObjectUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_938/src/test/java/org/apache/commons/lang3/ObjectUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "ObjectUtilsTest2",
+      "final_class_name": "ObjectUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_938/src/test/java/org/apache/commons/lang3/builder/ToStringStyleLLM_Test.java",
+      "package": "org.apache.commons.lang3.builder",
+      "original_class_name": "ToStringStyleTest2",
+      "final_class_name": "ToStringStyleLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/concurrent/BasicThreadFactory.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_938/src/test/java/org/apache/commons/lang3/concurrent/BasicThreadFactoryLLM_Test.java",
+      "package": "org.apache.commons.lang3.concurrent",
+      "original_class_name": "BasicThreadFactoryTest2",
+      "final_class_name": "BasicThreadFactoryLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/math/Fraction.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_938/src/test/java/org/apache/commons/lang3/math/FractionLLM_Test.java",
+      "package": "org.apache.commons.lang3.math",
+      "original_class_name": "FractionTest2",
+      "final_class_name": "FractionLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_938/src/test/java/org/apache/commons/lang3/time/FastDatePrinterLLM_Test.java",
+      "package": "org.apache.commons.lang3.time",
+      "original_class_name": "FastDatePrinterTest2",
+      "final_class_name": "FastDatePrinterLLM_Test"
+    }
+  ]
+}

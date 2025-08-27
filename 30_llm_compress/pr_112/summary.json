@@ -1,0 +1,47 @@
+{
+  "pr_number": 112,
+  "title": "remove `== null` as it is covered by `instance of`",
+  "state": "closed",
+  "created_at": "2020-06-04T19:59:06Z",
+  "merge_commit_sha": "2840244821cb038aa2a6c48c8a69d0acf0b27bd4",
+  "base_sha": "18fb261d0bbbb8cc52483267213e0d2ef4c43de7",
+  "head_sha": "183816382a376ed22f37204eec6caaa5622a100b",
+  "user_login": "XenoAmess",
+  "extracted_count": 3,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/zip/ZipEightByteInteger.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_112/src/test/java/org/apache/commons/compress/archivers/zip/ZipEightByteIntegerLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.zip",
+      "original_class_name": "ZipEightByteIntegerTest2",
+      "final_class_name": "ZipEightByteIntegerLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/zip/ZipLong.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_112/src/test/java/org/apache/commons/compress/archivers/zip/ZipLongLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.zip",
+      "original_class_name": "ZipLongTest2",
+      "final_class_name": "ZipLongLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/zip/ZipShort.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_112/src/test/java/org/apache/commons/compress/archivers/zip/ZipShortLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.zip",
+      "original_class_name": "ZipShortTest2",
+      "final_class_name": "ZipShortLLM_Test"
+    }
+  ]
+}

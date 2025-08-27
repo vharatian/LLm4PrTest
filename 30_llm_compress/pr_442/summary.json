@@ -1,0 +1,102 @@
+{
+  "pr_number": 442,
+  "title": "COMPRESS-632: Fixes for dump file parsing",
+  "state": "closed",
+  "created_at": "2023-11-15T17:46:13Z",
+  "merge_commit_sha": "8a9a5847c04ae39a1d45b365f8bb82022466067d",
+  "base_sha": "e55258c0aeade37e696b62feddfa6ea21f0fe58a",
+  "head_sha": "2561d96a7b8ba9b03a0f9bead5813a9c3b64ec3c",
+  "user_login": "yakovsh",
+  "extracted_count": 3,
+  "skipped_count": 5,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/dump/DumpArchiveConstants.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_442/src/test/java/org/apache/commons/compress/archivers/dump/DumpArchiveConstantsLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.dump",
+      "original_class_name": "DumpArchiveConstantsTest",
+      "final_class_name": "DumpArchiveConstantsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/dump/DumpArchiveUtil.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_442/src/test/java/org/apache/commons/compress/archivers/dump/DumpArchiveUtilLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.dump",
+      "original_class_name": "DumpArchiveUtilTest2",
+      "final_class_name": "DumpArchiveUtilLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/dump/TapeInputStream.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_442/src/test/java/org/apache/commons/compress/archivers/dump/TapeInputStreamLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.dump",
+      "original_class_name": "TapeInputStreamTest",
+      "final_class_name": "TapeInputStreamLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/compress/archivers/dump/DumpArchiveInputStreamTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/compress/archivers/dump/DumpArchiveUtilTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/compress/archivers/dump/TapeInputStreamTest.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/resources/org/apache/commons/compress/dump/directory_null_bytes.dump",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/resources/org/apache/commons/compress/dump/invalid_compression_type.dump",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

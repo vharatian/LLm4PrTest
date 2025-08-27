@@ -1,0 +1,25 @@
+{
+  "pr_number": 663,
+  "title": "[LANG-1619] Refine StringUtils.abbreviate",
+  "state": "closed",
+  "created_at": "2020-11-29T07:54:54Z",
+  "merge_commit_sha": "dd7f02feac27aef5ba05cb1a3ab52206ee11fe10",
+  "base_sha": "c2da7e3c511f6a74c2450d612a61887b8be8fcab",
+  "head_sha": "2a9b60d9e518411414bbe2e356a3f8912dcadcf2",
+  "user_login": "arturobernalg",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/StringUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_663/src/test/java/org/apache/commons/lang3/StringUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "StringUtilsTest2",
+      "final_class_name": "StringUtilsLLM_Test"
+    }
+  ]
+}

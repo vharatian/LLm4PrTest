@@ -1,0 +1,25 @@
+{
+  "pr_number": 298,
+  "title": "Remove duplicate conditions. Use switch instead.",
+  "state": "closed",
+  "created_at": "2022-06-23T20:38:49Z",
+  "merge_commit_sha": "0d6ccaaf07f4588ceee4fa60f43265501fabe38a",
+  "base_sha": "6e27627b501e5e998d2d6fee37bf16969e203402",
+  "head_sha": "63093e4b1c8a9ed15ac0c5736c6a31b1ca303429",
+  "user_login": "arturobernalg",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/harmony/pack200/MetadataBandGroup.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_298/src/test/java/org/apache/commons/compress/harmony/pack200/MetadataBandGroupLLM_Test.java",
+      "package": "org.apache.commons.compress.harmony.pack200",
+      "original_class_name": "MetadataBandGroupTest",
+      "final_class_name": "MetadataBandGroupLLM_Test"
+    }
+  ]
+}

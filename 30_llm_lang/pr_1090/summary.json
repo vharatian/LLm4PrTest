@@ -1,0 +1,25 @@
+{
+  "pr_number": 1090,
+  "title": "Fix Javadoc: ComparableUtils'c1' to 'comparable1', 'c2' to 'comparable2'",
+  "state": "closed",
+  "created_at": "2023-07-29T10:16:37Z",
+  "merge_commit_sha": "90b327a96cc31a156e86e8eb7e98f84cb2d822bb",
+  "base_sha": "aa74b736dec153d5d460ee1d559054f085b2e1a4",
+  "head_sha": "0a917f902d153ed7ed96afe6c0201e0922d78b71",
+  "user_login": "remeio",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/compare/ComparableUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_1090/src/test/java/org/apache/commons/lang3/compare/ComparableUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3.compare",
+      "original_class_name": "ComparableUtilsTest2",
+      "final_class_name": "ComparableUtilsLLM_Test"
+    }
+  ]
+}

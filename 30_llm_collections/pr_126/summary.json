@@ -1,0 +1,47 @@
+{
+  "pr_number": 126,
+  "title": "Improve MapUtils with the null checks, add JUnit for it and add Javadoc for the parameter indent.",
+  "state": "closed",
+  "created_at": "2019-12-10T08:37:27Z",
+  "merge_commit_sha": "5d71ff3d29d63e677dfdaf53e08ecdf086cca665",
+  "base_sha": "bd8e77d6079ce760f157b9368302a5cc0df1136c",
+  "head_sha": "35a4a6522d02a32c8e38f65a9a2865006d8a1e99",
+  "user_login": "dota17",
+  "extracted_count": 1,
+  "skipped_count": 2,
+  "files": [
+    {
+      "source_filename": "pom.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/MapUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_126/src/test/java/org/apache/commons/collections4/MapUtilsLLM_Test.java",
+      "package": "org.apache.commons.collections4",
+      "original_class_name": "MapUtilsTest2",
+      "final_class_name": "MapUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/collections4/MapUtilsTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

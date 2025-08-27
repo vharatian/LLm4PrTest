@@ -1,0 +1,36 @@
+{
+  "pr_number": 467,
+  "title": "Update DoubleFormat to state it is based on Double.toString.",
+  "state": "closed",
+  "created_at": "2023-10-20T08:07:51Z",
+  "merge_commit_sha": "4331f2ef85801e4aba4a3999bc39ba33d6b68b0c",
+  "base_sha": "fb476ec5f1d64575f09b3187aeee02681e726a3e",
+  "head_sha": "22c0bb12ff2ce18e1c2c7bc146231bffa670d269",
+  "user_login": "aherbert",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/text/numbers/DoubleFormat.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_467/src/test/java/org/apache/commons/text/numbers/DoubleFormatLLM_Test.java",
+      "package": "org.apache.commons.text.numbers",
+      "original_class_name": "DoubleFormatTest2",
+      "final_class_name": "DoubleFormatLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/text/numbers/DoubleFormatTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "pr_number": 42,
+  "title": "IMAGING-211: Fix boolean logic to produce correct error for invalid PNG chunk size",
+  "state": "closed",
+  "created_at": "2019-05-16T02:05:54Z",
+  "merge_commit_sha": "c4eeebee7855ba9cdcb3734bcbadf8f37ffa66b6",
+  "base_sha": "55f7368822b9781d186024524c7cd08adb3a2f59",
+  "head_sha": "f55035ac7fb451e85e3139c959a25f47f4ffd04a",
+  "user_login": "kinow",
+  "extracted_count": 1,
+  "skipped_count": 3,
+  "files": [
+    {
+      "source_filename": "src/changes/changes.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/png/chunks/PngChunkIhdr.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_42/src/test/java/org/apache/commons/imaging/formats/png/chunks/PngChunkIhdrLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.png.chunks",
+      "original_class_name": "PngChunkIhdrTest",
+      "final_class_name": "PngChunkIhdrLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/imaging/formats/png/PngWithInvalidPngChunkSizeTest.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/resources/IMAGING-211/testfile_2.png",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "pr_number": 452,
+  "title": "TEXT-228: Fix TextStringBuilder to over-allocate when ensuring capacity",
+  "state": "closed",
+  "created_at": "2023-08-21T13:17:46Z",
+  "merge_commit_sha": "92cd8ae9f3ad2a586c23b599d339907af20caa5b",
+  "base_sha": "efa7475c3da2153a0d3a769dac8f5fe606c2b9fb",
+  "head_sha": "58d3a8fed616e75e13f54c22175b25f5a0f67ec1",
+  "user_login": "aherbert",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/text/TextStringBuilder.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_452/src/test/java/org/apache/commons/text/TextStringBuilderLLM_Test.java",
+      "package": "org.apache.commons.text",
+      "original_class_name": "TextStringBuilderTest2",
+      "final_class_name": "TextStringBuilderLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/text/TextStringBuilderTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

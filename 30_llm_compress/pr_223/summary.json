@@ -1,0 +1,47 @@
+{
+  "pr_number": 223,
+  "title": "COMPRESS-591: Fix decoding of 7z files containing LZMA streams with end",
+  "state": "closed",
+  "created_at": "2021-09-22T08:16:42Z",
+  "merge_commit_sha": "76ed54de269f3854a18e26e7610a783bceba1268",
+  "base_sha": "8bdf82c0a49ade31ef7a035962327c633ade5801",
+  "head_sha": "31d1738ccc57f86d8fd56ff5271cda82a65f01ee",
+  "user_login": "PeterAlfredLee",
+  "extracted_count": 1,
+  "skipped_count": 2,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/sevenz/LZMADecoder.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_223/src/test/java/org/apache/commons/compress/archivers/sevenz/LZMADecoderLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.sevenz",
+      "original_class_name": "LZMADecoderTest",
+      "final_class_name": "LZMADecoderLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/compress/archivers/sevenz/SevenZFileTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/resources/lzma-with-eos.7z",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

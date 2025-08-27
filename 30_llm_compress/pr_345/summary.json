@@ -1,0 +1,190 @@
+{
+  "pr_number": 345,
+  "title": "COMPRESS-613: Support for extra time data in Zip archives",
+  "state": "closed",
+  "created_at": "2022-12-28T20:46:21Z",
+  "merge_commit_sha": "8d1e12a7b124ccbfaeb69787e1278659e6ee5b16",
+  "base_sha": "9045a2d1e687492f6f6e28e378a60f43f90a8e48",
+  "head_sha": "fcb0d94253704605edc4105259b6a2fe88f71ca8",
+  "user_login": "andrebrait",
+  "extracted_count": 9,
+  "skipped_count": 7,
+  "files": [
+    {
+      "source_filename": "pom.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_345/src/test/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntryLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.cpio",
+      "original_class_name": "CpioArchiveEntryTest",
+      "final_class_name": "CpioArchiveEntryLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_345/src/test/java/org/apache/commons/compress/archivers/tar/TarArchiveEntryLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.tar",
+      "original_class_name": "TarArchiveEntryTest2",
+      "final_class_name": "TarArchiveEntryLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_345/src/test/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStreamLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.tar",
+      "original_class_name": "TarArchiveOutputStreamTest2",
+      "final_class_name": "TarArchiveOutputStreamLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/zip/X000A_NTFS.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_345/src/test/java/org/apache/commons/compress/archivers/zip/X000A_NTFSLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.zip",
+      "original_class_name": "X000A_NTFSTest2",
+      "final_class_name": "X000A_NTFSLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/zip/X5455_ExtendedTimestamp.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_345/src/test/java/org/apache/commons/compress/archivers/zip/X5455_ExtendedTimestampLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.zip",
+      "original_class_name": "X5455_ExtendedTimestampTest2",
+      "final_class_name": "X5455_ExtendedTimestampLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_345/src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveEntryLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.zip",
+      "original_class_name": "ZipArchiveEntryTest2",
+      "final_class_name": "ZipArchiveEntryLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_345/src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStreamLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.zip",
+      "original_class_name": "ZipArchiveOutputStreamTest",
+      "final_class_name": "ZipArchiveOutputStreamLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/zip/ZipUtil.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_345/src/test/java/org/apache/commons/compress/archivers/zip/ZipUtilLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.zip",
+      "original_class_name": "ZipUtilTest2",
+      "final_class_name": "ZipUtilLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/utils/TimeUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_345/src/test/java/org/apache/commons/compress/utils/TimeUtilsLLM_Test.java",
+      "package": "org.apache.commons.compress.utils",
+      "original_class_name": "TimeUtilsTest2",
+      "final_class_name": "TimeUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/compress/archivers/jar/JarArchiveOutputStreamTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/compress/archivers/zip/X5455_ExtendedTimestampTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveEntryTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/compress/archivers/zip/ZipUtilTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/compress/utils/TimeUtilsTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

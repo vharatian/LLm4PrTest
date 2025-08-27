@@ -1,0 +1,36 @@
+{
+  "pr_number": 680,
+  "title": "[LANG-1544] MethodUtils.invokeMethod NullPointerException in case of null in args list",
+  "state": "closed",
+  "created_at": "2020-12-21T21:28:16Z",
+  "merge_commit_sha": "fb6a7e7788b976dc53f6b2ff1e0bdb9f467d4987",
+  "base_sha": "c9e825e823e30c5b1e3ddc9de5e8fd0094d52ee5",
+  "head_sha": "dcc01d911c1f0433f49123ef15873e386b5d45a8",
+  "user_login": "mdbuck77",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_680/src/test/java/org/apache/commons/lang3/reflect/MethodUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3.reflect",
+      "original_class_name": "MethodUtilsTest2",
+      "final_class_name": "MethodUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

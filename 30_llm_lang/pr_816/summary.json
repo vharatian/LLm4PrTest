@@ -1,0 +1,124 @@
+{
+  "pr_number": 816,
+  "title": "Use final.",
+  "state": "closed",
+  "created_at": "2021-10-13T17:42:52Z",
+  "merge_commit_sha": "e299a185d42cd1b33ab21123f85de117a68c3d49",
+  "base_sha": "cbec58a26e80c4d1646e057eafef1bd90c3258f1",
+  "head_sha": "49e7e65ce22ac0ed72880bdbe26003d7369d9876",
+  "user_login": "arturobernalg",
+  "extracted_count": 4,
+  "skipped_count": 6,
+  "files": [
+    {
+      "source_filename": "pom.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/ArrayUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_816/src/test/java/org/apache/commons/lang3/ArrayUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "ArrayUtilsTest2",
+      "final_class_name": "ArrayUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_816/src/test/java/org/apache/commons/lang3/reflect/MethodUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3.reflect",
+      "original_class_name": "MethodUtilsTest2",
+      "final_class_name": "MethodUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_816/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3.reflect",
+      "original_class_name": "TypeUtilsTest2",
+      "final_class_name": "TypeUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_816/src/test/java/org/apache/commons/lang3/time/DateUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3.time",
+      "original_class_name": "DateUtilsTest2",
+      "final_class_name": "DateUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/StringUtilsTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/math/FractionTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/time/DateUtilsRoundingTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

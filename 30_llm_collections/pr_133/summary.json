@@ -1,0 +1,69 @@
+{
+  "pr_number": 133,
+  "title": "Bloom filter updates",
+  "state": "closed",
+  "created_at": "2020-02-25T00:31:42Z",
+  "merge_commit_sha": "8b4ecbc084eaf8e61f002612f7ca156fcc1e107e",
+  "base_sha": "e08f0be55b9e17d9e03e6f311b76044cb786cd7a",
+  "head_sha": "8b4ecbc084eaf8e61f002612f7ca156fcc1e107e",
+  "user_login": "aherbert",
+  "extracted_count": 4,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/bloomfilter/AbstractBloomFilter.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_133/src/test/java/org/apache/commons/collections4/bloomfilter/AbstractBloomFilterLLM_Test.java",
+      "package": "org.apache.commons.collections4.bloomfilter",
+      "original_class_name": "AbstractBloomFilterTest2",
+      "final_class_name": "AbstractBloomFilterLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/bloomfilter/BloomFilterIndexer.java",
+      "status_in_pr": "added",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_133/src/test/java/org/apache/commons/collections4/bloomfilter/BloomFilterIndexerLLM_Test.java",
+      "package": "org.apache.commons.collections4.bloomfilter",
+      "original_class_name": "BloomFilterIndexerTest",
+      "final_class_name": "BloomFilterIndexerLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/bloomfilter/HasherBloomFilter.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_133/src/test/java/org/apache/commons/collections4/bloomfilter/HasherBloomFilterLLM_Test.java",
+      "package": "org.apache.commons.collections4.bloomfilter",
+      "original_class_name": "HasherBloomFilterTest2",
+      "final_class_name": "HasherBloomFilterLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/bloomfilter/hasher/HashFunctionIdentity.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_133/src/test/java/org/apache/commons/collections4/bloomfilter/hasher/HashFunctionIdentityLLM_Test.java",
+      "package": "org.apache.commons.collections4.bloomfilter.hasher",
+      "original_class_name": "HashFunctionIdentityTest",
+      "final_class_name": "HashFunctionIdentityLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/collections4/bloomfilter/BloomFilterIndexerTest.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

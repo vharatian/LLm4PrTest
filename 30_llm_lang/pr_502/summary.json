@@ -1,0 +1,36 @@
+{
+  "pr_number": 502,
+  "title": " Added 1 and 0 in toBooleanObject(final String str) ",
+  "state": "closed",
+  "created_at": "2020-03-07T15:16:16Z",
+  "merge_commit_sha": "fde46a232d82f2b746f62bc7546e2e3371f20dca",
+  "base_sha": "ba607f525b842661d40195d0d4778528e2384e70",
+  "head_sha": "2170a00a75174bc6dc4ac522083b68ca4479b5d6",
+  "user_login": "dscham",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/BooleanUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_502/src/test/java/org/apache/commons/lang3/BooleanUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "BooleanUtilsTest2",
+      "final_class_name": "BooleanUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/BooleanUtilsTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "pr_number": 124,
+  "title": "Avoid calculations the minimum or the maximum of two numbers manually…",
+  "state": "closed",
+  "created_at": "2022-04-16T21:32:41Z",
+  "merge_commit_sha": "9225fac3ae1e25fbf32cfeb97611133989223ffc",
+  "base_sha": "5f90731d40e6ed12d1ebfddfeb5dca5550d19cdd",
+  "head_sha": "4ca1ae688fea9308f213fda3b7090ebfd5445834",
+  "user_login": "arturobernalg",
+  "extracted_count": 2,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/codec/binary/BaseNCodec.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_124/src/test/java/org/apache/commons/codec/binary/BaseNCodecLLM_Test.java",
+      "package": "org.apache.commons.codec.binary",
+      "original_class_name": "BaseNCodecTest2",
+      "final_class_name": "BaseNCodecLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/codec/digest/Md5Crypt.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_124/src/test/java/org/apache/commons/codec/digest/Md5CryptLLM_Test.java",
+      "package": "org.apache.commons.codec.digest",
+      "original_class_name": "Md5CryptTest2",
+      "final_class_name": "Md5CryptLLM_Test"
+    }
+  ]
+}

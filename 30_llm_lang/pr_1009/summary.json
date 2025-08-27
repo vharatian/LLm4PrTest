@@ -1,0 +1,25 @@
+{
+  "pr_number": 1009,
+  "title": "Add example for space in StringUtils#indexOfIgnoreCase()",
+  "state": "closed",
+  "created_at": "2023-01-03T16:54:50Z",
+  "merge_commit_sha": "3da149382fcc8c8880cc96aba2c93cc575cc4970",
+  "base_sha": "c507442ebba64538ec517a0785b13eb5ed76c9d9",
+  "head_sha": "251f192b387255854dd1a698d9a0445c04966800",
+  "user_login": "kelubhai",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/StringUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_1009/src/test/java/org/apache/commons/lang3/StringUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "StringUtilsTest2",
+      "final_class_name": "StringUtilsLLM_Test"
+    }
+  ]
+}

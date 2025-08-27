@@ -1,0 +1,36 @@
+{
+  "pr_number": 274,
+  "title": "Use Java 8 and method reference.",
+  "state": "closed",
+  "created_at": "2022-01-29T08:16:32Z",
+  "merge_commit_sha": "e30b4d37007c27ac866983c5be14551d420dd15d",
+  "base_sha": "c859f528397259ea8c052908ed1410fa1c8c9304",
+  "head_sha": "cc1fb601dfd5a13973d12182f5d79c15c1b12740",
+  "user_login": "arturobernalg",
+  "extracted_count": 2,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/SetUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_274/src/test/java/org/apache/commons/collections4/SetUtilsLLM_Test.java",
+      "package": "org.apache.commons.collections4",
+      "original_class_name": "SetUtilsTest2",
+      "final_class_name": "SetUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/bloomfilter/HasherBloomFilter.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_274/src/test/java/org/apache/commons/collections4/bloomfilter/HasherBloomFilterLLM_Test.java",
+      "package": "org.apache.commons.collections4.bloomfilter",
+      "original_class_name": "HasherBloomFilterTest2",
+      "final_class_name": "HasherBloomFilterLLM_Test"
+    }
+  ]
+}

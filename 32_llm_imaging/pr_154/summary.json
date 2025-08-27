@@ -1,0 +1,146 @@
+{
+  "pr_number": 154,
+  "title": "Simplify conditions and avoid extra checks.",
+  "state": "closed",
+  "created_at": "2021-06-15T16:23:00Z",
+  "merge_commit_sha": "c4a62e53b1d31fd2c1b1e0367947b9cadf11ceeb",
+  "base_sha": "c030b47ff32652b273cc8e3e856ab7e3ff62682d",
+  "head_sha": "55f3020f476b996f0f83d4d8de42491b944418c3",
+  "user_login": "arturobernalg",
+  "extracted_count": 12,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/bmp/BmpImageParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_154/src/test/java/org/apache/commons/imaging/formats/bmp/BmpImageParserLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.bmp",
+      "original_class_name": "BmpImageParserTest2",
+      "final_class_name": "BmpImageParserLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/gif/GifImageParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_154/src/test/java/org/apache/commons/imaging/formats/gif/GifImageParserLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.gif",
+      "original_class_name": "GifImageParserTest",
+      "final_class_name": "GifImageParserLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/jpeg/iptc/IptcParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_154/src/test/java/org/apache/commons/imaging/formats/jpeg/iptc/IptcParserLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.jpeg.iptc",
+      "original_class_name": "IptcParserTest2",
+      "final_class_name": "IptcParserLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/png/PngImageParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_154/src/test/java/org/apache/commons/imaging/formats/png/PngImageParserLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.png",
+      "original_class_name": "PngImageParserTest",
+      "final_class_name": "PngImageParserLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/pnm/PnmImageParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_154/src/test/java/org/apache/commons/imaging/formats/pnm/PnmImageParserLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.pnm",
+      "original_class_name": "PnmImageParserTest2",
+      "final_class_name": "PnmImageParserLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/psd/PsdImageParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_154/src/test/java/org/apache/commons/imaging/formats/psd/PsdImageParserLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.psd",
+      "original_class_name": "PsdImageParserTest",
+      "final_class_name": "PsdImageParserLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/tiff/TiffDirectory.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_154/src/test/java/org/apache/commons/imaging/formats/tiff/TiffDirectoryLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.tiff",
+      "original_class_name": "TiffDirectoryTest",
+      "final_class_name": "TiffDirectoryLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/tiff/TiffImageParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_154/src/test/java/org/apache/commons/imaging/formats/tiff/TiffImageParserLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.tiff",
+      "original_class_name": "TiffImageParserTest",
+      "final_class_name": "TiffImageParserLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/tiff/datareaders/DataReaderStrips.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_154/src/test/java/org/apache/commons/imaging/formats/tiff/datareaders/DataReaderStripsLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.tiff.datareaders",
+      "original_class_name": "DataReaderStripsTest2",
+      "final_class_name": "DataReaderStripsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/tiff/write/TiffImageWriterLossless.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_154/src/test/java/org/apache/commons/imaging/formats/tiff/write/TiffImageWriterLosslessLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.tiff.write",
+      "original_class_name": "TiffImageWriterLosslessTest",
+      "final_class_name": "TiffImageWriterLosslessLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/icc/IccProfileParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_154/src/test/java/org/apache/commons/imaging/icc/IccProfileParserLLM_Test.java",
+      "package": "org.apache.commons.imaging.icc",
+      "original_class_name": "IccProfileParserTest",
+      "final_class_name": "IccProfileParserLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/icc/IccTag.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_154/src/test/java/org/apache/commons/imaging/icc/IccTagLLM_Test.java",
+      "package": "org.apache.commons.imaging.icc",
+      "original_class_name": "IccTagTest",
+      "final_class_name": "IccTagLLM_Test"
+    }
+  ]
+}

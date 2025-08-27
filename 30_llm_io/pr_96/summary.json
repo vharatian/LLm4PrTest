@@ -1,0 +1,36 @@
+{
+  "pr_number": 96,
+  "title": "Fixed a mistake in the FilenameUtils.concat()'s Javadoc about an absolute path.",
+  "state": "closed",
+  "created_at": "2019-09-10T11:40:28Z",
+  "merge_commit_sha": "11020bc315edd3d7549482382445b8031b5743de",
+  "base_sha": "d463fa0120fc1041729b7a564b2b5f96de9d6ab6",
+  "head_sha": "d3a5f6aef219783e020041cdfc488bc5d70ffb7f",
+  "user_login": "yuji-k64613",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/changes/changes.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/FilenameUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_96/src/test/java/org/apache/commons/io/FilenameUtilsLLM_Test.java",
+      "package": "org.apache.commons.io",
+      "original_class_name": "FilenameUtilsTest",
+      "final_class_name": "FilenameUtilsLLM_Test"
+    }
+  ]
+}

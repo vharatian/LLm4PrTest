@@ -1,0 +1,58 @@
+{
+  "pr_number": 494,
+  "title": "[LANG-1518] MethodUtils.getAnnotation() with searchSupers = true does not work if super is generic",
+  "state": "closed",
+  "created_at": "2020-02-19T10:07:37Z",
+  "merge_commit_sha": "f4c2ed4995d19c595ec0bf5c49d210df9046fda9",
+  "base_sha": "eb8d069089364e396e37ed5273cf7710e41eb06d",
+  "head_sha": "5570791e4438b986c448f3e0f1cdaba1ef4d3adb",
+  "user_login": "lelmarir",
+  "extracted_count": 1,
+  "skipped_count": 3,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_494/src/test/java/org/apache/commons/lang3/reflect/MethodUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3.reflect",
+      "original_class_name": "MethodUtilsTest2",
+      "final_class_name": "MethodUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/reflect/testbed/GenericParent.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/reflect/testbed/StringParameterizedChild.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

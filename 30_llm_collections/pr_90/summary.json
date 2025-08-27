@@ -1,0 +1,25 @@
+{
+  "pr_number": 90,
+  "title": "[COLLECTIONS-704] Update size to capacity for GrowthList",
+  "state": "closed",
+  "created_at": "2019-10-22T06:36:19Z",
+  "merge_commit_sha": "c184745990c576343870f4a9371092683f5ea486",
+  "base_sha": "24539d8cd4b1ec96fd727c10a8eef6d1c9e48aa3",
+  "head_sha": "b65308db99c5bb2e5d0ff114b3d8d69ed092af79",
+  "user_login": "dota17",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/list/GrowthList.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_90/src/test/java/org/apache/commons/collections4/list/GrowthListLLM_Test.java",
+      "package": "org.apache.commons.collections4.list",
+      "original_class_name": "GrowthListTest2",
+      "final_class_name": "GrowthListLLM_Test"
+    }
+  ]
+}

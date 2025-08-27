@@ -1,0 +1,36 @@
+{
+  "pr_number": 1017,
+  "title": "Fixes typos in javadoc",
+  "state": "closed",
+  "created_at": "2023-01-10T00:32:56Z",
+  "merge_commit_sha": "7e7954bbea4a7eeec9631d6c6e06ddde00ad749e",
+  "base_sha": "ac2062d939db4472a987cc4e7b38c78bd4b5f010",
+  "head_sha": "b6b2152614844eb74a072302357ea5dd8a01a547",
+  "user_login": "fenik17",
+  "extracted_count": 2,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/reflect/FieldUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_1017/src/test/java/org/apache/commons/lang3/reflect/FieldUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3.reflect",
+      "original_class_name": "FieldUtilsTest2",
+      "final_class_name": "FieldUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_1017/src/test/java/org/apache/commons/lang3/time/DateUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3.time",
+      "original_class_name": "DateUtilsTest2",
+      "final_class_name": "DateUtilsLLM_Test"
+    }
+  ]
+}

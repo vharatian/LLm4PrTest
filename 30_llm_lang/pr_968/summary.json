@@ -1,0 +1,36 @@
+{
+  "pr_number": 968,
+  "title": " Add CalendarUtils#getDayOfYear()",
+  "state": "closed",
+  "created_at": "2022-10-09T16:25:18Z",
+  "merge_commit_sha": "59d201f7be16f724e52023330258f44876e545a2",
+  "base_sha": "ff733d9d9bb03ce840200aa213b7bdfc5755777d",
+  "head_sha": "99f969fdd346db09a0356f30c8f41b67c354b994",
+  "user_login": "arturobernalg",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/time/CalendarUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_968/src/test/java/org/apache/commons/lang3/time/CalendarUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3.time",
+      "original_class_name": "CalendarUtilsTest2",
+      "final_class_name": "CalendarUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/time/CalendarUtilsTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

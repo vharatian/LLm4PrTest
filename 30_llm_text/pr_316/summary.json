@@ -1,0 +1,25 @@
+{
+  "pr_number": 316,
+  "title": "Use Math.max() call instead of doing it manually.",
+  "state": "closed",
+  "created_at": "2022-04-17T19:17:42Z",
+  "merge_commit_sha": "0705fa5e559b375187d0aeaba3c10c626eeea1ae",
+  "base_sha": "67daeff6bf00e9fff2fbc020d1ba129beb9db832",
+  "head_sha": "0235e0cca28b4f0f9fa6fa73a2a7fb72f801c38c",
+  "user_login": "arturobernalg",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/text/StrBuilder.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_316/src/test/java/org/apache/commons/text/StrBuilderLLM_Test.java",
+      "package": "org.apache.commons.text",
+      "original_class_name": "StrBuilderTest2",
+      "final_class_name": "StrBuilderLLM_Test"
+    }
+  ]
+}

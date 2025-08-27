@@ -1,0 +1,36 @@
+{
+  "pr_number": 153,
+  "title": "COMPRESS-560: Do not return false if the entry is a tar sparse entry",
+  "state": "closed",
+  "created_at": "2020-11-22T13:10:59Z",
+  "merge_commit_sha": "291b49d2f36b2e21f209a6eb2913db2ddaf6fef8",
+  "base_sha": "0bff34c1b409b10f4066ced3e146ed8ae0ad0fe9",
+  "head_sha": "3b4e17d528b02619cba8aa59c5c33c8ef77543f2",
+  "user_login": "theobisproject",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_153/src/test/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStreamLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.tar",
+      "original_class_name": "TarArchiveInputStreamTest2",
+      "final_class_name": "TarArchiveInputStreamLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/compress/archivers/tar/SparseFilesTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

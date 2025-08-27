@@ -1,0 +1,25 @@
+{
+  "pr_number": 316,
+  "title": "COLLECTIONS-823: Modified ArrayCountingBloomFilter.forEachBitMap to be more efficient",
+  "state": "closed",
+  "created_at": "2022-06-29T08:38:02Z",
+  "merge_commit_sha": "fcbcb2e746eff38cfb3fd84b6b85b57ba5fef2b2",
+  "base_sha": "a79ea005b1ec4ad228067a9c5f2e10dcfb324c5e",
+  "head_sha": "ee4c826d3834ea676650e749c8004dbc10e5a1cf",
+  "user_login": "Claudenw",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/bloomfilter/ArrayCountingBloomFilter.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_316/src/test/java/org/apache/commons/collections4/bloomfilter/ArrayCountingBloomFilterLLM_Test.java",
+      "package": "org.apache.commons.collections4.bloomfilter",
+      "original_class_name": "ArrayCountingBloomFilterTest2",
+      "final_class_name": "ArrayCountingBloomFilterLLM_Test"
+    }
+  ]
+}

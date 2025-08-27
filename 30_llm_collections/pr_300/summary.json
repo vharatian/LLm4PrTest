@@ -1,0 +1,36 @@
+{
+  "pr_number": 300,
+  "title": "[COLLECTIONS-802] Fix remove failed by removing set null to currentKe…",
+  "state": "closed",
+  "created_at": "2022-04-24T16:32:56Z",
+  "merge_commit_sha": "43e23dd6584ba81ef1e57554248441f35bee0195",
+  "base_sha": "9df6f64b7ea729fff5d11fce6407cba249baafaa",
+  "head_sha": "43e23dd6584ba81ef1e57554248441f35bee0195",
+  "user_login": "samabcde",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/map/AbstractReferenceMap.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_300/src/test/java/org/apache/commons/collections4/map/AbstractReferenceMapLLM_Test.java",
+      "package": "org.apache.commons.collections4.map",
+      "original_class_name": "AbstractReferenceMapTest",
+      "final_class_name": "AbstractReferenceMapLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/collections4/map/ReferenceMapTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

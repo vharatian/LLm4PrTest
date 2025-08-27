@@ -1,0 +1,146 @@
+{
+  "pr_number": 179,
+  "title": "IMAGING-311 revised support for multivariable rasters",
+  "state": "closed",
+  "created_at": "2021-10-20T23:26:53Z",
+  "merge_commit_sha": "af224ebad2ea963b1317b0cacea3bd44b9c5dc8d",
+  "base_sha": "f3bd32cee3325408021863b4615b83716f65972d",
+  "head_sha": "819b5864ff06b8e4c7e021496d35953e7532f835",
+  "user_login": "gwlucastrig",
+  "extracted_count": 7,
+  "skipped_count": 5,
+  "files": [
+    {
+      "source_filename": "src/changes/changes.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/tiff/TiffImageParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_179/src/test/java/org/apache/commons/imaging/formats/tiff/TiffImageParserLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.tiff",
+      "original_class_name": "TiffImageParserTest",
+      "final_class_name": "TiffImageParserLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/tiff/TiffRasterData.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_179/src/test/java/org/apache/commons/imaging/formats/tiff/TiffRasterDataLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.tiff",
+      "original_class_name": "TiffRasterDataTest2",
+      "final_class_name": "TiffRasterDataLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/tiff/TiffRasterDataFloat.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_179/src/test/java/org/apache/commons/imaging/formats/tiff/TiffRasterDataFloatLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.tiff",
+      "original_class_name": "TiffRasterDataFloatTest",
+      "final_class_name": "TiffRasterDataFloatLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/tiff/TiffRasterDataInt.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_179/src/test/java/org/apache/commons/imaging/formats/tiff/TiffRasterDataIntLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.tiff",
+      "original_class_name": "TiffRasterDataIntTest2",
+      "final_class_name": "TiffRasterDataIntLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/tiff/datareaders/DataReaderStrips.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_179/src/test/java/org/apache/commons/imaging/formats/tiff/datareaders/DataReaderStripsLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.tiff.datareaders",
+      "original_class_name": "DataReaderStripsTest2",
+      "final_class_name": "DataReaderStripsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/tiff/datareaders/DataReaderTiled.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_179/src/test/java/org/apache/commons/imaging/formats/tiff/datareaders/DataReaderTiledLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.tiff.datareaders",
+      "original_class_name": "DataReaderTiledTest",
+      "final_class_name": "DataReaderTiledLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/tiff/datareaders/ImageDataReader.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_179/src/test/java/org/apache/commons/imaging/formats/tiff/datareaders/ImageDataReaderLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.tiff.datareaders",
+      "original_class_name": "ImageDataReaderTest",
+      "final_class_name": "ImageDataReaderLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/imaging/formats/tiff/TiffFloatingPointMultivariableTest.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/imaging/formats/tiff/TiffRasterDataIntTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/imaging/formats/tiff/TiffRasterDataTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/imaging/formats/tiff/TiffShortIntRoundTripTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

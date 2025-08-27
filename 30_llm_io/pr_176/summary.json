@@ -1,0 +1,212 @@
+{
+  "pr_number": 176,
+  "title": "Minor improvements",
+  "state": "closed",
+  "created_at": "2020-12-20T15:44:01Z",
+  "merge_commit_sha": "2a66db600b034ba032f0df2a394f3b7fb217255e",
+  "base_sha": "3859146f2c43b91fbe2968453ae154d5b34c6ba6",
+  "head_sha": "91dc31aa29116a6b3f51a68e87e13052bf095bca",
+  "user_login": "arturobernalg",
+  "extracted_count": 5,
+  "skipped_count": 13,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/FileUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_176/src/test/java/org/apache/commons/io/FileUtilsLLM_Test.java",
+      "package": "org.apache.commons.io",
+      "original_class_name": "FileUtilsTest",
+      "final_class_name": "FileUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/comparator/SizeFileComparator.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_176/src/test/java/org/apache/commons/io/comparator/SizeFileComparatorLLM_Test.java",
+      "package": "org.apache.commons.io.comparator",
+      "original_class_name": "SizeFileComparatorTest2",
+      "final_class_name": "SizeFileComparatorLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/file/spi/FileSystemProviders.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_176/src/test/java/org/apache/commons/io/file/spi/FileSystemProvidersLLM_Test.java",
+      "package": "org.apache.commons.io.file.spi",
+      "original_class_name": "FileSystemProvidersTest2",
+      "final_class_name": "FileSystemProvidersLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/filefilter/AgeFileFilter.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_176/src/test/java/org/apache/commons/io/filefilter/AgeFileFilterLLM_Test.java",
+      "package": "org.apache.commons.io.filefilter",
+      "original_class_name": "AgeFileFilterTest2",
+      "final_class_name": "AgeFileFilterLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/output/AbstractByteArrayOutputStream.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_176/src/test/java/org/apache/commons/io/output/AbstractByteArrayOutputStreamLLM_Test.java",
+      "package": "org.apache.commons.io.output",
+      "original_class_name": "AbstractByteArrayOutputStreamTest",
+      "final_class_name": "AbstractByteArrayOutputStreamLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/DirectoryWalkerTestCase.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/FileUtilsCleanDirectoryTestCase.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/FileUtilsCleanSymlinksTestCase.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/FileUtilsTestCase.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/IOUtilsTestCase.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/LineIteratorTestCase.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/file/DirectoryStreamFilterTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/input/SwappedDataInputStreamTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/input/XmlStreamReaderTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/input/XmlStreamReaderUtilitiesTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/input/buffer/CircularBufferInputStreamTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/input/compatibility/XmlStreamReader.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/output/FileWriterWithEncodingTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

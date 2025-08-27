@@ -1,0 +1,58 @@
+{
+  "pr_number": 122,
+  "title": "[IMAGING-279] Protect against NegativeArraySizeException in BinaryFunctions.readBytes and BinaryFunctions.getRAFBytes",
+  "state": "closed",
+  "created_at": "2021-03-02T02:25:58Z",
+  "merge_commit_sha": "473b644bfee51713025675e3760d165ab600b329",
+  "base_sha": "aa84b538d1c7f4fa5be1565ac18a29ff0d77345d",
+  "head_sha": "a4a8f1c41b4e6c5e5593d0eef791b52b60f9e974",
+  "user_login": "kinow",
+  "extracted_count": 1,
+  "skipped_count": 3,
+  "files": [
+    {
+      "source_filename": "src/changes/changes.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/common/BinaryFunctions.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_122/src/test/java/org/apache/commons/imaging/common/BinaryFunctionsLLM_Test.java",
+      "package": "org.apache.commons.imaging.common",
+      "original_class_name": "BinaryFunctionsTest",
+      "final_class_name": "BinaryFunctionsLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/imaging/formats/bmp/BmpImageParserTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/resources/images/bmp/IMAGING-279/negative_array_size_exception.bmp",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

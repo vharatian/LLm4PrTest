@@ -1,0 +1,36 @@
+{
+  "pr_number": 102,
+  "title": "TEXT-104: deprecate JaroWinkler methods for 2.0, and fix clirr report",
+  "state": "closed",
+  "created_at": "2019-02-20T21:51:47Z",
+  "merge_commit_sha": "56c060dbcc78732b9c06d50d9ae7442e876c2ca7",
+  "base_sha": "6e2bbe511dcf2e7598cd41f98bbcbf5485355b6d",
+  "head_sha": "a32b1d2948c7b1b4a07eda8a72fb5cd5bdf2dd00",
+  "user_login": "kinow",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/text/similarity/JaroWinklerDistance.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_102/src/test/java/org/apache/commons/text/similarity/JaroWinklerDistanceLLM_Test.java",
+      "package": "org.apache.commons.text.similarity",
+      "original_class_name": "JaroWinklerDistanceTest2",
+      "final_class_name": "JaroWinklerDistanceLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/text/similarity/JaroWinklerDistanceTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

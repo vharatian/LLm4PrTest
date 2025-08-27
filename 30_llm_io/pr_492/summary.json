@@ -1,0 +1,36 @@
+{
+  "pr_number": 492,
+  "title": "[IO-414] Don't write a BOM on every (or any) line",
+  "state": "closed",
+  "created_at": "2023-10-07T13:33:19Z",
+  "merge_commit_sha": "469ef769dfda5da478bdf802d883bf28874ded79",
+  "base_sha": "877b9e3f5e553f8ad988b89b8adb6b93fa97a964",
+  "head_sha": "25c4e693244f82a33dfde2b759bf4f237ba90e1d",
+  "user_login": "elharo",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/IOUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_492/src/test/java/org/apache/commons/io/IOUtilsLLM_Test.java",
+      "package": "org.apache.commons.io",
+      "original_class_name": "IOUtilsTest2",
+      "final_class_name": "IOUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/IOUtilsTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

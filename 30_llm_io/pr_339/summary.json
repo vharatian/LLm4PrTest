@@ -1,0 +1,69 @@
+{
+  "pr_number": 339,
+  "title": "Add missing javadoc for exceptions thrown for invalid arguments",
+  "state": "closed",
+  "created_at": "2022-03-27T13:52:07Z",
+  "merge_commit_sha": "f343ad16bd789330b315837f45927e68336848e5",
+  "base_sha": "3ae5d2472f420ddfdadd598a09173ec557d59fb8",
+  "head_sha": "ab7b6ac72b88e9de67e60e68b49fc62d2f529111",
+  "user_login": "dvmarcilio",
+  "extracted_count": 3,
+  "skipped_count": 2,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/FileUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_339/src/test/java/org/apache/commons/io/FileUtilsLLM_Test.java",
+      "package": "org.apache.commons.io",
+      "original_class_name": "FileUtilsTest2",
+      "final_class_name": "FileUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/IOUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_339/src/test/java/org/apache/commons/io/IOUtilsLLM_Test.java",
+      "package": "org.apache.commons.io",
+      "original_class_name": "IOUtilsTest2",
+      "final_class_name": "IOUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/file/PathUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_339/src/test/java/org/apache/commons/io/file/PathUtilsLLM_Test.java",
+      "package": "org.apache.commons.io.file",
+      "original_class_name": "PathUtilsTest2",
+      "final_class_name": "PathUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/FileUtilsDeleteDirectoryBaseTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/FileUtilsTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

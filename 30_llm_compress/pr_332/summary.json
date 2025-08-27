@@ -1,0 +1,80 @@
+{
+  "pr_number": 332,
+  "title": "[COMPRESS-633] Add encryption support for SevenZ",
+  "state": "closed",
+  "created_at": "2022-11-28T06:08:55Z",
+  "merge_commit_sha": "f0d13f961fedfe93f3114778608edca8533cd717",
+  "base_sha": "346e8a42c2075efbd5aef40ad97d202158b2ba1e",
+  "head_sha": "f22b2160aefb1c45fc5e66b321c3c92fefacf90b",
+  "user_login": "Dougniel",
+  "extracted_count": 4,
+  "skipped_count": 2,
+  "files": [
+    {
+      "source_filename": ".gitignore",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/sevenz/AES256Options.java",
+      "status_in_pr": "added",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_332/src/test/java/org/apache/commons/compress/archivers/sevenz/AES256OptionsLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.sevenz",
+      "original_class_name": "AES256OptionsTest",
+      "final_class_name": "AES256OptionsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/sevenz/AES256SHA256Decoder.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_332/src/test/java/org/apache/commons/compress/archivers/sevenz/AES256SHA256DecoderLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.sevenz",
+      "original_class_name": "AES256SHA256DecoderTest2",
+      "final_class_name": "AES256SHA256DecoderLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_332/src/test/java/org/apache/commons/compress/archivers/sevenz/SevenZFileLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.sevenz",
+      "original_class_name": "SevenZFileTest2",
+      "final_class_name": "SevenZFileLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_332/src/test/java/org/apache/commons/compress/archivers/sevenz/SevenZOutputFileLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.sevenz",
+      "original_class_name": "SevenZOutputFileTest2",
+      "final_class_name": "SevenZOutputFileLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/compress/archivers/sevenz/SevenZOutputFileTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

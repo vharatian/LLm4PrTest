@@ -1,0 +1,25 @@
+{
+  "pr_number": 260,
+  "title": "Fix javadoc",
+  "state": "closed",
+  "created_at": "2021-10-09T06:04:01Z",
+  "merge_commit_sha": "699abc8114a408224ce9db9ae0ca7f4b75f1b95b",
+  "base_sha": "5b0f22a750450db1b84da27a927147c90630ffd0",
+  "head_sha": "6f55359a8c10bb4a7a460693f6f03a429c518720",
+  "user_login": "arturobernalg",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/trie/PatriciaTrie.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_260/src/test/java/org/apache/commons/collections4/trie/PatriciaTrieLLM_Test.java",
+      "package": "org.apache.commons.collections4.trie",
+      "original_class_name": "PatriciaTrieTest2",
+      "final_class_name": "PatriciaTrieLLM_Test"
+    }
+  ]
+}

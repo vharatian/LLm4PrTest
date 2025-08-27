@@ -1,0 +1,36 @@
+{
+  "pr_number": 112,
+  "title": "IO-665  ensure that passing a null InputStream results in NPE with tests",
+  "state": "closed",
+  "created_at": "2020-04-13T18:39:40Z",
+  "merge_commit_sha": "2c13fc8148128d1a1f19f28b71acad262f24d4a3",
+  "base_sha": "6a78ef8903ef7c2c785b8d0cc08a150d1e2ba818",
+  "head_sha": "2dcd21b60c8a6929d5fb312e9f585b4f622a2c8b",
+  "user_login": "ottobackwards",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/input/XmlStreamReader.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_112/src/test/java/org/apache/commons/io/input/XmlStreamReaderLLM_Test.java",
+      "package": "org.apache.commons.io.input",
+      "original_class_name": "XmlStreamReaderTest2",
+      "final_class_name": "XmlStreamReaderLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/input/XmlStreamReaderTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

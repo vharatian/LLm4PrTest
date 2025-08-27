@@ -1,0 +1,25 @@
+{
+  "pr_number": 536,
+  "title": "Add PathMatcher to IOFileFilter class Javadoc",
+  "state": "closed",
+  "created_at": "2023-12-26T14:38:27Z",
+  "merge_commit_sha": "92266f4cb93811571f40566fe7b77605c97726ac",
+  "base_sha": "85945ac5ca162699fe11744eceef70b3f2059d24",
+  "head_sha": "f52ae94b3ae66f86c7c83a7adddd63914f5cd7a9",
+  "user_login": "elharo",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/filefilter/IOFileFilter.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_536/src/test/java/org/apache/commons/io/filefilter/IOFileFilterLLM_Test.java",
+      "package": "org.apache.commons.io.filefilter",
+      "original_class_name": "IOFileFilterTest",
+      "final_class_name": "IOFileFilterLLM_Test"
+    }
+  ]
+}

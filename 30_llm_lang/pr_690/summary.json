@@ -1,0 +1,25 @@
+{
+  "pr_number": 690,
+  "title": "Processor.java: check enum euqality with == instead of .equals() method",
+  "state": "closed",
+  "created_at": "2021-01-03T03:26:02Z",
+  "merge_commit_sha": "43b926eef8d15b2d9f45a96d16ffb8de4a1e4fc4",
+  "base_sha": "48927030951c5f58d7eea559856b51faad0e07c9",
+  "head_sha": "a1cb4de8e40d52381fcc5b22677e4ef481121d89",
+  "user_login": "akarimin",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/arch/Processor.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_690/src/test/java/org/apache/commons/lang3/arch/ProcessorLLM_Test.java",
+      "package": "org.apache.commons.lang3.arch",
+      "original_class_name": "ProcessorTest",
+      "final_class_name": "ProcessorLLM_Test"
+    }
+  ]
+}

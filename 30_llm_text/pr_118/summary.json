@@ -1,0 +1,124 @@
+{
+  "pr_number": 118,
+  "title": "[TEXT-170] Add String lookup for host names and IP addresses",
+  "state": "closed",
+  "created_at": "2019-07-27T20:30:21Z",
+  "merge_commit_sha": "d81879e0e705a6df5a9cd45563ce9a59804e5580",
+  "base_sha": "4e8197fc4f293a0d86103f4da98631080befdb21",
+  "head_sha": "a2cd31282aee80c9a189b3707578a166c81ea8b7",
+  "user_login": "garydgregory",
+  "extracted_count": 5,
+  "skipped_count": 5,
+  "files": [
+    {
+      "source_filename": "src/changes/changes.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/text/lookup/DefaultStringLookup.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_118/src/test/java/org/apache/commons/text/lookup/DefaultStringLookupLLM_Test.java",
+      "package": "org.apache.commons.text.lookup",
+      "original_class_name": "DefaultStringLookupTest2",
+      "final_class_name": "DefaultStringLookupLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/text/lookup/DnsStringLookup.java",
+      "status_in_pr": "added",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_118/src/test/java/org/apache/commons/text/lookup/DnsStringLookupLLM_Test.java",
+      "package": "org.apache.commons.text.lookup",
+      "original_class_name": "DnsStringLookupTest",
+      "final_class_name": "DnsStringLookupLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/text/lookup/InetAddressKeys.java",
+      "status_in_pr": "added",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_118/src/test/java/org/apache/commons/text/lookup/InetAddressKeysLLM_Test.java",
+      "package": "org.apache.commons.text.lookup",
+      "original_class_name": "InetAddressKeysTest",
+      "final_class_name": "InetAddressKeysLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/text/lookup/LocalHostStringLookup.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_118/src/test/java/org/apache/commons/text/lookup/LocalHostStringLookupLLM_Test.java",
+      "package": "org.apache.commons.text.lookup",
+      "original_class_name": "LocalHostStringLookupTest2",
+      "final_class_name": "LocalHostStringLookupLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/text/lookup/StringLookupFactory.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_118/src/test/java/org/apache/commons/text/lookup/StringLookupFactoryLLM_Test.java",
+      "package": "org.apache.commons.text.lookup",
+      "original_class_name": "StringLookupFactoryTest2",
+      "final_class_name": "StringLookupFactoryLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/text/StringSubstitutorWithInterpolatorStringLookupTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/text/lookup/DefaultStringLookupTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/text/lookup/DnsStringLookupTest.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/text/lookup/StringLookupFactoryTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

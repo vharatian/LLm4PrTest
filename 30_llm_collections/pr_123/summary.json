@@ -1,0 +1,36 @@
+{
+  "pr_number": 123,
+  "title": "[COLLECTIONS-739] Fix inconsistent @throws comments in DefaultedMap",
+  "state": "closed",
+  "created_at": "2019-12-04T22:12:43Z",
+  "merge_commit_sha": "b337febe27fe070081d570d3413a24187e86d4ef",
+  "base_sha": "dc1aca9ed9bb17cffd546f5bd3f93077ce2f8457",
+  "head_sha": "96bce661e7696fd593e705bf25a5a3b854c87c24",
+  "user_login": "pengyunie",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/map/DefaultedMap.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_123/src/test/java/org/apache/commons/collections4/map/DefaultedMapLLM_Test.java",
+      "package": "org.apache.commons.collections4.map",
+      "original_class_name": "DefaultedMapTest2",
+      "final_class_name": "DefaultedMapLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/collections4/map/DefaultedMapTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

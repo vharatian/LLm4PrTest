@@ -1,0 +1,25 @@
+{
+  "pr_number": 273,
+  "title": "Fix Javadoc in ThreadMonitor#run() method.",
+  "state": "closed",
+  "created_at": "2021-09-19T09:25:58Z",
+  "merge_commit_sha": "220a42bf62089c1cd2c9ed3d8d3652529d432f61",
+  "base_sha": "ac7a751ad4bfc056371a867590c2c33bc6ef9af2",
+  "head_sha": "43c633d293b6a476f42c50d478a3c582d27e2a49",
+  "user_login": "arturobernalg",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/ThreadMonitor.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_273/src/test/java/org/apache/commons/io/ThreadMonitorLLM_Test.java",
+      "package": "org.apache.commons.io",
+      "original_class_name": "ThreadMonitorTest",
+      "final_class_name": "ThreadMonitorLLM_Test"
+    }
+  ]
+}

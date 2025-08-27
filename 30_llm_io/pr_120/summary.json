@@ -1,0 +1,36 @@
+{
+  "pr_number": 120,
+  "title": "Add caching for required charsets",
+  "state": "closed",
+  "created_at": "2020-06-09T18:53:59Z",
+  "merge_commit_sha": "7ad1704f25172754f1cdb3435189593c7d0d082c",
+  "base_sha": "cd7787277b170d5f439df03850ca0c574566e539",
+  "head_sha": "4498f2c5f34d5d230f0ad27f207d69ab0fbfee1a",
+  "user_login": "JeromeWolff",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/Charsets.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_120/src/test/java/org/apache/commons/io/CharsetsLLM_Test.java",
+      "package": "org.apache.commons.io",
+      "original_class_name": "CharsetsTest",
+      "final_class_name": "CharsetsLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/CharsetsTestCase.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

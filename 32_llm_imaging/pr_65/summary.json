@@ -1,0 +1,124 @@
+{
+  "pr_number": 65,
+  "title": "[IMAGING-146]: add javadoc comments to the color package",
+  "state": "closed",
+  "created_at": "2019-12-15T03:55:53Z",
+  "merge_commit_sha": "6b1d1272568d6b24a0417b05af8434d6b27acc3e",
+  "base_sha": "a1072f61f68dcd4f58d171ce576314be7d57101d",
+  "head_sha": "282814065819cc411b8282dfb9e37c3d30aaab04",
+  "user_login": "kinow",
+  "extracted_count": 9,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/changes/changes.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/color/ColorCieLab.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_65/src/test/java/org/apache/commons/imaging/color/ColorCieLabLLM_Test.java",
+      "package": "org.apache.commons.imaging.color",
+      "original_class_name": "ColorCieLabTest2",
+      "final_class_name": "ColorCieLabLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/color/ColorCieLch.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_65/src/test/java/org/apache/commons/imaging/color/ColorCieLchLLM_Test.java",
+      "package": "org.apache.commons.imaging.color",
+      "original_class_name": "ColorCieLchTest2",
+      "final_class_name": "ColorCieLchLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/color/ColorCieLuv.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_65/src/test/java/org/apache/commons/imaging/color/ColorCieLuvLLM_Test.java",
+      "package": "org.apache.commons.imaging.color",
+      "original_class_name": "ColorCieLuvTest2",
+      "final_class_name": "ColorCieLuvLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/color/ColorCmy.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_65/src/test/java/org/apache/commons/imaging/color/ColorCmyLLM_Test.java",
+      "package": "org.apache.commons.imaging.color",
+      "original_class_name": "ColorCmyTest2",
+      "final_class_name": "ColorCmyLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/color/ColorCmyk.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_65/src/test/java/org/apache/commons/imaging/color/ColorCmykLLM_Test.java",
+      "package": "org.apache.commons.imaging.color",
+      "original_class_name": "ColorCmykTest2",
+      "final_class_name": "ColorCmykLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/color/ColorHsl.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_65/src/test/java/org/apache/commons/imaging/color/ColorHslLLM_Test.java",
+      "package": "org.apache.commons.imaging.color",
+      "original_class_name": "ColorHslTest2",
+      "final_class_name": "ColorHslLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/color/ColorHsv.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_65/src/test/java/org/apache/commons/imaging/color/ColorHsvLLM_Test.java",
+      "package": "org.apache.commons.imaging.color",
+      "original_class_name": "ColorHsvTest2",
+      "final_class_name": "ColorHsvLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/color/ColorHunterLab.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_65/src/test/java/org/apache/commons/imaging/color/ColorHunterLabLLM_Test.java",
+      "package": "org.apache.commons.imaging.color",
+      "original_class_name": "ColorHunterLabTest2",
+      "final_class_name": "ColorHunterLabLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/color/ColorXyz.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_65/src/test/java/org/apache/commons/imaging/color/ColorXyzLLM_Test.java",
+      "package": "org.apache.commons.imaging.color",
+      "original_class_name": "ColorXyzTest2",
+      "final_class_name": "ColorXyzLLM_Test"
+    }
+  ]
+}

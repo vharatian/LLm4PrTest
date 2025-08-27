@@ -1,0 +1,102 @@
+{
+  "pr_number": 19,
+  "title": "CODEC-134: Update commons-codec to reject decoding any impossible string encoding for Base32 and Base64.",
+  "state": "closed",
+  "created_at": "2019-05-03T15:49:03Z",
+  "merge_commit_sha": "48b615756d1d770091ea3322eefc08011ee8b113",
+  "base_sha": "0bf5b8a05a535895916a57817b226aec0e05ba13",
+  "head_sha": "f6195d31a096a91e94a1fcc46a6b0c011a628cc4",
+  "user_login": "tmousaw-ptc",
+  "extracted_count": 3,
+  "skipped_count": 5,
+  "files": [
+    {
+      "source_filename": "src/changes/changes.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/codec/binary/Base32.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_19/src/test/java/org/apache/commons/codec/binary/Base32LLM_Test.java",
+      "package": "org.apache.commons.codec.binary",
+      "original_class_name": "Base32Test2",
+      "final_class_name": "Base32LLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/codec/binary/Base64.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_19/src/test/java/org/apache/commons/codec/binary/Base64LLM_Test.java",
+      "package": "org.apache.commons.codec.binary",
+      "original_class_name": "Base64Test2",
+      "final_class_name": "Base64LLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/codec/net/BCodec.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_19/src/test/java/org/apache/commons/codec/net/BCodecLLM_Test.java",
+      "package": "org.apache.commons.codec.net",
+      "original_class_name": "BCodecTest2",
+      "final_class_name": "BCodecLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/codec/binary/Base32Test.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/codec/binary/Base64Test.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/codec/binary/Base64TestData.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/codec/net/BCodecTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

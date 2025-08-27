@@ -1,0 +1,36 @@
+{
+  "pr_number": 475,
+  "title": "LANG-1495 Add EnumUtils getEnum() methods with default values",
+  "state": "closed",
+  "created_at": "2019-10-28T02:58:05Z",
+  "merge_commit_sha": "4a934610e7d911df707a23ad338ab2e4aa14daa4",
+  "base_sha": "54afdb303535a62fe00e49e3ad5100ca9fc55d1e",
+  "head_sha": "ad4424480ddcd7ad7310677cbdf46926f081e370",
+  "user_login": "vlcheong",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/EnumUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_475/src/test/java/org/apache/commons/lang3/EnumUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "EnumUtilsTest2",
+      "final_class_name": "EnumUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/EnumUtilsTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

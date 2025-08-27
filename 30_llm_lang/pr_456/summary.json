@@ -1,0 +1,36 @@
+{
+  "pr_number": 456,
+  "title": "[LANG-1489] Add null-safe APIs as StringUtils.toRoot[Lower|Upper]Case(String)",
+  "state": "closed",
+  "created_at": "2019-09-10T15:04:19Z",
+  "merge_commit_sha": "ba1c22ce8378d389a0ee267e2f75a17a4860c7ba",
+  "base_sha": "7c32e527651a8a235d1b78b2f5d3f53d5e9bb6cb",
+  "head_sha": "b131a61c3f6643ce2f8a4a0ec7a31959ef12aa3c",
+  "user_login": "garydgregory",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/StringUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_456/src/test/java/org/apache/commons/lang3/StringUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "StringUtilsTest2",
+      "final_class_name": "StringUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/StringUtilsTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "pr_number": 57,
+  "title": "Javadoc typo in CSVFormat let's -> lets",
+  "state": "closed",
+  "created_at": "2020-02-10T07:09:49Z",
+  "merge_commit_sha": "db130e71784f18624debe3f8f763523ff1dd53c4",
+  "base_sha": "e60777139fa7e93cf8fac5511c54334f9f36c775",
+  "head_sha": "e754863d1304e213e5611a402782134e4456d8e1",
+  "user_login": "dota17",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/csv/CSVFormat.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_57/src/test/java/org/apache/commons/csv/CSVFormatLLM_Test.java",
+      "package": "org.apache.commons.csv",
+      "original_class_name": "CSVFormatTest2",
+      "final_class_name": "CSVFormatLLM_Test"
+    }
+  ]
+}

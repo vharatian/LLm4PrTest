@@ -1,0 +1,25 @@
+{
+  "pr_number": 107,
+  "title": "Remove the parentheses in the error message in CircularFifoQueue",
+  "state": "closed",
+  "created_at": "2019-11-01T03:34:59Z",
+  "merge_commit_sha": "6b2407207443aa3679a417535b173b697ce9ab54",
+  "base_sha": "c6f4b84c7d0a7669370a07fb4a7ec72de9cbaed2",
+  "head_sha": "150061b444ed98e34f7199cc252276e737ac0c5d",
+  "user_login": "dota17",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/queue/CircularFifoQueue.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_107/src/test/java/org/apache/commons/collections4/queue/CircularFifoQueueLLM_Test.java",
+      "package": "org.apache.commons.collections4.queue",
+      "original_class_name": "CircularFifoQueueTest2",
+      "final_class_name": "CircularFifoQueueLLM_Test"
+    }
+  ]
+}

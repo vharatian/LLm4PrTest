@@ -1,0 +1,25 @@
+{
+  "pr_number": 516,
+  "title": "Simplify null checks in Triple.hashCode() using Objects.hashCode().",
+  "state": "closed",
+  "created_at": "2020-04-17T23:27:22Z",
+  "merge_commit_sha": "c7ab53f9e34be876309e835f981db69920f79cdc",
+  "base_sha": "e9225d05b25122e0914f1c6f200aaf8fe0e6a75c",
+  "head_sha": "8a4a76861db807a7490afb439bf755800298fde4",
+  "user_login": "Isira-Seneviratne",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/tuple/Triple.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_516/src/test/java/org/apache/commons/lang3/tuple/TripleLLM_Test.java",
+      "package": "org.apache.commons.lang3.tuple",
+      "original_class_name": "TripleTest2",
+      "final_class_name": "TripleLLM_Test"
+    }
+  ]
+}

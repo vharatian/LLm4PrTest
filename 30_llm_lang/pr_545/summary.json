@@ -1,0 +1,58 @@
+{
+  "pr_number": 545,
+  "title": "[LANG-1560] Refine Javadoc",
+  "state": "closed",
+  "created_at": "2020-06-01T07:47:55Z",
+  "merge_commit_sha": "8e61b090ceaaf7b108f0df175e9edbeae8d37642",
+  "base_sha": "3d4ed4a8ac63db1e51601ffc31fed44dccbb276c",
+  "head_sha": "3bf78568cc58a46c88d1c5260e2a262ebd4f8770",
+  "user_login": "XenoAmess",
+  "extracted_count": 2,
+  "skipped_count": 2,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/SystemUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_545/src/test/java/org/apache/commons/lang3/SystemUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "SystemUtilsTest2",
+      "final_class_name": "SystemUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_545/src/test/java/org/apache/commons/lang3/reflect/MethodUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3.reflect",
+      "original_class_name": "MethodUtilsTest2",
+      "final_class_name": "MethodUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/StringEscapeUtilsTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/time/DateUtilsRoundingTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

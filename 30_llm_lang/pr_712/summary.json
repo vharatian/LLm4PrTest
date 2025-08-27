@@ -1,0 +1,47 @@
+{
+  "pr_number": 712,
+  "title": "Fix broken Javadoc links to commons-text",
+  "state": "closed",
+  "created_at": "2021-02-17T10:29:08Z",
+  "merge_commit_sha": "804e7c818f12f857d446e7cdf5d147d7fee7bb1d",
+  "base_sha": "5689c91cf2a3a27f0a3a8a362857f2cf0919d4f6",
+  "head_sha": "7443a9308d6c3ce85aa6b67b16dd62e4bac95bb0",
+  "user_login": "smowton",
+  "extracted_count": 3,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/text/StrLookup.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_712/src/test/java/org/apache/commons/lang3/text/StrLookupLLM_Test.java",
+      "package": "org.apache.commons.lang3.text",
+      "original_class_name": "StrLookupTest2",
+      "final_class_name": "StrLookupLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/text/StrMatcher.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_712/src/test/java/org/apache/commons/lang3/text/StrMatcherLLM_Test.java",
+      "package": "org.apache.commons.lang3.text",
+      "original_class_name": "StrMatcherTest2",
+      "final_class_name": "StrMatcherLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/text/translate/AggregateTranslator.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_712/src/test/java/org/apache/commons/lang3/text/translate/AggregateTranslatorLLM_Test.java",
+      "package": "org.apache.commons.lang3.text.translate",
+      "original_class_name": "AggregateTranslatorTest",
+      "final_class_name": "AggregateTranslatorLLM_Test"
+    }
+  ]
+}

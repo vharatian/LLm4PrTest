@@ -1,0 +1,135 @@
+{
+  "pr_number": 111,
+  "title": "remove unused imports.",
+  "state": "closed",
+  "created_at": "2020-06-04T19:57:25Z",
+  "merge_commit_sha": "eb79e1add65f88072c1bc47b77ee4c388afe23f6",
+  "base_sha": "18fb261d0bbbb8cc52483267213e0d2ef4c43de7",
+  "head_sha": "932fbdbfaf1604e24d2f95028e187c8eea23a7f7",
+  "user_login": "XenoAmess",
+  "extracted_count": 6,
+  "skipped_count": 5,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_111/src/test/java/org/apache/commons/compress/archivers/sevenz/SevenZFileLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.sevenz",
+      "original_class_name": "SevenZFileTest2",
+      "final_class_name": "SevenZFileLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_111/src/test/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStreamLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.tar",
+      "original_class_name": "TarArchiveOutputStreamTest2",
+      "final_class_name": "TarArchiveOutputStreamLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/zip/AbstractUnicodeExtraField.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_111/src/test/java/org/apache/commons/compress/archivers/zip/AbstractUnicodeExtraFieldLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.zip",
+      "original_class_name": "AbstractUnicodeExtraFieldTest",
+      "final_class_name": "AbstractUnicodeExtraFieldLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/compressors/gzip/GzipCompressorInputStream.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_111/src/test/java/org/apache/commons/compress/compressors/gzip/GzipCompressorInputStreamLLM_Test.java",
+      "package": "org.apache.commons.compress.compressors.gzip",
+      "original_class_name": "GzipCompressorInputStreamTest",
+      "final_class_name": "GzipCompressorInputStreamLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/compressors/gzip/GzipCompressorOutputStream.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_111/src/test/java/org/apache/commons/compress/compressors/gzip/GzipCompressorOutputStreamLLM_Test.java",
+      "package": "org.apache.commons.compress.compressors.gzip",
+      "original_class_name": "GzipCompressorOutputStreamTest",
+      "final_class_name": "GzipCompressorOutputStreamLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_111/src/test/java/org/apache/commons/compress/utils/ArchiveUtilsLLM_Test.java",
+      "package": "org.apache.commons.compress.utils",
+      "original_class_name": "ArchiveUtilsTest",
+      "final_class_name": "ArchiveUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/compress/archivers/examples/ParameterizedExpanderTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/compress/archivers/tar/SparseFilesTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStreamTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/compress/archivers/zip/ZipFileTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/compress/utils/SeekableInMemoryByteChannelTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

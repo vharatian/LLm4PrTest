@@ -1,0 +1,58 @@
+{
+  "pr_number": 533,
+  "title": "[IO-808] Remove redundant checks; improve Javadoc",
+  "state": "closed",
+  "created_at": "2023-12-21T15:47:42Z",
+  "merge_commit_sha": "9aa8ef35d805df0e2c0b635c62c31c0eb5fa2579",
+  "base_sha": "c91701c4b72b6d3007787d0ae9034212d13afa8b",
+  "head_sha": "8fbdf91c7757366092a8125482039f4be65061ef",
+  "user_login": "elharo",
+  "extracted_count": 2,
+  "skipped_count": 2,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/FileUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_533/src/test/java/org/apache/commons/io/FileUtilsLLM_Test.java",
+      "package": "org.apache.commons.io",
+      "original_class_name": "FileUtilsTest2",
+      "final_class_name": "FileUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/function/IOConsumer.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_533/src/test/java/org/apache/commons/io/function/IOConsumerLLM_Test.java",
+      "package": "org.apache.commons.io.function",
+      "original_class_name": "IOConsumerTest2",
+      "final_class_name": "IOConsumerLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/FileUtilsCopyDirectoryToDirectoryTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/FileUtilsDeleteDirectoryLinuxTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

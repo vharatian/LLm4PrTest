@@ -1,0 +1,25 @@
+{
+  "pr_number": 125,
+  "title": "Use String.contains() functions.",
+  "state": "closed",
+  "created_at": "2022-04-16T21:34:15Z",
+  "merge_commit_sha": "d400fd04389821cf80acce33ccd77091d194519c",
+  "base_sha": "5f90731d40e6ed12d1ebfddfeb5dca5550d19cdd",
+  "head_sha": "006810ae4e95a2f73a13f2d1915f90adc6dd82aa",
+  "user_login": "arturobernalg",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/codec/language/DoubleMetaphone.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_125/src/test/java/org/apache/commons/codec/language/DoubleMetaphoneLLM_Test.java",
+      "package": "org.apache.commons.codec.language",
+      "original_class_name": "DoubleMetaphoneTest2",
+      "final_class_name": "DoubleMetaphoneLLM_Test"
+    }
+  ]
+}

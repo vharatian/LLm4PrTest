@@ -1,0 +1,36 @@
+{
+  "pr_number": 74,
+  "title": "Correct EOF check in ArArchiveInputStream",
+  "state": "closed",
+  "created_at": "2019-02-11T15:14:47Z",
+  "merge_commit_sha": "575f0eb67d04d524872435f610d445c4d96597c1",
+  "base_sha": "995f1a66c3c048804de2e06928a01ed86ff74040",
+  "head_sha": "8e5338cd2d6edc347cfe2bcd72f15bf23b178f5b",
+  "user_login": "akbertram",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_74/src/test/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStreamLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.ar",
+      "original_class_name": "ArArchiveInputStreamTest2",
+      "final_class_name": "ArArchiveInputStreamLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStreamTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

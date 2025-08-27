@@ -1,0 +1,58 @@
+{
+  "pr_number": 51,
+  "title": "IMAGING-210: prevent NegativeArraySizeException in chunks in PngImageParser",
+  "state": "closed",
+  "created_at": "2019-08-17T12:58:36Z",
+  "merge_commit_sha": "8ee267db7a05d26f66e5f0b0ec7af6b813f99345",
+  "base_sha": "0c773d2a83c81eb470ab491f9bb4eb0031c3f9f1",
+  "head_sha": "02bd6c4fb271cbf69fe11554b3dbb69279428c6f",
+  "user_login": "kinow",
+  "extracted_count": 1,
+  "skipped_count": 3,
+  "files": [
+    {
+      "source_filename": "src/changes/changes.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/png/PngImageParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_51/src/test/java/org/apache/commons/imaging/formats/png/PngImageParserLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.png",
+      "original_class_name": "PngImageParserTest",
+      "final_class_name": "PngImageParserLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/imaging/formats/png/PngWithInvalidPngChunkSizeTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/resources/IMAGING-210/testfile.png",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

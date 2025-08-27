@@ -1,0 +1,69 @@
+{
+  "pr_number": 79,
+  "title": "CODEC-296: Add support for Blake3 family of hashes",
+  "state": "closed",
+  "created_at": "2021-03-07T01:01:12Z",
+  "merge_commit_sha": "b70e177f8733e9dd4e5f503620ed0b136b74785b",
+  "base_sha": "482df6cabfb288acb6ab3e4a732fdb93aecfa7c2",
+  "head_sha": "1391f3cfeeae872af4f41d7caf859c786e9c40de",
+  "user_login": "jvz",
+  "extracted_count": 1,
+  "skipped_count": 4,
+  "files": [
+    {
+      "source_filename": "pom.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/changes/changes.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/codec/digest/Blake3.java",
+      "status_in_pr": "added",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_79/src/test/java/org/apache/commons/codec/digest/Blake3LLM_Test.java",
+      "package": "org.apache.commons.codec.digest",
+      "original_class_name": "Blake3Test",
+      "final_class_name": "Blake3LLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/codec/digest/Blake3Test.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/codec/digest/Blake3TestVectorsTest.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

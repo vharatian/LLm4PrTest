@@ -1,0 +1,80 @@
+{
+  "pr_number": 452,
+  "title": "[LANG-1486] Generify builder classes Diffable, DiffBuilder, and",
+  "state": "closed",
+  "created_at": "2019-09-05T18:14:55Z",
+  "merge_commit_sha": "0abfa791934a846a563ee6d4e89eb5e3f92f63de",
+  "base_sha": "b77014c9536deb38f91eb579c27e2484793eda44",
+  "head_sha": "e92182813419416bd0d7ed56c2d4065c13d2cb06",
+  "user_login": "garydgregory",
+  "extracted_count": 4,
+  "skipped_count": 2,
+  "files": [
+    {
+      "source_filename": "src/changes/changes.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/builder/DiffBuilder.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_452/src/test/java/org/apache/commons/lang3/builder/DiffBuilderLLM_Test.java",
+      "package": "org.apache.commons.lang3.builder",
+      "original_class_name": "DiffBuilderTest2",
+      "final_class_name": "DiffBuilderLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/builder/DiffResult.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_452/src/test/java/org/apache/commons/lang3/builder/DiffResultLLM_Test.java",
+      "package": "org.apache.commons.lang3.builder",
+      "original_class_name": "DiffResultTest2",
+      "final_class_name": "DiffResultLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/builder/Diffable.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_452/src/test/java/org/apache/commons/lang3/builder/DiffableLLM_Test.java",
+      "package": "org.apache.commons.lang3.builder",
+      "original_class_name": "DiffableTest",
+      "final_class_name": "DiffableLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/builder/ReflectionDiffBuilder.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_452/src/test/java/org/apache/commons/lang3/builder/ReflectionDiffBuilderLLM_Test.java",
+      "package": "org.apache.commons.lang3.builder",
+      "original_class_name": "ReflectionDiffBuilderTest2",
+      "final_class_name": "ReflectionDiffBuilderLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/builder/DiffBuilderTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

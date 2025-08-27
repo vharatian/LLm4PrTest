@@ -1,0 +1,25 @@
+{
+  "pr_number": 512,
+  "title": "[LANG-1534] Replace some usages of the ternary operator with calls to Math.max() and Math.min()",
+  "state": "closed",
+  "created_at": "2020-04-17T12:30:55Z",
+  "merge_commit_sha": "44d4acc6218bf06843833eaf275ccf5f2d526999",
+  "base_sha": "d82301acbdf96f519b27fe379d3cbe9f17e1aa16",
+  "head_sha": "bed54300a4d98c327be3566e6b26f41e0f3a9c6a",
+  "user_login": "Isira-Seneviratne",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/StringUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_512/src/test/java/org/apache/commons/lang3/StringUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "StringUtilsTest2",
+      "final_class_name": "StringUtilsLLM_Test"
+    }
+  ]
+}

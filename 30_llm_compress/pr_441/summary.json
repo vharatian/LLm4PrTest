@@ -1,0 +1,179 @@
+{
+  "pr_number": 441,
+  "title": "[COMPRESS-632] Improve CPIO exception detection and handling",
+  "state": "closed",
+  "created_at": "2023-11-14T21:20:32Z",
+  "merge_commit_sha": "adda4c1829aaae45939e370f47b478ef7f3e7e33",
+  "base_sha": "228d8b25e904be68d384a8ea1fb8812e1f73392b",
+  "head_sha": "03197e01fd9cf63346ae33e6950d248a0574cc36",
+  "user_login": "yakovsh",
+  "extracted_count": 10,
+  "skipped_count": 5,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_441/src/test/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStreamLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.ar",
+      "original_class_name": "ArArchiveInputStreamTest2",
+      "final_class_name": "ArArchiveInputStreamLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_441/src/test/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStreamLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.cpio",
+      "original_class_name": "CpioArchiveInputStreamTest2",
+      "final_class_name": "CpioArchiveInputStreamLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_441/src/test/java/org/apache/commons/compress/archivers/tar/TarArchiveEntryLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.tar",
+      "original_class_name": "TarArchiveEntryTest2",
+      "final_class_name": "TarArchiveEntryLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_441/src/test/java/org/apache/commons/compress/archivers/tar/TarUtilsLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.tar",
+      "original_class_name": "TarUtilsTest2",
+      "final_class_name": "TarUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/harmony/pack200/NewAttributeBands.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_441/src/test/java/org/apache/commons/compress/harmony/pack200/NewAttributeBandsLLM_Test.java",
+      "package": "org.apache.commons.compress.harmony.pack200",
+      "original_class_name": "NewAttributeBandsTest",
+      "final_class_name": "NewAttributeBandsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/harmony/pack200/Pack200Adapter.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_441/src/test/java/org/apache/commons/compress/harmony/pack200/Pack200AdapterLLM_Test.java",
+      "package": "org.apache.commons.compress.harmony.pack200",
+      "original_class_name": "Pack200AdapterTest",
+      "final_class_name": "Pack200AdapterLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/harmony/pack200/Pack200PackerAdapter.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_441/src/test/java/org/apache/commons/compress/harmony/pack200/Pack200PackerAdapterLLM_Test.java",
+      "package": "org.apache.commons.compress.harmony.pack200",
+      "original_class_name": "Pack200PackerAdapterTest",
+      "final_class_name": "Pack200PackerAdapterLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/harmony/unpack200/NewAttributeBands.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_441/src/test/java/org/apache/commons/compress/harmony/unpack200/NewAttributeBandsLLM_Test.java",
+      "package": "org.apache.commons.compress.harmony.unpack200",
+      "original_class_name": "NewAttributeBandsTest",
+      "final_class_name": "NewAttributeBandsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/utils/ExactMath.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_441/src/test/java/org/apache/commons/compress/utils/ExactMathLLM_Test.java",
+      "package": "org.apache.commons.compress.utils",
+      "original_class_name": "ExactMathTest",
+      "final_class_name": "ExactMathLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/utils/ParsingUtils.java",
+      "status_in_pr": "added",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_441/src/test/java/org/apache/commons/compress/utils/ParsingUtilsLLM_Test.java",
+      "package": "org.apache.commons.compress.utils",
+      "original_class_name": "ParsingUtilsTest",
+      "final_class_name": "ParsingUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntryTest.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStreamTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/compress/utils/ExactMathTest.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/compress/utils/ParsingUtilsTest.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/resources/org/apache/commons/compress/cpio/bad_long_value.cpio",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

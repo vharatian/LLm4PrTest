@@ -1,0 +1,124 @@
+{
+  "pr_number": 341,
+  "title": "Interpolation Defaults",
+  "state": "closed",
+  "created_at": "2022-07-16T11:59:41Z",
+  "merge_commit_sha": "b9b40b903e2d1f9935039803c9852439576780ea",
+  "base_sha": "1f92601a53acb4944311579a8430e30f1e659bb4",
+  "head_sha": "365629203dbf46b24278c7d21b5ccfbb7c107f96",
+  "user_login": "darkma773r",
+  "extracted_count": 4,
+  "skipped_count": 6,
+  "files": [
+    {
+      "source_filename": "src/changes/changes.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/text/StringSubstitutor.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_341/src/test/java/org/apache/commons/text/StringSubstitutorLLM_Test.java",
+      "package": "org.apache.commons.text",
+      "original_class_name": "StringSubstitutorTest2",
+      "final_class_name": "StringSubstitutorLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/text/lookup/DefaultStringLookup.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_341/src/test/java/org/apache/commons/text/lookup/DefaultStringLookupLLM_Test.java",
+      "package": "org.apache.commons.text.lookup",
+      "original_class_name": "DefaultStringLookupTest2",
+      "final_class_name": "DefaultStringLookupLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/text/lookup/InterpolatorStringLookup.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_341/src/test/java/org/apache/commons/text/lookup/InterpolatorStringLookupLLM_Test.java",
+      "package": "org.apache.commons.text.lookup",
+      "original_class_name": "InterpolatorStringLookupTest2",
+      "final_class_name": "InterpolatorStringLookupLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/text/lookup/StringLookupFactory.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_341/src/test/java/org/apache/commons/text/lookup/StringLookupFactoryLLM_Test.java",
+      "package": "org.apache.commons.text.lookup",
+      "original_class_name": "StringLookupFactoryTest2",
+      "final_class_name": "StringLookupFactoryLLM_Test"
+    },
+    {
+      "source_filename": "src/main/resources/org/apache/commons/text/lookup/defaults.properties",
+      "status_in_pr": "removed",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/site/xdoc/userguide.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/text/StringSubstitutorWithInterpolatorStringLookupTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/text/lookup/StringLookupFactoryTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/resources/org/apache/commons/text/lookup/defaults.properties",
+      "status_in_pr": "removed",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

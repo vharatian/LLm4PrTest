@@ -1,0 +1,80 @@
+{
+  "pr_number": 317,
+  "title": "moved IndexFilter to its own file.",
+  "state": "closed",
+  "created_at": "2022-06-29T08:57:55Z",
+  "merge_commit_sha": "c811f541aa74d111cb731736bdfc6071a2084c7c",
+  "base_sha": "a79ea005b1ec4ad228067a9c5f2e10dcfb324c5e",
+  "head_sha": "57b5be9cce8a30aba1d653e3627c1730a7fdb776",
+  "user_login": "Claudenw",
+  "extracted_count": 3,
+  "skipped_count": 3,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/bloomfilter/Hasher.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_317/src/test/java/org/apache/commons/collections4/bloomfilter/HasherLLM_Test.java",
+      "package": "org.apache.commons.collections4.bloomfilter",
+      "original_class_name": "HasherTest",
+      "final_class_name": "HasherLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/bloomfilter/IndexFilter.java",
+      "status_in_pr": "added",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_317/src/test/java/org/apache/commons/collections4/bloomfilter/IndexFilterLLM_Test.java",
+      "package": "org.apache.commons.collections4.bloomfilter",
+      "original_class_name": "IndexFilterTest2",
+      "final_class_name": "IndexFilterLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/bloomfilter/SimpleHasher.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_317/src/test/java/org/apache/commons/collections4/bloomfilter/SimpleHasherLLM_Test.java",
+      "package": "org.apache.commons.collections4.bloomfilter",
+      "original_class_name": "SimpleHasherTest2",
+      "final_class_name": "SimpleHasherLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/collections4/bloomfilter/ArrayTrackerTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/collections4/bloomfilter/BitMapTrackerTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/collections4/bloomfilter/IndexFilterTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

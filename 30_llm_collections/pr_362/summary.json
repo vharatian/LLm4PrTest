@@ -1,0 +1,47 @@
+{
+  "pr_number": 362,
+  "title": "Use Java style array decelerations",
+  "state": "closed",
+  "created_at": "2022-11-26T20:25:46Z",
+  "merge_commit_sha": "954d222aa675130d006e3968ec76ea4ea15af09f",
+  "base_sha": "81a498b116ea84b986e0f13a849294f356815baf",
+  "head_sha": "ae70e0b4ee74e73b1f275573606f39adaed4c19e",
+  "user_login": "arturobernalg",
+  "extracted_count": 3,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/iterators/ObjectArrayIterator.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_362/src/test/java/org/apache/commons/collections4/iterators/ObjectArrayIteratorLLM_Test.java",
+      "package": "org.apache.commons.collections4.iterators",
+      "original_class_name": "ObjectArrayIteratorTest2",
+      "final_class_name": "ObjectArrayIteratorLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/map/AbstractHashedMap.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_362/src/test/java/org/apache/commons/collections4/map/AbstractHashedMapLLM_Test.java",
+      "package": "org.apache.commons.collections4.map",
+      "original_class_name": "AbstractHashedMapTest",
+      "final_class_name": "AbstractHashedMapLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/set/ListOrderedSet.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_362/src/test/java/org/apache/commons/collections4/set/ListOrderedSetLLM_Test.java",
+      "package": "org.apache.commons.collections4.set",
+      "original_class_name": "ListOrderedSetTest2",
+      "final_class_name": "ListOrderedSetLLM_Test"
+    }
+  ]
+}

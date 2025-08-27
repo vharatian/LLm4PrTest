@@ -1,0 +1,36 @@
+{
+  "pr_number": 383,
+  "title": "[IO-611] FilenameUtils.normalize javadoc and tests.",
+  "state": "closed",
+  "created_at": "2022-09-12T08:07:48Z",
+  "merge_commit_sha": "9fef1d44e9525c728e5757163203949fa0db1015",
+  "base_sha": "1022f3b36189db65a5abe4e3e5c52d2e3757aac1",
+  "head_sha": "0d2eb89b2e682f5a68d81ee37866c7dc51b50fd4",
+  "user_login": "urvanov-ru",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/FilenameUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_383/src/test/java/org/apache/commons/io/FilenameUtilsLLM_Test.java",
+      "package": "org.apache.commons.io",
+      "original_class_name": "FilenameUtilsTest2",
+      "final_class_name": "FilenameUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/FilenameUtilsTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

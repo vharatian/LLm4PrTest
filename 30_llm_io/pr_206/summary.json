@@ -1,0 +1,36 @@
+{
+  "pr_number": 206,
+  "title": "[IO-651] Add DeferredFileOutputStream.toInputStream()",
+  "state": "closed",
+  "created_at": "2021-02-19T16:39:37Z",
+  "merge_commit_sha": "ddbfad9b0b11136c2908e00e22732c0bc7369e83",
+  "base_sha": "5833b831ffe2bf8cdb74ee5567c8ae33abb0c7f4",
+  "head_sha": "99f52c851f263e12da83982d001db190331643d8",
+  "user_login": "ghost",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/output/DeferredFileOutputStream.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_206/src/test/java/org/apache/commons/io/output/DeferredFileOutputStreamLLM_Test.java",
+      "package": "org.apache.commons.io.output",
+      "original_class_name": "DeferredFileOutputStreamTest2",
+      "final_class_name": "DeferredFileOutputStreamLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/output/DeferredFileOutputStreamTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

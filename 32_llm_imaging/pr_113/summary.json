@@ -1,0 +1,47 @@
+{
+  "pr_number": 113,
+  "title": "Minor improvement - Fix JavaDoc",
+  "state": "closed",
+  "created_at": "2020-12-15T06:20:27Z",
+  "merge_commit_sha": "2b48e795b58f02108ab262988b673756801de87b",
+  "base_sha": "2c82821de870a45d50e05ab85651b42d45a36493",
+  "head_sha": "079c067469db03024ce1eef49b8e555746096dec",
+  "user_login": "arturobernalg",
+  "extracted_count": 2,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/jpeg/iptc/IptcParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_113/src/test/java/org/apache/commons/imaging/formats/jpeg/iptc/IptcParserLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.jpeg.iptc",
+      "original_class_name": "IptcParserTest2",
+      "final_class_name": "IptcParserLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/png/chunks/PngChunkIccp.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_113/src/test/java/org/apache/commons/imaging/formats/png/chunks/PngChunkIccpLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.png.chunks",
+      "original_class_name": "PngChunkIccpTest2",
+      "final_class_name": "PngChunkIccpLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/imaging/formats/jpeg/iptc/IptcParserTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

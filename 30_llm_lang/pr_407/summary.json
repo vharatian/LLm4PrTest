@@ -1,0 +1,47 @@
+{
+  "pr_number": 407,
+  "title": "LANG-1433: MethodUtils will throw a NPE if invokeMethod() is called for a var-args method",
+  "state": "closed",
+  "created_at": "2019-02-20T10:23:10Z",
+  "merge_commit_sha": "553a0474ea11a9b61a8de618a3512f29f5a17368",
+  "base_sha": "589ce593070cb5bdb4053a71fe97342509037170",
+  "head_sha": "1746865cd65b0fa8e05d576388ee3b490bdc4914",
+  "user_login": "cfranzen",
+  "extracted_count": 2,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/reflect/MemberUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_407/src/test/java/org/apache/commons/lang3/reflect/MemberUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3.reflect",
+      "original_class_name": "MemberUtilsTest",
+      "final_class_name": "MemberUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_407/src/test/java/org/apache/commons/lang3/reflect/MethodUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3.reflect",
+      "original_class_name": "MethodUtilsTest2",
+      "final_class_name": "MethodUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

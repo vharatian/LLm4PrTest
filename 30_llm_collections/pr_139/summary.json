@@ -1,0 +1,36 @@
+{
+  "pr_number": 139,
+  "title": "Make BloomFilterIndexer and HashFunctionValidator public",
+  "state": "closed",
+  "created_at": "2020-03-07T10:10:11Z",
+  "merge_commit_sha": "0c39fbd170b29753af28807415ac5e3644603352",
+  "base_sha": "90f705e73270ef0c2c21bd14daf998bbe0d5ecc3",
+  "head_sha": "d5a105c575303be8b2c4bc9163cfeb80f94628e7",
+  "user_login": "Claudenw",
+  "extracted_count": 2,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/bloomfilter/BloomFilterIndexer.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_139/src/test/java/org/apache/commons/collections4/bloomfilter/BloomFilterIndexerLLM_Test.java",
+      "package": "org.apache.commons.collections4.bloomfilter",
+      "original_class_name": "BloomFilterIndexerTest2",
+      "final_class_name": "BloomFilterIndexerLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/bloomfilter/hasher/HashFunctionValidator.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_139/src/test/java/org/apache/commons/collections4/bloomfilter/hasher/HashFunctionValidatorLLM_Test.java",
+      "package": "org.apache.commons.collections4.bloomfilter.hasher",
+      "original_class_name": "HashFunctionValidatorTest2",
+      "final_class_name": "HashFunctionValidatorLLM_Test"
+    }
+  ]
+}

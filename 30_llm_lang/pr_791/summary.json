@@ -1,0 +1,25 @@
+{
+  "pr_number": 791,
+  "title": "LANG-1669: OpenJDK 16 Day Period Parsing",
+  "state": "closed",
+  "created_at": "2021-08-19T04:42:13Z",
+  "merge_commit_sha": "03edee74511bfb4f61cec5d15de48ce1c48ff3e8",
+  "base_sha": "a6df7f74564b9432bf38fe33c4adc0bc529bf7c9",
+  "head_sha": "27cef6c49fe5394e0a4d4389eda16c2b418b786a",
+  "user_login": "greatmastermario",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/time/FastDateParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_791/src/test/java/org/apache/commons/lang3/time/FastDateParserLLM_Test.java",
+      "package": "org.apache.commons.lang3.time",
+      "original_class_name": "FastDateParserTest2",
+      "final_class_name": "FastDateParserLLM_Test"
+    }
+  ]
+}

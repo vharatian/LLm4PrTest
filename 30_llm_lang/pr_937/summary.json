@@ -1,0 +1,47 @@
+{
+  "pr_number": 937,
+  "title": "Extends Object clauses are redundant",
+  "state": "closed",
+  "created_at": "2022-08-20T16:57:22Z",
+  "merge_commit_sha": "1d66289a509249e7fceadc5f34fd5c832adfc0cf",
+  "base_sha": "ceb7fbb0336f21f74d2b096cc0b418d62a1a3fe1",
+  "head_sha": "556fd63075968f7e365f80ba7205ca755267911b",
+  "user_login": "arturobernalg",
+  "extracted_count": 3,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/Streams.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_937/src/test/java/org/apache/commons/lang3/StreamsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "StreamsTest2",
+      "final_class_name": "StreamsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_937/src/test/java/org/apache/commons/lang3/reflect/MethodUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3.reflect",
+      "original_class_name": "MethodUtilsTest2",
+      "final_class_name": "MethodUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/stream/Streams.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_937/src/test/java/org/apache/commons/lang3/stream/StreamsLLM_Test.java",
+      "package": "org.apache.commons.lang3.stream",
+      "original_class_name": "StreamsTest2",
+      "final_class_name": "StreamsLLM_Test"
+    }
+  ]
+}

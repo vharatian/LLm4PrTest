@@ -1,0 +1,25 @@
+{
+  "pr_number": 439,
+  "title": "Improvement JavaVersion get method",
+  "state": "closed",
+  "created_at": "2019-08-17T05:29:48Z",
+  "merge_commit_sha": "e610367507d69947c752cf2659162afbde4ec7e8",
+  "base_sha": "d5ffc4dde6236ed5afbedfeb333bb87dceb3fe7a",
+  "head_sha": "c2b082b54aa45fde55f8a69e4bb51a02b1704c6a",
+  "user_login": "Stzx",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/JavaVersion.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_439/src/test/java/org/apache/commons/lang3/JavaVersionLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "JavaVersionTest2",
+      "final_class_name": "JavaVersionLLM_Test"
+    }
+  ]
+}

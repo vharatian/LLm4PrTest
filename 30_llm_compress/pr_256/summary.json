@@ -1,0 +1,146 @@
+{
+  "pr_number": 256,
+  "title": "COMPRESS-614: Use FileTime in SevenZArchiveEntry",
+  "state": "closed",
+  "created_at": "2022-03-21T15:06:30Z",
+  "merge_commit_sha": "650ad0555e3702177c7403544ae8850f4ebbc9b1",
+  "base_sha": "7440afc484fe53edfa79f27be485aca39c31e2d8",
+  "head_sha": "f0dae667694829b1e901ef9d77075fad730855b6",
+  "user_login": "andrebrait",
+  "extracted_count": 5,
+  "skipped_count": 7,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntry.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_256/src/test/java/org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntryLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.sevenz",
+      "original_class_name": "SevenZArchiveEntryTest2",
+      "final_class_name": "SevenZArchiveEntryLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_256/src/test/java/org/apache/commons/compress/archivers/sevenz/SevenZOutputFileLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.sevenz",
+      "original_class_name": "SevenZOutputFileTest2",
+      "final_class_name": "SevenZOutputFileLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_256/src/test/java/org/apache/commons/compress/archivers/tar/TarArchiveEntryLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.tar",
+      "original_class_name": "TarArchiveEntryTest2",
+      "final_class_name": "TarArchiveEntryLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/zip/X000A_NTFS.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_256/src/test/java/org/apache/commons/compress/archivers/zip/X000A_NTFSLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.zip",
+      "original_class_name": "X000A_NTFSTest2",
+      "final_class_name": "X000A_NTFSLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/utils/TimeUtils.java",
+      "status_in_pr": "added",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_256/src/test/java/org/apache/commons/compress/utils/TimeUtilsLLM_Test.java",
+      "package": "org.apache.commons.compress.utils",
+      "original_class_name": "TimeUtilsTest",
+      "final_class_name": "TimeUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/compress/archivers/SevenZTestCase.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntryTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/compress/archivers/sevenz/SevenZFileTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/compress/archivers/sevenz/SevenZOutputFileTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/compress/archivers/zip/X000A_NTFSTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/compress/utils/TimeUtilsTest.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/resources/times.7z",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

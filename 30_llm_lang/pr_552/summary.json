@@ -1,0 +1,25 @@
+{
+  "pr_number": 552,
+  "title": "(doc): Use ArrayUtils::isArrayIndexValid method in ArrayUtils::get.",
+  "state": "closed",
+  "created_at": "2020-06-13T16:06:43Z",
+  "merge_commit_sha": "496eb10372c0161eac4729e758d789357adfcc0f",
+  "base_sha": "553a3a75dfafbf50d7efd8d6e88da71a637a2aa7",
+  "head_sha": "88d987925d15c4bfe915772292e771126a0292e7",
+  "user_login": "nstdio",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/ArrayUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_552/src/test/java/org/apache/commons/lang3/ArrayUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "ArrayUtilsTest2",
+      "final_class_name": "ArrayUtilsLLM_Test"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "pr_number": 77,
+  "title": "Make array declaration in ThresholdingOutputStream consistent with other array declarations in the library",
+  "state": "closed",
+  "created_at": "2019-04-13T12:34:58Z",
+  "merge_commit_sha": "a9e8244e42a3c746c27db06544d027fb897fe17e",
+  "base_sha": "41c73e390abb85f0c8bc4f3097056ddda246540b",
+  "head_sha": "8b38e21a880e3738c037322b11593921ff71b57f",
+  "user_login": "now-raymond",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/output/ThresholdingOutputStream.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_77/src/test/java/org/apache/commons/io/output/ThresholdingOutputStreamLLM_Test.java",
+      "package": "org.apache.commons.io.output",
+      "original_class_name": "ThresholdingOutputStreamTest2",
+      "final_class_name": "ThresholdingOutputStreamLLM_Test"
+    }
+  ]
+}

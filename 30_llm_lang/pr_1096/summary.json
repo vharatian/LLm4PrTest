@@ -1,0 +1,36 @@
+{
+  "pr_number": 1096,
+  "title": "Improve performance of StringUtils.isMixedCase()",
+  "state": "closed",
+  "created_at": "2023-08-14T16:12:33Z",
+  "merge_commit_sha": "19fa964de7c43e5e440f293d7341e0c4be681b4a",
+  "base_sha": "842f71dcc516720c6298946b601c97fd1453aef5",
+  "head_sha": "0a31b33d957db862f455d7ee771f9ac6f7a416d9",
+  "user_login": "hduelme",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/StringUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_1096/src/test/java/org/apache/commons/lang3/StringUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "StringUtilsTest2",
+      "final_class_name": "StringUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/StringUtilsIsMixedCaseTest.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "pr_number": 352,
+  "title": "[CSV-310] Misleading error message when QuoteMode set to None",
+  "state": "closed",
+  "created_at": "2023-09-06T13:16:24Z",
+  "merge_commit_sha": "c2cf3057d37a8645234d083be4d5c4c5ab97ccc2",
+  "base_sha": "5af4338d6e42d2efd8d91ba26d14025c93200a38",
+  "head_sha": "eb95e6dff7a2eab9f0b52f9f5cac8850f596f8c3",
+  "user_login": "gbidsilva",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/csv/CSVFormat.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_352/src/test/java/org/apache/commons/csv/CSVFormatLLM_Test.java",
+      "package": "org.apache.commons.csv",
+      "original_class_name": "CSVFormatTest2",
+      "final_class_name": "CSVFormatLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/csv/CSVFormatTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "pr_number": 284,
+  "title": "Use StringBuilder instead of StringBuffer.",
+  "state": "closed",
+  "created_at": "2022-04-15T19:44:39Z",
+  "merge_commit_sha": "6542912a5e80b261de8831cfaed271b3ec23d5b8",
+  "base_sha": "b7993e663ab8f49bd31d007ece2ab3fff47b06fb",
+  "head_sha": "a208d7125437b63bc6032f2093050cb45662de36",
+  "user_login": "arturobernalg",
+  "extracted_count": 7,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/harmony/pack200/BHSDCodec.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_284/src/test/java/org/apache/commons/compress/harmony/pack200/BHSDCodecLLM_Test.java",
+      "package": "org.apache.commons.compress.harmony.pack200",
+      "original_class_name": "BHSDCodecTest",
+      "final_class_name": "BHSDCodecLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/harmony/pack200/CpBands.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_284/src/test/java/org/apache/commons/compress/harmony/pack200/CpBandsLLM_Test.java",
+      "package": "org.apache.commons.compress.harmony.pack200",
+      "original_class_name": "CpBandsTest",
+      "final_class_name": "CpBandsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/harmony/pack200/NewAttributeBands.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_284/src/test/java/org/apache/commons/compress/harmony/pack200/NewAttributeBandsLLM_Test.java",
+      "package": "org.apache.commons.compress.harmony.pack200",
+      "original_class_name": "NewAttributeBandsTest",
+      "final_class_name": "NewAttributeBandsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/harmony/unpack200/CpBands.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_284/src/test/java/org/apache/commons/compress/harmony/unpack200/CpBandsLLM_Test.java",
+      "package": "org.apache.commons.compress.harmony.unpack200",
+      "original_class_name": "CpBandsTest",
+      "final_class_name": "CpBandsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/harmony/unpack200/IcTuple.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_284/src/test/java/org/apache/commons/compress/harmony/unpack200/IcTupleLLM_Test.java",
+      "package": "org.apache.commons.compress.harmony.unpack200",
+      "original_class_name": "IcTupleTest",
+      "final_class_name": "IcTupleLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/harmony/unpack200/NewAttributeBands.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_284/src/test/java/org/apache/commons/compress/harmony/unpack200/NewAttributeBandsLLM_Test.java",
+      "package": "org.apache.commons.compress.harmony.unpack200",
+      "original_class_name": "NewAttributeBandsTest",
+      "final_class_name": "NewAttributeBandsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/harmony/unpack200/bytecode/ExceptionsAttribute.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_284/src/test/java/org/apache/commons/compress/harmony/unpack200/bytecode/ExceptionsAttributeLLM_Test.java",
+      "package": "org.apache.commons.compress.harmony.unpack200.bytecode",
+      "original_class_name": "ExceptionsAttributeTest",
+      "final_class_name": "ExceptionsAttributeLLM_Test"
+    }
+  ]
+}

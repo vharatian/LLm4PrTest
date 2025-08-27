@@ -1,0 +1,25 @@
+{
+  "pr_number": 585,
+  "title": "Remove redudant argument from substring call",
+  "state": "closed",
+  "created_at": "2020-07-20T05:15:20Z",
+  "merge_commit_sha": "984bb2b585a79b594a863a1da781d015936ac05e",
+  "base_sha": "e80339626333396a216d7e81a7d7ab6a8ea2de6f",
+  "head_sha": "61c575afacfda092d433ef2211e704e7a7ebdeb7",
+  "user_login": "bhawna94",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/math/NumberUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_585/src/test/java/org/apache/commons/lang3/math/NumberUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3.math",
+      "original_class_name": "NumberUtilsTest2",
+      "final_class_name": "NumberUtilsLLM_Test"
+    }
+  ]
+}

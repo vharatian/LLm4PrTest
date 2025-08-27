@@ -1,0 +1,69 @@
+{
+  "pr_number": 109,
+  "title": "Unsynchronized ByteArrayInputStream implementation",
+  "state": "closed",
+  "created_at": "2020-04-08T12:35:50Z",
+  "merge_commit_sha": "b3960d9773d20cf5069f31de94efe480b49d255e",
+  "base_sha": "3c96ee97f7fb4452cb530d33d60bd328cbe11357",
+  "head_sha": "cc3a3cf5cf0b92590d295a5f8cd7203d533033e6",
+  "user_login": "adamretter",
+  "extracted_count": 4,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/input/UnsynchronizedByteArrayInputStream.java",
+      "status_in_pr": "added",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_109/src/test/java/org/apache/commons/io/input/UnsynchronizedByteArrayInputStreamLLM_Test.java",
+      "package": "org.apache.commons.io.input",
+      "original_class_name": "UnsynchronizedByteArrayInputStreamTest",
+      "final_class_name": "UnsynchronizedByteArrayInputStreamLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/output/AbstractByteArrayOutputStream.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_109/src/test/java/org/apache/commons/io/output/AbstractByteArrayOutputStreamLLM_Test.java",
+      "package": "org.apache.commons.io.output",
+      "original_class_name": "AbstractByteArrayOutputStreamTest",
+      "final_class_name": "AbstractByteArrayOutputStreamLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/output/ByteArrayOutputStream.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_109/src/test/java/org/apache/commons/io/output/ByteArrayOutputStreamLLM_Test.java",
+      "package": "org.apache.commons.io.output",
+      "original_class_name": "ByteArrayOutputStreamTest",
+      "final_class_name": "ByteArrayOutputStreamLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/output/UnsynchronizedByteArrayOutputStream.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_109/src/test/java/org/apache/commons/io/output/UnsynchronizedByteArrayOutputStreamLLM_Test.java",
+      "package": "org.apache.commons.io.output",
+      "original_class_name": "UnsynchronizedByteArrayOutputStreamTest",
+      "final_class_name": "UnsynchronizedByteArrayOutputStreamLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/input/UnsynchronizedByteArrayInputStreamTest.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

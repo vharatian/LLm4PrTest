@@ -1,0 +1,36 @@
+{
+  "pr_number": 636,
+  "title": "LANG-1610: Fix StringUtils.unwrap throws StringIndexOutOfBoundsException",
+  "state": "closed",
+  "created_at": "2020-10-28T20:30:16Z",
+  "merge_commit_sha": "c6f577555b2e789791fbf3c0aec9e59a2666b2e8",
+  "base_sha": "d9f5b615675d525bccc2c04ad8f261a783386c4c",
+  "head_sha": "10d1339d94a1a82ee2250d2e1a04d3b603f12d42",
+  "user_login": "liangshuche",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/StringUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_636/src/test/java/org/apache/commons/lang3/StringUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "StringUtilsTest2",
+      "final_class_name": "StringUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/StringUtilsTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "pr_number": 169,
+  "title": "IMAGING-285 Correction for rational number computations",
+  "state": "closed",
+  "created_at": "2021-09-14T00:10:48Z",
+  "merge_commit_sha": "1221a2c7eb3664af33aa4551d6a81379eb9d088f",
+  "base_sha": "b6b4e9c739ffc22fa0cdad3d54dd203682a47960",
+  "head_sha": "b871a37415f76be4c4a3f547181829bc43ab4a61",
+  "user_login": "gwlucastrig",
+  "extracted_count": 7,
+  "skipped_count": 3,
+  "files": [
+    {
+      "source_filename": "src/changes/changes.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/common/ByteConversions.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_169/src/test/java/org/apache/commons/imaging/common/ByteConversionsLLM_Test.java",
+      "package": "org.apache.commons.imaging.common",
+      "original_class_name": "ByteConversionsTest",
+      "final_class_name": "ByteConversionsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/common/RationalNumber.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_169/src/test/java/org/apache/commons/imaging/common/RationalNumberLLM_Test.java",
+      "package": "org.apache.commons.imaging.common",
+      "original_class_name": "RationalNumberTest2",
+      "final_class_name": "RationalNumberLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/tiff/fieldtypes/FieldTypeRational.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_169/src/test/java/org/apache/commons/imaging/formats/tiff/fieldtypes/FieldTypeRationalLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.tiff.fieldtypes",
+      "original_class_name": "FieldTypeRationalTest2",
+      "final_class_name": "FieldTypeRationalLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/tiff/taginfos/TagInfoRational.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_169/src/test/java/org/apache/commons/imaging/formats/tiff/taginfos/TagInfoRationalLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.tiff.taginfos",
+      "original_class_name": "TagInfoRationalTest",
+      "final_class_name": "TagInfoRationalLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/tiff/taginfos/TagInfoRationals.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_169/src/test/java/org/apache/commons/imaging/formats/tiff/taginfos/TagInfoRationalsLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.tiff.taginfos",
+      "original_class_name": "TagInfoRationalsTest",
+      "final_class_name": "TagInfoRationalsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/tiff/taginfos/TagInfoSRational.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_169/src/test/java/org/apache/commons/imaging/formats/tiff/taginfos/TagInfoSRationalLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.tiff.taginfos",
+      "original_class_name": "TagInfoSRationalTest",
+      "final_class_name": "TagInfoSRationalLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/tiff/taginfos/TagInfoSRationals.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_169/src/test/java/org/apache/commons/imaging/formats/tiff/taginfos/TagInfoSRationalsLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.tiff.taginfos",
+      "original_class_name": "TagInfoSRationalsTest",
+      "final_class_name": "TagInfoSRationalsLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/imaging/common/RationalNumberTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/imaging/formats/tiff/TiffReadWriteTagsTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

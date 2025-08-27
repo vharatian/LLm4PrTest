@@ -1,0 +1,25 @@
+{
+  "pr_number": 1085,
+  "title": "SystemUtils fix and updates related to macOS",
+  "state": "closed",
+  "created_at": "2023-07-21T17:42:33Z",
+  "merge_commit_sha": "2c7dbba0f2f2be7f8b0a0137c8a19b6cc3c13f76",
+  "base_sha": "fbfcda9b62654e5f03b404ba9b525f22a458e417",
+  "head_sha": "5e0f21eddbd4c5ac21c7250c09e37b1d7aa05abf",
+  "user_login": "YektaDev",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/SystemUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_1085/src/test/java/org/apache/commons/lang3/SystemUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "SystemUtilsTest2",
+      "final_class_name": "SystemUtilsLLM_Test"
+    }
+  ]
+}

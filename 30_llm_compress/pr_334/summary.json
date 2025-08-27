@@ -1,0 +1,47 @@
+{
+  "pr_number": 334,
+  "title": "COMPRESS-621: Fix calculation the offset of the first zip central directory entry",
+  "state": "closed",
+  "created_at": "2022-12-07T14:01:34Z",
+  "merge_commit_sha": "0bacf83eb0b3367cd5572ab27e42a444efbcd5f8",
+  "base_sha": "821c2462d875b84f699f01b2d14250f5e1fc6a23",
+  "head_sha": "b1c3d8ddfba43bb28c9a21bb47e531b3cc1782de",
+  "user_login": "Glavo",
+  "extracted_count": 1,
+  "skipped_count": 2,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/zip/ZipFile.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_334/src/test/java/org/apache/commons/compress/archivers/zip/ZipFileLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.zip",
+      "original_class_name": "ZipFileTest2",
+      "final_class_name": "ZipFileLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/compress/archivers/zip/ZipFileTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/resources/COMPRESS-621.zip",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

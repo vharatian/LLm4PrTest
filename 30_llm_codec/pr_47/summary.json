@@ -1,0 +1,113 @@
+{
+  "pr_number": 47,
+  "title": "CODEC-289: Add strict decoding to BaseNCodecInput/OutputStream",
+  "state": "closed",
+  "created_at": "2020-05-07T12:29:27Z",
+  "merge_commit_sha": "a6b2f1329beec2cd9abb86dc2ea80300e9ccb77b",
+  "base_sha": "dce9e547f70788b76072e371108180b708fd8070",
+  "head_sha": "a6b2f1329beec2cd9abb86dc2ea80300e9ccb77b",
+  "user_login": "aherbert",
+  "extracted_count": 2,
+  "skipped_count": 7,
+  "files": [
+    {
+      "source_filename": "src/changes/changes.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/codec/binary/BaseNCodecInputStream.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_47/src/test/java/org/apache/commons/codec/binary/BaseNCodecInputStreamLLM_Test.java",
+      "package": "org.apache.commons.codec.binary",
+      "original_class_name": "BaseNCodecInputStreamTest",
+      "final_class_name": "BaseNCodecInputStreamLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/codec/binary/BaseNCodecOutputStream.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_47/src/test/java/org/apache/commons/codec/binary/BaseNCodecOutputStreamLLM_Test.java",
+      "package": "org.apache.commons.codec.binary",
+      "original_class_name": "BaseNCodecOutputStreamTest",
+      "final_class_name": "BaseNCodecOutputStreamLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/codec/binary/Base32InputStreamTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/codec/binary/Base32OutputStreamTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/codec/binary/Base32Test.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/codec/binary/Base64InputStreamTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/codec/binary/Base64OutputStreamTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/codec/binary/Base64Test.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

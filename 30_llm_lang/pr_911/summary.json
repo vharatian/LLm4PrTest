@@ -1,0 +1,25 @@
+{
+  "pr_number": 911,
+  "title": "fix StringUtils.upperCase(String str) java doc",
+  "state": "closed",
+  "created_at": "2022-06-12T02:21:52Z",
+  "merge_commit_sha": "ef07c645efe7a490f21ae80473814d6117832ded",
+  "base_sha": "3228ab0459fc786350a788a7cd1565734b5c3703",
+  "head_sha": "00e775d61512e9acb259b453e1164c36f5514355",
+  "user_login": "k-nikhil",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/StringUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_911/src/test/java/org/apache/commons/lang3/StringUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "StringUtilsTest2",
+      "final_class_name": "StringUtilsLLM_Test"
+    }
+  ]
+}

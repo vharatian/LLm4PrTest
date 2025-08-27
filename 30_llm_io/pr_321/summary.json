@@ -1,0 +1,36 @@
+{
+  "pr_number": 321,
+  "title": "Use java8 reference",
+  "state": "closed",
+  "created_at": "2022-01-30T20:29:50Z",
+  "merge_commit_sha": "bcd5c9ba0cd1607b286ef0c116f119983e3f8a15",
+  "base_sha": "baf44e5d09fdc461ebd9701abae115cd28059319",
+  "head_sha": "6d1d1ea43f040018dcf82a46532415754ad5de61",
+  "user_login": "arturobernalg",
+  "extracted_count": 2,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/FileUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_321/src/test/java/org/apache/commons/io/FileUtilsLLM_Test.java",
+      "package": "org.apache.commons.io",
+      "original_class_name": "FileUtilsTest2",
+      "final_class_name": "FileUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/output/FilterCollectionWriter.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_321/src/test/java/org/apache/commons/io/output/FilterCollectionWriterLLM_Test.java",
+      "package": "org.apache.commons.io.output",
+      "original_class_name": "FilterCollectionWriterTest",
+      "final_class_name": "FilterCollectionWriterLLM_Test"
+    }
+  ]
+}

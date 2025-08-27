@@ -1,0 +1,36 @@
+{
+  "pr_number": 126,
+  "title": "Text 174: ScriptStringLookup does not accept \":\"",
+  "state": "closed",
+  "created_at": "2019-12-19T14:48:59Z",
+  "merge_commit_sha": "2e8f42fb6c502e373e39e8c22dd6ac2aac92defa",
+  "base_sha": "e72bec3c84c582c4abbe02e1b81eec3c1373d365",
+  "head_sha": "d9c4a3a8d15fe44db533e4e1247181b6ad07bdd2",
+  "user_login": "ghost",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/text/lookup/ScriptStringLookup.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_126/src/test/java/org/apache/commons/text/lookup/ScriptStringLookupLLM_Test.java",
+      "package": "org.apache.commons.text.lookup",
+      "original_class_name": "ScriptStringLookupTest2",
+      "final_class_name": "ScriptStringLookupLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/text/lookup/ScriptStringLookupTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

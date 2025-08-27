@@ -1,0 +1,36 @@
+{
+  "pr_number": 477,
+  "title": "Lang 1463: StringUtils abbreviate returns String of length greater than maxWidth",
+  "state": "closed",
+  "created_at": "2019-11-02T17:24:09Z",
+  "merge_commit_sha": "d0b95be2819469371c0276df80e54b088a9b7cad",
+  "base_sha": "8445d3a9911ec67f07b76c0c44cc4c8ac0c16178",
+  "head_sha": "e87ba4b927a71004b50c00fdc11e105c5077cee8",
+  "user_login": "bbeckercscc",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/StringUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_477/src/test/java/org/apache/commons/lang3/StringUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "StringUtilsTest2",
+      "final_class_name": "StringUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/StringUtilsTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

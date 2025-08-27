@@ -1,0 +1,25 @@
+{
+  "pr_number": 136,
+  "title": "[TEXT-183] Make ConstantStringLookup.constantCache final",
+  "state": "closed",
+  "created_at": "2020-07-21T05:40:22Z",
+  "merge_commit_sha": "c1a006d3366f0ce946264cf37d262986b0d50320",
+  "base_sha": "d36a5faf0560fce4f0d23ded7db8c915c68def91",
+  "head_sha": "91f53d790a4353e8fa796e30fce57136204b31e3",
+  "user_login": "XenoAmess",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/text/lookup/ConstantStringLookup.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_136/src/test/java/org/apache/commons/text/lookup/ConstantStringLookupLLM_Test.java",
+      "package": "org.apache.commons.text.lookup",
+      "original_class_name": "ConstantStringLookupTest2",
+      "final_class_name": "ConstantStringLookupLLM_Test"
+    }
+  ]
+}

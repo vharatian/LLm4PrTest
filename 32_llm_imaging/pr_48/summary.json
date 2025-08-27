@@ -1,0 +1,36 @@
+{
+  "pr_number": 48,
+  "title": "IMAGING-230: Properly close resources with try-with-resources",
+  "state": "closed",
+  "created_at": "2019-06-09T22:45:00Z",
+  "merge_commit_sha": "1e725b05516314f4b2d6a0229ee2c4cc59b4158e",
+  "base_sha": "70eae6cea40d2c80a13a73b66546f7e637d01077",
+  "head_sha": "df6ae68ead603e39f827275b3055adf43c5f3145",
+  "user_login": "kinow",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/changes/changes.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/common/itu_t4/T4AndT6Compression.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_48/src/test/java/org/apache/commons/imaging/common/itu_t4/T4AndT6CompressionLLM_Test.java",
+      "package": "org.apache.commons.imaging.common.itu_t4",
+      "original_class_name": "T4AndT6CompressionTest",
+      "final_class_name": "T4AndT6CompressionLLM_Test"
+    }
+  ]
+}

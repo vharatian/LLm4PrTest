@@ -1,0 +1,25 @@
+{
+  "pr_number": 54,
+  "title": "[CODEC-292] Misspelling in comments 'They' -> 'The'",
+  "state": "closed",
+  "created_at": "2020-08-04T09:34:49Z",
+  "merge_commit_sha": "46bef82372c2d42904cbfd004c5ac6ae3377f720",
+  "base_sha": "28500355044126d233d4fb3aad01e3a463d6596c",
+  "head_sha": "d86a03139a59c73e08394486a59b7dc979a288da",
+  "user_login": "rickyma",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/codec/digest/HmacUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_54/src/test/java/org/apache/commons/codec/digest/HmacUtilsLLM_Test.java",
+      "package": "org.apache.commons.codec.digest",
+      "original_class_name": "HmacUtilsTest2",
+      "final_class_name": "HmacUtilsLLM_Test"
+    }
+  ]
+}

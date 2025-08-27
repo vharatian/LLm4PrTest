@@ -1,0 +1,69 @@
+{
+  "pr_number": 208,
+  "title": "CODEC-310 - Documentation update for the org.apache.commons.codec.digest.* package",
+  "state": "closed",
+  "created_at": "2023-09-28T19:55:33Z",
+  "merge_commit_sha": "14c2f60a605045f4f3f6ca74a97da34c3aac2536",
+  "base_sha": "fab2cf8a4b5d61c85db2d03627ec698587f280b9",
+  "head_sha": "22c3d4c70898bd98dfdcb1936e1eaad18eb4a42f",
+  "user_login": "yakovsh",
+  "extracted_count": 4,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/codec/digest/Crypt.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_208/src/test/java/org/apache/commons/codec/digest/CryptLLM_Test.java",
+      "package": "org.apache.commons.codec.digest",
+      "original_class_name": "CryptTest2",
+      "final_class_name": "CryptLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/codec/digest/Md5Crypt.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_208/src/test/java/org/apache/commons/codec/digest/Md5CryptLLM_Test.java",
+      "package": "org.apache.commons.codec.digest",
+      "original_class_name": "Md5CryptTest2",
+      "final_class_name": "Md5CryptLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/codec/digest/Sha2Crypt.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_208/src/test/java/org/apache/commons/codec/digest/Sha2CryptLLM_Test.java",
+      "package": "org.apache.commons.codec.digest",
+      "original_class_name": "Sha2CryptTest2",
+      "final_class_name": "Sha2CryptLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/codec/digest/UnixCrypt.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_208/src/test/java/org/apache/commons/codec/digest/UnixCryptLLM_Test.java",
+      "package": "org.apache.commons.codec.digest",
+      "original_class_name": "UnixCryptTest2",
+      "final_class_name": "UnixCryptLLM_Test"
+    },
+    {
+      "source_filename": "src/site/xdoc/userguide.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

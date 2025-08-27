@@ -1,0 +1,25 @@
+{
+  "pr_number": 309,
+  "title": "(doc) update definition of upper in abbreviate method to match behavior",
+  "state": "closed",
+  "created_at": "2022-03-23T06:27:19Z",
+  "merge_commit_sha": "0ddae3b45d9e8db23e5928a1bb7013697b0b5967",
+  "base_sha": "4d898861b35f010bbbbbb04980b3100e99607906",
+  "head_sha": "cc10d22d459c89b7dab8ec27d53d7bbb9529df1d",
+  "user_login": "CalebChristiansen",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/text/WordUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_309/src/test/java/org/apache/commons/text/WordUtilsLLM_Test.java",
+      "package": "org.apache.commons.text",
+      "original_class_name": "WordUtilsTest2",
+      "final_class_name": "WordUtilsLLM_Test"
+    }
+  ]
+}
