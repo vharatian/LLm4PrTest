@@ -528,25 +528,24 @@ def run_tests_estest_only() -> bool:
 
     # Regex that matches: Tests run: 288, Failures: 0, Errors: 1, Skipped: 0
     fail_count = 0
+    total_count = 0
     for line in res.stdout:
         print(line)
-        m = re.search(
-            r"Tests run:\s*\d+\s*,\s*Failures:\s*(\d+)\s*,\s*Errors:\s*(\d+)",
-            line
-        )
+        m = re.search(r"Tests run:\s*(\d+)\s*,\s*Failures:\s*(\d+)\s*,\s*Errors:\s*(\d+)", line)
         if m:
-            fail_count += int(m.group(1)) + int(m.group(2))
+            total_count += int(m.group(1))  # total
+            fail_count += int(m.group(2)) + int(m.group(3))
 
     res.wait()
-    return res.returncode == 0, fail_count
+    return res.returncode == 0, total_count, fail_count
 
 
 
 # --- JSON persistence ---
 
 def append_result_row(pr_number, is_found,
-                      merge_compiled, merge_passed, merge_fail_count,
-                      base_compiled, base_passed, base_fail_count,
+                      merge_compiled, merge_passed, merge_total_count, merge_fail_count,
+                      base_compiled, base_passed, base_total_count, base_fail_count,
                       is_junit_detected: Optional[bool] = None,
                       detected_versions: Optional[dict] = None,
                       skip_reason: Optional[str] = None):
@@ -556,12 +555,14 @@ def append_result_row(pr_number, is_found,
         "merge_phase": {
             "is_compiled": bool(merge_compiled) if merge_compiled is not None else False,
             "is_tests_passed": (None if merge_passed is None else bool(merge_passed)),
-            "failed_count": merge_fail_count
+            "failed_count": merge_fail_count,
+            "total_count": merge_total_count
         },
         "base_phase": {
             "is_compiled": (None if base_compiled is None else bool(base_compiled)),
             "is_tests_passed": (None if base_passed is None else bool(base_passed)),
-            "failed_count": base_fail_count
+            "failed_count": base_fail_count,
+            "total_count": base_total_count
         },
     }
     if is_junit_detected is not None:
@@ -602,9 +603,11 @@ def main():
         merge_compiled = False
         merge_passed = None
         merge_fail_count = None
+        merge_total_count = None
         base_compiled = None
         base_passed = None
         base_fail_count = None
+        base_total_count = None
         versions = None
         is_junit_detected = False
 
@@ -662,8 +665,8 @@ def main():
             if not is_found:
                 append_result_row(
                     pr_number, is_found,
-                    merge_compiled, merge_passed, merge_fail_count,
-                    base_compiled, base_passed, base_fail_count,
+                    merge_compiled, merge_passed, merge_total_count, merge_fail_count,
+                    base_compiled, base_passed, base_total_count, base_fail_count,
                     is_junit_detected=is_junit_detected,
                     detected_versions=versions
                 )
@@ -673,7 +676,7 @@ def main():
             # MERGE compile/test
             merge_compiled = package_without_running_tests()
             if merge_compiled:
-                merge_passed, merge_fail_count = run_tests_estest_only()
+                merge_passed, merge_total_count, merge_fail_count = run_tests_estest_only()
             # else:
             #     append_result_row(
             #         pr_number, is_found,
@@ -721,15 +724,15 @@ def main():
 
                 base_compiled = package_without_running_tests()
                 if base_compiled:
-                    base_passed, base_fail_count = run_tests_estest_only()
+                    base_passed, base_total_count, base_fail_count = run_tests_estest_only()
                 else:
                     print(f"[PR {pr_number}] Base compile failed → not running tests.")
 
             # Final JSON row for this PR
             append_result_row(
                 pr_number, is_found,
-                merge_compiled, merge_passed, merge_fail_count,
-                base_compiled, base_passed, base_fail_count,
+                merge_compiled, merge_passed, merge_total_count, merge_fail_count,
+                base_compiled, base_passed, base_total_count, base_fail_count,
                 is_junit_detected=is_junit_detected,
                 detected_versions=versions
             )
@@ -739,8 +742,8 @@ def main():
             try:
                 append_result_row(
                     pr_number, is_found,
-                    merge_compiled, merge_passed, merge_fail_count,
-                    base_compiled, base_passed, base_fail_count,
+                    merge_compiled, merge_passed, merge_total_count, merge_fail_count,
+                    base_compiled, base_passed, base_total_count, base_fail_count,
                     is_junit_detected=is_junit_detected,
                     detected_versions=versions if versions is not None else None,
                     skip_reason="exception"
