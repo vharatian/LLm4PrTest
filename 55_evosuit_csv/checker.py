@@ -62,7 +62,7 @@ NAMESPACE = {"mvn": "http://maven.apache.org/POM/4.0.0"}
 ET.register_namespace('', NAMESPACE["mvn"])  # pretty print with default ns
 
 # Fixed versions
-JUNIT4_VERSION = "4.13.2"              # use up-to-date JUnit 4
+JUNIT4_VERSION = "4.12"              # use up-to-date JUnit 4
 EVOSUITE_RUNTIME_VERSION = "1.0.6"
 
 # EvoSuite executable (jar) in CWD
