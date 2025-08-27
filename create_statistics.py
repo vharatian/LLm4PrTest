@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 JSON_DIR = Path("files/evaluations")          # evosuit_*.json live here
 DIAG_DIR = Path("files/diagrams")             # all PNGs land here
 DIAG_DIR.mkdir(exist_ok=True, parents=True)
-PREFIX    = "evosuite"                          # filename prefix to pick up
+PREFIX    = "llm"                          # filename prefix to pick up
 OUT_JSON  = JSON_DIR / f"{PREFIX}_pr_categories.json"
 # ──────────────────────────────────────────────────────────────────────────────
 
@@ -193,13 +193,25 @@ def main() -> None:
     if proj_counts:
         labels = list(proj_counts.keys())
         perc_rows: list[list[float]] = []
+
         for proj in labels:
             ct = proj_counts[proj]
             tot = sum(ct)
-            perc_rows.append([ (v / tot * 100) if tot else 0.0 for v in ct ])
+            perc_rows.append([(v / tot * 100) if tot else 0.0 for v in ct])
 
-        stacked_chart(labels, perc_rows, DIAG_DIR / f"{PREFIX}_stacked.png")
-        print(f"\n📈  Aggregate stacked chart saved to  {(DIAG_DIR / 'aggregate_stacked.png').resolve()}")
+        # ── NEW: append an overall “Total” row ────────────────────────────────
+        grand_total = sum(grand_counts)
+        total_perc = [(v / grand_total * 100) if grand_total else 0.0
+                      for v in grand_counts]
+
+        labels.append("Total")
+        perc_rows.append(total_perc)
+        # ─────────────────────────────────────────────────────────────────────
+
+        stacked_chart(labels, perc_rows,
+                      DIAG_DIR / f"{PREFIX}_stacked.png")
+        print(f"\n📈  Aggregate stacked chart saved to "
+              f"{(DIAG_DIR / f'{PREFIX}_stacked.png').resolve()}")
 
     print("\nAggregate totals:")
     for (label, _), total in zip(CATEGORIES, grand_counts):

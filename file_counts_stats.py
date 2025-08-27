@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 
 # ──────────────────────────────────────────────────────────────────────────────
 RAW_DIR       = Path("files/replication")              # raw PR descriptors
-PREFIX        = "llm"                                  # file prefix
+PREFIX        = "evosuite"                                  # file prefix
 CATEGORY_JSON = Path("files/evaluations") / f"{PREFIX}_pr_categories.json"
 
 DIAG_DIR = Path("files/diagrams")
@@ -23,11 +23,9 @@ OUT_LINE    = DIAG_DIR / f"{PREFIX}_success_rate.png"
 # ──────────────────────────────────────────────────────────────────────────────
 
 CATEGORIES = [
-    "Merge compile error",
-    "Merge test failure",
-    "Pass both phases",
-    "Base compile error (F2P)",
-    "Base test failure (F2P)",
+    "Error",
+    "Ineffective",
+    "F2P",
 ]
 BINS = ["1", "2-3", "4-5", "5+"]
 
@@ -56,7 +54,7 @@ def bin_for_count(n: int) -> str:
 
 # ──────────────────────────────────────────────────────────────────────────────
 def stacked_chart(bin_labels, perc_rows, out: Path) -> None:
-    colours = ["#E53935", "#EF9A9A", "#FB8C00", "#7CA46C", "#388E3C"]
+    colours = ["#E53935", "#FB8C00", "#388E3C"]
     fig, ax = plt.subplots(figsize=(10, 0.6 * len(bin_labels) + 1))
     left = [0.0] * len(bin_labels)
 
@@ -174,7 +172,7 @@ def main() -> None:
     for repo, bdict in repo_bin_counts.items():
         rates = []
         for b in BINS:
-            f2p = bdict[b]["Base compile error (F2P)"] + bdict[b]["Base test failure (F2P)"]
+            f2p = bdict[b]["F2P"]
             total = sum(bdict[b].values())
             rates.append(100 * f2p / total if total else 0.0)
         repo_rates[repo] = rates
