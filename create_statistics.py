@@ -1,85 +1,93 @@
 #!/usr/bin/env python3
 """
-Summarise Evosuite JSON runs and draw colour-coded diagrams (saved in files/diagrams).
+Summarise Evosuite JSON runs, draw colour‑coded diagrams (bar + stacked),
+**and emit a JSON report listing which PR numbers fall into which category for
+every project**.
 
-Author: ChatGPT • 24-Aug-2025
+Author: ChatGPT • 26‑Aug‑2025
 """
 from __future__ import annotations
 from pathlib import Path
 import json
-from sys import prefix
-
+import re
 import matplotlib.pyplot as plt
 
 # ──────────────────────────────────────────────────────────────────────────────
 JSON_DIR = Path("files/evaluations")          # evosuit_*.json live here
 DIAG_DIR = Path("files/diagrams")             # all PNGs land here
 DIAG_DIR.mkdir(exist_ok=True, parents=True)
-# PREFIX = "evosuit"
-PREFIX = "llm"
+PREFIX    = "evosuite"                          # filename prefix to pick up
+OUT_JSON  = JSON_DIR / f"{PREFIX}_pr_categories.json"
 # ──────────────────────────────────────────────────────────────────────────────
 
-# Category order *and* new colours
+# Category order *and* colours (used for charts)
 CATEGORIES = [
-    # (label, colour)   ← keep order: Merge CE → Merge TF → Pass both → Base CE → Base TF
-    ("Head Compile Error",           "#E53935"),   # Red 600  – strong crimson
-    ("Head Test Failure",           "#EF9A9A"),   # Red 200  – soft rose (same hue, lighter)
-    ("Pass both phases (Not effective)",   "#FB8C00"),   # Orange 600 – muted, prints well
-    ("Base Compile Error (F2P)", "#7ca46c"),   # Green 200 – light sage; white text readable
-    ("Base Test Failure (F2P)",      "#388E3C"),   # Green 600 – deep emerald
+    ("Error",        "#E53935"),  # 0
+    ("Ineffective",           "#FB8C00"),  # 2
+    ("F2P",    "#388E3C"),  # 4
 ]
-ORDER_IDX = [0, 1, 4, 2, 3]  # map original counts -> order above
 
 # ──────────────────────────────────────────────────────────────────────────────
-def is_compile_error(ph: dict) -> bool:
-    return bool(ph.get("compile_error"))
+# ― helpers -------------------------------------------------------------------
 
-def is_test_failure(ph: dict) -> bool:
-    if is_compile_error(ph):
+def is_ineffective(o: dict) -> bool:
+    if "merge_phase" in o and "base_phase" in o:
+        if o["merge_phase"]["is_compiled"] and o["base_phase"]["is_compiled"]:
+            if o["merge_phase"]["failed_count"] != o["merge_phase"]["total_count"]:
+                if o["merge_phase"]["failed_count"] == o["base_phase"]["failed_count"]:
+                    return True
+
         return False
-    if ph.get("test_failures") or ph.get("maven_failed_other"):
-        return True
-    s = ph.get("summary", {})
-    return s.get("failures", 0) > 0 or s.get("errors", 0) > 0
 
-def classify(objs: list[dict]) -> tuple[int, int, int, int, int, int]:
-    mce = mtf = bce = btf = ok = inc = 0
-    for idx, o in enumerate(objs, 1):
-        merge, base = o.get("merge_phase"), o.get("base_phase")
-        if merge is None or base is None:
-            inc += 1
-            print(f"   ⚠️  object #{idx} missing merge_phase or base_phase")
-            continue
-        if merge.get("summary", {}).get("skipped", 0):
-            continue
-        if is_compile_error(merge):
-            mce += 1
-            continue
-        if is_test_failure(merge):
-            mtf += 1
-            continue
-        if is_compile_error(base):
-            bce += 1
-        elif is_test_failure(base):
-            btf += 1
-        else:
-            ok += 1
-    return mce, mtf, bce, btf, ok, inc
+def is_f2p(o: dict) -> bool:
+    if "merge_phase" in o and "base_phase" in o:
+        if o["merge_phase"]["is_compiled"]:
+            if o["merge_phase"]["failed_count"] != o["merge_phase"]["total_count"]:
+
+                if not o["base_phase"]["is_compiled"]:
+                    return True
+
+                if o["merge_phase"]["failed_count"] != o["base_phase"]["failed_count"]:
+                    return True
+
+    return False
+
+
+_PR_RE = re.compile(r"_pr_(\d+)", re.I)
+
+
+def extract_pr_number(obj: dict) -> str:
+    """
+    Return the PR number as string, trying several known places.
+    Falls back to '?' when nothing useful is found.
+    """
+    for key in ("pr_number", "pr", "number", "pull_request", "pull_request_number"):
+        if key in obj:
+            return str(obj[key])
+    for ph_key in ("merge_phase", "base_phase"):
+        arc = obj.get(ph_key, {}).get("surefire_archive")
+        if isinstance(arc, str):
+            m = _PR_RE.search(arc)
+            if m:
+                return m.group(1)
+    return "?"
 
 # ──────────────────────────────────────────────────────────────────────────────
-def bar_chart(title: str, counts: tuple[int, int, int, int, int], out: Path) -> None:
-    vals = [counts[i] for i in ORDER_IDX]
-    labels, colours = zip(*CATEGORIES)
-    plt.figure(figsize=(8, 4))
-    plt.bar(labels, vals, color=colours)
-    plt.ylabel("Number of objects")
-    plt.title(title)
-    plt.xticks(rotation=15, ha="right")
-    plt.tight_layout()
-    plt.savefig(out)
-    plt.close()
+
 
 def stacked_chart(labels: list[str], perc_rows: list[list[float]], out: Path) -> None:
+    """Draw a *percentage* stacked horizontal bar chart.
+
+    Parameters
+    ----------
+    labels     : list[str]
+        Row labels (top‑to‑bottom).
+    perc_rows  : list[list[float]]
+        Same length as *labels*; each inner list must have one percentage per
+        entry in ``CATEGORIES``.
+    out        : Path
+        PNG file name to save the chart to.
+    """
     _, colours = zip(*CATEGORIES)
     fig, ax = plt.subplots(figsize=(10, 0.6 * len(labels) + 1))
 
@@ -87,39 +95,64 @@ def stacked_chart(labels: list[str], perc_rows: list[list[float]], out: Path) ->
     for idx, (cat, colour) in enumerate(CATEGORIES):
         vals = [row[idx] for row in perc_rows]
         ax.barh(labels, vals, left=left, color=colour, label=cat)
-
-        # bigger, bolder in-bar % labels
         for y, (lft, val) in enumerate(zip(left, vals)):
-            if val >= 5:
-                ax.text(lft + val / 2, y, f"{val:.0f}%",
-                        ha="center", va="center",
+            if val >= 5:  # only label sizeable slices
+                ax.text(lft + val / 2, y, f"{val:.0f}%", ha="center", va="center",
                         color="white", fontsize=12, fontweight="bold")
         left = [l + v for l, v in zip(left, vals)]
 
-    # ---------- enlarge axis texts ----------
     ax.set_xlim(0, 100)
-    ax.set_xlabel("Percentage of objects", fontsize=13, fontweight="bold")
-
-    ax.set_yticklabels(labels, fontsize=12, fontweight="bold")   # ← add this line
-    ax.tick_params(axis="x", labelsize=11)                       # keep x-ticks sized
-
+    ax.set_xlabel("Percentage of PRs", fontsize=13, fontweight="bold")
+    ax.set_yticklabels(labels, fontsize=12, fontweight="bold")
+    ax.tick_params(axis="x", labelsize=11)
     ax.invert_yaxis()
-
-    # bigger, bold legend
     ax.legend(loc="upper center", ncol=2, bbox_to_anchor=(0.5, -0.08),
               prop={"size": 12, "weight": "bold"})
-
     plt.tight_layout()
     plt.savefig(out, bbox_inches="tight")
     plt.close()
 
 # ──────────────────────────────────────────────────────────────────────────────
+# ― categorisation ------------------------------------------------------------
+
+def categorise_project(objs: list[dict]) -> dict[str, list[str]]:
+    """Return a mapping  { category_name -> [pr numbers] }  for one project."""
+    buckets = {c[0]: [] for c in CATEGORIES}
+    buckets["Incomplete"] = []  # track missing merge/base phases
+
+    for idx, o in enumerate(objs, 1):
+        pr = extract_pr_number(o)
+        merge, base = o.get("merge_phase"), o.get("base_phase")
+
+        if merge is None or base is None:
+            buckets["Incomplete"].append(pr)
+            print(f"   ⚠️  object #{idx} (PR {pr}) missing merge_phase or base_phase")
+            continue
+
+        if is_f2p(o):
+            buckets["F2P"].append(pr)
+        elif is_ineffective(o):
+            buckets["Ineffective"].append(pr)
+        else:
+            buckets["Error"].append(pr)
+
+
+    return buckets
+
+# ──────────────────────────────────────────────────────────────────────────────
+# ― main ----------------------------------------------------------------------
+
 def main() -> None:
-    files = sorted(JSON_DIR.glob("%s_*.json" % PREFIX))
+    files = sorted(JSON_DIR.glob(f"{PREFIX}_*.json"))
     if not files:
-        raise SystemExit(f"No %s_*.json files found in {JSON_DIR.resolve()}" % PREFIX)
-    grand = [0, 0, 0, 0, 0, 0]
-    rows, labels = [], []
+        raise SystemExit(f"No {PREFIX}_*.json files found in {JSON_DIR.resolve()}")
+
+    # final JSON to be dumped
+    report: dict[str, dict[str, list[str]]] = {}
+
+    grand_counts = [0, 0, 0]  # order matches CATEGORIES
+    proj_counts: dict[str, list[int]] = {}
+
     for jf in files:
         try:
             data = json.loads(jf.read_text(encoding="utf-8"))
@@ -129,31 +162,51 @@ def main() -> None:
         if not isinstance(data, list):
             print(f"⚠️  Skipping {jf.name}: root element is not a list")
             continue
-        c = classify(data)
-        mce, mtf, bce, btf, ok, inc = c
-        print(f"{jf.name:<30}  merge_CE={mce:>4}  merge_TF={mtf:>4}  "
-              f"base_CE={bce:>4}  base_TF={btf:>4}  pass_both={ok:>4}  incomplete={inc:>4}")
-        rows.append([mce, mtf, ok, bce, btf])
-        labels.append(jf.stem.replace(f"{PREFIX}_", ""))
-        grand = [g + v for g, v in zip(grand, c)]
-        # bar_chart(f"Results for {jf.stem}", c, DIAG_DIR / f"{jf.stem}_stats.png")
 
-    rows.append([grand[0], grand[1], grand[4], grand[2], grand[3]])
-    labels.append("TOTAL")
-    perc_rows = [[100 * v / sum(r) for v in r] for r in rows if sum(r)]
-    stacked_chart(labels, perc_rows, DIAG_DIR / f"{PREFIX}_stacked.png")
-    # bar_chart("Aggregate over all files",
-    #           (grand[0], grand[1], grand[4], grand[2], grand[3]),
-    #           DIAG_DIR / "aggregate_stats.png")
+        buckets = categorise_project(data)
+        proj = jf.stem.replace(f"{PREFIX}_", "")
+        report[proj] = buckets
+
+        # --- counts & console log ---
+        counts = [len(buckets[c[0]]) for c in CATEGORIES]   # keep same order
+        inc     = len(buckets["Incomplete"])
+        print(f"{jf.name:<30}  "
+              f"Error={counts[0]:>4}  Ineffective={counts[1]:>4}  "
+              f"F2P={counts[2]:>4} ")
+
+        proj_counts[proj] = counts
+        for i, v in enumerate(counts):
+            grand_counts[i] += v
+
+        # per-file bar‑chart (uncomment if needed)
+        # bar_chart(f"Results for {jf.stem}", counts, DIAG_DIR / f"{jf.stem}_stats.png")
+
+    # ---------- write JSON report ----------
+    OUT_JSON.write_text(json.dumps(report, indent=2, ensure_ascii=False))
+    print(f"\n📄  Detailed PR lists saved to  {OUT_JSON.resolve()}")
+
+    # ---------- aggregate diagrams ----------
+    # Bar‑chart with absolute counts over *all* files.
+    # bar_chart("Aggregate over all files", grand_counts, DIAG_DIR / "aggregate_stats.png")
+
+    # Stacked chart with per‑project category percentages
+    if proj_counts:
+        labels = list(proj_counts.keys())
+        perc_rows: list[list[float]] = []
+        for proj in labels:
+            ct = proj_counts[proj]
+            tot = sum(ct)
+            perc_rows.append([ (v / tot * 100) if tot else 0.0 for v in ct ])
+
+        stacked_chart(labels, perc_rows, DIAG_DIR / f"{PREFIX}_stacked.png")
+        print(f"\n📈  Aggregate stacked chart saved to  {(DIAG_DIR / 'aggregate_stacked.png').resolve()}")
 
     print("\nAggregate totals:")
-    print(f"  Merge compile error           : {grand[0]}")
-    print(f"  Merge test failure            : {grand[1]}")
-    print(f"  Base compile error (F2P)      : {grand[2]}")
-    print(f"  Base test failure  (F2P)      : {grand[3]}")
-    print(f"  Pass in both phases           : {grand[4]}")
-    print(f"  Incomplete objects            : {grand[5]}")
+    for (label, _), total in zip(CATEGORIES, grand_counts):
+        print(f"  {label:<30}: {total}")
+
     print(f"\n✅  All diagrams saved inside {DIAG_DIR.resolve()}")
+
 
 if __name__ == "__main__":
     main()
