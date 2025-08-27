@@ -1,0 +1,36 @@
+{
+  "pr_number": 539,
+  "title": "Javadoc shouldn't reference 1.x behavior",
+  "state": "closed",
+  "created_at": "2023-12-27T15:19:44Z",
+  "merge_commit_sha": "3ac3e28d1957d382b6e0bcf25fed7e1d72a3899c",
+  "base_sha": "9293f5f402e7c22d5526cc1df7aa180318ee640f",
+  "head_sha": "5ec1abe0eee430711119b0627ac232bfa9d50175",
+  "user_login": "elharo",
+  "extracted_count": 2,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/FileUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_539/src/test/java/org/apache/commons/io/FileUtilsLLM_Test.java",
+      "package": "org.apache.commons.io",
+      "original_class_name": "FileUtilsTest2",
+      "final_class_name": "FileUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/input/CountingInputStream.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_539/src/test/java/org/apache/commons/io/input/CountingInputStreamLLM_Test.java",
+      "package": "org.apache.commons.io.input",
+      "original_class_name": "CountingInputStreamTest2",
+      "final_class_name": "CountingInputStreamLLM_Test"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "pr_number": 335,
+  "title": "[IMAGING-369] Fix array bounds exception for TIFF with internal JPEG …",
+  "state": "closed",
+  "created_at": "2023-11-17T14:47:31Z",
+  "merge_commit_sha": "cbdb978098a042cb5fd2a768f6d8575835c28278",
+  "base_sha": "50e3dc5a6a2b802de5c061afd493616a81bcfb68",
+  "head_sha": "fd7e23527830b3469f9c1b8fb567694b8da5838d",
+  "user_login": "gwlucastrig",
+  "extracted_count": 1,
+  "skipped_count": 3,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/jpeg/decoder/JpegDecoder.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_335/src/test/java/org/apache/commons/imaging/formats/jpeg/decoder/JpegDecoderLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.jpeg.decoder",
+      "original_class_name": "JpegDecoderTest2",
+      "final_class_name": "JpegDecoderLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/imaging/formats/tiff/TiffJpegTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/resources/data/images/tiff/14/TestJpegRgb127x127.tiff",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/resources/data/images/tiff/14/TestSampleRgb127x127.tiff",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

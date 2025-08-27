@@ -1,0 +1,113 @@
+{
+  "pr_number": 66,
+  "title": "[IMAGING-244]: Use isEmpty instead of comparing size() with integers",
+  "state": "closed",
+  "created_at": "2019-12-15T04:00:34Z",
+  "merge_commit_sha": "8e380e05d2633213fd05499fccf9a7616e5958f8",
+  "base_sha": "6b1d1272568d6b24a0417b05af8434d6b27acc3e",
+  "head_sha": "b751732a354ce908da9e10b30b99262824a4452c",
+  "user_login": "kinow",
+  "extracted_count": 8,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/changes/changes.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/gif/GifImageParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_66/src/test/java/org/apache/commons/imaging/formats/gif/GifImageParserLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.gif",
+      "original_class_name": "GifImageParserTest",
+      "final_class_name": "GifImageParserLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/jpeg/exif/ExifRewriter.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_66/src/test/java/org/apache/commons/imaging/formats/jpeg/exif/ExifRewriterLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.jpeg.exif",
+      "original_class_name": "ExifRewriterTest",
+      "final_class_name": "ExifRewriterLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/jpeg/xmp/JpegRewriter.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_66/src/test/java/org/apache/commons/imaging/formats/jpeg/xmp/JpegRewriterLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.jpeg.xmp",
+      "original_class_name": "JpegRewriterTest",
+      "final_class_name": "JpegRewriterLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/psd/PsdImageParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_66/src/test/java/org/apache/commons/imaging/formats/psd/PsdImageParserLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.psd",
+      "original_class_name": "PsdImageParserTest",
+      "final_class_name": "PsdImageParserLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/tiff/TiffReader.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_66/src/test/java/org/apache/commons/imaging/formats/tiff/TiffReaderLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.tiff",
+      "original_class_name": "TiffReaderTest",
+      "final_class_name": "TiffReaderLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/tiff/TiffTags.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_66/src/test/java/org/apache/commons/imaging/formats/tiff/TiffTagsLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.tiff",
+      "original_class_name": "TiffTagsTest2",
+      "final_class_name": "TiffTagsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/palette/ColorGroup.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_66/src/test/java/org/apache/commons/imaging/palette/ColorGroupLLM_Test.java",
+      "package": "org.apache.commons.imaging.palette",
+      "original_class_name": "ColorGroupTest",
+      "final_class_name": "ColorGroupLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/palette/MedianCutQuantizer.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_66/src/test/java/org/apache/commons/imaging/palette/MedianCutQuantizerLLM_Test.java",
+      "package": "org.apache.commons.imaging.palette",
+      "original_class_name": "MedianCutQuantizerTest",
+      "final_class_name": "MedianCutQuantizerLLM_Test"
+    }
+  ]
+}

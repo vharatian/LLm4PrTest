@@ -1,0 +1,25 @@
+{
+  "pr_number": 541,
+  "title": "[IO-829] Don't decode and reencode characters in a potentially different charset in AbstractOrigin.CharSequenceOrigin.getReader(Charset)",
+  "state": "closed",
+  "created_at": "2023-12-28T12:01:48Z",
+  "merge_commit_sha": "fc8a044fd013505b6af378b15942af875af949df",
+  "base_sha": "4114db4a2ef8b214f3d4b794307c0c72c075b1e9",
+  "head_sha": "3874d086c58d832717e2e8da744d756c42244f39",
+  "user_login": "elharo",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/build/AbstractOrigin.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_541/src/test/java/org/apache/commons/io/build/AbstractOriginLLM_Test.java",
+      "package": "org.apache.commons.io.build",
+      "original_class_name": "AbstractOriginTest2",
+      "final_class_name": "AbstractOriginLLM_Test"
+    }
+  ]
+}

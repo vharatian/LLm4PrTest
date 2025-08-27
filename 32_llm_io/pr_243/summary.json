@@ -1,0 +1,124 @@
+{
+  "pr_number": 243,
+  "title": "Minor changes",
+  "state": "closed",
+  "created_at": "2021-06-11T04:24:04Z",
+  "merge_commit_sha": "498cd03984bd0cd191a38ecfc03c46520df83f6b",
+  "base_sha": "414e597e01e02ef1714fc0f8524eea8c836f315f",
+  "head_sha": "2f1c9e1f961752383bba0032bd07eda2dd71288e",
+  "user_login": "arturobernalg",
+  "extracted_count": 8,
+  "skipped_count": 2,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/CopyUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_243/src/test/java/org/apache/commons/io/CopyUtilsLLM_Test.java",
+      "package": "org.apache.commons.io",
+      "original_class_name": "CopyUtilsTest2",
+      "final_class_name": "CopyUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/FileSystemUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_243/src/test/java/org/apache/commons/io/FileSystemUtilsLLM_Test.java",
+      "package": "org.apache.commons.io",
+      "original_class_name": "FileSystemUtilsTest",
+      "final_class_name": "FileSystemUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/FileUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_243/src/test/java/org/apache/commons/io/FileUtilsLLM_Test.java",
+      "package": "org.apache.commons.io",
+      "original_class_name": "FileUtilsTest",
+      "final_class_name": "FileUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/FilenameUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_243/src/test/java/org/apache/commons/io/FilenameUtilsLLM_Test.java",
+      "package": "org.apache.commons.io",
+      "original_class_name": "FilenameUtilsTest",
+      "final_class_name": "FilenameUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/file/PathUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_243/src/test/java/org/apache/commons/io/file/PathUtilsLLM_Test.java",
+      "package": "org.apache.commons.io.file",
+      "original_class_name": "PathUtilsTest2",
+      "final_class_name": "PathUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/function/IOConsumer.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_243/src/test/java/org/apache/commons/io/function/IOConsumerLLM_Test.java",
+      "package": "org.apache.commons.io.function",
+      "original_class_name": "IOConsumerTest2",
+      "final_class_name": "IOConsumerLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/input/BufferedFileChannelInputStream.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_243/src/test/java/org/apache/commons/io/input/BufferedFileChannelInputStreamLLM_Test.java",
+      "package": "org.apache.commons.io.input",
+      "original_class_name": "BufferedFileChannelInputStreamTest2",
+      "final_class_name": "BufferedFileChannelInputStreamLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/output/ThresholdingOutputStream.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_243/src/test/java/org/apache/commons/io/output/ThresholdingOutputStreamLLM_Test.java",
+      "package": "org.apache.commons.io.output",
+      "original_class_name": "ThresholdingOutputStreamTest2",
+      "final_class_name": "ThresholdingOutputStreamLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/ByteOrderMarkTestCase.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/FileUtilsTestCase.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

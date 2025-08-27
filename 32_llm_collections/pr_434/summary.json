@@ -1,0 +1,25 @@
+{
+  "pr_number": 434,
+  "title": "Fix incorrect Javadoc description",
+  "state": "closed",
+  "created_at": "2023-12-05T09:18:57Z",
+  "merge_commit_sha": "c3ecf963e42c7c7ba7c3fbd4d4ba74a8b4c83d08",
+  "base_sha": "81dfadfc8016f56110e71d31f298d1de48d22bd6",
+  "head_sha": "d1c5fb852eaa27865a8089a191aaa5dad2dc029d",
+  "user_login": "syoon2",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/multimap/AbstractSetValuedMap.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_434/src/test/java/org/apache/commons/collections4/multimap/AbstractSetValuedMapLLM_Test.java",
+      "package": "org.apache.commons.collections4.multimap",
+      "original_class_name": "AbstractSetValuedMapTest",
+      "final_class_name": "AbstractSetValuedMapLLM_Test"
+    }
+  ]
+}

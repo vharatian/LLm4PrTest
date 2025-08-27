@@ -1,0 +1,25 @@
+{
+  "pr_number": 496,
+  "title": "[Javadoc] IOUtils#contentEquals does not throw NullPointerException",
+  "state": "closed",
+  "created_at": "2023-10-08T14:30:57Z",
+  "merge_commit_sha": "b11a2404e6a845a522d3248f1e228ff764a6f308",
+  "base_sha": "405c34ae81675eb9fe4580e64ea9d9c7f71823e9",
+  "head_sha": "823682c9d39d24a6acb30147215a46190a476219",
+  "user_login": "sebbASF",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/IOUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_496/src/test/java/org/apache/commons/io/IOUtilsLLM_Test.java",
+      "package": "org.apache.commons.io",
+      "original_class_name": "IOUtilsTest2",
+      "final_class_name": "IOUtilsLLM_Test"
+    }
+  ]
+}

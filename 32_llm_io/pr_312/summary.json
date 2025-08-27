@@ -1,0 +1,25 @@
+{
+  "pr_number": 312,
+  "title": "(doc) fix typos in AbstractByteArrayOutputStream.java",
+  "state": "closed",
+  "created_at": "2021-12-13T05:46:19Z",
+  "merge_commit_sha": "223a4706ad9844f5d12f75477ec50274105f9c5c",
+  "base_sha": "99c99b6e78383748b24e74fa72d69aea7126ec9f",
+  "head_sha": "e9e8297d3330e6439294144d9d88d0f67d32cf18",
+  "user_login": "yummydish",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/output/AbstractByteArrayOutputStream.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_312/src/test/java/org/apache/commons/io/output/AbstractByteArrayOutputStreamLLM_Test.java",
+      "package": "org.apache.commons.io.output",
+      "original_class_name": "AbstractByteArrayOutputStreamTest",
+      "final_class_name": "AbstractByteArrayOutputStreamLLM_Test"
+    }
+  ]
+}

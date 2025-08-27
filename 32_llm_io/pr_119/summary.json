@@ -1,0 +1,36 @@
+{
+  "pr_number": 119,
+  "title": "Add a MarkShieldInputStream",
+  "state": "closed",
+  "created_at": "2020-06-01T16:46:03Z",
+  "merge_commit_sha": "e8f420971be89b80e95f64556efbb9736ca3f5c7",
+  "base_sha": "cd7787277b170d5f439df03850ca0c574566e539",
+  "head_sha": "2e9ba01e632e5e695062fce11548ca3b7f07ad76",
+  "user_login": "adamretter",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/input/MarkShieldInputStream.java",
+      "status_in_pr": "added",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_119/src/test/java/org/apache/commons/io/input/MarkShieldInputStreamLLM_Test.java",
+      "package": "org.apache.commons.io.input",
+      "original_class_name": "MarkShieldInputStreamTest",
+      "final_class_name": "MarkShieldInputStreamLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/input/MarkShieldInputStreamTest.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

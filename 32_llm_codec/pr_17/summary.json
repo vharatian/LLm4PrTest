@@ -1,0 +1,190 @@
+{
+  "pr_number": 17,
+  "title": "Minor improvements",
+  "state": "closed",
+  "created_at": "2019-02-16T06:32:55Z",
+  "merge_commit_sha": "a94813fb0ce4597d2465a273821306a055f35492",
+  "base_sha": "477db01dd858150534c5dc128630dc56c4f15aaf",
+  "head_sha": "680a648b5bfc8d3d40f213e054809aa51cbde699",
+  "user_login": "kinow",
+  "extracted_count": 10,
+  "skipped_count": 6,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/codec/Resources.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_17/src/test/java/org/apache/commons/codec/ResourcesLLM_Test.java",
+      "package": "org.apache.commons.codec",
+      "original_class_name": "ResourcesTest",
+      "final_class_name": "ResourcesLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/codec/digest/B64.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_17/src/test/java/org/apache/commons/codec/digest/B64LLM_Test.java",
+      "package": "org.apache.commons.codec.digest",
+      "original_class_name": "B64Test2",
+      "final_class_name": "B64LLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/codec/digest/Crypt.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_17/src/test/java/org/apache/commons/codec/digest/CryptLLM_Test.java",
+      "package": "org.apache.commons.codec.digest",
+      "original_class_name": "CryptTest2",
+      "final_class_name": "CryptLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/codec/digest/DigestUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_17/src/test/java/org/apache/commons/codec/digest/DigestUtilsLLM_Test.java",
+      "package": "org.apache.commons.codec.digest",
+      "original_class_name": "DigestUtilsTest2",
+      "final_class_name": "DigestUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/codec/digest/Md5Crypt.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_17/src/test/java/org/apache/commons/codec/digest/Md5CryptLLM_Test.java",
+      "package": "org.apache.commons.codec.digest",
+      "original_class_name": "Md5CryptTest2",
+      "final_class_name": "Md5CryptLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/codec/digest/Sha2Crypt.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_17/src/test/java/org/apache/commons/codec/digest/Sha2CryptLLM_Test.java",
+      "package": "org.apache.commons.codec.digest",
+      "original_class_name": "Sha2CryptTest2",
+      "final_class_name": "Sha2CryptLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/codec/language/ColognePhonetic.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_17/src/test/java/org/apache/commons/codec/language/ColognePhoneticLLM_Test.java",
+      "package": "org.apache.commons.codec.language",
+      "original_class_name": "ColognePhoneticTest2",
+      "final_class_name": "ColognePhoneticLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/codec/language/DaitchMokotoffSoundex.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_17/src/test/java/org/apache/commons/codec/language/DaitchMokotoffSoundexLLM_Test.java",
+      "package": "org.apache.commons.codec.language",
+      "original_class_name": "DaitchMokotoffSoundexTest2",
+      "final_class_name": "DaitchMokotoffSoundexLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/codec/net/PercentCodec.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_17/src/test/java/org/apache/commons/codec/net/PercentCodecLLM_Test.java",
+      "package": "org.apache.commons.codec.net",
+      "original_class_name": "PercentCodecTest2",
+      "final_class_name": "PercentCodecLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/codec/net/QuotedPrintableCodec.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_17/src/test/java/org/apache/commons/codec/net/QuotedPrintableCodecLLM_Test.java",
+      "package": "org.apache.commons.codec.net",
+      "original_class_name": "QuotedPrintableCodecTest2",
+      "final_class_name": "QuotedPrintableCodecLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/codec/StringEncoderAbstractTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/codec/StringEncoderComparatorTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/codec/net/BCodecTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/codec/net/QCodecTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/codec/net/QuotedPrintableCodecTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/codec/net/URLCodecTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

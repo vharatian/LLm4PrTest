@@ -1,0 +1,58 @@
+{
+  "pr_number": 129,
+  "title": "Ignore Pack200 tests for JDK 14+",
+  "state": "closed",
+  "created_at": "2020-08-22T08:33:01Z",
+  "merge_commit_sha": "92d9df3320d00dee0edef8290ef325bc83b9255a",
+  "base_sha": "4bc900548ec0d10e7e9f6cb12e9a0a4a328544b1",
+  "head_sha": "af745082c70832f6415e3a6e5535c4b5fecbfb02",
+  "user_login": "PeterAlfredLee",
+  "extracted_count": 1,
+  "skipped_count": 3,
+  "files": [
+    {
+      "source_filename": ".travis.yml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "pom.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/changes/changes.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_129/src/test/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntryLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.cpio",
+      "original_class_name": "CpioArchiveEntryTest",
+      "final_class_name": "CpioArchiveEntryLLM_Test"
+    }
+  ]
+}

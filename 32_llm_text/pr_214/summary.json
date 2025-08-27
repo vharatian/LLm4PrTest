@@ -1,0 +1,47 @@
+{
+  "pr_number": 214,
+  "title": "[TEXT-191] Fixed JaroWinklerDistance returns the same values as JaroWinklerSimilarity",
+  "state": "closed",
+  "created_at": "2021-04-08T12:25:51Z",
+  "merge_commit_sha": "96080b3c25c97fe5731fd0e9de972e03a23f66d2",
+  "base_sha": "7afa58a3c873e2f1c6b8ca225fe8ca7f8698d155",
+  "head_sha": "380cbb0e1e54e229c69f86d810ea354a8271882b",
+  "user_login": "bradleyrumball",
+  "extracted_count": 1,
+  "skipped_count": 2,
+  "files": [
+    {
+      "source_filename": "src/changes/changes.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/text/similarity/JaroWinklerDistance.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_214/src/test/java/org/apache/commons/text/similarity/JaroWinklerDistanceLLM_Test.java",
+      "package": "org.apache.commons.text.similarity",
+      "original_class_name": "JaroWinklerDistanceTest2",
+      "final_class_name": "JaroWinklerDistanceLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/text/similarity/JaroWinklerDistanceTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

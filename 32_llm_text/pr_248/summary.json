@@ -1,0 +1,102 @@
+{
+  "pr_number": 248,
+  "title": "TEXT-207: adding DoubleFormat utility",
+  "state": "closed",
+  "created_at": "2021-07-06T03:18:21Z",
+  "merge_commit_sha": "ff372c2dd5400c636433ac1d40c885692f7195ac",
+  "base_sha": "23a17acd1fa408b41988866e3df480e9c89b4903",
+  "head_sha": "ff372c2dd5400c636433ac1d40c885692f7195ac",
+  "user_login": "darkma773r",
+  "extracted_count": 3,
+  "skipped_count": 5,
+  "files": [
+    {
+      "source_filename": "pom.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/changes/changes.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/text/numbers/DoubleFormat.java",
+      "status_in_pr": "added",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_248/src/test/java/org/apache/commons/text/numbers/DoubleFormatLLM_Test.java",
+      "package": "org.apache.commons.text.numbers",
+      "original_class_name": "DoubleFormatTest",
+      "final_class_name": "DoubleFormatLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/text/numbers/ParsedDecimal.java",
+      "status_in_pr": "added",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_248/src/test/java/org/apache/commons/text/numbers/ParsedDecimalLLM_Test.java",
+      "package": "org.apache.commons.text.numbers",
+      "original_class_name": "ParsedDecimalTest",
+      "final_class_name": "ParsedDecimalLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/text/numbers/package-info.java",
+      "status_in_pr": "added",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_248/src/test/java/org/apache/commons/text/numbers/PackageInfoLLM_Test.java",
+      "package": "org.apache.commons.text.numbers",
+      "original_class_name": "PackageInfoTest",
+      "final_class_name": "PackageInfoLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/text/jmh/DoubleFormatPerformance.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/text/numbers/DoubleFormatTest.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/text/numbers/ParsedDecimalTest.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

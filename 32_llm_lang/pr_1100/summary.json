@@ -1,0 +1,36 @@
+{
+  "pr_number": 1100,
+  "title": "Fix ThresholdCircuitBreaker#checkState()",
+  "state": "closed",
+  "created_at": "2023-08-24T02:21:29Z",
+  "merge_commit_sha": "b55d278cce19df99fd50f2ae800c5de2fc0991f7",
+  "base_sha": "2fb38b1bb76a0a33d72864c8e39b536bce6b39e7",
+  "head_sha": "cbb64c2bf68aaf5702be541ded8daf1a2811b622",
+  "user_login": "yichinzhu",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/concurrent/ThresholdCircuitBreaker.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_1100/src/test/java/org/apache/commons/lang3/concurrent/ThresholdCircuitBreakerLLM_Test.java",
+      "package": "org.apache.commons.lang3.concurrent",
+      "original_class_name": "ThresholdCircuitBreakerTest2",
+      "final_class_name": "ThresholdCircuitBreakerLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/concurrent/ThresholdCircuitBreakerTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

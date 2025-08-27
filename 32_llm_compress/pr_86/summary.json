@@ -1,0 +1,69 @@
+{
+  "pr_number": 86,
+  "title": "COMPRESS-477 building a split zip",
+  "state": "closed",
+  "created_at": "2019-11-12T07:09:42Z",
+  "merge_commit_sha": "21025c71938d91bcaa1d55529087c0a082d22324",
+  "base_sha": "dfa9ed3712097c10765301b15d720f867c4a061d",
+  "head_sha": "21025c71938d91bcaa1d55529087c0a082d22324",
+  "user_login": "PeterAlfredLee",
+  "extracted_count": 3,
+  "skipped_count": 2,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_86/src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveEntryLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.zip",
+      "original_class_name": "ZipArchiveEntryTest2",
+      "final_class_name": "ZipArchiveEntryLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_86/src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStreamLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.zip",
+      "original_class_name": "ZipArchiveOutputStreamTest",
+      "final_class_name": "ZipArchiveOutputStreamLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/zip/ZipSplitOutputStream.java",
+      "status_in_pr": "added",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_86/src/test/java/org/apache/commons/compress/archivers/zip/ZipSplitOutputStreamLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.zip",
+      "original_class_name": "ZipSplitOutputStreamTest2",
+      "final_class_name": "ZipSplitOutputStreamLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/compress/archivers/ZipTestCase.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/compress/archivers/zip/ZipSplitOutputStreamTest.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

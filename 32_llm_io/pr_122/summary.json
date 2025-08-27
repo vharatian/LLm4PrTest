@@ -1,0 +1,36 @@
+{
+  "pr_number": 122,
+  "title": "Implement CharSequenceReader.ready",
+  "state": "closed",
+  "created_at": "2020-07-08T19:33:43Z",
+  "merge_commit_sha": "6c06f5bb4e0acf385113b59de4bda321bbb6f210",
+  "base_sha": "821ab5fc6140581d0dd4906c9cbcb721de0ec1fb",
+  "head_sha": "4fa7b507ec3a7953dfdbc9e624920397e2a96ed7",
+  "user_login": "robtimus",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/input/CharSequenceReader.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_122/src/test/java/org/apache/commons/io/input/CharSequenceReaderLLM_Test.java",
+      "package": "org.apache.commons.io.input",
+      "original_class_name": "CharSequenceReaderTest2",
+      "final_class_name": "CharSequenceReaderLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/input/CharSequenceReaderTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

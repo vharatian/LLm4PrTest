@@ -1,0 +1,91 @@
+{
+  "pr_number": 64,
+  "title": "IMAGING-151: use a copy of the list, make members package-protected/private, and re-use Comparator",
+  "state": "closed",
+  "created_at": "2019-12-14T23:19:31Z",
+  "merge_commit_sha": "2e13c9e7529229ad4db5a52c4419438dcf1b8c1e",
+  "base_sha": "8e380e05d2633213fd05499fccf9a7616e5958f8",
+  "head_sha": "016c1352a1b9b26d4b955d5e5cf9c6937fde0982",
+  "user_login": "kinow",
+  "extracted_count": 6,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/changes/changes.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/palette/ColorComponent.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_64/src/test/java/org/apache/commons/imaging/palette/ColorComponentLLM_Test.java",
+      "package": "org.apache.commons.imaging.palette",
+      "original_class_name": "ColorComponentTest",
+      "final_class_name": "ColorComponentLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/palette/ColorCountComparator.java",
+      "status_in_pr": "added",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_64/src/test/java/org/apache/commons/imaging/palette/ColorCountComparatorLLM_Test.java",
+      "package": "org.apache.commons.imaging.palette",
+      "original_class_name": "ColorCountComparatorTest",
+      "final_class_name": "ColorCountComparatorLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/palette/ColorGroup.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_64/src/test/java/org/apache/commons/imaging/palette/ColorGroupLLM_Test.java",
+      "package": "org.apache.commons.imaging.palette",
+      "original_class_name": "ColorGroupTest",
+      "final_class_name": "ColorGroupLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/palette/LongestAxisMedianCut.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_64/src/test/java/org/apache/commons/imaging/palette/LongestAxisMedianCutLLM_Test.java",
+      "package": "org.apache.commons.imaging.palette",
+      "original_class_name": "LongestAxisMedianCutTest",
+      "final_class_name": "LongestAxisMedianCutLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/palette/MedianCutQuantizer.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_64/src/test/java/org/apache/commons/imaging/palette/MedianCutQuantizerLLM_Test.java",
+      "package": "org.apache.commons.imaging.palette",
+      "original_class_name": "MedianCutQuantizerTest",
+      "final_class_name": "MedianCutQuantizerLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/palette/MostPopulatedBoxesMedianCut.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_64/src/test/java/org/apache/commons/imaging/palette/MostPopulatedBoxesMedianCutLLM_Test.java",
+      "package": "org.apache.commons.imaging.palette",
+      "original_class_name": "MostPopulatedBoxesMedianCutTest",
+      "final_class_name": "MostPopulatedBoxesMedianCutLLM_Test"
+    }
+  ]
+}

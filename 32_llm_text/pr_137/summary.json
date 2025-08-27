@@ -1,0 +1,201 @@
+{
+  "pr_number": 137,
+  "title": "[TEXT-182] Fix typos",
+  "state": "closed",
+  "created_at": "2020-07-21T05:47:16Z",
+  "merge_commit_sha": "2559593ad0cf37b43a6f4631c747d9b67dae8d5f",
+  "base_sha": "d36a5faf0560fce4f0d23ded7db8c915c68def91",
+  "head_sha": "2b0611a784bb5fe851c9707419927e1308282096",
+  "user_login": "XenoAmess",
+  "extracted_count": 9,
+  "skipped_count": 8,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/text/CaseUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_137/src/test/java/org/apache/commons/text/CaseUtilsLLM_Test.java",
+      "package": "org.apache.commons.text",
+      "original_class_name": "CaseUtilsTest2",
+      "final_class_name": "CaseUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/text/ExtendedMessageFormat.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_137/src/test/java/org/apache/commons/text/ExtendedMessageFormatLLM_Test.java",
+      "package": "org.apache.commons.text",
+      "original_class_name": "ExtendedMessageFormatTest2",
+      "final_class_name": "ExtendedMessageFormatLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/text/StrSubstitutor.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_137/src/test/java/org/apache/commons/text/StrSubstitutorLLM_Test.java",
+      "package": "org.apache.commons.text",
+      "original_class_name": "StrSubstitutorTest2",
+      "final_class_name": "StrSubstitutorLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/text/StringSubstitutor.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_137/src/test/java/org/apache/commons/text/StringSubstitutorLLM_Test.java",
+      "package": "org.apache.commons.text",
+      "original_class_name": "StringSubstitutorTest2",
+      "final_class_name": "StringSubstitutorLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/text/io/StringSubstitutorReader.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_137/src/test/java/org/apache/commons/text/io/StringSubstitutorReaderLLM_Test.java",
+      "package": "org.apache.commons.text.io",
+      "original_class_name": "StringSubstitutorReaderTest",
+      "final_class_name": "StringSubstitutorReaderLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/text/lookup/ConstantStringLookup.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_137/src/test/java/org/apache/commons/text/lookup/ConstantStringLookupLLM_Test.java",
+      "package": "org.apache.commons.text.lookup",
+      "original_class_name": "ConstantStringLookupTest2",
+      "final_class_name": "ConstantStringLookupLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/text/lookup/DateStringLookup.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_137/src/test/java/org/apache/commons/text/lookup/DateStringLookupLLM_Test.java",
+      "package": "org.apache.commons.text.lookup",
+      "original_class_name": "DateStringLookupTest2",
+      "final_class_name": "DateStringLookupLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/text/lookup/IllegalArgumentExceptions.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_137/src/test/java/org/apache/commons/text/lookup/IllegalArgumentExceptionsLLM_Test.java",
+      "package": "org.apache.commons.text.lookup",
+      "original_class_name": "IllegalArgumentExceptionsTest",
+      "final_class_name": "IllegalArgumentExceptionsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/text/lookup/StringLookupFactory.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_137/src/test/java/org/apache/commons/text/lookup/StringLookupFactoryLLM_Test.java",
+      "package": "org.apache.commons.text.lookup",
+      "original_class_name": "StringLookupFactoryTest2",
+      "final_class_name": "StringLookupFactoryLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/text/AlphabetConverterTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/text/ExtendedMessageFormatTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/text/StrLookupTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/text/StringSubstitutorTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/text/TextStringBuilderTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/text/diff/ReplacementsFinderTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/text/similarity/LongestCommonSubsequenceDistanceTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/text/translate/EntityArraysTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

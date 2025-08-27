@@ -1,0 +1,25 @@
+{
+  "pr_number": 925,
+  "title": "simplify condition",
+  "state": "closed",
+  "created_at": "2022-07-20T16:08:31Z",
+  "merge_commit_sha": "72c8b73fa4afb770d87f1eb6dff24a5f321877e4",
+  "base_sha": "3b38df4393c0a5f4d1c6db4ed695295bbc4f9d8f",
+  "head_sha": "79c560f44dd2787f306406896b2f4d0be2381165",
+  "user_login": "bhimsur",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/BooleanUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_925/src/test/java/org/apache/commons/lang3/BooleanUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "BooleanUtilsTest2",
+      "final_class_name": "BooleanUtilsLLM_Test"
+    }
+  ]
+}

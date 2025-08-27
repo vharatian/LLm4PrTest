@@ -1,0 +1,223 @@
+{
+  "pr_number": 54,
+  "title": "[IMAGING-163] Add XmpEmbedabble interface to parsers that support it",
+  "state": "closed",
+  "created_at": "2019-10-28T10:07:36Z",
+  "merge_commit_sha": "2871b9b442c42378c4964cd712d693fef679e9d1",
+  "base_sha": "794982496f618420a32ffa7cd6025786a7eebab7",
+  "head_sha": "871374b94abd01ce68b99254169590c4c99f74a2",
+  "user_login": "kinow",
+  "extracted_count": 18,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/changes/changes.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/ImageParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_54/src/test/java/org/apache/commons/imaging/ImageParserLLM_Test.java",
+      "package": "org.apache.commons.imaging",
+      "original_class_name": "ImageParserTest",
+      "final_class_name": "ImageParserLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/Imaging.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_54/src/test/java/org/apache/commons/imaging/ImagingLLM_Test.java",
+      "package": "org.apache.commons.imaging",
+      "original_class_name": "ImagingTest2",
+      "final_class_name": "ImagingLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/common/XmpEmbeddable.java",
+      "status_in_pr": "added",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_54/src/test/java/org/apache/commons/imaging/common/XmpEmbeddableLLM_Test.java",
+      "package": "org.apache.commons.imaging.common",
+      "original_class_name": "XmpEmbeddableTest",
+      "final_class_name": "XmpEmbeddableLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/bmp/BmpImageParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_54/src/test/java/org/apache/commons/imaging/formats/bmp/BmpImageParserLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.bmp",
+      "original_class_name": "BmpImageParserTest",
+      "final_class_name": "BmpImageParserLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/dcx/DcxImageParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_54/src/test/java/org/apache/commons/imaging/formats/dcx/DcxImageParserLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.dcx",
+      "original_class_name": "DcxImageParserTest",
+      "final_class_name": "DcxImageParserLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/gif/GifImageParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_54/src/test/java/org/apache/commons/imaging/formats/gif/GifImageParserLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.gif",
+      "original_class_name": "GifImageParserTest",
+      "final_class_name": "GifImageParserLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/icns/IcnsImageParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_54/src/test/java/org/apache/commons/imaging/formats/icns/IcnsImageParserLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.icns",
+      "original_class_name": "IcnsImageParserTest",
+      "final_class_name": "IcnsImageParserLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/ico/IcoImageParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_54/src/test/java/org/apache/commons/imaging/formats/ico/IcoImageParserLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.ico",
+      "original_class_name": "IcoImageParserTest",
+      "final_class_name": "IcoImageParserLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/jpeg/JpegImageParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_54/src/test/java/org/apache/commons/imaging/formats/jpeg/JpegImageParserLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.jpeg",
+      "original_class_name": "JpegImageParserTest",
+      "final_class_name": "JpegImageParserLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/pcx/PcxImageParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_54/src/test/java/org/apache/commons/imaging/formats/pcx/PcxImageParserLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.pcx",
+      "original_class_name": "PcxImageParserTest",
+      "final_class_name": "PcxImageParserLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/png/PngImageParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_54/src/test/java/org/apache/commons/imaging/formats/png/PngImageParserLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.png",
+      "original_class_name": "PngImageParserTest",
+      "final_class_name": "PngImageParserLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/pnm/PnmImageParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_54/src/test/java/org/apache/commons/imaging/formats/pnm/PnmImageParserLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.pnm",
+      "original_class_name": "PnmImageParserTest2",
+      "final_class_name": "PnmImageParserLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/psd/PsdImageParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_54/src/test/java/org/apache/commons/imaging/formats/psd/PsdImageParserLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.psd",
+      "original_class_name": "PsdImageParserTest",
+      "final_class_name": "PsdImageParserLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/rgbe/RgbeImageParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_54/src/test/java/org/apache/commons/imaging/formats/rgbe/RgbeImageParserLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.rgbe",
+      "original_class_name": "RgbeImageParserTest",
+      "final_class_name": "RgbeImageParserLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/tiff/TiffImageParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_54/src/test/java/org/apache/commons/imaging/formats/tiff/TiffImageParserLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.tiff",
+      "original_class_name": "TiffImageParserTest",
+      "final_class_name": "TiffImageParserLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/wbmp/WbmpImageParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_54/src/test/java/org/apache/commons/imaging/formats/wbmp/WbmpImageParserLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.wbmp",
+      "original_class_name": "WbmpImageParserTest",
+      "final_class_name": "WbmpImageParserLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/xbm/XbmImageParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_54/src/test/java/org/apache/commons/imaging/formats/xbm/XbmImageParserLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.xbm",
+      "original_class_name": "XbmImageParserTest",
+      "final_class_name": "XbmImageParserLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/xpm/XpmImageParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_54/src/test/java/org/apache/commons/imaging/formats/xpm/XpmImageParserLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.xpm",
+      "original_class_name": "XpmImageParserTest",
+      "final_class_name": "XpmImageParserLLM_Test"
+    }
+  ]
+}

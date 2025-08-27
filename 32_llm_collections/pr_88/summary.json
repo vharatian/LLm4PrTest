@@ -1,0 +1,47 @@
+{
+  "pr_number": 88,
+  "title": "Fix typos in release notes and Javadoc for AbstractHashedMap and AbstractHashedMapTest",
+  "state": "closed",
+  "created_at": "2019-10-17T09:36:55Z",
+  "merge_commit_sha": "32f2d4a832b7aac92e470991dddafff6608f0179",
+  "base_sha": "bbedeea78256e746e75dfb211391879f30360a87",
+  "head_sha": "734d04341f0bdf6d1134b1724def00047cfd0413",
+  "user_login": "dota17",
+  "extracted_count": 1,
+  "skipped_count": 2,
+  "files": [
+    {
+      "source_filename": "RELEASE-NOTES.txt",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/map/AbstractHashedMap.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_88/src/test/java/org/apache/commons/collections4/map/AbstractHashedMapLLM_Test.java",
+      "package": "org.apache.commons.collections4.map",
+      "original_class_name": "AbstractHashedMapTest",
+      "final_class_name": "AbstractHashedMapLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/collections4/map/AbstractMapTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

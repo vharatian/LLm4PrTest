@@ -1,0 +1,25 @@
+{
+  "pr_number": 412,
+  "title": "(doc) Fix javadoc for 'startIndex' parameter of StringUtils.join() methods",
+  "state": "closed",
+  "created_at": "2019-03-04T22:25:16Z",
+  "merge_commit_sha": "353e06a8ac01542e1dfac877c5e05880ab2bb52c",
+  "base_sha": "fa9f1aae197bacc5fea2394981cabeee3399759b",
+  "head_sha": "0c468eeb6cd701dac7dabf4eeb5bac7754498831",
+  "user_login": "aft90",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/StringUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_412/src/test/java/org/apache/commons/lang3/StringUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "StringUtilsTest2",
+      "final_class_name": "StringUtilsLLM_Test"
+    }
+  ]
+}

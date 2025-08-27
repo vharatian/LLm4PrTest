@@ -1,0 +1,36 @@
+{
+  "pr_number": 91,
+  "title": "[COLLECTIONS-674] Add drain method to CollectionUtils",
+  "state": "closed",
+  "created_at": "2019-10-23T07:30:29Z",
+  "merge_commit_sha": "c423a9964fa8e17028b378abbe47a50907e6d189",
+  "base_sha": "c6f4b84c7d0a7669370a07fb4a7ec72de9cbaed2",
+  "head_sha": "efd05c7f39f8534185b5cc685ce239aa942d8ef9",
+  "user_login": "dota17",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/CollectionUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_91/src/test/java/org/apache/commons/collections4/CollectionUtilsLLM_Test.java",
+      "package": "org.apache.commons.collections4",
+      "original_class_name": "CollectionUtilsTest2",
+      "final_class_name": "CollectionUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/collections4/CollectionUtilsTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

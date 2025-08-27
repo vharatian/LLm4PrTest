@@ -1,0 +1,47 @@
+{
+  "pr_number": 194,
+  "title": "Simplify conditions and avoid extra computations.",
+  "state": "closed",
+  "created_at": "2022-01-07T21:58:02Z",
+  "merge_commit_sha": "5efcccd909bb8fe76ab36f474c1701790ffbf495",
+  "base_sha": "ab344a9dc6488531866173c14fc7224af90c6e9a",
+  "head_sha": "0277c6e4d9487b4f82ecb5616c72346c7f259747",
+  "user_login": "arturobernalg",
+  "extracted_count": 2,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "pom.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/palette/ColorSpaceSubset.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_194/src/test/java/org/apache/commons/imaging/palette/ColorSpaceSubsetLLM_Test.java",
+      "package": "org.apache.commons.imaging.palette",
+      "original_class_name": "ColorSpaceSubsetTest",
+      "final_class_name": "ColorSpaceSubsetLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/palette/PaletteFactory.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_194/src/test/java/org/apache/commons/imaging/palette/PaletteFactoryLLM_Test.java",
+      "package": "org.apache.commons.imaging.palette",
+      "original_class_name": "PaletteFactoryTest",
+      "final_class_name": "PaletteFactoryLLM_Test"
+    }
+  ]
+}

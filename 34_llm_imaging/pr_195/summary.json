@@ -1,0 +1,91 @@
+{
+  "pr_number": 195,
+  "title": "Replace explicit type with <>.",
+  "state": "closed",
+  "created_at": "2022-01-15T21:31:08Z",
+  "merge_commit_sha": "987345d676c60ffd25a7fb40bc93d683570a3537",
+  "base_sha": "8825e26aff39d9d1d393503b80f15c02d8b6b60c",
+  "head_sha": "18ea668d9c7b4cd8f1c8f26aeb526d8c4af86fd2",
+  "user_login": "arturobernalg",
+  "extracted_count": 7,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/common/itu_t4/HuffmanTree.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_195/src/test/java/org/apache/commons/imaging/common/itu_t4/HuffmanTreeLLM_Test.java",
+      "package": "org.apache.commons.imaging.common.itu_t4",
+      "original_class_name": "HuffmanTreeTest",
+      "final_class_name": "HuffmanTreeLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/icns/IcnsImageParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_195/src/test/java/org/apache/commons/imaging/formats/icns/IcnsImageParserLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.icns",
+      "original_class_name": "IcnsImageParserTest",
+      "final_class_name": "IcnsImageParserLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/pcx/PcxImageParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_195/src/test/java/org/apache/commons/imaging/formats/pcx/PcxImageParserLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.pcx",
+      "original_class_name": "PcxImageParserTest",
+      "final_class_name": "PcxImageParserLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/rgbe/RgbeImageParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_195/src/test/java/org/apache/commons/imaging/formats/rgbe/RgbeImageParserLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.rgbe",
+      "original_class_name": "RgbeImageParserTest",
+      "final_class_name": "RgbeImageParserLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/wbmp/WbmpImageParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_195/src/test/java/org/apache/commons/imaging/formats/wbmp/WbmpImageParserLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.wbmp",
+      "original_class_name": "WbmpImageParserTest",
+      "final_class_name": "WbmpImageParserLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/xbm/XbmImageParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_195/src/test/java/org/apache/commons/imaging/formats/xbm/XbmImageParserLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.xbm",
+      "original_class_name": "XbmImageParserTest",
+      "final_class_name": "XbmImageParserLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/xpm/XpmImageParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_195/src/test/java/org/apache/commons/imaging/formats/xpm/XpmImageParserLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.xpm",
+      "original_class_name": "XpmImageParserTest",
+      "final_class_name": "XpmImageParserLLM_Test"
+    }
+  ]
+}

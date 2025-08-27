@@ -1,0 +1,69 @@
+{
+  "pr_number": 415,
+  "title": "LANG-1443: Add more SystemUtils.IS_JAVA_XX variants",
+  "state": "closed",
+  "created_at": "2019-04-05T06:10:13Z",
+  "merge_commit_sha": "6e797a40a7fb7d0e5abf555c0d179dd3937bdecb",
+  "base_sha": "3e37b25ebcc33134bd5d9476c00c5ed48477b0cf",
+  "head_sha": "2836ee0c3cf06c67be20b56ed5d062bb0b209e53",
+  "user_login": "britter",
+  "extracted_count": 2,
+  "skipped_count": 3,
+  "files": [
+    {
+      "source_filename": "src/changes/changes.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/JavaVersion.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_415/src/test/java/org/apache/commons/lang3/JavaVersionLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "JavaVersionTest2",
+      "final_class_name": "JavaVersionLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/SystemUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_415/src/test/java/org/apache/commons/lang3/SystemUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "SystemUtilsTest2",
+      "final_class_name": "SystemUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/JavaVersionTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/SystemUtilsTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "pr_number": 309,
+  "title": "Document duplicate header behavior",
+  "state": "closed",
+  "created_at": "2023-02-23T00:02:23Z",
+  "merge_commit_sha": "bc61b750d85e9ac1b4a45e210fad81498b7b8959",
+  "base_sha": "420cd15cac9be508930570cb48eee63e25ad5d78",
+  "head_sha": "7f335011ba5392ddd09a878320010017c26a47ca",
+  "user_login": "SethFalco",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/csv/CSVRecord.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_309/src/test/java/org/apache/commons/csv/CSVRecordLLM_Test.java",
+      "package": "org.apache.commons.csv",
+      "original_class_name": "CSVRecordTest2",
+      "final_class_name": "CSVRecordLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/csv/CSVRecordTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

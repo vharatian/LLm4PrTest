@@ -1,0 +1,25 @@
+{
+  "pr_number": 64,
+  "title": "Removed invalid Javadoc markup for CSVFormat EXCEL",
+  "state": "closed",
+  "created_at": "2020-04-01T17:43:54Z",
+  "merge_commit_sha": "3c393fedbdee92fe55d3c2ffa801132a91a0882e",
+  "base_sha": "cab61c53f12a5cef50c25397a2946b303582193c",
+  "head_sha": "1e3117021306ee721d61245731fb94cf38560c02",
+  "user_login": "a4ff7810",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/csv/CSVFormat.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_64/src/test/java/org/apache/commons/csv/CSVFormatLLM_Test.java",
+      "package": "org.apache.commons.csv",
+      "original_class_name": "CSVFormatTest2",
+      "final_class_name": "CSVFormatLLM_Test"
+    }
+  ]
+}

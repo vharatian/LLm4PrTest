@@ -1,0 +1,36 @@
+{
+  "pr_number": 368,
+  "title": "COMPRESS-642 Integer overflow ArithmeticException in TarArchiveOutputStream",
+  "state": "closed",
+  "created_at": "2023-03-16T13:15:14Z",
+  "merge_commit_sha": "f5365de7849a076003e0fb7df9c65b3560617cea",
+  "base_sha": "6c30257724369621169528b0a08fb365538805eb",
+  "head_sha": "e194ff1a09d3c6ce5367adf46e87e0fa418fe44e",
+  "user_login": "klaren",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_368/src/test/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStreamLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.tar",
+      "original_class_name": "TarArchiveOutputStreamTest2",
+      "final_class_name": "TarArchiveOutputStreamLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStreamTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

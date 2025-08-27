@@ -1,0 +1,80 @@
+{
+  "pr_number": 146,
+  "title": "[IMAGING-301] Throw an ImageReadException if the Lzw table length is less than the number of entries found in the image data",
+  "state": "closed",
+  "created_at": "2021-05-09T02:31:50Z",
+  "merge_commit_sha": "702a11fc25a37e7cc9d7242b13d8d0044f90be65",
+  "base_sha": "516d05565b4db8197f1c5b294174fffe00a62934",
+  "head_sha": "1b194527593327cadf353e459cbbb3b506442c17",
+  "user_login": "kinow",
+  "extracted_count": 1,
+  "skipped_count": 5,
+  "files": [
+    {
+      "source_filename": "pom.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/changes/changes.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/common/mylzw/MyLzwDecompressor.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_146/src/test/java/org/apache/commons/imaging/common/mylzw/MyLzwDecompressorLLM_Test.java",
+      "package": "org.apache.commons.imaging.common.mylzw",
+      "original_class_name": "MyLzwDecompressorTest",
+      "final_class_name": "MyLzwDecompressorLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/imaging/formats/gif/GifReadTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/imaging/formats/tiff/TiffLzwTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/resources/images/gif/oss-fuzz-33464/clusterfuzz-testcase-minimized-ImagingGifFuzzer-5174009164595200",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

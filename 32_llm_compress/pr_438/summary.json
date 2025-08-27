@@ -1,0 +1,36 @@
+{
+  "pr_number": 438,
+  "title": "COMPRESS-632: Check for invalid PAX values in TarArchiveEntry",
+  "state": "closed",
+  "created_at": "2023-11-13T20:34:07Z",
+  "merge_commit_sha": "ba415833dcbcddabf7e47d6e2ecfa5c602ac1560",
+  "base_sha": "754018bd11cfae20c3787633da4fd0c1f351a7f9",
+  "head_sha": "03984196a9fbfede1bf98270ede254b57eb2f238",
+  "user_login": "yakovsh",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_438/src/test/java/org/apache/commons/compress/archivers/tar/TarArchiveEntryLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.tar",
+      "original_class_name": "TarArchiveEntryTest2",
+      "final_class_name": "TarArchiveEntryLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/compress/archivers/tar/TarArchiveEntryTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

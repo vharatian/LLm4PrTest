@@ -1,0 +1,36 @@
+{
+  "pr_number": 813,
+  "title": "Add final var and Remove redundant String.",
+  "state": "closed",
+  "created_at": "2021-10-09T13:19:59Z",
+  "merge_commit_sha": "6da891529bb17ece3bb572d5ab6fef5a233c1b5c",
+  "base_sha": "a3a064587470d9ac3be469d0d6dd88f1b95dc669",
+  "head_sha": "094b0aaa75d2ba688752c153093658d0ae0769b8",
+  "user_login": "arturobernalg",
+  "extracted_count": 2,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/CharUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_813/src/test/java/org/apache/commons/lang3/CharUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "CharUtilsTest2",
+      "final_class_name": "CharUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/ThreadUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_813/src/test/java/org/apache/commons/lang3/ThreadUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "ThreadUtilsTest2",
+      "final_class_name": "ThreadUtilsLLM_Test"
+    }
+  ]
+}

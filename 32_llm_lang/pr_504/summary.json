@@ -1,0 +1,25 @@
+{
+  "pr_number": 504,
+  "title": "LANG-1527: Remove an redundant argument check in NumberUtils",
+  "state": "closed",
+  "created_at": "2020-03-13T23:43:03Z",
+  "merge_commit_sha": "02732d6132da6e720502f357e91e3937df76d8fa",
+  "base_sha": "893cc1512bcee1929b713e1be9c4acceba54cc14",
+  "head_sha": "d08fb27f1afe2fb5bf3e94259a591a0b76aa35da",
+  "user_login": "pengyunie",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/math/NumberUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_504/src/test/java/org/apache/commons/lang3/math/NumberUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3.math",
+      "original_class_name": "NumberUtilsTest2",
+      "final_class_name": "NumberUtilsLLM_Test"
+    }
+  ]
+}

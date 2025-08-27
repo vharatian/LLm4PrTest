@@ -1,0 +1,58 @@
+{
+  "pr_number": 94,
+  "title": "[IMAGING-264]: use Math.round before casting the image dpi into an int value.",
+  "state": "closed",
+  "created_at": "2020-08-19T13:42:43Z",
+  "merge_commit_sha": "2b3e71c6d16cd83251604a037cb87f12b4416cbb",
+  "base_sha": "51d204a9dc607d9840021396f5b68360a2ea2573",
+  "head_sha": "5898b20030d0b5e8d975004f095e8532d13cd1e2",
+  "user_login": "kinow",
+  "extracted_count": 1,
+  "skipped_count": 3,
+  "files": [
+    {
+      "source_filename": "src/changes/changes.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/bmp/BmpImageParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_94/src/test/java/org/apache/commons/imaging/formats/bmp/BmpImageParserLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.bmp",
+      "original_class_name": "BmpImageParserTest",
+      "final_class_name": "BmpImageParserLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/imaging/formats/bmp/BmpImageParserTest.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/resources/images/bmp/IMAGING-264/test-72_6-dpi.bmp",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

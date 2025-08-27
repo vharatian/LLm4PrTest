@@ -1,0 +1,25 @@
+{
+  "pr_number": 188,
+  "title": "Correct error in Base64 Javadoc",
+  "state": "closed",
+  "created_at": "2023-06-26T20:55:54Z",
+  "merge_commit_sha": "d56283a609d45e3fd28a5779496143424bb4fc4d",
+  "base_sha": "8d7887ad751a21ade05f35a983e13ec559bae34f",
+  "head_sha": "63ad454a401009ad8ad40b2ee23a1e37d6d422ea",
+  "user_login": "esaulpaugh",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/codec/binary/Base64.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_188/src/test/java/org/apache/commons/codec/binary/Base64LLM_Test.java",
+      "package": "org.apache.commons.codec.binary",
+      "original_class_name": "Base64Test2",
+      "final_class_name": "Base64LLM_Test"
+    }
+  ]
+}

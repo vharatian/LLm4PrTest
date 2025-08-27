@@ -1,0 +1,36 @@
+{
+  "pr_number": 132,
+  "title": "[IO-679] input.AbstractCharacterFilterReader passes count of chars read",
+  "state": "closed",
+  "created_at": "2020-07-29T18:24:30Z",
+  "merge_commit_sha": "cce505d1244e7a77eec12980252d5f1d70280ae1",
+  "base_sha": "0dbe95715197c3c9b8c983c0b9acbe87d5cee34d",
+  "head_sha": "4a8921c119ebf63a844558a2565f86bc5f44502b",
+  "user_login": "proneel",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/input/AbstractCharacterFilterReader.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_132/src/test/java/org/apache/commons/io/input/AbstractCharacterFilterReaderLLM_Test.java",
+      "package": "org.apache.commons.io.input",
+      "original_class_name": "AbstractCharacterFilterReaderTest",
+      "final_class_name": "AbstractCharacterFilterReaderLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/input/CharacterFilterReaderTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

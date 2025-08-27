@@ -1,0 +1,91 @@
+{
+  "pr_number": 147,
+  "title": "[COLLECTIONS-759]: add newline at end of file, and convert to unix (LF instead of CRLF) fixing checkstyle",
+  "state": "closed",
+  "created_at": "2020-04-18T04:15:12Z",
+  "merge_commit_sha": "8eebabd48114ff33b37c6edf51bd9d8d4fab8b5f",
+  "base_sha": "477db84c1fc808b7f5ef709fcc114716ecb13fc0",
+  "head_sha": "2bfaa62352d13585575ac7f75fd24bab5fd8532b",
+  "user_login": "kinow",
+  "extracted_count": 1,
+  "skipped_count": 6,
+  "files": [
+    {
+      "source_filename": "src/changes/changes.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/ArrayUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_147/src/test/java/org/apache/commons/collections4/ArrayUtilsLLM_Test.java",
+      "package": "org.apache.commons.collections4",
+      "original_class_name": "ArrayUtilsTest",
+      "final_class_name": "ArrayUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/collections4/CollectionUtilsTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/collections4/junit/AbstractAvailableLocalesTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/collections4/junit/ObjectToStringComparator.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/collections4/junit/SetDefaultLocaleTestRule.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/collections4/queue/SynchronizedQueueTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

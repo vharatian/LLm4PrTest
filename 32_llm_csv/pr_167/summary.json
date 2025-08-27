@@ -1,0 +1,25 @@
+{
+  "pr_number": 167,
+  "title": "CSV-283: Remove Whitespace Check Determines Delimiter Twice",
+  "state": "closed",
+  "created_at": "2021-07-13T21:07:05Z",
+  "merge_commit_sha": "d617b6720a67bef3c1324f3e4a7d2c14716550f8",
+  "base_sha": "3627c5ae83226dbe383ed8abb32c1e9c3f51cefe",
+  "head_sha": "7c44e66c5b6630f5530420a4c8abebd2e31153e8",
+  "user_login": "belugabehr",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/csv/Lexer.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_167/src/test/java/org/apache/commons/csv/LexerLLM_Test.java",
+      "package": "org.apache.commons.csv",
+      "original_class_name": "LexerTest2",
+      "final_class_name": "LexerLLM_Test"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "pr_number": 355,
+  "title": "IO-768: Add reserved Windows file names CONIN$ and CONOUT$ to FileSystem",
+  "state": "closed",
+  "created_at": "2022-05-01T01:29:11Z",
+  "merge_commit_sha": "3acf2cdd76d96ad84b97e11c67ebda2f462d0470",
+  "base_sha": "c53f06c81839dbba5ef0b418f5f11d3e7ab5b7fd",
+  "head_sha": "bfd3fb3f91460b0b78d2b7f98f544a0e0ccb5c56",
+  "user_login": "Marcono1234",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/FileSystem.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_355/src/test/java/org/apache/commons/io/FileSystemLLM_Test.java",
+      "package": "org.apache.commons.io",
+      "original_class_name": "FileSystemTest2",
+      "final_class_name": "FileSystemLLM_Test"
+    }
+  ]
+}

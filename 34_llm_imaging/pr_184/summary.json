@@ -1,0 +1,58 @@
+{
+  "pr_number": 184,
+  "title": "[IMAGING-318] Validate index when accessing GIF parser color table",
+  "state": "closed",
+  "created_at": "2021-11-06T05:13:53Z",
+  "merge_commit_sha": "310395799ed09a6b8848115b847bf0a49bc0ad45",
+  "base_sha": "fef2624535676fb1170837476944444f9b929f23",
+  "head_sha": "dac9eec908b51e32e50c05cc6085d18563c32b61",
+  "user_login": "kinow",
+  "extracted_count": 1,
+  "skipped_count": 3,
+  "files": [
+    {
+      "source_filename": "src/changes/changes.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/gif/GifImageParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_184/src/test/java/org/apache/commons/imaging/formats/gif/GifImageParserLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.gif",
+      "original_class_name": "GifImageParserTest",
+      "final_class_name": "GifImageParserLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/imaging/formats/gif/GifReadTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/resources/images/gif/IMAGING-318/clusterfuzz-testcase-minimized-ImagingGifFuzzer-5005192379629568",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "pr_number": 69,
+  "title": "Fix site report issues",
+  "state": "closed",
+  "created_at": "2019-02-16T08:56:31Z",
+  "merge_commit_sha": "5c3315374083d2984597b3fd5f69934ae6a64a81",
+  "base_sha": "342b03d1dd60209b4fe17df492cf9a4e9c3242bd",
+  "head_sha": "9f45dc09e3a899971c24a4438f676110af71f24c",
+  "user_login": "kinow",
+  "extracted_count": 8,
+  "skipped_count": 4,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/bidimap/TreeBidiMap.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_69/src/test/java/org/apache/commons/collections4/bidimap/TreeBidiMapLLM_Test.java",
+      "package": "org.apache.commons.collections4.bidimap",
+      "original_class_name": "TreeBidiMapTest2",
+      "final_class_name": "TreeBidiMapLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/collection/CompositeCollection.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_69/src/test/java/org/apache/commons/collections4/collection/CompositeCollectionLLM_Test.java",
+      "package": "org.apache.commons.collections4.collection",
+      "original_class_name": "CompositeCollectionTest2",
+      "final_class_name": "CompositeCollectionLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/functors/AllPredicate.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_69/src/test/java/org/apache/commons/collections4/functors/AllPredicateLLM_Test.java",
+      "package": "org.apache.commons.collections4.functors",
+      "original_class_name": "AllPredicateTest2",
+      "final_class_name": "AllPredicateLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/iterators/NodeListIterator.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_69/src/test/java/org/apache/commons/collections4/iterators/NodeListIteratorLLM_Test.java",
+      "package": "org.apache.commons.collections4.iterators",
+      "original_class_name": "NodeListIteratorTest2",
+      "final_class_name": "NodeListIteratorLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/iterators/PeekingIterator.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_69/src/test/java/org/apache/commons/collections4/iterators/PeekingIteratorLLM_Test.java",
+      "package": "org.apache.commons.collections4.iterators",
+      "original_class_name": "PeekingIteratorTest2",
+      "final_class_name": "PeekingIteratorLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/iterators/PushbackIterator.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_69/src/test/java/org/apache/commons/collections4/iterators/PushbackIteratorLLM_Test.java",
+      "package": "org.apache.commons.collections4.iterators",
+      "original_class_name": "PushbackIteratorTest2",
+      "final_class_name": "PushbackIteratorLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/list/AbstractLinkedList.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_69/src/test/java/org/apache/commons/collections4/list/AbstractLinkedListLLM_Test.java",
+      "package": "org.apache.commons.collections4.list",
+      "original_class_name": "AbstractLinkedListTest2",
+      "final_class_name": "AbstractLinkedListLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/multimap/AbstractMultiValuedMap.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_69/src/test/java/org/apache/commons/collections4/multimap/AbstractMultiValuedMapLLM_Test.java",
+      "package": "org.apache.commons.collections4.multimap",
+      "original_class_name": "AbstractMultiValuedMapTest2",
+      "final_class_name": "AbstractMultiValuedMapLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/collections4/SetUtilsTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/collections4/functors/AbstractMockPredicateTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/collections4/keyvalue/MultiKeyTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/collections4/list/Collections701Test.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

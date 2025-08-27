@@ -1,0 +1,25 @@
+{
+  "pr_number": 335,
+  "title": "Use Math.min() call instead of doing it manually.",
+  "state": "closed",
+  "created_at": "2022-06-13T21:28:21Z",
+  "merge_commit_sha": "baee3346849ad6da8a8179bca40f311ceec4d992",
+  "base_sha": "ec0ff34c44a8bc7a85dcdafc7fe446c2d7d15955",
+  "head_sha": "bcfd4ac880b4d8188f8aac51aa58646eab68e6a7",
+  "user_login": "arturobernalg",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/text/WordUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_335/src/test/java/org/apache/commons/text/WordUtilsLLM_Test.java",
+      "package": "org.apache.commons.text",
+      "original_class_name": "WordUtilsTest2",
+      "final_class_name": "WordUtilsLLM_Test"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "pr_number": 147,
+  "title": "[IMAGING-302] Throw ImageReadException if the JPEG parser is given animage with a negative number of segments in SOF0Segment",
+  "state": "closed",
+  "created_at": "2021-05-09T03:53:18Z",
+  "merge_commit_sha": "f9043c51d634d0d3c7de9b024139815ede988b07",
+  "base_sha": "702a11fc25a37e7cc9d7242b13d8d0044f90be65",
+  "head_sha": "197ed2560bdaaa7cea31b064557220673e65bbd7",
+  "user_login": "kinow",
+  "extracted_count": 1,
+  "skipped_count": 3,
+  "files": [
+    {
+      "source_filename": "src/changes/changes.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/jpeg/segments/SofnSegment.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_147/src/test/java/org/apache/commons/imaging/formats/jpeg/segments/SofnSegmentLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.jpeg.segments",
+      "original_class_name": "SofnSegmentTest",
+      "final_class_name": "SofnSegmentLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/imaging/formats/jpeg/JpegReadTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/resources/images/jpeg/oss-fuzz-33458/clusterfuzz-testcase-minimized-ImagingJpegFuzzer-4548690447564800",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

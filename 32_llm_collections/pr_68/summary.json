@@ -1,0 +1,91 @@
+{
+  "pr_number": 68,
+  "title": "[BulkTest] remove workarounds for buggy JDK 1.6 implementations",
+  "state": "closed",
+  "created_at": "2019-02-09T08:09:25Z",
+  "merge_commit_sha": "342b03d1dd60209b4fe17df492cf9a4e9c3242bd",
+  "base_sha": "05939ff5479611f67b50a528567d2f5e2c9f6429",
+  "head_sha": "a86ad2841d8b4efcf30e73dfb70675da9e2ca0dd",
+  "user_login": "grimreaper",
+  "extracted_count": 1,
+  "skipped_count": 6,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/bidimap/DualTreeBidiMap.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_68/src/test/java/org/apache/commons/collections4/bidimap/DualTreeBidiMapLLM_Test.java",
+      "package": "org.apache.commons.collections4.bidimap",
+      "original_class_name": "DualTreeBidiMapTest2",
+      "final_class_name": "DualTreeBidiMapLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/collections4/BulkTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/collections4/bidimap/DualTreeBidiMap2Test.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/collections4/bidimap/DualTreeBidiMapTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/collections4/map/AbstractMapTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/collections4/map/TransformedSortedMapTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/collections4/trie/UnmodifiableTrieTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

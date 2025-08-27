@@ -1,0 +1,91 @@
+{
+  "pr_number": 137,
+  "title": "WIP: CountingBloomFilter",
+  "state": "closed",
+  "created_at": "2020-03-06T01:44:48Z",
+  "merge_commit_sha": "22d161a25b54065a78d0f82dc530bf36091a0c23",
+  "base_sha": "90f705e73270ef0c2c21bd14daf998bbe0d5ecc3",
+  "head_sha": "22d161a25b54065a78d0f82dc530bf36091a0c23",
+  "user_login": "aherbert",
+  "extracted_count": 3,
+  "skipped_count": 4,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/bloomfilter/ArrayCountingBloomFilter.java",
+      "status_in_pr": "added",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_137/src/test/java/org/apache/commons/collections4/bloomfilter/ArrayCountingBloomFilterLLM_Test.java",
+      "package": "org.apache.commons.collections4.bloomfilter",
+      "original_class_name": "ArrayCountingBloomFilterTest2",
+      "final_class_name": "ArrayCountingBloomFilterLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/bloomfilter/CountingBloomFilter.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_137/src/test/java/org/apache/commons/collections4/bloomfilter/CountingBloomFilterLLM_Test.java",
+      "package": "org.apache.commons.collections4.bloomfilter",
+      "original_class_name": "CountingBloomFilterTest",
+      "final_class_name": "CountingBloomFilterLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/bloomfilter/IndexFilters.java",
+      "status_in_pr": "added",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_137/src/test/java/org/apache/commons/collections4/bloomfilter/IndexFiltersLLM_Test.java",
+      "package": "org.apache.commons.collections4.bloomfilter",
+      "original_class_name": "IndexFiltersTest",
+      "final_class_name": "IndexFiltersLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/collections4/bloomfilter/ArrayCountingBloomFilterTest.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/collections4/bloomfilter/CountingBloomFilterTest.java",
+      "status_in_pr": "removed",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/collections4/bloomfilter/FixedIndexesTestHasher.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/collections4/bloomfilter/IndexFilterTest.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

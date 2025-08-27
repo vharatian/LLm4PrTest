@@ -1,0 +1,25 @@
+{
+  "pr_number": 18,
+  "title": "Fix javadoc (and Travis build)",
+  "state": "closed",
+  "created_at": "2019-02-16T06:45:14Z",
+  "merge_commit_sha": "dd5e46203e5b12f4b65e76ef2e5c34197692b5b4",
+  "base_sha": "477db01dd858150534c5dc128630dc56c4f15aaf",
+  "head_sha": "ac7e904531c4509ecb9158e4b31cce95ed938119",
+  "user_login": "kinow",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/codec/digest/Md5Crypt.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_18/src/test/java/org/apache/commons/codec/digest/Md5CryptLLM_Test.java",
+      "package": "org.apache.commons.codec.digest",
+      "original_class_name": "Md5CryptTest2",
+      "final_class_name": "Md5CryptLLM_Test"
+    }
+  ]
+}

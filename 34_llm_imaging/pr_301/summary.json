@@ -1,0 +1,47 @@
+{
+  "pr_number": 301,
+  "title": "[IMAGING-355] Add option to skip reading GIF metadata",
+  "state": "closed",
+  "created_at": "2023-07-08T22:57:40Z",
+  "merge_commit_sha": "888d6faf62dbb06004f2eae2cb889565ab044def",
+  "base_sha": "a5860215c341cf631ab5262b6419ced34eaee601",
+  "head_sha": "c0c98466358cedbd78ba91b238bb2cc1a4718f53",
+  "user_login": "andrewmkhoury",
+  "extracted_count": 2,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/gif/GifImageParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_301/src/test/java/org/apache/commons/imaging/formats/gif/GifImageParserLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.gif",
+      "original_class_name": "GifImageParserTest",
+      "final_class_name": "GifImageParserLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/gif/GifImagingParameters.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_301/src/test/java/org/apache/commons/imaging/formats/gif/GifImagingParametersLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.gif",
+      "original_class_name": "GifImagingParametersTest",
+      "final_class_name": "GifImagingParametersLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/imaging/formats/gif/GifReadTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "pr_number": 185,
+  "title": "IO-700: provide method overload for moveFile",
+  "state": "closed",
+  "created_at": "2021-01-12T10:21:30Z",
+  "merge_commit_sha": "2d37ab6a0d53fce60095b352d36dddd9d26f5ab0",
+  "base_sha": "73a31d9a2f0f194a2e115f33fbf6786ef056408d",
+  "head_sha": "380fc037cb85b424eb8963b9ee23833515b5f127",
+  "user_login": "tza",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/FileUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_185/src/test/java/org/apache/commons/io/FileUtilsLLM_Test.java",
+      "package": "org.apache.commons.io",
+      "original_class_name": "FileUtilsTest",
+      "final_class_name": "FileUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/FileUtilsTestCase.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

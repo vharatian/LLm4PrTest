@@ -1,0 +1,25 @@
+{
+  "pr_number": 368,
+  "title": "Fix formatting.",
+  "state": "closed",
+  "created_at": "2022-10-09T20:28:37Z",
+  "merge_commit_sha": "e651d8cbfcac134f21b5bb25d9a195d53bcc179d",
+  "base_sha": "2eec12c3a77da098ab34899b812e6e40ac8677b2",
+  "head_sha": "bac571f881655be9f512ca0a1f04ec83712b1ac3",
+  "user_login": "arturobernalg",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/text/AlphabetConverter.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_368/src/test/java/org/apache/commons/text/AlphabetConverterLLM_Test.java",
+      "package": "org.apache.commons.text",
+      "original_class_name": "AlphabetConverterTest2",
+      "final_class_name": "AlphabetConverterLLM_Test"
+    }
+  ]
+}

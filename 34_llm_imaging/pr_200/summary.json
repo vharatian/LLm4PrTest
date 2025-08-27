@@ -1,0 +1,25 @@
+{
+  "pr_number": 200,
+  "title": "Replace if statements with switch statements.The  result is shorter a…",
+  "state": "closed",
+  "created_at": "2022-02-03T20:57:21Z",
+  "merge_commit_sha": "ce72c9aac3eb0f2212bde81ef88694dc7557c267",
+  "base_sha": "acbc6b71aa38c539392f7b56e34c131349044604",
+  "head_sha": "51e7a8beea888af8beb7c1aa2c8db0818d494462",
+  "user_login": "arturobernalg",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/pnm/PamFileInfo.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_200/src/test/java/org/apache/commons/imaging/formats/pnm/PamFileInfoLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.pnm",
+      "original_class_name": "PamFileInfoTest",
+      "final_class_name": "PamFileInfoLLM_Test"
+    }
+  ]
+}

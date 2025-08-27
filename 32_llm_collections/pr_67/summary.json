@@ -1,0 +1,25 @@
+{
+  "pr_number": 67,
+  "title": "[FixedOrderComparator] Simplify always false condition",
+  "state": "closed",
+  "created_at": "2019-02-09T08:01:33Z",
+  "merge_commit_sha": "a5347ebe436c298b04171a632f53ede89461d827",
+  "base_sha": "05939ff5479611f67b50a528567d2f5e2c9f6429",
+  "head_sha": "896334a1e3f2627040a0240debc0ebd4593df916",
+  "user_login": "grimreaper",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/comparators/FixedOrderComparator.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_67/src/test/java/org/apache/commons/collections4/comparators/FixedOrderComparatorLLM_Test.java",
+      "package": "org.apache.commons.collections4.comparators",
+      "original_class_name": "FixedOrderComparatorTest2",
+      "final_class_name": "FixedOrderComparatorLLM_Test"
+    }
+  ]
+}

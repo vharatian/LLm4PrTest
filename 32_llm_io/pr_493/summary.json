@@ -1,0 +1,47 @@
+{
+  "pr_number": 493,
+  "title": "[IO-414] Don't write a BOM on every (or any) line",
+  "state": "closed",
+  "created_at": "2023-10-08T12:31:14Z",
+  "merge_commit_sha": "72cf47982f69bd73581473819eed7b2fa992a194",
+  "base_sha": "633d663ab03169ba62952eaabc2f10a58da4c36e",
+  "head_sha": "5f69f514b68f851b9ccb48a14266992ceb6f3f6f",
+  "user_login": "elharo",
+  "extracted_count": 1,
+  "skipped_count": 2,
+  "files": [
+    {
+      "source_filename": "src/changes/changes.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/IOUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_493/src/test/java/org/apache/commons/io/IOUtilsLLM_Test.java",
+      "package": "org.apache.commons.io",
+      "original_class_name": "IOUtilsTest2",
+      "final_class_name": "IOUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/IOUtilsTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

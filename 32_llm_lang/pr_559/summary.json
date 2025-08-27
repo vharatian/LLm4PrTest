@@ -1,0 +1,69 @@
+{
+  "pr_number": 559,
+  "title": "Stamped lock visitor",
+  "state": "closed",
+  "created_at": "2020-06-26T14:06:17Z",
+  "merge_commit_sha": "324363816774a1f9bca998950081130be6756611",
+  "base_sha": "32a9a350c67f1418784fff266d7e7881ca6346ad",
+  "head_sha": "bf7212e772b71fd31d65df87a9ed9880a40eb3d5",
+  "user_login": "garydgregory",
+  "extracted_count": 2,
+  "skipped_count": 3,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/concurrent/lock/Locks.java",
+      "status_in_pr": "removed",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/concurrent/locks/LockingVisitors.java",
+      "status_in_pr": "added",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_559/src/test/java/org/apache/commons/lang3/concurrent/locks/LockingVisitorsLLM_Test.java",
+      "package": "org.apache.commons.lang3.concurrent.locks",
+      "original_class_name": "LockingVisitorsTest",
+      "final_class_name": "LockingVisitorsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/concurrent/locks/package-info.java",
+      "status_in_pr": "added",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_559/src/test/java/org/apache/commons/lang3/concurrent/locks/PackageInfoLLM_Test.java",
+      "package": "org.apache.commons.lang3.concurrent.locks",
+      "original_class_name": "PackageInfoTest",
+      "final_class_name": "PackageInfoLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/concurrent/lock/LocksTest.java",
+      "status_in_pr": "removed",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/concurrent/locks/LockingVisitorsTest.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

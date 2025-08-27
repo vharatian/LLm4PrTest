@@ -1,0 +1,36 @@
+{
+  "pr_number": 521,
+  "title": "[IO-825] Add byte array size validation for methods in EndianUtils",
+  "state": "closed",
+  "created_at": "2023-12-06T21:01:26Z",
+  "merge_commit_sha": "50cfd1498d887a49bd6e305ab8074f0e40cdaf5f",
+  "base_sha": "f33582acb8cf7c0d468e2c4a1cb315e6b54e2054",
+  "head_sha": "a03351a419bd2cfb34f8f476de0ee233b1e1a038",
+  "user_login": "arthurscchan",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/EndianUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_521/src/test/java/org/apache/commons/io/EndianUtilsLLM_Test.java",
+      "package": "org.apache.commons.io",
+      "original_class_name": "EndianUtilsTest2",
+      "final_class_name": "EndianUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/EndianUtilsTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

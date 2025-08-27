@@ -1,0 +1,47 @@
+{
+  "pr_number": 52,
+  "title": "Fix javadoc for Java 13 (heading out of order)",
+  "state": "closed",
+  "created_at": "2019-08-18T08:51:03Z",
+  "merge_commit_sha": "0b25fa54a2de50b5ff4de43812ddf1acc0882feb",
+  "base_sha": "b684eea67f98010b67db9587dbfb0b1a2d02bb1a",
+  "head_sha": "8f84ea015b9ccfd0f885211e8f97e740d8f206e1",
+  "user_login": "kinow",
+  "extracted_count": 3,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/ImageParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_52/src/test/java/org/apache/commons/imaging/ImageParserLLM_Test.java",
+      "package": "org.apache.commons.imaging",
+      "original_class_name": "ImageParserTest",
+      "final_class_name": "ImageParserLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/Imaging.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_52/src/test/java/org/apache/commons/imaging/ImagingLLM_Test.java",
+      "package": "org.apache.commons.imaging",
+      "original_class_name": "ImagingTest2",
+      "final_class_name": "ImagingLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/tiff/TiffImageParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_52/src/test/java/org/apache/commons/imaging/formats/tiff/TiffImageParserLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.tiff",
+      "original_class_name": "TiffImageParserTest",
+      "final_class_name": "TiffImageParserLLM_Test"
+    }
+  ]
+}

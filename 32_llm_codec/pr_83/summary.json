@@ -1,0 +1,69 @@
+{
+  "pr_number": 83,
+  "title": "CODEC-299 - Improve control flow",
+  "state": "closed",
+  "created_at": "2021-04-27T05:15:16Z",
+  "merge_commit_sha": "8ee878ba7f887b74fc70415e05cb30acd21e1617",
+  "base_sha": "a7c5af95a731b2a3a1baa6454f4c63ae30f719ec",
+  "head_sha": "4f951f99a724a5e8901e6c7118660b8493c8aa0e",
+  "user_login": "arturobernalg",
+  "extracted_count": 3,
+  "skipped_count": 2,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/codec/language/DaitchMokotoffSoundex.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_83/src/test/java/org/apache/commons/codec/language/DaitchMokotoffSoundexLLM_Test.java",
+      "package": "org.apache.commons.codec.language",
+      "original_class_name": "DaitchMokotoffSoundexTest2",
+      "final_class_name": "DaitchMokotoffSoundexLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/codec/language/DoubleMetaphone.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_83/src/test/java/org/apache/commons/codec/language/DoubleMetaphoneLLM_Test.java",
+      "package": "org.apache.commons.codec.language",
+      "original_class_name": "DoubleMetaphoneTest2",
+      "final_class_name": "DoubleMetaphoneLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/codec/language/Metaphone.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_83/src/test/java/org/apache/commons/codec/language/MetaphoneLLM_Test.java",
+      "package": "org.apache.commons.codec.language",
+      "original_class_name": "MetaphoneTest2",
+      "final_class_name": "MetaphoneLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/codec/binary/HexTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/codec/language/DoubleMetaphoneTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

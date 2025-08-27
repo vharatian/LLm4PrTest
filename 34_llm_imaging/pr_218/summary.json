@@ -1,0 +1,47 @@
+{
+  "pr_number": 218,
+  "title": "Bump spotbugs from 4.6.0 to 4.7.0",
+  "state": "closed",
+  "created_at": "2022-05-05T17:10:16Z",
+  "merge_commit_sha": "0349d97fb06a2f7af11d1832076dddcd7e841ccc",
+  "base_sha": "dbbe2b9d6bdccb7b869a24532313e47aad49d01d",
+  "head_sha": "144ce72a2221f2ba0453182497e269fa0eb9d492",
+  "user_login": "dependabot[bot]",
+  "extracted_count": 1,
+  "skipped_count": 2,
+  "files": [
+    {
+      "source_filename": "pom.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/changes/changes.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/Imaging.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_218/src/test/java/org/apache/commons/imaging/ImagingLLM_Test.java",
+      "package": "org.apache.commons.imaging",
+      "original_class_name": "ImagingTest2",
+      "final_class_name": "ImagingLLM_Test"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "pr_number": 452,
+  "title": "Add ability to specify wait time to QueueInputStream",
+  "state": "closed",
+  "created_at": "2023-04-21T09:21:50Z",
+  "merge_commit_sha": "150ba4af81b71517d3b44c0669b0da0f445e6ac3",
+  "base_sha": "5f64b1b7257ba069e57004c55495055294284263",
+  "head_sha": "eaa9865ef43e1de31d80e0541cc2e075e5b2391a",
+  "user_login": "maxxedev",
+  "extracted_count": 1,
+  "skipped_count": 5,
+  "files": [
+    {
+      "source_filename": "src/changes/changes.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/input/AbstractBlockingQueueInputStream.java",
+      "status_in_pr": "removed",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/input/QueueInputStream.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_452/src/test/java/org/apache/commons/io/input/QueueInputStreamLLM_Test.java",
+      "package": "org.apache.commons.io.input",
+      "original_class_name": "QueueInputStreamTest2",
+      "final_class_name": "QueueInputStreamLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/input/AbstractBlockingQueueInputStreamTest.java",
+      "status_in_pr": "removed",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/input/PollingQueueInputStreamTest.java",
+      "status_in_pr": "removed",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/input/QueueInputStreamTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

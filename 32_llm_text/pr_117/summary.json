@@ -1,0 +1,36 @@
+{
+  "pr_number": 117,
+  "title": "(doc) Fixed wrong value for Jaro-Winkler example",
+  "state": "closed",
+  "created_at": "2019-07-19T13:06:50Z",
+  "merge_commit_sha": "67a343f016e3224fb064d3f261178a114c5a5300",
+  "base_sha": "bca44a8edce8953cb18c3520741923433a0d49ad",
+  "head_sha": "77e857b561db4a97752ceccbad3cc24cc6b03e09",
+  "user_login": "luksan47",
+  "extracted_count": 2,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/text/similarity/JaroWinklerDistance.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_117/src/test/java/org/apache/commons/text/similarity/JaroWinklerDistanceLLM_Test.java",
+      "package": "org.apache.commons.text.similarity",
+      "original_class_name": "JaroWinklerDistanceTest2",
+      "final_class_name": "JaroWinklerDistanceLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/text/similarity/JaroWinklerSimilarity.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_117/src/test/java/org/apache/commons/text/similarity/JaroWinklerSimilarityLLM_Test.java",
+      "package": "org.apache.commons.text.similarity",
+      "original_class_name": "JaroWinklerSimilarityTest2",
+      "final_class_name": "JaroWinklerSimilarityLLM_Test"
+    }
+  ]
+}

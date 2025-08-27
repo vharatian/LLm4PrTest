@@ -1,0 +1,25 @@
+{
+  "pr_number": 82,
+  "title": "[Collections-727] fix the potential misleading comment",
+  "state": "closed",
+  "created_at": "2019-08-23T19:38:14Z",
+  "merge_commit_sha": "b3499dab794234449d52c7a402582849b9387e63",
+  "base_sha": "1118a1ccddca5b8f982c4268e70a7412a3269cff",
+  "head_sha": "b81f4d71ab31a0b904072d979f158a2b63722419",
+  "user_login": "XZ-X",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/iterators/CollatingIterator.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_82/src/test/java/org/apache/commons/collections4/iterators/CollatingIteratorLLM_Test.java",
+      "package": "org.apache.commons.collections4.iterators",
+      "original_class_name": "CollatingIteratorTest2",
+      "final_class_name": "CollatingIteratorLLM_Test"
+    }
+  ]
+}

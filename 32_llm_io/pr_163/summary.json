@@ -1,0 +1,25 @@
+{
+  "pr_number": 163,
+  "title": "FileUtils copyDirectory(File, File, FileFilter, preserveFileDate) clean up",
+  "state": "closed",
+  "created_at": "2020-10-08T20:44:23Z",
+  "merge_commit_sha": "75b79c7203699abb83e5ed2ed398af65139ef064",
+  "base_sha": "4d3a6bb54f7d0867cd6f279ce3778719688eb1ec",
+  "head_sha": "1de01b0c844773361be93d8f53980c2f2f936310",
+  "user_login": "michielgkalkman",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/FileUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_163/src/test/java/org/apache/commons/io/FileUtilsLLM_Test.java",
+      "package": "org.apache.commons.io",
+      "original_class_name": "FileUtilsTest",
+      "final_class_name": "FileUtilsLLM_Test"
+    }
+  ]
+}

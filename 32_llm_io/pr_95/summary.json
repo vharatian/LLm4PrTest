@@ -1,0 +1,47 @@
+{
+  "pr_number": 95,
+  "title": "[IO-625] FileUtils.copyDirectoryToDirectory does not reflect srcDir in exception message when srcDir is not a directory",
+  "state": "closed",
+  "created_at": "2019-09-08T13:01:26Z",
+  "merge_commit_sha": "d463fa0120fc1041729b7a564b2b5f96de9d6ab6",
+  "base_sha": "58324c1cfb9814b390a8750b0ba97dc5367817a8",
+  "head_sha": "355bf1c03c9ee7417c50a7b2e55ce6d90e4f9385",
+  "user_login": "mikkomaunu",
+  "extracted_count": 1,
+  "skipped_count": 2,
+  "files": [
+    {
+      "source_filename": "src/changes/changes.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/FileUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_95/src/test/java/org/apache/commons/io/FileUtilsLLM_Test.java",
+      "package": "org.apache.commons.io",
+      "original_class_name": "FileUtilsTest",
+      "final_class_name": "FileUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/FileUtilsCopyDirectoryToDirectoryTestCase.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

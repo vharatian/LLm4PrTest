@@ -1,0 +1,36 @@
+{
+  "pr_number": 882,
+  "title": "Remove unnecessary variable creations.",
+  "state": "closed",
+  "created_at": "2022-04-14T22:36:05Z",
+  "merge_commit_sha": "ba08d40bebcf5c05f800e14138364ac118f20e97",
+  "base_sha": "0b51bc7bee14c217e6e5ecd3f035573b8fc064c0",
+  "head_sha": "ce01caecd633182def3091bc8c138bdfb3cf29d3",
+  "user_login": "arturobernalg",
+  "extracted_count": 2,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_882/src/test/java/org/apache/commons/lang3/text/ExtendedMessageFormatLLM_Test.java",
+      "package": "org.apache.commons.lang3.text",
+      "original_class_name": "ExtendedMessageFormatTest2",
+      "final_class_name": "ExtendedMessageFormatLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/text/StrBuilder.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_882/src/test/java/org/apache/commons/lang3/text/StrBuilderLLM_Test.java",
+      "package": "org.apache.commons.lang3.text",
+      "original_class_name": "StrBuilderTest2",
+      "final_class_name": "StrBuilderLLM_Test"
+    }
+  ]
+}

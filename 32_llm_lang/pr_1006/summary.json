@@ -1,0 +1,25 @@
+{
+  "pr_number": 1006,
+  "title": "Added empty string example for isMixedCase method.",
+  "state": "closed",
+  "created_at": "2023-01-02T20:17:47Z",
+  "merge_commit_sha": "44dfe9059771bcf338e9ba90d69f102842243ef5",
+  "base_sha": "78b4f09d0b7e2b209badcc05fdeb1844a469ea68",
+  "head_sha": "f7a10f9b7f174068dd80aeeeb684927bf6324b67",
+  "user_login": "esivakumar18",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/StringUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_1006/src/test/java/org/apache/commons/lang3/StringUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "StringUtilsTest2",
+      "final_class_name": "StringUtilsLLM_Test"
+    }
+  ]
+}

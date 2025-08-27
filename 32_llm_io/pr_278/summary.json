@@ -1,0 +1,102 @@
+{
+  "pr_number": 278,
+  "title": "Prevent IllegalArgumentExceptions in BrokenInputStream/Reader/OutputStream/Writer",
+  "state": "closed",
+  "created_at": "2021-09-27T16:06:49Z",
+  "merge_commit_sha": "0c008628b502f14482c0094269653cdd80d37d15",
+  "base_sha": "25305df79ead0dbedc52ee6fa334dfb27c1a4852",
+  "head_sha": "c02f2a1fc7f49b8c0bac9356984dfd9a74e05048",
+  "user_login": "robtimus",
+  "extracted_count": 4,
+  "skipped_count": 4,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/input/BrokenInputStream.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_278/src/test/java/org/apache/commons/io/input/BrokenInputStreamLLM_Test.java",
+      "package": "org.apache.commons.io.input",
+      "original_class_name": "BrokenInputStreamTest2",
+      "final_class_name": "BrokenInputStreamLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/input/BrokenReader.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_278/src/test/java/org/apache/commons/io/input/BrokenReaderLLM_Test.java",
+      "package": "org.apache.commons.io.input",
+      "original_class_name": "BrokenReaderTest2",
+      "final_class_name": "BrokenReaderLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/output/BrokenOutputStream.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_278/src/test/java/org/apache/commons/io/output/BrokenOutputStreamLLM_Test.java",
+      "package": "org.apache.commons.io.output",
+      "original_class_name": "BrokenOutputStreamTest2",
+      "final_class_name": "BrokenOutputStreamLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/output/BrokenWriter.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_278/src/test/java/org/apache/commons/io/output/BrokenWriterLLM_Test.java",
+      "package": "org.apache.commons.io.output",
+      "original_class_name": "BrokenWriterTest2",
+      "final_class_name": "BrokenWriterLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/input/BrokenInputStreamTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/input/BrokenReaderTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/output/BrokenOutputStreamTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/output/BrokenWriterTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

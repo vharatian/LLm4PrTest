@@ -1,0 +1,25 @@
+{
+  "pr_number": 98,
+  "title": "IO-629: Providing more meaningful exceptions on file delete",
+  "state": "closed",
+  "created_at": "2019-10-10T19:49:30Z",
+  "merge_commit_sha": "45b15e4fcd2c49eebc56b881b61893402bcd25dd",
+  "base_sha": "b06408a0467eac51e9e4bc13ea2d6d4cc3906ebb",
+  "head_sha": "0aab77dcd8f0376321d6454798dd84660e66c37d",
+  "user_login": "jeromehollon",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/FileUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_98/src/test/java/org/apache/commons/io/FileUtilsLLM_Test.java",
+      "package": "org.apache.commons.io",
+      "original_class_name": "FileUtilsTest",
+      "final_class_name": "FileUtilsLLM_Test"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "pr_number": 90,
+  "title": "Compress-477 : add zip64 support for split zip",
+  "state": "closed",
+  "created_at": "2020-01-11T02:36:29Z",
+  "merge_commit_sha": "27fd2033d1218a652f09f59aa3d52db2b4d839ab",
+  "base_sha": "f16125435723d143183c9c45fd3a0f92bdf97ba3",
+  "head_sha": "27fd2033d1218a652f09f59aa3d52db2b4d839ab",
+  "user_login": "PeterAlfredLee",
+  "extracted_count": 2,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/zip/Zip64RequiredException.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_90/src/test/java/org/apache/commons/compress/archivers/zip/Zip64RequiredExceptionLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.zip",
+      "original_class_name": "Zip64RequiredExceptionTest",
+      "final_class_name": "Zip64RequiredExceptionLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_90/src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStreamLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.zip",
+      "original_class_name": "ZipArchiveOutputStreamTest",
+      "final_class_name": "ZipArchiveOutputStreamLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/compress/archivers/zip/Zip64SupportIT.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

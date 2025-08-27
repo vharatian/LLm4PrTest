@@ -1,0 +1,36 @@
+{
+  "pr_number": 463,
+  "title": "Code refactor to simplify Functions and new tests",
+  "state": "closed",
+  "created_at": "2019-10-11T09:18:20Z",
+  "merge_commit_sha": "a32c188c32fd0c4a8149bcda524d704dd609da6e",
+  "base_sha": "c42806cfa03979023e1a683edd0a221c51e6789c",
+  "head_sha": "8612fe1caaf33624fcbde6e016ed1779e2d206ee",
+  "user_login": "verhas",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/Functions.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_463/src/test/java/org/apache/commons/lang3/FunctionsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "FunctionsTest2",
+      "final_class_name": "FunctionsLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/FunctionsTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

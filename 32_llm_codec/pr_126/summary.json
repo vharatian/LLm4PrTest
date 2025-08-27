@@ -1,0 +1,36 @@
+{
+  "pr_number": 126,
+  "title": "Avoid use toString() or substring() in favor of a simplified expression.",
+  "state": "closed",
+  "created_at": "2022-04-16T21:36:45Z",
+  "merge_commit_sha": "8993f9a645d740dc5105443cdfd7277df243b7a3",
+  "base_sha": "5f90731d40e6ed12d1ebfddfeb5dca5550d19cdd",
+  "head_sha": "9e735055b4a1f7d46fa44148ff3b47af69222eca",
+  "user_login": "arturobernalg",
+  "extracted_count": 2,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/codec/language/DoubleMetaphone.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_126/src/test/java/org/apache/commons/codec/language/DoubleMetaphoneLLM_Test.java",
+      "package": "org.apache.commons.codec.language",
+      "original_class_name": "DoubleMetaphoneTest2",
+      "final_class_name": "DoubleMetaphoneLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/codec/language/bm/PhoneticEngine.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_126/src/test/java/org/apache/commons/codec/language/bm/PhoneticEngineLLM_Test.java",
+      "package": "org.apache.commons.codec.language.bm",
+      "original_class_name": "PhoneticEngineTest2",
+      "final_class_name": "PhoneticEngineLLM_Test"
+    }
+  ]
+}

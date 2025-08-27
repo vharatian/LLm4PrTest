@@ -1,0 +1,25 @@
+{
+  "pr_number": 670,
+  "title": "[LANG-1622] Javadoc of BooleanUtils incorrectly refers to another method",
+  "state": "closed",
+  "created_at": "2020-12-04T13:18:22Z",
+  "merge_commit_sha": "603c55895fc091f26a9f0ebb697e671fdef41091",
+  "base_sha": "66b54723f09e63eb7930a33c365b3214afaa1990",
+  "head_sha": "90c35232415d6b9b4604c1f632df069777492a05",
+  "user_login": "kanaksony",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/BooleanUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_670/src/test/java/org/apache/commons/lang3/BooleanUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "BooleanUtilsTest2",
+      "final_class_name": "BooleanUtilsLLM_Test"
+    }
+  ]
+}

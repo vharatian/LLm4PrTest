@@ -1,0 +1,25 @@
+{
+  "pr_number": 116,
+  "title": "Typo fixed in TreeList.",
+  "state": "closed",
+  "created_at": "2019-11-15T08:46:24Z",
+  "merge_commit_sha": "92ec85a129c80bcecf2c8dbe33e0c72fff279441",
+  "base_sha": "4551c3df10788775da91edabc843a0e1fdb0f48d",
+  "head_sha": "26bc583ae6a28560f56cab55f78ad427b4aad2d7",
+  "user_login": "dota17",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/list/TreeList.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_116/src/test/java/org/apache/commons/collections4/list/TreeListLLM_Test.java",
+      "package": "org.apache.commons.collections4.list",
+      "original_class_name": "TreeListTest2",
+      "final_class_name": "TreeListLLM_Test"
+    }
+  ]
+}

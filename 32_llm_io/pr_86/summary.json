@@ -1,0 +1,80 @@
+{
+  "pr_number": 86,
+  "title": "Added TaggedWriter, ClosedWriter and BrokenWriter.",
+  "state": "closed",
+  "created_at": "2019-08-01T20:57:25Z",
+  "merge_commit_sha": "b358a63b22b9cb614bdc8830a3c88ae256e77387",
+  "base_sha": "5796c0ca265c4556f386a18e7c5118bca1a8eae7",
+  "head_sha": "074ed63682561a0ef587be6e0936e35bb378daa5",
+  "user_login": "robtimus",
+  "extracted_count": 3,
+  "skipped_count": 3,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/output/BrokenWriter.java",
+      "status_in_pr": "added",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_86/src/test/java/org/apache/commons/io/output/BrokenWriterLLM_Test.java",
+      "package": "org.apache.commons.io.output",
+      "original_class_name": "BrokenWriterTest",
+      "final_class_name": "BrokenWriterLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/output/ClosedWriter.java",
+      "status_in_pr": "added",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_86/src/test/java/org/apache/commons/io/output/ClosedWriterLLM_Test.java",
+      "package": "org.apache.commons.io.output",
+      "original_class_name": "ClosedWriterTest",
+      "final_class_name": "ClosedWriterLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/output/TaggedWriter.java",
+      "status_in_pr": "added",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_86/src/test/java/org/apache/commons/io/output/TaggedWriterLLM_Test.java",
+      "package": "org.apache.commons.io.output",
+      "original_class_name": "TaggedWriterTest",
+      "final_class_name": "TaggedWriterLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/output/BrokenWriterTest.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/output/ClosedWriterTest.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/output/TaggedWriterTest.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

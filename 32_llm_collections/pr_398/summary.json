@@ -1,0 +1,80 @@
+{
+  "pr_number": 398,
+  "title": "Changes required to open testing to new implementations.",
+  "state": "closed",
+  "created_at": "2023-06-14T15:06:16Z",
+  "merge_commit_sha": "916efdb503b241f870e91195bfd8ad9e086fe8ff",
+  "base_sha": "5b668d23c6a980290f35a848fcac05191bc23488",
+  "head_sha": "a707be196ea67a3a541efdb5f72fff5371afd1fb",
+  "user_login": "Claudenw",
+  "extracted_count": 1,
+  "skipped_count": 5,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/bloomfilter/BloomFilter.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_398/src/test/java/org/apache/commons/collections4/bloomfilter/BloomFilterLLM_Test.java",
+      "package": "org.apache.commons.collections4.bloomfilter",
+      "original_class_name": "BloomFilterTest",
+      "final_class_name": "BloomFilterLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/collections4/bloomfilter/AbstractBloomFilterTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/collections4/bloomfilter/ArrayHasher.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/collections4/bloomfilter/DefaultIndexProducerTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/collections4/bloomfilter/IncrementingHasher.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/collections4/bloomfilter/TestingHashers.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

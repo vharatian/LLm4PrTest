@@ -1,0 +1,36 @@
+{
+  "pr_number": 374,
+  "title": "Better docs in IOUtils and IOUtils.byteArray(int size)",
+  "state": "closed",
+  "created_at": "2022-08-24T01:45:37Z",
+  "merge_commit_sha": "d259b21ca24cac31d78a305d60429d96e1789ebb",
+  "base_sha": "03e67ac74579aa6ea6536b76cddc06340c75b70a",
+  "head_sha": "50f233b774e28f8d27f2c4f11b06e5fe79474d96",
+  "user_login": "ArdenL-Liu",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/IOUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_374/src/test/java/org/apache/commons/io/IOUtilsLLM_Test.java",
+      "package": "org.apache.commons.io",
+      "original_class_name": "IOUtilsTest2",
+      "final_class_name": "IOUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/IOUtilsTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

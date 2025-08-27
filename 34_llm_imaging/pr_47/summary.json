@@ -1,0 +1,80 @@
+{
+  "pr_number": 47,
+  "title": "IMAGING-134: Fix JPEG handling for files encoded with RST markers",
+  "state": "closed",
+  "created_at": "2019-06-07T17:47:45Z",
+  "merge_commit_sha": "e9e6b35a775e2b30619cb507bb57a6a8a5c82d6d",
+  "base_sha": "e9f975a8eb487369211dc83a84cd618c2214c2da",
+  "head_sha": "a38f0e082fe095afbb09cef14e1e5d64e452667b",
+  "user_login": "mgs255",
+  "extracted_count": 4,
+  "skipped_count": 2,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/jpeg/JpegConstants.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_47/src/test/java/org/apache/commons/imaging/formats/jpeg/JpegConstantsLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.jpeg",
+      "original_class_name": "JpegConstantsTest",
+      "final_class_name": "JpegConstantsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/jpeg/JpegUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_47/src/test/java/org/apache/commons/imaging/formats/jpeg/JpegUtilsLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.jpeg",
+      "original_class_name": "JpegUtilsTest",
+      "final_class_name": "JpegUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/jpeg/decoder/JpegDecoder.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_47/src/test/java/org/apache/commons/imaging/formats/jpeg/decoder/JpegDecoderLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.jpeg.decoder",
+      "original_class_name": "JpegDecoderTest2",
+      "final_class_name": "JpegDecoderLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/jpeg/decoder/JpegInputStream.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_47/src/test/java/org/apache/commons/imaging/formats/jpeg/decoder/JpegInputStreamLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.jpeg.decoder",
+      "original_class_name": "JpegInputStreamTest",
+      "final_class_name": "JpegInputStreamLLM_Test"
+    },
+    {
+      "source_filename": "src/test/data/images/jpg/6/image.jpeg",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/data/images/jpg/7/_DSC6099.jpg",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

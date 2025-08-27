@@ -1,0 +1,69 @@
+{
+  "pr_number": 78,
+  "title": "Validate byte and string",
+  "state": "closed",
+  "created_at": "2021-03-04T16:52:03Z",
+  "merge_commit_sha": "297f04da01e0ae2c18afc3a3667313adbf716fbe",
+  "base_sha": "2b32ca08e1097c92d3ee2a1501c43fd8f2b4130d",
+  "head_sha": "9b10858295d3db062995945ef7f7259a8c3acfc7",
+  "user_login": "arturobernalg",
+  "extracted_count": 5,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/codec/binary/Base64.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_78/src/test/java/org/apache/commons/codec/binary/Base64LLM_Test.java",
+      "package": "org.apache.commons.codec.binary",
+      "original_class_name": "Base64Test2",
+      "final_class_name": "Base64LLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/codec/binary/BaseNCodec.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_78/src/test/java/org/apache/commons/codec/binary/BaseNCodecLLM_Test.java",
+      "package": "org.apache.commons.codec.binary",
+      "original_class_name": "BaseNCodecTest2",
+      "final_class_name": "BaseNCodecLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/codec/binary/BinaryCodec.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_78/src/test/java/org/apache/commons/codec/binary/BinaryCodecLLM_Test.java",
+      "package": "org.apache.commons.codec.binary",
+      "original_class_name": "BinaryCodecTest2",
+      "final_class_name": "BinaryCodecLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/codec/language/Caverphone2.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_78/src/test/java/org/apache/commons/codec/language/Caverphone2LLM_Test.java",
+      "package": "org.apache.commons.codec.language",
+      "original_class_name": "Caverphone2Test2",
+      "final_class_name": "Caverphone2LLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/codec/language/SoundexUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_78/src/test/java/org/apache/commons/codec/language/SoundexUtilsLLM_Test.java",
+      "package": "org.apache.commons.codec.language",
+      "original_class_name": "SoundexUtilsTest",
+      "final_class_name": "SoundexUtilsLLM_Test"
+    }
+  ]
+}

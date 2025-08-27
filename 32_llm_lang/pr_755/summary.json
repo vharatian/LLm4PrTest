@@ -1,0 +1,25 @@
+{
+  "pr_number": 755,
+  "title": "Fix ObjectUtils Javadocs",
+  "state": "closed",
+  "created_at": "2021-05-15T08:43:56Z",
+  "merge_commit_sha": "9501ae42b2352b453243b0c915420c19446d7037",
+  "base_sha": "4ff5e2b9f98e5ca9dd105a2d08477e0371ae8832",
+  "head_sha": "b09470a037090ce34fcecf7ae3a2ba3a0d197a88",
+  "user_login": "arturobernalg",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/ObjectUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_755/src/test/java/org/apache/commons/lang3/ObjectUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "ObjectUtilsTest2",
+      "final_class_name": "ObjectUtilsLLM_Test"
+    }
+  ]
+}

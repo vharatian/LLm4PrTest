@@ -1,0 +1,25 @@
+{
+  "pr_number": 106,
+  "title": "[COMPRESS-535] maybe we can add a break here",
+  "state": "closed",
+  "created_at": "2020-06-03T11:28:17Z",
+  "merge_commit_sha": "497cb94f4315246e94b8a5593bf760f2cf9a324d",
+  "base_sha": "f333bc647c860375cc4e9999da10b2c3c8d4d57f",
+  "head_sha": "204faf58f69386d1b6f8d0410dcf2667d6d08051",
+  "user_login": "XenoAmess",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_106/src/test/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStreamLLM_Test.java",
+      "package": "org.apache.commons.compress.compressors.bzip2",
+      "original_class_name": "BZip2CompressorOutputStreamTest",
+      "final_class_name": "BZip2CompressorOutputStreamLLM_Test"
+    }
+  ]
+}

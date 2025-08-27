@@ -1,0 +1,80 @@
+{
+  "pr_number": 265,
+  "title": "CSV-290 - Fix the wrong assumptions in PostgreSQL formats",
+  "state": "closed",
+  "created_at": "2022-09-25T21:54:02Z",
+  "merge_commit_sha": "41a063d2cfd992d526db228e6a237fb7a57b4581",
+  "base_sha": "048d507de95b3aaabac5ecc29878390601b47ff3",
+  "head_sha": "1ad309fade40c60beafee8eb1a855005e8e6aa7e",
+  "user_login": "angusdev",
+  "extracted_count": 1,
+  "skipped_count": 5,
+  "files": [
+    {
+      "source_filename": "pom.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/csv/CSVFormat.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_265/src/test/java/org/apache/commons/csv/CSVFormatLLM_Test.java",
+      "package": "org.apache.commons.csv",
+      "original_class_name": "CSVFormatTest2",
+      "final_class_name": "CSVFormatLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/csv/CSVFormatTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/csv/issues/JiraCsv290Test.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/resources/org/apache/commons/csv/CSV-290/psql.csv",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/resources/org/apache/commons/csv/CSV-290/psql.tsv",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

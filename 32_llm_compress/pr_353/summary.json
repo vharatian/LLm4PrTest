@@ -1,0 +1,25 @@
+{
+  "pr_number": 353,
+  "title": "Make 'ZipFile.offsetComparator' static",
+  "state": "closed",
+  "created_at": "2023-01-14T01:10:11Z",
+  "merge_commit_sha": "9fe0282c7a3b3bce485f99efe581f4485d397d4d",
+  "base_sha": "5569702d493cfc34ca701a9cb25cbbe41c8a7201",
+  "head_sha": "88285f0fabeeda0a87b2c90b8a25c6d60513cf08",
+  "user_login": "Glavo",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/zip/ZipFile.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_353/src/test/java/org/apache/commons/compress/archivers/zip/ZipFileLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.zip",
+      "original_class_name": "ZipFileTest2",
+      "final_class_name": "ZipFileLLM_Test"
+    }
+  ]
+}

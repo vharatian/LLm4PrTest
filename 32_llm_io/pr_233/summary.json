@@ -1,0 +1,80 @@
+{
+  "pr_number": 233,
+  "title": "Minor improvements",
+  "state": "closed",
+  "created_at": "2021-05-17T06:21:26Z",
+  "merge_commit_sha": "40a0443f57c5622c29a3f308eacac60a4517f556",
+  "base_sha": "50bfa728a8852149cfe33bf7e53136e269ec9b74",
+  "head_sha": "3f458ca8562f5abc77b47979bc5ff226e4e4712f",
+  "user_login": "arturobernalg",
+  "extracted_count": 6,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/FileCleaningTracker.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_233/src/test/java/org/apache/commons/io/FileCleaningTrackerLLM_Test.java",
+      "package": "org.apache.commons.io",
+      "original_class_name": "FileCleaningTrackerTest",
+      "final_class_name": "FileCleaningTrackerLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/FileUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_233/src/test/java/org/apache/commons/io/FileUtilsLLM_Test.java",
+      "package": "org.apache.commons.io",
+      "original_class_name": "FileUtilsTest",
+      "final_class_name": "FileUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/IOUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_233/src/test/java/org/apache/commons/io/IOUtilsLLM_Test.java",
+      "package": "org.apache.commons.io",
+      "original_class_name": "IOUtilsTest",
+      "final_class_name": "IOUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/LineIterator.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_233/src/test/java/org/apache/commons/io/LineIteratorLLM_Test.java",
+      "package": "org.apache.commons.io",
+      "original_class_name": "LineIteratorTest",
+      "final_class_name": "LineIteratorLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/comparator/AbstractFileComparator.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_233/src/test/java/org/apache/commons/io/comparator/AbstractFileComparatorLLM_Test.java",
+      "package": "org.apache.commons.io.comparator",
+      "original_class_name": "AbstractFileComparatorTest",
+      "final_class_name": "AbstractFileComparatorLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/file/PathUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_233/src/test/java/org/apache/commons/io/file/PathUtilsLLM_Test.java",
+      "package": "org.apache.commons.io.file",
+      "original_class_name": "PathUtilsTest2",
+      "final_class_name": "PathUtilsLLM_Test"
+    }
+  ]
+}

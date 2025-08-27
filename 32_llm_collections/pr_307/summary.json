@@ -1,0 +1,113 @@
+{
+  "pr_number": 307,
+  "title": "Use java.lang.Objects#equals; eliminate a couple of nulls",
+  "state": "closed",
+  "created_at": "2022-05-05T14:06:47Z",
+  "merge_commit_sha": "e85e26e7bb433d38d7e383361f6f42c1a8d6aa50",
+  "base_sha": "1677daceab74895fdf5056c9a48aa94f9e709fb9",
+  "head_sha": "51eb7f759c824c186eb64762bdd9bbd8dda7eab7",
+  "user_login": "stevebosman-oc",
+  "extracted_count": 9,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/CollectionUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_307/src/test/java/org/apache/commons/collections4/CollectionUtilsLLM_Test.java",
+      "package": "org.apache.commons.collections4",
+      "original_class_name": "CollectionUtilsTest2",
+      "final_class_name": "CollectionUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/ListUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_307/src/test/java/org/apache/commons/collections4/ListUtilsLLM_Test.java",
+      "package": "org.apache.commons.collections4",
+      "original_class_name": "ListUtilsTest2",
+      "final_class_name": "ListUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/comparators/ComparatorChain.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_307/src/test/java/org/apache/commons/collections4/comparators/ComparatorChainLLM_Test.java",
+      "package": "org.apache.commons.collections4.comparators",
+      "original_class_name": "ComparatorChainTest2",
+      "final_class_name": "ComparatorChainLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/comparators/TransformingComparator.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_307/src/test/java/org/apache/commons/collections4/comparators/TransformingComparatorLLM_Test.java",
+      "package": "org.apache.commons.collections4.comparators",
+      "original_class_name": "TransformingComparatorTest2",
+      "final_class_name": "TransformingComparatorLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/functors/DefaultEquator.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_307/src/test/java/org/apache/commons/collections4/functors/DefaultEquatorLLM_Test.java",
+      "package": "org.apache.commons.collections4.functors",
+      "original_class_name": "DefaultEquatorTest",
+      "final_class_name": "DefaultEquatorLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/map/Flat3Map.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_307/src/test/java/org/apache/commons/collections4/map/Flat3MapLLM_Test.java",
+      "package": "org.apache.commons.collections4.map",
+      "original_class_name": "Flat3MapTest2",
+      "final_class_name": "Flat3MapLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/map/StaticBucketMap.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_307/src/test/java/org/apache/commons/collections4/map/StaticBucketMapLLM_Test.java",
+      "package": "org.apache.commons.collections4.map",
+      "original_class_name": "StaticBucketMapTest2",
+      "final_class_name": "StaticBucketMapLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/multiset/AbstractMultiSet.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_307/src/test/java/org/apache/commons/collections4/multiset/AbstractMultiSetLLM_Test.java",
+      "package": "org.apache.commons.collections4.multiset",
+      "original_class_name": "AbstractMultiSetTest2",
+      "final_class_name": "AbstractMultiSetLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/trie/AbstractBitwiseTrie.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_307/src/test/java/org/apache/commons/collections4/trie/AbstractBitwiseTrieLLM_Test.java",
+      "package": "org.apache.commons.collections4.trie",
+      "original_class_name": "AbstractBitwiseTrieTest",
+      "final_class_name": "AbstractBitwiseTrieLLM_Test"
+    }
+  ]
+}

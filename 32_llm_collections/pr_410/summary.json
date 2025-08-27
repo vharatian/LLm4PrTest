@@ -1,0 +1,25 @@
+{
+  "pr_number": 410,
+  "title": "Fix grammatical error in Javadoc",
+  "state": "closed",
+  "created_at": "2023-08-01T06:13:45Z",
+  "merge_commit_sha": "14215e5bdd1aeea699da63ff2b2a6b7d2c663bef",
+  "base_sha": "bd06a52cc9656354efeaea0a62275b650c929ea0",
+  "head_sha": "450f9c748f91a32885e7a8ca2475bb27e6da007f",
+  "user_login": "syoon2",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/queue/AbstractQueueDecorator.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_410/src/test/java/org/apache/commons/collections4/queue/AbstractQueueDecoratorLLM_Test.java",
+      "package": "org.apache.commons.collections4.queue",
+      "original_class_name": "AbstractQueueDecoratorTest",
+      "final_class_name": "AbstractQueueDecoratorLLM_Test"
+    }
+  ]
+}

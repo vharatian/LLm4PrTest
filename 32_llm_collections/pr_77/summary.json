@@ -1,0 +1,36 @@
+{
+  "pr_number": 77,
+  "title": " Simplify two remove-if loops",
+  "state": "closed",
+  "created_at": "2019-07-10T07:52:58Z",
+  "merge_commit_sha": "07b82f6a698dac3f2e6c9f6407776566763be11e",
+  "base_sha": "8cbb4fd865a81b4d856cd87ebf099a91dc6fe2e8",
+  "head_sha": "8aa0cd2a5d82d597a423577771b504353e95dabd",
+  "user_login": "grimreaper",
+  "extracted_count": 2,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/list/CursorableLinkedList.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_77/src/test/java/org/apache/commons/collections4/list/CursorableLinkedListLLM_Test.java",
+      "package": "org.apache.commons.collections4.list",
+      "original_class_name": "CursorableLinkedListTest2",
+      "final_class_name": "CursorableLinkedListLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/set/ListOrderedSet.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_77/src/test/java/org/apache/commons/collections4/set/ListOrderedSetLLM_Test.java",
+      "package": "org.apache.commons.collections4.set",
+      "original_class_name": "ListOrderedSetTest2",
+      "final_class_name": "ListOrderedSetLLM_Test"
+    }
+  ]
+}

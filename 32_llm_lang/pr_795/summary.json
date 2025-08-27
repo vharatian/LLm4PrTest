@@ -1,0 +1,69 @@
+{
+  "pr_number": 795,
+  "title": "LANG-1670 Fix typos in JavaDoc",
+  "state": "closed",
+  "created_at": "2021-08-25T13:27:01Z",
+  "merge_commit_sha": "b12dad5230c9592b49da1a6458bd52717c22252c",
+  "base_sha": "3586d1a542d72d0a16e0f066ef4a3f883865d040",
+  "head_sha": "e1b674d72cec67aa15bf0960d8e98094e7ae7016",
+  "user_login": "ronindev",
+  "extracted_count": 5,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/function/FailableBiPredicate.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_795/src/test/java/org/apache/commons/lang3/function/FailableBiPredicateLLM_Test.java",
+      "package": "org.apache.commons.lang3.function",
+      "original_class_name": "FailableBiPredicateTest",
+      "final_class_name": "FailableBiPredicateLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/function/FailableDoublePredicate.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_795/src/test/java/org/apache/commons/lang3/function/FailableDoublePredicateLLM_Test.java",
+      "package": "org.apache.commons.lang3.function",
+      "original_class_name": "FailableDoublePredicateTest",
+      "final_class_name": "FailableDoublePredicateLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/function/FailableIntPredicate.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_795/src/test/java/org/apache/commons/lang3/function/FailableIntPredicateLLM_Test.java",
+      "package": "org.apache.commons.lang3.function",
+      "original_class_name": "FailableIntPredicateTest",
+      "final_class_name": "FailableIntPredicateLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/function/FailableLongPredicate.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_795/src/test/java/org/apache/commons/lang3/function/FailableLongPredicateLLM_Test.java",
+      "package": "org.apache.commons.lang3.function",
+      "original_class_name": "FailableLongPredicateTest",
+      "final_class_name": "FailableLongPredicateLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/function/FailablePredicate.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_795/src/test/java/org/apache/commons/lang3/function/FailablePredicateLLM_Test.java",
+      "package": "org.apache.commons.lang3.function",
+      "original_class_name": "FailablePredicateTest",
+      "final_class_name": "FailablePredicateLLM_Test"
+    }
+  ]
+}

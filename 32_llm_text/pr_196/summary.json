@@ -1,0 +1,58 @@
+{
+  "pr_number": 196,
+  "title": "Minor Improvements",
+  "state": "closed",
+  "created_at": "2021-01-17T12:05:28Z",
+  "merge_commit_sha": "29b60f5788d8a7bc51ed195634063cf7e02c9ff0",
+  "base_sha": "f0f6347040618a04c6b9bc4351dd8dff84b178be",
+  "head_sha": "1cab6c0552de36ce5176c2feb139094a451d0fa6",
+  "user_login": "arturobernalg",
+  "extracted_count": 3,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/text/StrSubstitutor.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_196/src/test/java/org/apache/commons/text/StrSubstitutorLLM_Test.java",
+      "package": "org.apache.commons.text",
+      "original_class_name": "StrSubstitutorTest2",
+      "final_class_name": "StrSubstitutorLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/text/StrTokenizer.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_196/src/test/java/org/apache/commons/text/StrTokenizerLLM_Test.java",
+      "package": "org.apache.commons.text",
+      "original_class_name": "StrTokenizerTest2",
+      "final_class_name": "StrTokenizerLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/text/StringTokenizer.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_196/src/test/java/org/apache/commons/text/StringTokenizerLLM_Test.java",
+      "package": "org.apache.commons.text",
+      "original_class_name": "StringTokenizerTest2",
+      "final_class_name": "StringTokenizerLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/text/diff/ReplacementsFinderTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

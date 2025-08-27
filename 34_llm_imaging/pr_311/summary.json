@@ -1,0 +1,47 @@
+{
+  "pr_number": 311,
+  "title": "IMAGING-360: Add more TIFF compression entries to ImageInfo",
+  "state": "closed",
+  "created_at": "2023-08-17T00:17:06Z",
+  "merge_commit_sha": "57151c5f2bb8ce52d1d3342c5062d88db096036b",
+  "base_sha": "4c1e873b36f643becf2a8c4fa115c1f2c11f5e31",
+  "head_sha": "adba5dcad7aa258328207162a395abca3b6bc933",
+  "user_login": "gwlucastrig",
+  "extracted_count": 3,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/ImageInfo.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_311/src/test/java/org/apache/commons/imaging/ImageInfoLLM_Test.java",
+      "package": "org.apache.commons.imaging",
+      "original_class_name": "ImageInfoTest",
+      "final_class_name": "ImageInfoLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/tiff/TiffImageParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_311/src/test/java/org/apache/commons/imaging/formats/tiff/TiffImageParserLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.tiff",
+      "original_class_name": "TiffImageParserTest2",
+      "final_class_name": "TiffImageParserLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/tiff/constants/TiffConstants.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_311/src/test/java/org/apache/commons/imaging/formats/tiff/constants/TiffConstantsLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.tiff.constants",
+      "original_class_name": "TiffConstantsTest",
+      "final_class_name": "TiffConstantsLLM_Test"
+    }
+  ]
+}

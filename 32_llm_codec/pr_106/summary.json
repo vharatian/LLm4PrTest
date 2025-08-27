@@ -1,0 +1,36 @@
+{
+  "pr_number": 106,
+  "title": "Java 8 improvements:",
+  "state": "closed",
+  "created_at": "2022-02-19T18:26:27Z",
+  "merge_commit_sha": "fb84f6d9732d44cda0edf449f7a5cba0b340731a",
+  "base_sha": "5a03f5a493240f26f27ccabe6b8ac7b701c2d5c5",
+  "head_sha": "55e4e28d5e0ba4fb977642c163ef05c2d7bad429",
+  "user_login": "arturobernalg",
+  "extracted_count": 2,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/codec/language/DaitchMokotoffSoundex.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_106/src/test/java/org/apache/commons/codec/language/DaitchMokotoffSoundexLLM_Test.java",
+      "package": "org.apache.commons.codec.language",
+      "original_class_name": "DaitchMokotoffSoundexTest2",
+      "final_class_name": "DaitchMokotoffSoundexLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/codec/language/bm/Rule.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_106/src/test/java/org/apache/commons/codec/language/bm/RuleLLM_Test.java",
+      "package": "org.apache.commons.codec.language.bm",
+      "original_class_name": "RuleTest2",
+      "final_class_name": "RuleLLM_Test"
+    }
+  ]
+}

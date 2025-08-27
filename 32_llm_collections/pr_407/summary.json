@@ -1,0 +1,25 @@
+{
+  "pr_number": 407,
+  "title": "Make AbstractPatriciaTrie public",
+  "state": "closed",
+  "created_at": "2023-07-25T14:15:10Z",
+  "merge_commit_sha": "66d6b9e2f27c370ca2cc73d300858ad6f15877e8",
+  "base_sha": "99473dfa205a7c476a22190ee01f0b211091987b",
+  "head_sha": "b85e9da5e80085e9db2014bef68849492e65c954",
+  "user_login": "vad0",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/trie/AbstractPatriciaTrie.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_407/src/test/java/org/apache/commons/collections4/trie/AbstractPatriciaTrieLLM_Test.java",
+      "package": "org.apache.commons.collections4.trie",
+      "original_class_name": "AbstractPatriciaTrieTest",
+      "final_class_name": "AbstractPatriciaTrieLLM_Test"
+    }
+  ]
+}

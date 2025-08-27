@@ -1,0 +1,36 @@
+{
+  "pr_number": 120,
+  "title": "[CSV-265] Update buffer position when reading line comment",
+  "state": "closed",
+  "created_at": "2020-10-28T14:23:54Z",
+  "merge_commit_sha": "a4c6037d0ccfc5b7176d6c522fcc0ab38b9bdd28",
+  "base_sha": "27843d8dc0ec6e5af910674bfb4cba4e48b2475b",
+  "head_sha": "69d3de8e20e06553ec7df75732d8b483c0beba41",
+  "user_login": "king-tyler",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_120/src/test/java/org/apache/commons/csv/ExtendedBufferedReaderLLM_Test.java",
+      "package": "org.apache.commons.csv",
+      "original_class_name": "ExtendedBufferedReaderTest2",
+      "final_class_name": "ExtendedBufferedReaderLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/csv/issues/JiraCsv265Test.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

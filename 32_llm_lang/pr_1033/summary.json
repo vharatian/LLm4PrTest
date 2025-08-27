@@ -1,0 +1,36 @@
+{
+  "pr_number": 1033,
+  "title": "[LANG-1694] MethodUtils.getMatchingMethod() fails with \"Found multiple candidates\"",
+  "state": "closed",
+  "created_at": "2023-02-23T12:34:46Z",
+  "merge_commit_sha": "d47dc7af76471c3d0bc600361a62c65e0cb865b9",
+  "base_sha": "469013a4f5a5cb666b35d72122690bb7f355c0b5",
+  "head_sha": "acd978cfa35d412b653f3b67bf1045fe4e56cd0e",
+  "user_login": "SeasonPanPan",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_1033/src/test/java/org/apache/commons/lang3/reflect/MethodUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3.reflect",
+      "original_class_name": "MethodUtilsTest2",
+      "final_class_name": "MethodUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

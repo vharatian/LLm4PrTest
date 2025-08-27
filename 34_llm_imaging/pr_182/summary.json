@@ -1,0 +1,58 @@
+{
+  "pr_number": 182,
+  "title": "[IMAGING-317] Fix NPE when a PNG indexed image does not have a PLTE chunk",
+  "state": "closed",
+  "created_at": "2021-11-06T03:23:43Z",
+  "merge_commit_sha": "0865b1571aac87f49e7f743eae00e32bc34b365f",
+  "base_sha": "8806ed16259cc7ef12050cd2816d79550a44db99",
+  "head_sha": "eca847cb03aae9967936bcf98d85691d81aa60d3",
+  "user_login": "kinow",
+  "extracted_count": 1,
+  "skipped_count": 3,
+  "files": [
+    {
+      "source_filename": "src/changes/changes.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/png/ScanExpediter.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_182/src/test/java/org/apache/commons/imaging/formats/png/ScanExpediterLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.png",
+      "original_class_name": "ScanExpediterTest",
+      "final_class_name": "ScanExpediterLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/imaging/formats/png/PngReadTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/resources/images/png/IMAGING-317/clusterfuzz-testcase-minimized-ImagingPngFuzzer-6242400830357504",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

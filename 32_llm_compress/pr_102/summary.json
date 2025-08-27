@@ -1,0 +1,25 @@
+{
+  "pr_number": 102,
+  "title": "Compress-515: Add fileName/path info to ZipFile constructor IOException",
+  "state": "closed",
+  "created_at": "2020-05-19T23:18:35Z",
+  "merge_commit_sha": "6caf07ac3fa23b7b147341ca15e49b1ca57d2823",
+  "base_sha": "a5ccbd6c55f8df73aa5c13f48aed8d363c722c3a",
+  "head_sha": "636660fad58ff841e6ee06e6cf42b779dfca9a22",
+  "user_login": "ian-lavallee",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/archivers/zip/ZipFile.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_102/src/test/java/org/apache/commons/compress/archivers/zip/ZipFileLLM_Test.java",
+      "package": "org.apache.commons.compress.archivers.zip",
+      "original_class_name": "ZipFileTest2",
+      "final_class_name": "ZipFileLLM_Test"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "pr_number": 87,
+  "title": "Added AppendableWriter.",
+  "state": "closed",
+  "created_at": "2019-08-01T21:41:59Z",
+  "merge_commit_sha": "bae3ef5c23f46f8458da105ee3864b356a2007e3",
+  "base_sha": "5796c0ca265c4556f386a18e7c5118bca1a8eae7",
+  "head_sha": "0baf117dc9362b768f5fa3014eae8dadf5a85bc7",
+  "user_login": "robtimus",
+  "extracted_count": 2,
+  "skipped_count": 2,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/IOUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_87/src/test/java/org/apache/commons/io/IOUtilsLLM_Test.java",
+      "package": "org.apache.commons.io",
+      "original_class_name": "IOUtilsTest",
+      "final_class_name": "IOUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/output/AppendableWriter.java",
+      "status_in_pr": "added",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_87/src/test/java/org/apache/commons/io/output/AppendableWriterLLM_Test.java",
+      "package": "org.apache.commons.io.output",
+      "original_class_name": "AppendableWriterTest",
+      "final_class_name": "AppendableWriterLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/IOUtilsTestCase.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/output/AppendableWriterTest.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

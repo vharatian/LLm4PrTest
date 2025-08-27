@@ -1,0 +1,36 @@
+{
+  "pr_number": 295,
+  "title": "[IMAGING-353] Fix PngImageParser hasPalette",
+  "state": "closed",
+  "created_at": "2023-05-24T15:03:03Z",
+  "merge_commit_sha": "473d55cf263a1931f9e9a9c13939cb9c772c5f35",
+  "base_sha": "a6ccaa76fdf1627a402eb7a2b965e457a7733968",
+  "head_sha": "c897da2567080c6c4092b27ddf53a61ae713e4f7",
+  "user_login": "jvdvegt",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/png/PngImageParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_295/src/test/java/org/apache/commons/imaging/formats/png/PngImageParserLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.png",
+      "original_class_name": "PngImageParserTest2",
+      "final_class_name": "PngImageParserLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/imaging/formats/png/PngImageParserTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "pr_number": 114,
+  "title": "CSV-264: Added DuplicateHeaderMode for flexibility with header strictness.",
+  "state": "closed",
+  "created_at": "2020-10-02T20:44:51Z",
+  "merge_commit_sha": "4fdfc59b1cb668cb110b074742a1e760819f719b",
+  "base_sha": "e9e27fb2c59b5566d8355d146588ed6cf1747545",
+  "head_sha": "511f2b49f5db1d60866f08664cc09f85427f2c81",
+  "user_login": "SethFalco",
+  "extracted_count": 3,
+  "skipped_count": 3,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/csv/CSVFormat.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_114/src/test/java/org/apache/commons/csv/CSVFormatLLM_Test.java",
+      "package": "org.apache.commons.csv",
+      "original_class_name": "CSVFormatTest2",
+      "final_class_name": "CSVFormatLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/csv/CSVParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_114/src/test/java/org/apache/commons/csv/CSVParserLLM_Test.java",
+      "package": "org.apache.commons.csv",
+      "original_class_name": "CSVParserTest2",
+      "final_class_name": "CSVParserLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/csv/DuplicateHeaderMode.java",
+      "status_in_pr": "added",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_114/src/test/java/org/apache/commons/csv/DuplicateHeaderModeLLM_Test.java",
+      "package": "org.apache.commons.csv",
+      "original_class_name": "DuplicateHeaderModeTest",
+      "final_class_name": "DuplicateHeaderModeLLM_Test"
+    },
+    {
+      "source_filename": "src/site/resources/checkstyle/checkstyle-suppressions.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/csv/CSVFormatTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/csv/issues/JiraCsv264Test.java",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

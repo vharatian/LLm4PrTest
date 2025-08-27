@@ -1,0 +1,212 @@
+{
+  "pr_number": 195,
+  "title": "[COLLECTIONS-772] - Add private constructor to ArrayUtils; better Javadocs.",
+  "state": "closed",
+  "created_at": "2020-11-19T06:45:41Z",
+  "merge_commit_sha": "d2e567562f8c364abcab9a094ec090229529925f",
+  "base_sha": "f6b9e3cd8e02597ab42d56802519b6f673c97b6e",
+  "head_sha": "0679fa25d199ef6f276a430c43fcdecb1aa7c1c1",
+  "user_login": "arturobernalg",
+  "extracted_count": 18,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/ArrayUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_195/src/test/java/org/apache/commons/collections4/ArrayUtilsLLM_Test.java",
+      "package": "org.apache.commons.collections4",
+      "original_class_name": "ArrayUtilsTest",
+      "final_class_name": "ArrayUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/BagUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_195/src/test/java/org/apache/commons/collections4/BagUtilsLLM_Test.java",
+      "package": "org.apache.commons.collections4",
+      "original_class_name": "BagUtilsTest2",
+      "final_class_name": "BagUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/ClosureUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_195/src/test/java/org/apache/commons/collections4/ClosureUtilsLLM_Test.java",
+      "package": "org.apache.commons.collections4",
+      "original_class_name": "ClosureUtilsTest2",
+      "final_class_name": "ClosureUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/CollectionUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_195/src/test/java/org/apache/commons/collections4/CollectionUtilsLLM_Test.java",
+      "package": "org.apache.commons.collections4",
+      "original_class_name": "CollectionUtilsTest2",
+      "final_class_name": "CollectionUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/ComparatorUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_195/src/test/java/org/apache/commons/collections4/ComparatorUtilsLLM_Test.java",
+      "package": "org.apache.commons.collections4",
+      "original_class_name": "ComparatorUtilsTest2",
+      "final_class_name": "ComparatorUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/EnumerationUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_195/src/test/java/org/apache/commons/collections4/EnumerationUtilsLLM_Test.java",
+      "package": "org.apache.commons.collections4",
+      "original_class_name": "EnumerationUtilsTest2",
+      "final_class_name": "EnumerationUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/FactoryUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_195/src/test/java/org/apache/commons/collections4/FactoryUtilsLLM_Test.java",
+      "package": "org.apache.commons.collections4",
+      "original_class_name": "FactoryUtilsTest2",
+      "final_class_name": "FactoryUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/FluentIterable.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_195/src/test/java/org/apache/commons/collections4/FluentIterableLLM_Test.java",
+      "package": "org.apache.commons.collections4",
+      "original_class_name": "FluentIterableTest2",
+      "final_class_name": "FluentIterableLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/IteratorUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_195/src/test/java/org/apache/commons/collections4/IteratorUtilsLLM_Test.java",
+      "package": "org.apache.commons.collections4",
+      "original_class_name": "IteratorUtilsTest2",
+      "final_class_name": "IteratorUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/ListUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_195/src/test/java/org/apache/commons/collections4/ListUtilsLLM_Test.java",
+      "package": "org.apache.commons.collections4",
+      "original_class_name": "ListUtilsTest2",
+      "final_class_name": "ListUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/MapUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_195/src/test/java/org/apache/commons/collections4/MapUtilsLLM_Test.java",
+      "package": "org.apache.commons.collections4",
+      "original_class_name": "MapUtilsTest2",
+      "final_class_name": "MapUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/MultiMapUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_195/src/test/java/org/apache/commons/collections4/MultiMapUtilsLLM_Test.java",
+      "package": "org.apache.commons.collections4",
+      "original_class_name": "MultiMapUtilsTest2",
+      "final_class_name": "MultiMapUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/MultiSetUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_195/src/test/java/org/apache/commons/collections4/MultiSetUtilsLLM_Test.java",
+      "package": "org.apache.commons.collections4",
+      "original_class_name": "MultiSetUtilsTest2",
+      "final_class_name": "MultiSetUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/PredicateUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_195/src/test/java/org/apache/commons/collections4/PredicateUtilsLLM_Test.java",
+      "package": "org.apache.commons.collections4",
+      "original_class_name": "PredicateUtilsTest2",
+      "final_class_name": "PredicateUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/QueueUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_195/src/test/java/org/apache/commons/collections4/QueueUtilsLLM_Test.java",
+      "package": "org.apache.commons.collections4",
+      "original_class_name": "QueueUtilsTest2",
+      "final_class_name": "QueueUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/SetUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_195/src/test/java/org/apache/commons/collections4/SetUtilsLLM_Test.java",
+      "package": "org.apache.commons.collections4",
+      "original_class_name": "SetUtilsTest2",
+      "final_class_name": "SetUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/SplitMapUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_195/src/test/java/org/apache/commons/collections4/SplitMapUtilsLLM_Test.java",
+      "package": "org.apache.commons.collections4",
+      "original_class_name": "SplitMapUtilsTest2",
+      "final_class_name": "SplitMapUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/collections4/TrieUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_195/src/test/java/org/apache/commons/collections4/TrieUtilsLLM_Test.java",
+      "package": "org.apache.commons.collections4",
+      "original_class_name": "TrieUtilsTest2",
+      "final_class_name": "TrieUtilsLLM_Test"
+    }
+  ]
+}

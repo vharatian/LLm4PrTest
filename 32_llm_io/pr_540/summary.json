@@ -1,0 +1,25 @@
+{
+  "pr_number": 540,
+  "title": "[IO-795] Finish TODO on CharSequenceInputStream",
+  "state": "closed",
+  "created_at": "2023-12-27T16:04:05Z",
+  "merge_commit_sha": "242a10d85afeb1665f0909a9f77b9bacdd013aeb",
+  "base_sha": "9293f5f402e7c22d5526cc1df7aa180318ee640f",
+  "head_sha": "ee363ad6c5a83bca57039d62d7aa5aebdc0f1ea7",
+  "user_login": "elharo",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/build/AbstractOrigin.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_540/src/test/java/org/apache/commons/io/build/AbstractOriginLLM_Test.java",
+      "package": "org.apache.commons.io.build",
+      "original_class_name": "AbstractOriginTest2",
+      "final_class_name": "AbstractOriginLLM_Test"
+    }
+  ]
+}

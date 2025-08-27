@@ -1,0 +1,36 @@
+{
+  "pr_number": 347,
+  "title": "[CSV-147] Better error message during faulty CSV record read",
+  "state": "closed",
+  "created_at": "2023-08-30T08:12:27Z",
+  "merge_commit_sha": "a33b24c26c2303af61cc7bcdf0fb94d62d3b19e1",
+  "base_sha": "710459843cbe3cf4f1ca3aaac5a6eb22d049e643",
+  "head_sha": "c0759cd95c997bfbbbab5d0d3f5270960f40e033",
+  "user_login": "gbidsilva",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/csv/Lexer.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_347/src/test/java/org/apache/commons/csv/LexerLLM_Test.java",
+      "package": "org.apache.commons.csv",
+      "original_class_name": "LexerTest2",
+      "final_class_name": "LexerLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/csv/CSVParserTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

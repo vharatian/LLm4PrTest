@@ -1,0 +1,25 @@
+{
+  "pr_number": 281,
+  "title": "Remove Unnecessary interface modifiers",
+  "state": "closed",
+  "created_at": "2022-04-15T19:28:59Z",
+  "merge_commit_sha": "bcba036e78b9baf415086e5e6c4600a07390f1a0",
+  "base_sha": "b7993e663ab8f49bd31d007ece2ab3fff47b06fb",
+  "head_sha": "6dd8ba4cce6aebdd3353588ec6d745f597e22f4b",
+  "user_login": "arturobernalg",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/compress/java/util/jar/Pack200.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_281/src/test/java/org/apache/commons/compress/java/util/jar/Pack200LLM_Test.java",
+      "package": "org.apache.commons.compress.java.util.jar",
+      "original_class_name": "Pack200Test2",
+      "final_class_name": "Pack200LLM_Test"
+    }
+  ]
+}

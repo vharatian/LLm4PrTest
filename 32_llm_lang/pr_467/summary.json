@@ -1,0 +1,25 @@
+{
+  "pr_number": 467,
+  "title": "AnnotationUtils little cleanup",
+  "state": "closed",
+  "created_at": "2019-10-14T16:17:54Z",
+  "merge_commit_sha": "f3ad91ca383a8c0dd8d8f69d6276f2558ad7c924",
+  "base_sha": "bedae6950d43008929d9cd109c9e8fb163793bd7",
+  "head_sha": "d6afc8cff591f7beb0d062134ad7a060f35cb0bb",
+  "user_login": "verhas",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/AnnotationUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_467/src/test/java/org/apache/commons/lang3/AnnotationUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "AnnotationUtilsTest2",
+      "final_class_name": "AnnotationUtilsLLM_Test"
+    }
+  ]
+}

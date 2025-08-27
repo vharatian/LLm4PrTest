@@ -1,0 +1,36 @@
+{
+  "pr_number": 409,
+  "title": "Consolidate the StringUtils.equals and equalsIgnoreCase methods.",
+  "state": "closed",
+  "created_at": "2019-03-03T08:30:57Z",
+  "merge_commit_sha": "fa9f1aae197bacc5fea2394981cabeee3399759b",
+  "base_sha": "589ce593070cb5bdb4053a71fe97342509037170",
+  "head_sha": "9a1b3b48528f1f1c7a839f15eb0eea3f570949e2",
+  "user_login": "aherbert",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/changes/changes.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/StringUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_409/src/test/java/org/apache/commons/lang3/StringUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "StringUtilsTest2",
+      "final_class_name": "StringUtilsLLM_Test"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "pr_number": 196,
+  "title": "IMAGING-325: Prevent OOM error in BmpImageParser",
+  "state": "closed",
+  "created_at": "2022-01-22T11:26:21Z",
+  "merge_commit_sha": "9b1c46ea51e70d4d30040014d930cf19200f6660",
+  "base_sha": "987345d676c60ffd25a7fb40bc93d683570a3537",
+  "head_sha": "860f386c571cac5b261f8d5fa6946c50e825cd21",
+  "user_login": "kinow",
+  "extracted_count": 1,
+  "skipped_count": 3,
+  "files": [
+    {
+      "source_filename": "src/changes/changes.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/formats/bmp/BmpImageParser.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_196/src/test/java/org/apache/commons/imaging/formats/bmp/BmpImageParserLLM_Test.java",
+      "package": "org.apache.commons.imaging.formats.bmp",
+      "original_class_name": "BmpImageParserTest2",
+      "final_class_name": "BmpImageParserLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/imaging/formats/bmp/BmpReadTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/test/resources/images/bmp/IMAGING-325/crash-3afb569de74522535ef65922233e1920455cdc14.bmp",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

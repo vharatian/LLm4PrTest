@@ -1,0 +1,36 @@
+{
+  "pr_number": 281,
+  "title": "[IO-753] Add IOUtils method to copy output stream to input stream",
+  "state": "closed",
+  "created_at": "2021-10-10T08:06:18Z",
+  "merge_commit_sha": "276bd98be670c7271814023d5306fe4838d49b93",
+  "base_sha": "bc53cdac20a0ad72af09ffc8f11504feee850f25",
+  "head_sha": "fe4d4d7d360ae48ea336ed7cc47a2ca4d04cfe15",
+  "user_login": "SebastianDietrich",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/IOUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_281/src/test/java/org/apache/commons/io/IOUtilsLLM_Test.java",
+      "package": "org.apache.commons.io",
+      "original_class_name": "IOUtilsTest2",
+      "final_class_name": "IOUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/IOUtilsCopyTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

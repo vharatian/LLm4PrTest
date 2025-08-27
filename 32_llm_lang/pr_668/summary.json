@@ -1,0 +1,36 @@
+{
+  "pr_number": 668,
+  "title": "[LANG-1622] Javadoc of some methods incorrectly refers to another method",
+  "state": "closed",
+  "created_at": "2020-12-03T07:56:13Z",
+  "merge_commit_sha": "d878091c2c9247caf2032d8723e0bb9353c66b9a",
+  "base_sha": "8c66a5fcb7f08aba86bbb1efeaa0a2e1f42d4e16",
+  "head_sha": "fbe102912d49277026d8f16e6e36a1908e0f27e1",
+  "user_login": "anomen-s",
+  "extracted_count": 2,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/BooleanUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_668/src/test/java/org/apache/commons/lang3/BooleanUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "BooleanUtilsTest2",
+      "final_class_name": "BooleanUtilsLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/lang3/StringUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_668/src/test/java/org/apache/commons/lang3/StringUtilsLLM_Test.java",
+      "package": "org.apache.commons.lang3",
+      "original_class_name": "StringUtilsTest2",
+      "final_class_name": "StringUtilsLLM_Test"
+    }
+  ]
+}

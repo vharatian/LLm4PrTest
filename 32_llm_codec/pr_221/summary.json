@@ -1,0 +1,36 @@
+{
+  "pr_number": 221,
+  "title": "CODEC-313: Fix possible ArrayIndexOutOfBoundsException thrown by QuotedPrintableCodec.encodeQuotedPrintable() method",
+  "state": "closed",
+  "created_at": "2023-11-22T16:56:17Z",
+  "merge_commit_sha": "c65de5c6270db9b30914da07330db6169321f4e4",
+  "base_sha": "41871c2cc31ebab1865736c61026d193409b30b5",
+  "head_sha": "130dafc4e981ce2caaa7f65b6e5eee9020a87786",
+  "user_login": "arthurscchan",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/codec/net/QuotedPrintableCodec.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_221/src/test/java/org/apache/commons/codec/net/QuotedPrintableCodecLLM_Test.java",
+      "package": "org.apache.commons.codec.net",
+      "original_class_name": "QuotedPrintableCodecTest2",
+      "final_class_name": "QuotedPrintableCodecLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/codec/net/QuotedPrintableCodecTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

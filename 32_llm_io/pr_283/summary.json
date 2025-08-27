@@ -1,0 +1,36 @@
+{
+  "pr_number": 283,
+  "title": "[IO-714] Fixed ReaderInputStream not calling CharsetEncoder.flush issue",
+  "state": "closed",
+  "created_at": "2021-10-11T17:59:22Z",
+  "merge_commit_sha": "ec8e71073d3b80c54ff3ad06af16d1e4b6a9a4f9",
+  "base_sha": "5911ca64d08c110bc7a612dbef2f278d5dd2a9ab",
+  "head_sha": "1352fdcc1e43b94bc207fe7833548fee53be4866",
+  "user_login": "kevinwang1975",
+  "extracted_count": 1,
+  "skipped_count": 1,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/io/input/ReaderInputStream.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_283/src/test/java/org/apache/commons/io/input/ReaderInputStreamLLM_Test.java",
+      "package": "org.apache.commons.io.input",
+      "original_class_name": "ReaderInputStreamTest2",
+      "final_class_name": "ReaderInputStreamLLM_Test"
+    },
+    {
+      "source_filename": "src/test/java/org/apache/commons/io/input/ReaderInputStreamTest.java",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    }
+  ]
+}

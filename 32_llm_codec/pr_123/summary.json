@@ -1,0 +1,47 @@
+{
+  "pr_number": 123,
+  "title": "Remove unnecessary imports.",
+  "state": "closed",
+  "created_at": "2022-04-16T21:29:48Z",
+  "merge_commit_sha": "54586e00599fe125ee043f9759f395c9583e1fca",
+  "base_sha": "5f90731d40e6ed12d1ebfddfeb5dca5550d19cdd",
+  "head_sha": "042e4d54a708ed1446de8f7d5ec6aa32cceb64a9",
+  "user_login": "arturobernalg",
+  "extracted_count": 3,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/codec/language/Caverphone2.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_123/src/test/java/org/apache/commons/codec/language/Caverphone2LLM_Test.java",
+      "package": "org.apache.commons.codec.language",
+      "original_class_name": "Caverphone2Test2",
+      "final_class_name": "Caverphone2LLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/codec/language/DaitchMokotoffSoundex.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_123/src/test/java/org/apache/commons/codec/language/DaitchMokotoffSoundexLLM_Test.java",
+      "package": "org.apache.commons.codec.language",
+      "original_class_name": "DaitchMokotoffSoundexTest2",
+      "final_class_name": "DaitchMokotoffSoundexLLM_Test"
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/codec/language/SoundexUtils.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_123/src/test/java/org/apache/commons/codec/language/SoundexUtilsLLM_Test.java",
+      "package": "org.apache.commons.codec.language",
+      "original_class_name": "SoundexUtilsTest",
+      "final_class_name": "SoundexUtilsLLM_Test"
+    }
+  ]
+}

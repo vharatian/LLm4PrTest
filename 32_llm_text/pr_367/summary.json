@@ -1,0 +1,25 @@
+{
+  "pr_number": 367,
+  "title": "Simplify with lambda expression.",
+  "state": "closed",
+  "created_at": "2022-10-09T19:36:33Z",
+  "merge_commit_sha": "2eec12c3a77da098ab34899b812e6e40ac8677b2",
+  "base_sha": "a9ae182a92cd549c06d83b3efa60f941b7102d84",
+  "head_sha": "742d0fb5ded22f3340ecc5329c5adfd9744935e8",
+  "user_login": "arturobernalg",
+  "extracted_count": 1,
+  "skipped_count": 0,
+  "files": [
+    {
+      "source_filename": "src/main/java/org/apache/commons/text/AlphabetConverter.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_367/src/test/java/org/apache/commons/text/AlphabetConverterLLM_Test.java",
+      "package": "org.apache.commons.text",
+      "original_class_name": "AlphabetConverterTest2",
+      "final_class_name": "AlphabetConverterLLM_Test"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "pr_number": 89,
+  "title": "Replace FindBugs by SpotBugs, and suppress current issues",
+  "state": "closed",
+  "created_at": "2020-07-26T03:48:42Z",
+  "merge_commit_sha": "8cd36f31c9f65bc0936f8f89d0cb839ff13f2fb7",
+  "base_sha": "01218150c258e3034ed1af1cf36e13533fb9defc",
+  "head_sha": "f699d8c57238716a9f666bd498c43d9dde68f375",
+  "user_login": "kinow",
+  "extracted_count": 1,
+  "skipped_count": 3,
+  "files": [
+    {
+      "source_filename": "pom.xml",
+      "status_in_pr": "modified",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/conf/findbugs-exclude-filter.xml",
+      "status_in_pr": "removed",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/conf/spotbugs-exclude-filter.xml",
+      "status_in_pr": "added",
+      "do_experiment": false,
+      "reason": "do_experiment is not true",
+      "status": "skipped",
+      "out_test_path": null,
+      "package": null,
+      "original_class_name": null,
+      "final_class_name": null
+    },
+    {
+      "source_filename": "src/main/java/org/apache/commons/imaging/common/BinaryConstant.java",
+      "status_in_pr": "modified",
+      "do_experiment": true,
+      "reason": null,
+      "status": "written",
+      "out_test_path": "pr_89/src/test/java/org/apache/commons/imaging/common/BinaryConstantLLM_Test.java",
+      "package": "org.apache.commons.imaging.common",
+      "original_class_name": "BinaryConstantTest",
+      "final_class_name": "BinaryConstantLLM_Test"
+    }
+  ]
+}
